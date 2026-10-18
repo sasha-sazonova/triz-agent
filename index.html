@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heinrich — TRIZ Inventor Agent</title>
+<meta name="description" content="Heinrich is a gate-controlled TRIZ inventing agent: LITE/DEEP pipeline, 39 parameters, 40 principles, 1,190 contradiction pairs, bilingual presentation and a C4 dipole case.">
+<meta property="og:title" content="Heinrich — TRIZ Inventor Agent">
+<meta property="og:description" content="A contradiction-resolving machine, not an idea generator. Bilingual presentation and C4 case inside.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<style>
+:root{
+  --paper:#F3F1EB;
+  --ink:#0A0A0B;
+  --muted:#6D6D6D;
+  --line:rgba(10,10,11,.17);
+  --line-strong:rgba(10,10,11,.42);
+  --accent:#002FA7;
+  --font:"Helvetica Neue","Helvetica","Segoe UI",Arial,sans-serif;
+  --mono:"SF Mono","Roboto Mono",Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1180px;margin:0 auto;padding:0 5vw}
+.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 18px;padding:28px 0;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.top b{color:var(--ink);font-weight:500}
+.top .lang a{color:var(--ink);border-bottom:1px solid var(--line-strong);padding-bottom:2px}
+.hero{padding:12vh 0 10vh;border-bottom:1px solid var(--line)}
+.kicker{font-family:var(--mono);font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin:0 0 22px}
+h1{font-size:clamp(66px,12vw,190px);line-height:.8;letter-spacing:-.065em;font-weight:200;margin:0 0 26px}
+.lead{font-size:clamp(18px,2.1vw,30px);line-height:1.18;font-weight:300;max-width:24ch;margin:0 0 34px}
+.sub{font-size:clamp(14px,1.2vw,18px);line-height:1.5;max-width:62ch;color:var(--muted);margin:0 0 36px}
+.actions{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;border:1px solid var(--ink);padding:14px 18px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;transition:background .15s ease,color .15s ease}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.primary:hover{background:var(--ink);border-color:var(--ink)}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:8vh}
+.metric{background:var(--paper);padding:22px 20px;min-height:112px;display:flex;flex-direction:column;justify-content:space-between}
+.metric .n{font-size:clamp(34px,4.2vw,64px);font-weight:200;line-height:.8;letter-spacing:-.06em}
+.metric .l{font-family:var(--mono);font-size:10px;line-height:1.3;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+section{padding:9vh 0;border-bottom:1px solid var(--line)}
+section:last-of-type{border-bottom:0}
+h2{font-size:clamp(30px,3.6vw,54px);line-height:1;letter-spacing:-.035em;font-weight:200;margin:0 0 18px;max-width:18ch}
+.label{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin:0 0 20px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:34px}
+.card{background:var(--paper);padding:24px 20px;display:flex;flex-direction:column;min-height:210px}
+.card .k{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+.card h3{font-size:clamp(17px,1.35vw,22px);font-weight:500;line-height:1.1;margin:0 0 10px}
+.card p{font-size:13px;line-height:1.4;color:var(--muted);margin:0 0 18px}
+.card a{margin-top:auto;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;border-bottom:1px solid var(--line-strong);padding-bottom:4px;width:max-content;max-width:100%}
+.card a:hover{color:var(--accent);border-color:var(--accent)}
+.card .small{display:block;margin-top:8px;color:var(--muted);font-family:var(--mono);font-size:9px;letter-spacing:.04em}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:5vw;align-items:start}
+.two p{font-size:clamp(14px,1.25vw,18px);line-height:1.55;color:var(--muted);max-width:58ch;margin:0 0 14px}
+.two p strong{color:var(--ink);font-weight:500}
+.list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line-strong)}
+.list li{display:grid;grid-template-columns:9em 1fr;gap:1em;padding:11px 0;border-bottom:1px solid var(--line);font-size:13px;line-height:1.35}
+.list .k{font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.footer{padding:30px 0 46px;display:flex;justify-content:space-between;gap:3vw;font-family:var(--mono);font-size:10px;line-height:1.5;color:var(--muted);letter-spacing:.03em}
+.footer a{border-bottom:1px solid var(--line-strong)}
+.footer a:hover{color:var(--accent)}
+@media (max-width:900px){
+  .metrics{grid-template-columns:repeat(2,1fr)}
+  .cards{grid-template-columns:repeat(2,1fr)}
+  .two{grid-template-columns:1fr}
+  .list li{grid-template-columns:7em 1fr}
+}
+@media (max-width:560px){
+  .top{font-size:9px}
+  .metrics{grid-template-columns:1fr 1fr}
+  .cards{grid-template-columns:1fr}
+  .btn{width:100%;text-align:center}
+  .footer{flex-direction:column}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <span><b>Heinrich</b> · TRIZ Inventor Agent</span>
+    <span class="lang"><a href="#ru">Русская версия</a> · <a href="https://github.com/sasha-sazonova/triz-agent">GitHub</a></span>
+  </div>
+
+  <header class="hero">
+    <p class="kicker">TRIZ · engineering · invention</p>
+    <h1>Heinrich</h1>
+    <p class="lead">A contradiction-resolving machine. Not an idea generator.</p>
+    <p class="sub">A gate-controlled invention co-pilot: mini-problem → contradiction → Ideal Final Result → principles and effects → concepts → independent critique → report. Every concept is traced to a TRIZ principle or a physical effect.</p>
+    <div class="actions">
+      <a class="btn primary" href="presentation/en/index.html">Open presentation · EN</a>
+      <a class="btn" href="presentation/ru/index.html">Презентация · RU</a>
+      <a class="btn" href="cases/c4-dipole/en/index.html">C4 case · EN</a>
+      <a class="btn" href="https://github.com/sasha-sazonova/triz-agent">Source on GitHub</a>
+    </div>
+    <div class="metrics">
+      <div class="metric"><div class="n">39</div><div class="l">parameters</div></div>
+      <div class="metric"><div class="n">40</div><div class="l">principles</div></div>
+      <div class="metric"><div class="n">1190</div><div class="l">contradiction pairs</div></div>
+      <div class="metric"><div class="n">76</div><div class="l">standard solutions</div></div>
+    </div>
+  </header>
+
+  <section>
+    <p class="label">01 · What is inside</p>
+    <h2>Method, knowledge, critique.</h2>
+    <div class="cards">
+      <div class="card"><div class="k">Agent</div><h3>TRIZ pipeline</h3><p>LITE with seven artifacts and file gates; DEEP/ARIZ-85C with nine parts when LITE hits a wall.</p><a href="https://github.com/sasha-sazonova/triz-agent#readme">README</a></div>
+      <div class="card"><div class="k">Presentation</div><h3>13 slides</h3><p>Purpose, functions, advantages, knowledge base, architecture, pilot, portfolio, authorship.</p><a href="presentation/en/index.html">English</a><a class="small" href="presentation/ru/index.html">Русская версия</a></div>
+      <div class="card"><div class="k">Case C4</div><h3>Differential dipole</h3><p>Passive acoustic detection without emission: common-noise subtraction plus bearing from time difference of arrival.</p><a href="cases/c4-dipole/en/index.html">Case · EN</a><a class="small" href="cases/c4-dipole/ru/index.html">Кейс · RU</a></div>
+      <div class="card"><div class="k">Evidence</div><h3>Traceability</h3><p>Every concept points to a principle or effect; an independent critic scores five axes; the patent check is explicitly preliminary.</p><a href="https://github.com/sasha-sazonova/triz-agent/blob/main/THIRD_PARTY.md">Sources &amp; licenses</a></div>
+    </div>
+  </section>
+
+  <section id="ru">
+    <p class="label">02 · По-русски</p>
+    <h2>Агент, который разрешает противоречия.</h2>
+    <div class="two">
+      <div>
+        <p><strong>«Генрих»</strong> — ТРИЗ-агент-изобретатель. Принимает инженерную задачу, формализует противоречие, ищет принципы и эффекты, строит концепции и пропускает их через независимую критику.</p>
+        <p>Маршрут LITE: семь артефактов с гейтами. DEEP/АРИЗ-85С: девять частей, когда первого прохода недостаточно. База: 39 параметров, 40 принципов, 1190 пар противоречий, 76 стандартных решений, 15 эффектов.</p>
+        <p>В репозитории — двуязычная презентация, кейс C4 «Дифференциальный диполь (Ormia)» и интерактивный стенд.</p>
+      </div>
+      <ul class="list">
+        <li><span class="k">Презентация</span><span><a href="presentation/ru/index.html">Русская версия · 13 слайдов</a><br><a href="presentation/en/index.html">English version · 13 slides</a></span></li>
+        <li><span class="k">Кейс C4</span><span><a href="cases/c4-dipole/ru/index.html">Описание кейса · RU</a><br><a href="cases/c4-dipole/en/index.html">Case page · EN</a></span></li>
+        <li><span class="k">Стенд</span><span><a href="cases/c4-dipole/assets/dipole-light-en.html">Light · EN</a><br><a href="cases/c4-dipole/assets/dipole-light.html">Светлая · RU</a></span></li>
+        <li><span class="k">Код</span><span><a href="https://github.com/sasha-sazonova/triz-agent">github.com/sasha-sazonova/triz-agent</a></span></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="footer">
+    <div>Method: TRIZ by G.S. Altshuller (1946–1985).<br>Built with OpenClaw. Visuals: anatomy (MIT).</div>
+    <div>Case C4 is a demonstration, not a measurement report.<br>Patent assessment is preliminary, not legal advice.</div>
+    <div><a href="https://github.com/sasha-sazonova/triz-agent">GitHub</a> · <a href="https://github.com/sasha-sazonova/triz-agent/blob/main/LICENSE">License</a></div>
+  </div>
+</div>
+</body>
+</html>
