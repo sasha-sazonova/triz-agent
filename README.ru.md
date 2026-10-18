@@ -149,11 +149,16 @@ Eval проверяет точность противоречия, полнот�
 Содержимое проекта: **All rights reserved** — см. [`LICENSE`](LICENSE).
 Сторонние компоненты сохраняют свои лицензии; см. [`THIRD_PARTY.md`](THIRD_PARTY.md).
 
-## Репозиторий
+## Репозиторий и живые страницы
 
-Проект опубликован как **private**-репозиторий:
+Проект опубликован публично:
 
-<https://github.com/sasha-sazonova/triz-agent>
+- Исходники: <https://github.com/sasha-sazonova/triz-agent>
+- Стартовая страница: <https://sasha-sazonova.github.io/triz-agent/>
+- Презентация EN: <https://sasha-sazonova.github.io/triz-agent/presentation/en/>
+- Презентация RU: <https://sasha-sazonova.github.io/triz-agent/presentation/ru/>
+- Кейс C4 EN: <https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/en/>
+- Кейс C4 RU: <https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/ru/>
 
 Папка уже является git-репозиторием. Команды для зеркалирования в другой
 аккаунт или пересоздания remote — в [`GITHUB_SETUP.md`](GITHUB_SETUP.md).

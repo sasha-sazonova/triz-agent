@@ -152,11 +152,16 @@ See [`THIRD_PARTY.md`](THIRD_PARTY.md) for the full attribution and
 Project content: **All rights reserved** — see [`LICENSE`](LICENSE). Third-party
 components retain their own licenses; see [`THIRD_PARTY.md`](THIRD_PARTY.md).
 
-## Repository
+## Repository and live pages
 
-The project is published as a **private** repository:
+The project is public:
 
-<https://github.com/sasha-sazonova/triz-agent>
+- Source: <https://github.com/sasha-sazonova/triz-agent>
+- Landing page: <https://sasha-sazonova.github.io/triz-agent/>
+- Presentation EN: <https://sasha-sazonova.github.io/triz-agent/presentation/en/>
+- Presentation RU: <https://sasha-sazonova.github.io/triz-agent/presentation/ru/>
+- Case C4 EN: <https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/en/>
+- Case C4 RU: <https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/ru/>
 
 The folder is already a git repository. See [`GITHUB_SETUP.md`](GITHUB_SETUP.md)
 if you need to mirror it to another account or recreate the remote.

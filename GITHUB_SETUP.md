@@ -1,7 +1,9 @@
 # GitHub setup
 
-**Status:** the project is published as a private repository at
+**Status:** the project is public at
 <https://github.com/sasha-sazonova/triz-agent> (branch `main`).
+
+GitHub Pages: <https://sasha-sazonova.github.io/triz-agent/>
 
 This folder is already a git repository. No credentials or tokens are stored
 here. The commands below are for mirroring to another account or recreating the
