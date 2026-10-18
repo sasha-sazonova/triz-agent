@@ -1,7 +1,11 @@
 # GitHub setup
 
-This folder is a local git repository prepared for GitHub. No credentials or
-tokens are stored here.
+**Status:** the project is published as a private repository at
+<https://github.com/sasha-sazonova/triz-agent> (branch `main`).
+
+This folder is already a git repository. No credentials or tokens are stored
+here. The commands below are for mirroring to another account or recreating the
+remote.
 
 ## Option A — GitHub CLI (recommended)
 

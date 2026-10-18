@@ -152,9 +152,11 @@ See [`THIRD_PARTY.md`](THIRD_PARTY.md) for the full attribution and
 Project content: **All rights reserved** — see [`LICENSE`](LICENSE). Third-party
 components retain their own licenses; see [`THIRD_PARTY.md`](THIRD_PARTY.md).
 
-## Publishing to GitHub
+## Repository
 
-The folder is ready to become a repository. See
-[`GITHUB_SETUP.md`](GITHUB_SETUP.md) for the exact `gh` and `git` commands.
-The recommended default is a **private** repository until the case material is
-reviewed for publication.
+The project is published as a **private** repository:
+
+<https://github.com/sasha-sazonova/triz-agent>
+
+The folder is already a git repository. See [`GITHUB_SETUP.md`](GITHUB_SETUP.md)
+if you need to mirror it to another account or recreate the remote.
