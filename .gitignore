@@ -1,0 +1,13 @@
+.DS_Store
+.env
+agent/memory/*.md
+!agent/memory/README.md
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.pyc
+.cache/
+*.log
+.DS_Store?
+._*

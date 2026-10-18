@@ -1,0 +1,1191 @@
+improving_parameter,worsening_parameter,recommended_principles,principle_names
+1,3,15;8;29;34,Dynamics; Anti-weight; Pneumatics and hydraulics; Discarding and recovering
+1,5,29;17;38;34,Pneumatics and hydraulics; Another dimension; Strong oxidants; Discarding and recovering
+1,7,29;2;40;28,Pneumatics and hydraulics; Taking out; Composite materials; Mechanics substitution
+1,9,2;8;15;38,Taking out; Anti-weight; Dynamics; Strong oxidants
+1,10,8;10;18;37,Anti-weight; Preliminary action; Mechanical vibration; Thermal expansion
+1,11,10;36;37;40,Preliminary action; Phase transitions; Thermal expansion; Composite materials
+1,12,10;14;35;40,Preliminary action; Spheroidality / Curvature; Parameter changes; Composite materials
+1,13,1;35;19;39,Segmentation; Parameter changes; Periodic action; Inert atmosphere
+1,14,28;27;18;40,Mechanics substitution; Cheap short-living objects; Mechanical vibration; Composite materials
+1,15,5;34;31;35,Merging; Discarding and recovering; Porous materials; Parameter changes
+1,17,6;29;4;38,Universality; Pneumatics and hydraulics; Asymmetry; Strong oxidants
+1,18,19;1;32,Periodic action; Segmentation; Color changes
+1,19,35;12;34;31,Parameter changes; Equipotentiality; Discarding and recovering; Porous materials
+1,21,12;36;18;31,Equipotentiality; Phase transitions; Mechanical vibration; Porous materials
+1,22,6;2;34;19,Universality; Taking out; Discarding and recovering; Periodic action
+1,23,5;35;3;31,Merging; Parameter changes; Local quality; Porous materials
+1,24,10;24;35,Preliminary action; Intermediary; Parameter changes
+1,25,10;35;20;28,Preliminary action; Parameter changes; Continuity of useful action; Mechanics substitution
+1,26,3;26;18;31,Local quality; Copying; Mechanical vibration; Porous materials
+1,27,1;3;11;27,Segmentation; Local quality; Beforehand cushioning; Cheap short-living objects
+1,28,28;27;35;26,Mechanics substitution; Cheap short-living objects; Parameter changes; Copying
+1,29,28;35;26;18,Mechanics substitution; Parameter changes; Copying; Mechanical vibration
+1,30,22;21;18;27,Blessing in disguise / Convert harm into benefit; Skipping / Rushing; Mechanical vibration; Cheap short-living objects
+1,31,22;35;31;39,Blessing in disguise / Convert harm into benefit; Parameter changes; Porous materials; Inert atmosphere
+1,32,27;28;1;36,Cheap short-living objects; Mechanics substitution; Segmentation; Phase transitions
+1,33,35;3;2;24,Parameter changes; Local quality; Taking out; Intermediary
+1,34,2;27;28;11,Taking out; Cheap short-living objects; Mechanics substitution; Beforehand cushioning
+1,35,29;5;15;8,Pneumatics and hydraulics; Merging; Dynamics; Anti-weight
+1,36,26;30;36;34,Copying; Flexible shells and thin films; Phase transitions; Discarding and recovering
+1,37,28;29;26;32,Mechanics substitution; Pneumatics and hydraulics; Copying; Color changes
+1,38,26;35;18;19,Copying; Parameter changes; Mechanical vibration; Periodic action
+1,39,35;3;24;37,Parameter changes; Local quality; Intermediary; Thermal expansion
+2,4,10;1;29;35,Preliminary action; Segmentation; Pneumatics and hydraulics; Parameter changes
+2,6,35;30;13;2,Parameter changes; Flexible shells and thin films; The other way round; Taking out
+2,8,5;35;14;2,Merging; Parameter changes; Spheroidality / Curvature; Taking out
+2,10,8;10;19;35,Anti-weight; Preliminary action; Periodic action; Parameter changes
+2,11,13;29;10;18,The other way round; Pneumatics and hydraulics; Preliminary action; Mechanical vibration
+2,12,13;10;29;14,The other way round; Preliminary action; Pneumatics and hydraulics; Spheroidality / Curvature
+2,13,26;39;1;40,Copying; Inert atmosphere; Segmentation; Composite materials
+2,14,28;2;10;27,Mechanics substitution; Taking out; Preliminary action; Cheap short-living objects
+2,16,2;27;19;6,Taking out; Cheap short-living objects; Periodic action; Universality
+2,17,28;19;32;22,Mechanics substitution; Periodic action; Color changes; Blessing in disguise / Convert harm into benefit
+2,18,19;32;35,Periodic action; Color changes; Parameter changes
+2,20,18;19;28;1,Mechanical vibration; Periodic action; Mechanics substitution; Segmentation
+2,21,15;19;18;22,Dynamics; Periodic action; Mechanical vibration; Blessing in disguise / Convert harm into benefit
+2,22,18;19;28;15,Mechanical vibration; Periodic action; Mechanics substitution; Dynamics
+2,23,5;8;13;30,Merging; Anti-weight; The other way round; Flexible shells and thin films
+2,24,10;15;35,Preliminary action; Dynamics; Parameter changes
+2,25,10;20;35;26,Preliminary action; Continuity of useful action; Parameter changes; Copying
+2,26,19;6;18;26,Periodic action; Universality; Mechanical vibration; Copying
+2,27,10;28;8;3,Preliminary action; Mechanics substitution; Anti-weight; Local quality
+2,28,18;26;28,Mechanical vibration; Copying; Mechanics substitution
+2,29,10;1;35;17,Preliminary action; Segmentation; Parameter changes; Another dimension
+2,30,2;19;22;37,Taking out; Periodic action; Blessing in disguise / Convert harm into benefit; Thermal expansion
+2,31,35;22;1;39,Parameter changes; Blessing in disguise / Convert harm into benefit; Segmentation; Inert atmosphere
+2,32,28;1;9,Mechanics substitution; Segmentation; Preliminary anti-action
+2,33,6;13;1;32,Universality; The other way round; Segmentation; Color changes
+2,34,2;27;28;11,Taking out; Cheap short-living objects; Mechanics substitution; Beforehand cushioning
+2,35,19;15;29,Periodic action; Dynamics; Pneumatics and hydraulics
+2,36,1;10;26;39,Segmentation; Preliminary action; Copying; Inert atmosphere
+2,37,25;28;17;15,Self-service; Mechanics substitution; Another dimension; Dynamics
+2,38,2;26;35,Taking out; Copying; Parameter changes
+2,39,1;28;15;35,Segmentation; Mechanics substitution; Dynamics; Parameter changes
+3,1,8;15;29;34,Anti-weight; Dynamics; Pneumatics and hydraulics; Discarding and recovering
+3,5,15;17;4,Dynamics; Another dimension; Asymmetry
+3,7,7;17;4;35,Nesting; Another dimension; Asymmetry; Parameter changes
+3,9,13;4;8,The other way round; Asymmetry; Anti-weight
+3,10,17;10;4,Another dimension; Preliminary action; Asymmetry
+3,11,1;8;35,Segmentation; Anti-weight; Parameter changes
+3,12,1;8;10;29,Segmentation; Anti-weight; Preliminary action; Pneumatics and hydraulics
+3,13,1;8;15;34,Segmentation; Anti-weight; Dynamics; Discarding and recovering
+3,14,8;35;29;34,Anti-weight; Parameter changes; Pneumatics and hydraulics; Discarding and recovering
+3,17,10;15;19,Preliminary action; Dynamics; Periodic action
+3,19,8;35;24,Anti-weight; Parameter changes; Intermediary
+3,21,1;35,Segmentation; Parameter changes
+3,22,7;2;35;39,Nesting; Taking out; Parameter changes; Inert atmosphere
+3,23,4;29;23;10,Asymmetry; Pneumatics and hydraulics; Feedback; Preliminary action
+3,24,1;24,Segmentation; Intermediary
+3,25,15;2;29,Dynamics; Taking out; Pneumatics and hydraulics
+3,26,29;35,Pneumatics and hydraulics; Parameter changes
+3,27,10;14;29;40,Preliminary action; Spheroidality / Curvature; Pneumatics and hydraulics; Composite materials
+3,28,28;32;4,Mechanics substitution; Color changes; Asymmetry
+3,29,10;28;29;37,Preliminary action; Mechanics substitution; Pneumatics and hydraulics; Thermal expansion
+3,30,1;15;17;24,Segmentation; Dynamics; Another dimension; Intermediary
+3,31,17;15,Another dimension; Dynamics
+3,32,1;29;17,Segmentation; Pneumatics and hydraulics; Another dimension
+3,33,15;29;35;4,Dynamics; Pneumatics and hydraulics; Parameter changes; Asymmetry
+3,34,1;28;10,Segmentation; Mechanics substitution; Preliminary action
+3,35,14;15;1;16,Spheroidality / Curvature; Dynamics; Segmentation; Partial or excessive actions
+3,36,1;19;26;24,Segmentation; Periodic action; Copying; Intermediary
+3,37,35;1;26;24,Parameter changes; Segmentation; Copying; Intermediary
+3,38,17;24;26;16,Another dimension; Intermediary; Copying; Partial or excessive actions
+3,39,14;4;28;29,Spheroidality / Curvature; Asymmetry; Mechanics substitution; Pneumatics and hydraulics
+4,2,35;28;40;29,Parameter changes; Mechanics substitution; Composite materials; Pneumatics and hydraulics
+4,6,17;7;10;40,Another dimension; Nesting; Preliminary action; Composite materials
+4,8,35;8;2;14,Parameter changes; Anti-weight; Taking out; Spheroidality / Curvature
+4,10,28;10,Mechanics substitution; Preliminary action
+4,11,1;14;35,Segmentation; Spheroidality / Curvature; Parameter changes
+4,12,13;14;15;7,The other way round; Spheroidality / Curvature; Dynamics; Nesting
+4,13,39;37;35,Inert atmosphere; Thermal expansion; Parameter changes
+4,14,15;14;28;26,Dynamics; Spheroidality / Curvature; Mechanics substitution; Copying
+4,16,1;10;35,Segmentation; Preliminary action; Parameter changes
+4,17,3;35;38;18,Local quality; Parameter changes; Strong oxidants; Mechanical vibration
+4,18,3;25,Local quality; Self-service
+4,21,12;8,Equipotentiality; Anti-weight
+4,22,6;28,Universality; Mechanics substitution
+4,23,10;28;24;35,Preliminary action; Mechanics substitution; Intermediary; Parameter changes
+4,24,24;26,Intermediary; Copying
+4,25,30;29;14,Flexible shells and thin films; Pneumatics and hydraulics; Spheroidality / Curvature
+4,27,15;29;28,Dynamics; Pneumatics and hydraulics; Mechanics substitution
+4,28,32;28;3,Color changes; Mechanics substitution; Local quality
+4,29,2;32;10,Taking out; Color changes; Preliminary action
+4,30,1;18,Segmentation; Mechanical vibration
+4,32,15;17;27,Dynamics; Another dimension; Cheap short-living objects
+4,33,2;25,Taking out; Self-service
+4,35,1;35,Segmentation; Parameter changes
+4,36,1;26,Segmentation; Copying
+4,39,30;14;7;26,Flexible shells and thin films; Spheroidality / Curvature; Nesting; Copying
+5,1,2;17;29;4,Taking out; Another dimension; Pneumatics and hydraulics; Asymmetry
+5,3,14;15;18;4,Spheroidality / Curvature; Dynamics; Mechanical vibration; Asymmetry
+5,7,7;14;17;4,Nesting; Spheroidality / Curvature; Another dimension; Asymmetry
+5,9,29;30;4;34,Pneumatics and hydraulics; Flexible shells and thin films; Asymmetry; Discarding and recovering
+5,10,19;30;35;2,Periodic action; Flexible shells and thin films; Parameter changes; Taking out
+5,11,10;15;36;28,Preliminary action; Dynamics; Phase transitions; Mechanics substitution
+5,12,5;34;29;4,Merging; Discarding and recovering; Pneumatics and hydraulics; Asymmetry
+5,13,11;2;13;39,Beforehand cushioning; Taking out; The other way round; Inert atmosphere
+5,14,3;15;40;14,Local quality; Dynamics; Composite materials; Spheroidality / Curvature
+5,15,6;3,Universality; Local quality
+5,17,2;15;16,Taking out; Dynamics; Partial or excessive actions
+5,18,15;32;19;13,Dynamics; Color changes; Periodic action; The other way round
+5,19,19;32,Periodic action; Color changes
+5,21,19;10;32;18,Periodic action; Preliminary action; Color changes; Mechanical vibration
+5,22,15;17;30;26,Dynamics; Another dimension; Flexible shells and thin films; Copying
+5,23,10;35;2;39,Preliminary action; Parameter changes; Taking out; Inert atmosphere
+5,24,30;26,Flexible shells and thin films; Copying
+5,25,26;4,Copying; Asymmetry
+5,26,29;30;6;13,Pneumatics and hydraulics; Flexible shells and thin films; Universality; The other way round
+5,27,29;9,Pneumatics and hydraulics; Preliminary anti-action
+5,28,26;28;32;3,Copying; Mechanics substitution; Color changes; Local quality
+5,29,2;32,Taking out; Color changes
+5,30,22;33;28;1,Blessing in disguise / Convert harm into benefit; Homogeneity; Mechanics substitution; Segmentation
+5,31,17;2;18;39,Another dimension; Taking out; Mechanical vibration; Inert atmosphere
+5,32,13;1;26;24,The other way round; Segmentation; Copying; Intermediary
+5,33,15;17;13;16,Dynamics; Another dimension; The other way round; Partial or excessive actions
+5,34,15;13;10;1,Dynamics; The other way round; Preliminary action; Segmentation
+5,35,15;30,Dynamics; Flexible shells and thin films
+5,36,14;1;13,Spheroidality / Curvature; Segmentation; The other way round
+5,37,2;36;26;18,Taking out; Phase transitions; Copying; Mechanical vibration
+5,38,14;30;28;23,Spheroidality / Curvature; Flexible shells and thin films; Mechanics substitution; Feedback
+5,39,10;26;34;2,Preliminary action; Copying; Discarding and recovering; Taking out
+6,2,30;2;14;18,Flexible shells and thin films; Taking out; Spheroidality / Curvature; Mechanical vibration
+6,4,26;7;9;39,Copying; Nesting; Preliminary anti-action; Inert atmosphere
+6,10,1;18;35;36,Segmentation; Mechanical vibration; Parameter changes; Phase transitions
+6,11,10;15;36;37,Preliminary action; Dynamics; Phase transitions; Thermal expansion
+6,13,2;38,Taking out; Strong oxidants
+6,16,2;10;19;30,Taking out; Preliminary action; Periodic action; Flexible shells and thin films
+6,17,35;39;38,Parameter changes; Inert atmosphere; Strong oxidants
+6,21,17;32,Another dimension; Color changes
+6,22,17;7;30,Another dimension; Nesting; Flexible shells and thin films
+6,23,10;14;18;39,Preliminary action; Spheroidality / Curvature; Mechanical vibration; Inert atmosphere
+6,24,30;16,Flexible shells and thin films; Partial or excessive actions
+6,25,10;35;4;18,Preliminary action; Parameter changes; Asymmetry; Mechanical vibration
+6,26,2;18;40;4,Taking out; Mechanical vibration; Composite materials; Asymmetry
+6,27,32;35;40;4,Color changes; Parameter changes; Composite materials; Asymmetry
+6,28,26;28;32;3,Copying; Mechanics substitution; Color changes; Local quality
+6,29,2;29;18;36,Taking out; Pneumatics and hydraulics; Mechanical vibration; Phase transitions
+6,30,27;2;39;35,Cheap short-living objects; Taking out; Inert atmosphere; Parameter changes
+6,31,22;1;40,Blessing in disguise / Convert harm into benefit; Segmentation; Composite materials
+6,32,40;16,Composite materials; Partial or excessive actions
+6,33,16;4,Partial or excessive actions; Asymmetry
+6,35,15;16,Dynamics; Partial or excessive actions
+6,36,1;18;36,Segmentation; Mechanical vibration; Phase transitions
+6,37,2;35;30;18,Taking out; Parameter changes; Flexible shells and thin films; Mechanical vibration
+6,39,10;15;17;7,Preliminary action; Dynamics; Another dimension; Nesting
+7,1,2;26;29;40,Taking out; Copying; Pneumatics and hydraulics; Composite materials
+7,3,1;7;4;35,Segmentation; Nesting; Asymmetry; Parameter changes
+7,5,1;7;4;17,Segmentation; Nesting; Asymmetry; Another dimension
+7,9,29;4;38;34,Pneumatics and hydraulics; Asymmetry; Strong oxidants; Discarding and recovering
+7,10,15;35;36;37,Dynamics; Parameter changes; Phase transitions; Thermal expansion
+7,11,6;35;36;37,Universality; Parameter changes; Phase transitions; Thermal expansion
+7,12,1;15;29;4,Segmentation; Dynamics; Pneumatics and hydraulics; Asymmetry
+7,13,28;10;1;39,Mechanics substitution; Preliminary action; Segmentation; Inert atmosphere
+7,14,9;14;15;7,Preliminary anti-action; Spheroidality / Curvature; Dynamics; Nesting
+7,15,6;35;4,Universality; Parameter changes; Asymmetry
+7,17,34;39;10;18,Discarding and recovering; Inert atmosphere; Preliminary action; Mechanical vibration
+7,18,2;13;10,Taking out; The other way round; Preliminary action
+7,21,35;6;13;18,Parameter changes; Universality; The other way round; Mechanical vibration
+7,22,7;15;13;16,Nesting; Dynamics; The other way round; Partial or excessive actions
+7,23,36;39;34;10,Phase transitions; Inert atmosphere; Discarding and recovering; Preliminary action
+7,24,2;22,Taking out; Blessing in disguise / Convert harm into benefit
+7,25,2;6;34;10,Taking out; Universality; Discarding and recovering; Preliminary action
+7,26,29;30;7,Pneumatics and hydraulics; Flexible shells and thin films; Nesting
+7,27,14;1;40;11,Spheroidality / Curvature; Segmentation; Composite materials; Beforehand cushioning
+7,28,25;26;28,Self-service; Copying; Mechanics substitution
+7,29,25;28;2;16,Self-service; Mechanics substitution; Taking out; Partial or excessive actions
+7,30,22;21;27;35,Blessing in disguise / Convert harm into benefit; Skipping / Rushing; Cheap short-living objects; Parameter changes
+7,31,17;2;40;1,Another dimension; Taking out; Composite materials; Segmentation
+7,32,29;1;40,Pneumatics and hydraulics; Segmentation; Composite materials
+7,33,15;13;30;12,Dynamics; The other way round; Flexible shells and thin films; Equipotentiality
+7,35,15;29,Dynamics; Pneumatics and hydraulics
+7,36,26;1,Copying; Segmentation
+7,37,29;26;4,Pneumatics and hydraulics; Copying; Asymmetry
+7,38,35;34;16;24,Parameter changes; Discarding and recovering; Partial or excessive actions; Intermediary
+7,39,10;6;2;34,Preliminary action; Universality; Taking out; Discarding and recovering
+8,2,35;10;19;14,Parameter changes; Preliminary action; Periodic action; Spheroidality / Curvature
+8,3,19;14,Periodic action; Spheroidality / Curvature
+8,4,35;8;2;14,Parameter changes; Anti-weight; Taking out; Spheroidality / Curvature
+8,10,2;18;37,Taking out; Mechanical vibration; Thermal expansion
+8,11,24;35,Intermediary; Parameter changes
+8,12,7;2;35,Nesting; Taking out; Parameter changes
+8,13,34;28;35;40,Discarding and recovering; Mechanics substitution; Parameter changes; Composite materials
+8,14,9;14;17;15,Preliminary anti-action; Spheroidality / Curvature; Another dimension; Dynamics
+8,16,35;34;38,Parameter changes; Discarding and recovering; Strong oxidants
+8,17,35;6;4,Parameter changes; Universality; Asymmetry
+8,21,30;6,Flexible shells and thin films; Universality
+8,23,10;39;35;34,Preliminary action; Inert atmosphere; Parameter changes; Discarding and recovering
+8,25,35;16;32;18,Parameter changes; Partial or excessive actions; Color changes; Mechanical vibration
+8,26,35;3,Parameter changes; Local quality
+8,27,2;35;16,Taking out; Parameter changes; Partial or excessive actions
+8,29,35;10;25,Parameter changes; Preliminary action; Self-service
+8,30,34;39;19;27,Discarding and recovering; Inert atmosphere; Periodic action; Cheap short-living objects
+8,31,30;18;35;4,Flexible shells and thin films; Mechanical vibration; Parameter changes; Asymmetry
+8,36,1;31,Segmentation; Porous materials
+8,37,2;17;26,Taking out; Another dimension; Copying
+8,39,35;37;10;2,Parameter changes; Thermal expansion; Preliminary action; Taking out
+9,1,2;28;13;38,Taking out; Mechanics substitution; The other way round; Strong oxidants
+9,3,13;14;8,The other way round; Spheroidality / Curvature; Anti-weight
+9,5,29;30;34,Pneumatics and hydraulics; Flexible shells and thin films; Discarding and recovering
+9,7,7;29;34,Nesting; Pneumatics and hydraulics; Discarding and recovering
+9,10,13;28;15;19,The other way round; Mechanics substitution; Dynamics; Periodic action
+9,11,6;18;38;40,Universality; Mechanical vibration; Strong oxidants; Composite materials
+9,12,35;15;18;34,Parameter changes; Dynamics; Mechanical vibration; Discarding and recovering
+9,13,28;33;1;18,Mechanics substitution; Homogeneity; Segmentation; Mechanical vibration
+9,14,8;3;26;14,Anti-weight; Local quality; Copying; Spheroidality / Curvature
+9,15,3;19;35;5,Local quality; Periodic action; Parameter changes; Merging
+9,17,28;30;36;2,Mechanics substitution; Flexible shells and thin films; Phase transitions; Taking out
+9,18,10;13;19,Preliminary action; The other way round; Periodic action
+9,19,8;15;35;38,Anti-weight; Dynamics; Parameter changes; Strong oxidants
+9,21,19;35;38;2,Periodic action; Parameter changes; Strong oxidants; Taking out
+9,22,14;20;19;35,Spheroidality / Curvature; Continuity of useful action; Periodic action; Parameter changes
+9,23,10;13;28;38,Preliminary action; The other way round; Mechanics substitution; Strong oxidants
+9,24,13;26,The other way round; Copying
+9,26,10;19;29;38,Preliminary action; Periodic action; Pneumatics and hydraulics; Strong oxidants
+9,27,11;35;27;28,Beforehand cushioning; Parameter changes; Cheap short-living objects; Mechanics substitution
+9,28,28;32;1;24,Mechanics substitution; Color changes; Segmentation; Intermediary
+9,29,10;28;32;25,Preliminary action; Mechanics substitution; Color changes; Self-service
+9,30,1;28;35;23,Segmentation; Mechanics substitution; Parameter changes; Feedback
+9,31,2;24;35;21,Taking out; Intermediary; Parameter changes; Skipping / Rushing
+9,32,35;13;8;1,Parameter changes; The other way round; Anti-weight; Segmentation
+9,33,32;28;13;12,Color changes; Mechanics substitution; The other way round; Equipotentiality
+9,34,34;2;28;27,Discarding and recovering; Taking out; Mechanics substitution; Cheap short-living objects
+9,35,15;10;26,Dynamics; Preliminary action; Copying
+9,36,10;28;4;34,Preliminary action; Mechanics substitution; Asymmetry; Discarding and recovering
+9,37,3;34;27;16,Local quality; Discarding and recovering; Cheap short-living objects; Partial or excessive actions
+9,38,10;18,Preliminary action; Mechanical vibration
+10,1,8;1;37;18,Anti-weight; Segmentation; Thermal expansion; Mechanical vibration
+10,2,18;13;1;28,Mechanical vibration; The other way round; Segmentation; Mechanics substitution
+10,3,17;19;9;36,Another dimension; Periodic action; Preliminary anti-action; Phase transitions
+10,4,28;10,Mechanics substitution; Preliminary action
+10,5,19;10;15,Periodic action; Preliminary action; Dynamics
+10,6,1;18;36;37,Segmentation; Mechanical vibration; Phase transitions; Thermal expansion
+10,7,15;9;12;37,Dynamics; Preliminary anti-action; Equipotentiality; Thermal expansion
+10,8,2;36;18;37,Taking out; Phase transitions; Mechanical vibration; Thermal expansion
+10,9,13;28;15;12,The other way round; Mechanics substitution; Dynamics; Equipotentiality
+10,11,18;21;11,Mechanical vibration; Skipping / Rushing; Beforehand cushioning
+10,12,10;35;40;34,Preliminary action; Parameter changes; Composite materials; Discarding and recovering
+10,13,35;10;21,Parameter changes; Preliminary action; Skipping / Rushing
+10,14,35;10;14;27,Parameter changes; Preliminary action; Spheroidality / Curvature; Cheap short-living objects
+10,15,19;2,Periodic action; Taking out
+10,17,35;10;21,Parameter changes; Preliminary action; Skipping / Rushing
+10,19,19;17;10,Periodic action; Another dimension; Preliminary action
+10,20,1;16;36;37,Segmentation; Partial or excessive actions; Phase transitions; Thermal expansion
+10,21,19;35;18;37,Periodic action; Parameter changes; Mechanical vibration; Thermal expansion
+10,22,14;15,Spheroidality / Curvature; Dynamics
+10,23,8;35;40;5,Anti-weight; Parameter changes; Composite materials; Merging
+10,25,10;37;36,Preliminary action; Thermal expansion; Phase transitions
+10,26,14;29;18;36,Spheroidality / Curvature; Pneumatics and hydraulics; Mechanical vibration; Phase transitions
+10,27,3;35;13;21,Local quality; Parameter changes; The other way round; Skipping / Rushing
+10,28,35;10;23;24,Parameter changes; Preliminary action; Feedback; Intermediary
+10,29,28;29;37;36,Mechanics substitution; Pneumatics and hydraulics; Thermal expansion; Phase transitions
+10,30,1;35;40;18,Segmentation; Parameter changes; Composite materials; Mechanical vibration
+10,31,13;3;36;24,The other way round; Local quality; Phase transitions; Intermediary
+10,32,15;37;18;1,Dynamics; Thermal expansion; Mechanical vibration; Segmentation
+10,33,1;28;3;25,Segmentation; Mechanics substitution; Local quality; Self-service
+10,34,15;1;11,Dynamics; Segmentation; Beforehand cushioning
+10,35,15;17;18;20,Dynamics; Another dimension; Mechanical vibration; Continuity of useful action
+10,36,26;35;10;18,Copying; Parameter changes; Preliminary action; Mechanical vibration
+10,37,36;37;10;19,Phase transitions; Thermal expansion; Preliminary action; Periodic action
+10,38,2;35,Taking out; Parameter changes
+10,39,3;28;35;37,Local quality; Mechanics substitution; Parameter changes; Thermal expansion
+11,1,10;36;37;40,Preliminary action; Phase transitions; Thermal expansion; Composite materials
+11,2,13;29;10;18,The other way round; Pneumatics and hydraulics; Preliminary action; Mechanical vibration
+11,3,35;10;36,Parameter changes; Preliminary action; Phase transitions
+11,4,35;1;14;16,Parameter changes; Segmentation; Spheroidality / Curvature; Partial or excessive actions
+11,5,10;15;36;28,Preliminary action; Dynamics; Phase transitions; Mechanics substitution
+11,6,10;15;36;37,Preliminary action; Dynamics; Phase transitions; Thermal expansion
+11,7,6;35;10,Universality; Parameter changes; Preliminary action
+11,8,35;24,Parameter changes; Intermediary
+11,9,6;35;36,Universality; Parameter changes; Phase transitions
+11,10,36;35;21,Phase transitions; Parameter changes; Skipping / Rushing
+11,12,35;4;15;10,Parameter changes; Asymmetry; Dynamics; Preliminary action
+11,13,35;33;2;40,Parameter changes; Homogeneity; Taking out; Composite materials
+11,14,9;18;3;40,Preliminary anti-action; Mechanical vibration; Local quality; Composite materials
+11,15,19;3;27,Periodic action; Local quality; Cheap short-living objects
+11,17,35;39;19;2,Parameter changes; Inert atmosphere; Periodic action; Taking out
+11,19,14;24;10;37,Spheroidality / Curvature; Intermediary; Preliminary action; Thermal expansion
+11,21,10;35;14,Preliminary action; Parameter changes; Spheroidality / Curvature
+11,22,2;36;25,Taking out; Phase transitions; Self-service
+11,23,10;36;3;37,Preliminary action; Phase transitions; Local quality; Thermal expansion
+11,25,37;36;4,Thermal expansion; Phase transitions; Asymmetry
+11,26,10;14;36,Preliminary action; Spheroidality / Curvature; Phase transitions
+11,27,10;13;19;35,Preliminary action; The other way round; Periodic action; Parameter changes
+11,28,6;28;25,Universality; Mechanics substitution; Self-service
+11,29,3;35,Local quality; Parameter changes
+11,30,22;2;37,Blessing in disguise / Convert harm into benefit; Taking out; Thermal expansion
+11,31,2;33;27;18,Taking out; Homogeneity; Cheap short-living objects; Mechanical vibration
+11,32,1;35;16,Segmentation; Parameter changes; Partial or excessive actions
+11,36,19;1;35,Periodic action; Segmentation; Parameter changes
+11,37,2;36;37,Taking out; Phase transitions; Thermal expansion
+11,38,35;24,Parameter changes; Intermediary
+11,39,10;14;35;37,Preliminary action; Spheroidality / Curvature; Parameter changes; Thermal expansion
+12,1,8;10;29;40,Anti-weight; Preliminary action; Pneumatics and hydraulics; Composite materials
+12,2,15;10;26;3,Dynamics; Preliminary action; Copying; Local quality
+12,3,29;34;5;4,Pneumatics and hydraulics; Discarding and recovering; Merging; Asymmetry
+12,4,13;14;10;7,The other way round; Spheroidality / Curvature; Preliminary action; Nesting
+12,5,5;34;4;10,Merging; Discarding and recovering; Asymmetry; Preliminary action
+12,7,14;4;15;22,Spheroidality / Curvature; Asymmetry; Dynamics; Blessing in disguise / Convert harm into benefit
+12,8,7;2;35,Nesting; Taking out; Parameter changes
+12,9,35;15;34;18,Parameter changes; Dynamics; Discarding and recovering; Mechanical vibration
+12,10,35;10;37;40,Parameter changes; Preliminary action; Thermal expansion; Composite materials
+12,11,34;15;10;14,Discarding and recovering; Dynamics; Preliminary action; Spheroidality / Curvature
+12,13,33;1;18;4,Homogeneity; Segmentation; Mechanical vibration; Asymmetry
+12,14,30;14;10;40,Flexible shells and thin films; Spheroidality / Curvature; Preliminary action; Composite materials
+12,15,14;26;9;25,Spheroidality / Curvature; Copying; Preliminary anti-action; Self-service
+12,17,22;14;19;32,Blessing in disguise / Convert harm into benefit; Spheroidality / Curvature; Periodic action; Color changes
+12,18,13;15;32,The other way round; Dynamics; Color changes
+12,19,2;6;34;14,Taking out; Universality; Discarding and recovering; Spheroidality / Curvature
+12,21,4;6;2,Asymmetry; Universality; Taking out
+12,23,35;29;3;5,Parameter changes; Pneumatics and hydraulics; Local quality; Merging
+12,25,14;10;34;17,Spheroidality / Curvature; Preliminary action; Discarding and recovering; Another dimension
+12,26,36;22,Phase transitions; Blessing in disguise / Convert harm into benefit
+12,27,10;40;16,Preliminary action; Composite materials; Partial or excessive actions
+12,28,28;32;1,Mechanics substitution; Color changes; Segmentation
+12,29,32;30;40,Color changes; Flexible shells and thin films; Composite materials
+12,30,22;1;2;35,Blessing in disguise / Convert harm into benefit; Segmentation; Taking out; Parameter changes
+12,31,35;1,Parameter changes; Segmentation
+12,32,1;32;17;28,Segmentation; Color changes; Another dimension; Mechanics substitution
+12,33,32;15;26,Color changes; Dynamics; Copying
+12,34,2;13;1,Taking out; The other way round; Segmentation
+12,35,1;15;29,Segmentation; Dynamics; Pneumatics and hydraulics
+12,36,16;29;1;28,Partial or excessive actions; Pneumatics and hydraulics; Segmentation; Mechanics substitution
+12,37,15;13;39,Dynamics; The other way round; Inert atmosphere
+12,38,15;1;32,Dynamics; Segmentation; Color changes
+12,39,17;26;34;10,Another dimension; Copying; Discarding and recovering; Preliminary action
+13,1,21;35;2;39,Skipping / Rushing; Parameter changes; Taking out; Inert atmosphere
+13,2,26;39;1;40,Copying; Inert atmosphere; Segmentation; Composite materials
+13,3,13;15;1;28,The other way round; Dynamics; Segmentation; Mechanics substitution
+13,5,2;11;13,Taking out; Beforehand cushioning; The other way round
+13,7,28;10;19;39,Mechanics substitution; Preliminary action; Periodic action; Inert atmosphere
+13,8,34;28;35;40,Discarding and recovering; Mechanics substitution; Parameter changes; Composite materials
+13,9,33;15;28;18,Homogeneity; Dynamics; Mechanics substitution; Mechanical vibration
+13,10,10;35;21;16,Preliminary action; Parameter changes; Skipping / Rushing; Partial or excessive actions
+13,11,2;35;40,Taking out; Parameter changes; Composite materials
+13,12,22;1;18;4,Blessing in disguise / Convert harm into benefit; Segmentation; Mechanical vibration; Asymmetry
+13,14,17;9;15,Another dimension; Preliminary anti-action; Dynamics
+13,15,13;27;10;35,The other way round; Cheap short-living objects; Preliminary action; Parameter changes
+13,16,39;3;35;23,Inert atmosphere; Local quality; Parameter changes; Feedback
+13,17,35;1;32,Parameter changes; Segmentation; Color changes
+13,18,32;3;27;16,Color changes; Local quality; Cheap short-living objects; Partial or excessive actions
+13,19,13;19,The other way round; Periodic action
+13,20,27;4;29;18,Cheap short-living objects; Asymmetry; Pneumatics and hydraulics; Mechanical vibration
+13,21,32;35;27;31,Color changes; Parameter changes; Cheap short-living objects; Porous materials
+13,22,14;2;39;6,Spheroidality / Curvature; Taking out; Inert atmosphere; Universality
+13,23,2;14;30;40,Taking out; Spheroidality / Curvature; Flexible shells and thin films; Composite materials
+13,25,35;27,Parameter changes; Cheap short-living objects
+13,26,15;32;35,Dynamics; Color changes; Parameter changes
+13,30,35;24;30;18,Parameter changes; Intermediary; Flexible shells and thin films; Mechanical vibration
+13,31,35;40;27;39,Parameter changes; Composite materials; Cheap short-living objects; Inert atmosphere
+13,32,35;19,Parameter changes; Periodic action
+13,33,32;35;30,Color changes; Parameter changes; Flexible shells and thin films
+13,34,2;35;10;16,Taking out; Parameter changes; Preliminary action; Partial or excessive actions
+13,35,35;30;34;2,Parameter changes; Flexible shells and thin films; Discarding and recovering; Taking out
+13,36,2;35;22;26,Taking out; Parameter changes; Blessing in disguise / Convert harm into benefit; Copying
+13,37,35;22;39;23,Parameter changes; Blessing in disguise / Convert harm into benefit; Inert atmosphere; Feedback
+13,38,1;8;35,Segmentation; Anti-weight; Parameter changes
+13,39,23;35;40;3,Feedback; Parameter changes; Composite materials; Local quality
+14,1,1;8;40;15,Segmentation; Anti-weight; Composite materials; Dynamics
+14,2,40;26;27;1,Composite materials; Copying; Cheap short-living objects; Segmentation
+14,3,1;15;8;35,Segmentation; Dynamics; Anti-weight; Parameter changes
+14,4,15;14;28;26,Dynamics; Spheroidality / Curvature; Mechanics substitution; Copying
+14,5,3;34;40;29,Local quality; Discarding and recovering; Composite materials; Pneumatics and hydraulics
+14,6,9;40;28,Preliminary anti-action; Composite materials; Mechanics substitution
+14,7,10;15;14;7,Preliminary action; Dynamics; Spheroidality / Curvature; Nesting
+14,8,9;14;17;15,Preliminary anti-action; Spheroidality / Curvature; Another dimension; Dynamics
+14,9,8;13;26;14,Anti-weight; The other way round; Copying; Spheroidality / Curvature
+14,10,10;18;3;14,Preliminary action; Mechanical vibration; Local quality; Spheroidality / Curvature
+14,11,10;3;18;40,Preliminary action; Local quality; Mechanical vibration; Composite materials
+14,12,10;30;35;40,Preliminary action; Flexible shells and thin films; Parameter changes; Composite materials
+14,13,13;17;35,The other way round; Another dimension; Parameter changes
+14,15,27;3;26,Cheap short-living objects; Local quality; Copying
+14,17,30;10;40,Flexible shells and thin films; Preliminary action; Composite materials
+14,18,35;19,Parameter changes; Periodic action
+14,19,19;35;10,Periodic action; Parameter changes; Preliminary action
+14,21,10;26;35;28,Preliminary action; Copying; Parameter changes; Mechanics substitution
+14,23,35;28;31;40,Parameter changes; Mechanics substitution; Porous materials; Composite materials
+14,25,29;3;28;10,Pneumatics and hydraulics; Local quality; Mechanics substitution; Preliminary action
+14,26,29;10;27,Pneumatics and hydraulics; Preliminary action; Cheap short-living objects
+14,27,11;3,Beforehand cushioning; Local quality
+14,28,3;27;16,Local quality; Cheap short-living objects; Partial or excessive actions
+14,29,3;27,Local quality; Cheap short-living objects
+14,30,18;35;37;1,Mechanical vibration; Parameter changes; Thermal expansion; Segmentation
+14,31,15;35;22;2,Dynamics; Parameter changes; Blessing in disguise / Convert harm into benefit; Taking out
+14,32,11;3;10;32,Beforehand cushioning; Local quality; Preliminary action; Color changes
+14,33,32;40;25;2,Color changes; Composite materials; Self-service; Taking out
+14,34,27;11;3,Cheap short-living objects; Beforehand cushioning; Local quality
+14,35,15;3;32,Dynamics; Local quality; Color changes
+14,36,2;13;25;28,Taking out; The other way round; Self-service; Mechanics substitution
+14,37,27;3;15;40,Cheap short-living objects; Local quality; Dynamics; Composite materials
+14,39,29;35;10;14,Pneumatics and hydraulics; Parameter changes; Preliminary action; Spheroidality / Curvature
+15,1,19;5;34;31,Periodic action; Merging; Discarding and recovering; Porous materials
+15,3,2;19;9,Taking out; Periodic action; Preliminary anti-action
+15,5,3;17;19,Local quality; Another dimension; Periodic action
+15,7,10;2;19;30,Preliminary action; Taking out; Periodic action; Flexible shells and thin films
+15,9,3;35;5,Local quality; Parameter changes; Merging
+15,10,19;2;16,Periodic action; Taking out; Partial or excessive actions
+15,11,19;3;27,Periodic action; Local quality; Cheap short-living objects
+15,12,14;26;28;25,Spheroidality / Curvature; Copying; Mechanics substitution; Self-service
+15,13,13;3;35,The other way round; Local quality; Parameter changes
+15,14,27;3;10,Cheap short-living objects; Local quality; Preliminary action
+15,17,19;35;39,Periodic action; Parameter changes; Inert atmosphere
+15,18,2;19;4;35,Taking out; Periodic action; Asymmetry; Parameter changes
+15,19,28;6;35;18,Mechanics substitution; Universality; Parameter changes; Mechanical vibration
+15,21,19;10;35;38,Periodic action; Preliminary action; Parameter changes; Strong oxidants
+15,23,28;27;3;18,Mechanics substitution; Cheap short-living objects; Local quality; Mechanical vibration
+15,25,20;10;28;18,Continuity of useful action; Preliminary action; Mechanics substitution; Mechanical vibration
+15,26,3;35;10;40,Local quality; Parameter changes; Preliminary action; Composite materials
+15,27,11;2;13,Beforehand cushioning; Taking out; The other way round
+15,29,3;27;16;40,Local quality; Cheap short-living objects; Partial or excessive actions; Composite materials
+15,30,22;15;33;28,Blessing in disguise / Convert harm into benefit; Dynamics; Homogeneity; Mechanics substitution
+15,31,21;39;16;22,Skipping / Rushing; Inert atmosphere; Partial or excessive actions; Blessing in disguise / Convert harm into benefit
+15,32,27;1;4,Cheap short-living objects; Segmentation; Asymmetry
+15,33,12;27,Equipotentiality; Cheap short-living objects
+15,34,29;10;27,Pneumatics and hydraulics; Preliminary action; Cheap short-living objects
+15,35,1;35;13,Segmentation; Parameter changes; The other way round
+15,36,10;4;29;15,Preliminary action; Asymmetry; Pneumatics and hydraulics; Dynamics
+15,37,19;29;39;35,Periodic action; Pneumatics and hydraulics; Inert atmosphere; Parameter changes
+15,38,6;10,Universality; Preliminary action
+15,39,35;17;14;19,Parameter changes; Another dimension; Spheroidality / Curvature; Periodic action
+16,2,6;27;19;16,Universality; Cheap short-living objects; Periodic action; Partial or excessive actions
+16,4,1;40;35,Segmentation; Composite materials; Parameter changes
+16,8,35;34;38,Parameter changes; Discarding and recovering; Strong oxidants
+16,13,39;3;35;23,Inert atmosphere; Local quality; Parameter changes; Feedback
+16,17,19;18;36;40,Periodic action; Mechanical vibration; Phase transitions; Composite materials
+16,23,27;16;18;38,Cheap short-living objects; Partial or excessive actions; Mechanical vibration; Strong oxidants
+16,25,28;20;10;16,Mechanics substitution; Continuity of useful action; Preliminary action; Partial or excessive actions
+16,26,3;35;31,Local quality; Parameter changes; Porous materials
+16,27,34;27;6;40,Discarding and recovering; Cheap short-living objects; Universality; Composite materials
+16,28,10;26;24,Preliminary action; Copying; Intermediary
+16,30,17;1;40;33,Another dimension; Segmentation; Composite materials; Homogeneity
+16,32,35;10,Parameter changes; Preliminary action
+16,37,25;34;6;35,Self-service; Discarding and recovering; Universality; Parameter changes
+16,39,20;10;16;38,Continuity of useful action; Preliminary action; Partial or excessive actions; Strong oxidants
+17,1,36;22;6;38,Phase transitions; Blessing in disguise / Convert harm into benefit; Universality; Strong oxidants
+17,2,22;35;32,Blessing in disguise / Convert harm into benefit; Parameter changes; Color changes
+17,3,15;19;9,Dynamics; Periodic action; Preliminary anti-action
+17,4,15;19;9,Dynamics; Periodic action; Preliminary anti-action
+17,5,3;35;39;18,Local quality; Parameter changes; Inert atmosphere; Mechanical vibration
+17,6,35;38,Parameter changes; Strong oxidants
+17,7,34;39;40;18,Discarding and recovering; Inert atmosphere; Composite materials; Mechanical vibration
+17,8,35;6;4,Parameter changes; Universality; Asymmetry
+17,9,2;28;36;30,Taking out; Mechanics substitution; Phase transitions; Flexible shells and thin films
+17,10,35;10;3;21,Parameter changes; Preliminary action; Local quality; Skipping / Rushing
+17,11,35;39;19;2,Parameter changes; Inert atmosphere; Periodic action; Taking out
+17,12,14;22;19;32,Spheroidality / Curvature; Blessing in disguise / Convert harm into benefit; Periodic action; Color changes
+17,13,1;35;32,Segmentation; Parameter changes; Color changes
+17,14,10;30;22;40,Preliminary action; Flexible shells and thin films; Blessing in disguise / Convert harm into benefit; Composite materials
+17,15,19;13;39,Periodic action; The other way round; Inert atmosphere
+17,16,19;18;36;40,Periodic action; Mechanical vibration; Phase transitions; Composite materials
+17,18,32;30;21;16,Color changes; Flexible shells and thin films; Skipping / Rushing; Partial or excessive actions
+17,19,19;15;3;17,Periodic action; Dynamics; Local quality; Another dimension
+17,21,2;14;17;25,Taking out; Spheroidality / Curvature; Another dimension; Self-service
+17,22,21;17;35;38,Skipping / Rushing; Another dimension; Parameter changes; Strong oxidants
+17,23,21;36;29;31,Skipping / Rushing; Phase transitions; Pneumatics and hydraulics; Porous materials
+17,25,35;28;21;18,Parameter changes; Mechanics substitution; Skipping / Rushing; Mechanical vibration
+17,26,3;17;30;39,Local quality; Another dimension; Flexible shells and thin films; Inert atmosphere
+17,27,19;35;3;10,Periodic action; Parameter changes; Local quality; Preliminary action
+17,28,32;19;24,Color changes; Periodic action; Intermediary
+17,30,22;33;35;2,Blessing in disguise / Convert harm into benefit; Homogeneity; Parameter changes; Taking out
+17,31,22;35;2;24,Blessing in disguise / Convert harm into benefit; Parameter changes; Taking out; Intermediary
+17,32,26;27,Copying; Cheap short-living objects
+17,33,26;27,Copying; Cheap short-living objects
+17,34,4;10;16,Asymmetry; Preliminary action; Partial or excessive actions
+17,35,2;18;27,Taking out; Mechanical vibration; Cheap short-living objects
+17,36,2;17;16,Taking out; Another dimension; Partial or excessive actions
+17,37,3;27;35;31,Local quality; Cheap short-living objects; Parameter changes; Porous materials
+17,38,26;2;19;16,Copying; Taking out; Periodic action; Partial or excessive actions
+17,39,15;28;35,Dynamics; Mechanics substitution; Parameter changes
+18,1,19;1;32,Periodic action; Segmentation; Color changes
+18,2,2;35;32,Taking out; Parameter changes; Color changes
+18,3,19;32;16,Periodic action; Color changes; Partial or excessive actions
+18,5,19;32;26,Periodic action; Color changes; Copying
+18,7,2;13;10,Taking out; The other way round; Preliminary action
+18,9,10;13;19,Preliminary action; The other way round; Periodic action
+18,10,26;19;6,Copying; Periodic action; Universality
+18,12,32;30,Color changes; Flexible shells and thin films
+18,13,32;3;27,Color changes; Local quality; Cheap short-living objects
+18,14,35;19,Parameter changes; Periodic action
+18,15,2;19;6,Taking out; Periodic action; Universality
+18,17,32;35;19,Color changes; Parameter changes; Periodic action
+18,19,32;1;19,Color changes; Segmentation; Periodic action
+18,20,32;35;1;15,Color changes; Parameter changes; Segmentation; Dynamics
+18,22,13;16;1;6,The other way round; Partial or excessive actions; Segmentation; Universality
+18,23,13;1,The other way round; Segmentation
+18,24,1;6,Segmentation; Universality
+18,25,19;1;26;17,Periodic action; Segmentation; Copying; Another dimension
+18,26,1;19,Segmentation; Periodic action
+18,28,11;15;32,Beforehand cushioning; Dynamics; Color changes
+18,29,3;32,Local quality; Color changes
+18,30,15;19,Dynamics; Periodic action
+18,31,35;19;32;39,Parameter changes; Periodic action; Color changes; Inert atmosphere
+18,32,19;35;28;26,Periodic action; Parameter changes; Mechanics substitution; Copying
+18,33,28;26;19,Mechanics substitution; Copying; Periodic action
+18,34,15;17;13;16,Dynamics; Another dimension; The other way round; Partial or excessive actions
+18,35,15;1;19,Dynamics; Segmentation; Periodic action
+18,36,6;32;13,Universality; Color changes; The other way round
+18,37,32;15,Color changes; Dynamics
+18,38,2;26;10,Taking out; Copying; Preliminary action
+18,39,2;25;16,Taking out; Self-service; Partial or excessive actions
+19,1,12;18;28;31,Equipotentiality; Mechanical vibration; Mechanics substitution; Porous materials
+19,3,12;28,Equipotentiality; Mechanics substitution
+19,5,15;19;25,Dynamics; Periodic action; Self-service
+19,7,35;13;18,Parameter changes; The other way round; Mechanical vibration
+19,9,8;35;35,Anti-weight; Parameter changes; Parameter changes
+19,10,16;26;21;2,Partial or excessive actions; Copying; Skipping / Rushing; Taking out
+19,11,23;14;25,Feedback; Spheroidality / Curvature; Self-service
+19,12,12;2;29,Equipotentiality; Taking out; Pneumatics and hydraulics
+19,13,19;13;17;24,Periodic action; The other way round; Another dimension; Intermediary
+19,14,5;19;9;35,Merging; Periodic action; Preliminary anti-action; Parameter changes
+19,15,28;35;6;18,Mechanics substitution; Parameter changes; Universality; Mechanical vibration
+19,17,19;24;3;14,Periodic action; Intermediary; Local quality; Spheroidality / Curvature
+19,18,2;15;19,Taking out; Dynamics; Periodic action
+19,21,6;19;37;18,Universality; Periodic action; Thermal expansion; Mechanical vibration
+19,22,12;22;15;24,Equipotentiality; Blessing in disguise / Convert harm into benefit; Dynamics; Intermediary
+19,23,35;24;18;5,Parameter changes; Intermediary; Mechanical vibration; Merging
+19,25,35;38;19;18,Parameter changes; Strong oxidants; Periodic action; Mechanical vibration
+19,26,34;23;16;18,Discarding and recovering; Feedback; Partial or excessive actions; Mechanical vibration
+19,27,19;21;11;27,Periodic action; Skipping / Rushing; Beforehand cushioning; Cheap short-living objects
+19,28,3;1;32,Local quality; Segmentation; Color changes
+19,30,1;35;6;27,Segmentation; Parameter changes; Universality; Cheap short-living objects
+19,31,2;35;6,Taking out; Parameter changes; Universality
+19,32,28;26;30,Mechanics substitution; Copying; Flexible shells and thin films
+19,33,19;35,Periodic action; Parameter changes
+19,34,1;15;17;28,Segmentation; Dynamics; Another dimension; Mechanics substitution
+19,35,15;17;13;16,Dynamics; Another dimension; The other way round; Partial or excessive actions
+19,36,2;29;27;28,Taking out; Pneumatics and hydraulics; Cheap short-living objects; Mechanics substitution
+19,37,35;38,Parameter changes; Strong oxidants
+19,38,32;2,Color changes; Taking out
+19,39,12;28;35,Equipotentiality; Mechanics substitution; Parameter changes
+20,2,19;9;6;27,Periodic action; Preliminary anti-action; Universality; Cheap short-living objects
+20,10,36;37,Phase transitions; Thermal expansion
+20,13,27;4;29;18,Cheap short-living objects; Asymmetry; Pneumatics and hydraulics; Mechanical vibration
+20,18,19;2;35;32,Periodic action; Taking out; Parameter changes; Color changes
+20,23,28;27;18;31,Mechanics substitution; Cheap short-living objects; Mechanical vibration; Porous materials
+20,26,3;35;31,Local quality; Parameter changes; Porous materials
+20,27,10;36;23,Preliminary action; Phase transitions; Feedback
+20,30,10;2;22;37,Preliminary action; Taking out; Blessing in disguise / Convert harm into benefit; Thermal expansion
+20,31,19;22;18,Periodic action; Blessing in disguise / Convert harm into benefit; Mechanical vibration
+20,32,1;4,Segmentation; Asymmetry
+20,37,19;35;16;25,Periodic action; Parameter changes; Partial or excessive actions; Self-service
+20,39,1;6,Segmentation; Universality
+21,1,8;36;38;31,Anti-weight; Phase transitions; Strong oxidants; Porous materials
+21,2,19;26;17;27,Periodic action; Copying; Another dimension; Cheap short-living objects
+21,3,1;10;35;37,Segmentation; Preliminary action; Parameter changes; Thermal expansion
+21,5,19;38,Periodic action; Strong oxidants
+21,6,17;32;13;38,Another dimension; Color changes; The other way round; Strong oxidants
+21,7,35;6;38,Parameter changes; Universality; Strong oxidants
+21,8,30;6;25,Flexible shells and thin films; Universality; Self-service
+21,9,15;35;2,Dynamics; Parameter changes; Taking out
+21,10,26;2;36;35,Copying; Taking out; Phase transitions; Parameter changes
+21,11,22;10;35,Blessing in disguise / Convert harm into benefit; Preliminary action; Parameter changes
+21,12,29;14;2;40,Pneumatics and hydraulics; Spheroidality / Curvature; Taking out; Composite materials
+21,13,35;32;15;31,Parameter changes; Color changes; Dynamics; Porous materials
+21,14,26;10;28,Copying; Preliminary action; Mechanics substitution
+21,15,19;35;10;38,Periodic action; Parameter changes; Preliminary action; Strong oxidants
+21,17,2;14;17;25,Taking out; Spheroidality / Curvature; Another dimension; Self-service
+21,18,16;6;19,Partial or excessive actions; Universality; Periodic action
+21,19,16;6;19;37,Partial or excessive actions; Universality; Periodic action; Thermal expansion
+21,22,10;35;38,Preliminary action; Parameter changes; Strong oxidants
+21,23,28;27;18;38,Mechanics substitution; Cheap short-living objects; Mechanical vibration; Strong oxidants
+21,24,10;19,Preliminary action; Periodic action
+21,25,35;20;10;6,Parameter changes; Continuity of useful action; Preliminary action; Universality
+21,26,4;34;19,Asymmetry; Discarding and recovering; Periodic action
+21,27,19;24;26;31,Periodic action; Intermediary; Copying; Porous materials
+21,28,32;15;2,Color changes; Dynamics; Taking out
+21,29,32;2,Color changes; Taking out
+21,30,19;22;31;2,Periodic action; Blessing in disguise / Convert harm into benefit; Porous materials; Taking out
+21,31,2;35;18,Taking out; Parameter changes; Mechanical vibration
+21,32,26;10;34,Copying; Preliminary action; Discarding and recovering
+21,33,26;35;10,Copying; Parameter changes; Preliminary action
+21,34,35;2;10;34,Parameter changes; Taking out; Preliminary action; Discarding and recovering
+21,35,19;17;34,Periodic action; Another dimension; Discarding and recovering
+21,36,20;19;30;34,Continuity of useful action; Periodic action; Flexible shells and thin films; Discarding and recovering
+21,37,19;35;16,Periodic action; Parameter changes; Partial or excessive actions
+21,38,28;2;17,Mechanics substitution; Taking out; Another dimension
+21,39,28;35;34,Mechanics substitution; Parameter changes; Discarding and recovering
+22,1,15;6;19;28,Dynamics; Universality; Periodic action; Mechanics substitution
+22,2,19;6;18;9,Periodic action; Universality; Mechanical vibration; Preliminary anti-action
+22,3,7;2;6;13,Nesting; Taking out; Universality; The other way round
+22,4,6;38;7,Universality; Strong oxidants; Nesting
+22,5,15;26;17;30,Dynamics; Copying; Another dimension; Flexible shells and thin films
+22,6,17;7;30;18,Another dimension; Nesting; Flexible shells and thin films; Mechanical vibration
+22,7,7;18;23,Nesting; Mechanical vibration; Feedback
+22,9,16;35;38,Partial or excessive actions; Parameter changes; Strong oxidants
+22,10,36;38,Phase transitions; Strong oxidants
+22,13,14;2;39;6,Spheroidality / Curvature; Taking out; Inert atmosphere; Universality
+22,17,19;38;7,Periodic action; Strong oxidants; Nesting
+22,18,1;13;32;15,Segmentation; The other way round; Color changes; Dynamics
+22,21,3;38,Local quality; Strong oxidants
+22,23,35;27;2;37,Parameter changes; Cheap short-living objects; Taking out; Thermal expansion
+22,24,19;10,Periodic action; Preliminary action
+22,25,10;18;32;7,Preliminary action; Mechanical vibration; Color changes; Nesting
+22,26,7;18;25,Nesting; Mechanical vibration; Self-service
+22,27,11;10;35,Beforehand cushioning; Preliminary action; Parameter changes
+22,30,21;22;35;2,Skipping / Rushing; Blessing in disguise / Convert harm into benefit; Parameter changes; Taking out
+22,31,21;35;2;22,Skipping / Rushing; Parameter changes; Taking out; Blessing in disguise / Convert harm into benefit
+22,33,35;32;1,Parameter changes; Color changes; Segmentation
+22,34,2;19,Taking out; Periodic action
+22,36,7;23,Nesting; Feedback
+22,37,35;3;15;23,Parameter changes; Local quality; Dynamics; Feedback
+22,39,28;10;29;35,Mechanics substitution; Preliminary action; Pneumatics and hydraulics; Parameter changes
+23,1,35;6;23;40,Parameter changes; Universality; Feedback; Composite materials
+23,2,35;6;22;32,Parameter changes; Universality; Blessing in disguise / Convert harm into benefit; Color changes
+23,3,14;29;10;39,Spheroidality / Curvature; Pneumatics and hydraulics; Preliminary action; Inert atmosphere
+23,4,10;28;24,Preliminary action; Mechanics substitution; Intermediary
+23,5,35;2;10;31,Parameter changes; Taking out; Preliminary action; Porous materials
+23,6,10;18;39;31,Preliminary action; Mechanical vibration; Inert atmosphere; Porous materials
+23,7,1;29;30;36,Segmentation; Pneumatics and hydraulics; Flexible shells and thin films; Phase transitions
+23,8,3;39;18;31,Local quality; Inert atmosphere; Mechanical vibration; Porous materials
+23,9,10;13;28;38,Preliminary action; The other way round; Mechanics substitution; Strong oxidants
+23,10,14;15;18;40,Spheroidality / Curvature; Dynamics; Mechanical vibration; Composite materials
+23,11,3;36;37;10,Local quality; Phase transitions; Thermal expansion; Preliminary action
+23,12,29;35;3;5,Pneumatics and hydraulics; Parameter changes; Local quality; Merging
+23,13,2;14;30;40,Taking out; Spheroidality / Curvature; Flexible shells and thin films; Composite materials
+23,14,35;28;31;40,Parameter changes; Mechanics substitution; Porous materials; Composite materials
+23,15,28;27;3;18,Mechanics substitution; Cheap short-living objects; Local quality; Mechanical vibration
+23,16,27;16;18;38,Cheap short-living objects; Partial or excessive actions; Mechanical vibration; Strong oxidants
+23,17,21;36;39;31,Skipping / Rushing; Phase transitions; Inert atmosphere; Porous materials
+23,18,1;6;13,Segmentation; Universality; The other way round
+23,19,35;18;24;5,Parameter changes; Mechanical vibration; Intermediary; Merging
+23,20,28;27;12;31,Mechanics substitution; Cheap short-living objects; Equipotentiality; Porous materials
+23,21,28;27;18;38,Mechanics substitution; Cheap short-living objects; Mechanical vibration; Strong oxidants
+23,22,35;27;2;31,Parameter changes; Cheap short-living objects; Taking out; Porous materials
+23,25,15;18;35;10,Dynamics; Mechanical vibration; Parameter changes; Preliminary action
+23,26,6;3;10;24,Universality; Local quality; Preliminary action; Intermediary
+23,27,10;29;39;35,Preliminary action; Pneumatics and hydraulics; Inert atmosphere; Parameter changes
+23,28,16;34;31;28,Partial or excessive actions; Discarding and recovering; Porous materials; Mechanics substitution
+23,29,35;10;24;31,Parameter changes; Preliminary action; Intermediary; Porous materials
+23,30,33;22;30;40,Homogeneity; Blessing in disguise / Convert harm into benefit; Flexible shells and thin films; Composite materials
+23,31,10;1;34;29,Preliminary action; Segmentation; Discarding and recovering; Pneumatics and hydraulics
+23,32,15;34;33,Dynamics; Discarding and recovering; Homogeneity
+23,33,32;28;2;24,Color changes; Mechanics substitution; Taking out; Intermediary
+23,34,2;35;34;27,Taking out; Parameter changes; Discarding and recovering; Cheap short-living objects
+23,35,15;10;2,Dynamics; Preliminary action; Taking out
+23,36,35;10;28;24,Parameter changes; Preliminary action; Mechanics substitution; Intermediary
+23,37,35;18;10;13,Parameter changes; Mechanical vibration; Preliminary action; The other way round
+23,38,35;10;18,Parameter changes; Preliminary action; Mechanical vibration
+23,39,28;35;10;23,Mechanics substitution; Parameter changes; Preliminary action; Feedback
+24,1,10;24;35,Preliminary action; Intermediary; Parameter changes
+24,2,10;35;5,Preliminary action; Parameter changes; Merging
+24,3,1;26,Segmentation; Copying
+24,5,30;26,Flexible shells and thin films; Copying
+24,6,30;16,Flexible shells and thin films; Partial or excessive actions
+24,8,2;22,Taking out; Blessing in disguise / Convert harm into benefit
+24,9,26;32,Copying; Color changes
+24,21,10;19,Preliminary action; Periodic action
+24,22,19;10,Periodic action; Preliminary action
+24,25,24;26;28;32,Intermediary; Copying; Mechanics substitution; Color changes
+24,26,24;28;35,Intermediary; Mechanics substitution; Parameter changes
+24,27,10;28;23,Preliminary action; Mechanics substitution; Feedback
+24,30,22;10;1,Blessing in disguise / Convert harm into benefit; Preliminary action; Segmentation
+24,31,10;21;22,Preliminary action; Skipping / Rushing; Blessing in disguise / Convert harm into benefit
+24,33,27;22,Cheap short-living objects; Blessing in disguise / Convert harm into benefit
+24,37,35;33,Parameter changes; Homogeneity
+24,39,13;23;15,The other way round; Feedback; Dynamics
+25,1,10;20;37;35,Preliminary action; Continuity of useful action; Thermal expansion; Parameter changes
+25,2,10;20;26;5,Preliminary action; Continuity of useful action; Copying; Merging
+25,3,15;2;29,Dynamics; Taking out; Pneumatics and hydraulics
+25,4,30;24;14;5,Flexible shells and thin films; Intermediary; Spheroidality / Curvature; Merging
+25,5,26;4;5;16,Copying; Asymmetry; Merging; Partial or excessive actions
+25,6,10;35;17;4,Preliminary action; Parameter changes; Another dimension; Asymmetry
+25,7,2;5;34;10,Taking out; Merging; Discarding and recovering; Preliminary action
+25,8,35;16;32;18,Parameter changes; Partial or excessive actions; Color changes; Mechanical vibration
+25,10,10;37;36;5,Preliminary action; Thermal expansion; Phase transitions; Merging
+25,11,37;36;4,Thermal expansion; Phase transitions; Asymmetry
+25,12,4;10;34;17,Asymmetry; Preliminary action; Discarding and recovering; Another dimension
+25,13,35;3;22;5,Parameter changes; Local quality; Blessing in disguise / Convert harm into benefit; Merging
+25,14,29;3;28;18,Pneumatics and hydraulics; Local quality; Mechanics substitution; Mechanical vibration
+25,15,20;10;28;18,Continuity of useful action; Preliminary action; Mechanics substitution; Mechanical vibration
+25,16,28;20;10;16,Mechanics substitution; Continuity of useful action; Preliminary action; Partial or excessive actions
+25,17,35;29;21;18,Parameter changes; Pneumatics and hydraulics; Skipping / Rushing; Mechanical vibration
+25,18,1;19;26;17,Segmentation; Periodic action; Copying; Another dimension
+25,19,35;38;19;18,Parameter changes; Strong oxidants; Periodic action; Mechanical vibration
+25,21,35;20;10;6,Parameter changes; Continuity of useful action; Preliminary action; Universality
+25,22,10;5;18;32,Preliminary action; Merging; Mechanical vibration; Color changes
+25,23,35;18;10;39,Parameter changes; Mechanical vibration; Preliminary action; Inert atmosphere
+25,24,24;26;28;32,Intermediary; Copying; Mechanics substitution; Color changes
+25,26,35;38;18;16,Parameter changes; Strong oxidants; Mechanical vibration; Partial or excessive actions
+25,27,10;30;4,Preliminary action; Flexible shells and thin films; Asymmetry
+25,28,24;34;28;32,Intermediary; Discarding and recovering; Mechanics substitution; Color changes
+25,29,24;26;28;18,Intermediary; Copying; Mechanics substitution; Mechanical vibration
+25,30,35;18;34,Parameter changes; Mechanical vibration; Discarding and recovering
+25,31,35;22;18;39,Parameter changes; Blessing in disguise / Convert harm into benefit; Mechanical vibration; Inert atmosphere
+25,32,35;28;34;4,Parameter changes; Mechanics substitution; Discarding and recovering; Asymmetry
+25,33,4;28;10;34,Asymmetry; Mechanics substitution; Preliminary action; Discarding and recovering
+25,34,32;1;10,Color changes; Segmentation; Preliminary action
+25,35,35;28,Parameter changes; Mechanics substitution
+25,36,6;29,Universality; Pneumatics and hydraulics
+25,37,18;28;32;10,Mechanical vibration; Mechanics substitution; Color changes; Preliminary action
+25,38,24;28;35;30,Intermediary; Mechanics substitution; Parameter changes; Flexible shells and thin films
+26,1,35;6;18;31,Parameter changes; Universality; Mechanical vibration; Porous materials
+26,2,27;26;18;35,Cheap short-living objects; Copying; Mechanical vibration; Parameter changes
+26,3,29;14;35;18,Pneumatics and hydraulics; Spheroidality / Curvature; Parameter changes; Mechanical vibration
+26,5,15;14;29,Dynamics; Spheroidality / Curvature; Pneumatics and hydraulics
+26,6,2;18;40;4,Taking out; Mechanical vibration; Composite materials; Asymmetry
+26,7,15;20;29,Dynamics; Continuity of useful action; Pneumatics and hydraulics
+26,9,35;29;34;28,Parameter changes; Pneumatics and hydraulics; Discarding and recovering; Mechanics substitution
+26,10,35;14;3,Parameter changes; Spheroidality / Curvature; Local quality
+26,11,10;36;14;3,Preliminary action; Phase transitions; Spheroidality / Curvature; Local quality
+26,12,35;14,Parameter changes; Spheroidality / Curvature
+26,13,15;2;17;40,Dynamics; Taking out; Another dimension; Composite materials
+26,14,14;35;34;10,Spheroidality / Curvature; Parameter changes; Discarding and recovering; Preliminary action
+26,15,3;35;10;40,Local quality; Parameter changes; Preliminary action; Composite materials
+26,16,3;35;31,Local quality; Parameter changes; Porous materials
+26,17,3;17;39,Local quality; Another dimension; Inert atmosphere
+26,19,34;29;16;18,Discarding and recovering; Pneumatics and hydraulics; Partial or excessive actions; Mechanical vibration
+26,20,3;35;31,Local quality; Parameter changes; Porous materials
+26,22,7;18;25,Nesting; Mechanical vibration; Self-service
+26,23,6;3;10;24,Universality; Local quality; Preliminary action; Intermediary
+26,24,24;28;35,Intermediary; Mechanics substitution; Parameter changes
+26,25,35;38;18;16,Parameter changes; Strong oxidants; Mechanical vibration; Partial or excessive actions
+26,27,18;3;28;40,Mechanical vibration; Local quality; Mechanics substitution; Composite materials
+26,28,13;2;28,The other way round; Taking out; Mechanics substitution
+26,29,33;30,Homogeneity; Flexible shells and thin films
+26,30,35;33;29;31,Parameter changes; Homogeneity; Pneumatics and hydraulics; Porous materials
+26,31,3;35;40;39,Local quality; Parameter changes; Composite materials; Inert atmosphere
+26,32,29;1;35;27,Pneumatics and hydraulics; Segmentation; Parameter changes; Cheap short-living objects
+26,33,35;29;25;10,Parameter changes; Pneumatics and hydraulics; Self-service; Preliminary action
+26,34,2;32;10;25,Taking out; Color changes; Preliminary action; Self-service
+26,35,15;3;29,Dynamics; Local quality; Pneumatics and hydraulics
+26,36,3;13;27;10,Local quality; The other way round; Cheap short-living objects; Preliminary action
+26,37,3;27;29;18,Local quality; Cheap short-living objects; Pneumatics and hydraulics; Mechanical vibration
+26,38,8;35,Anti-weight; Parameter changes
+26,39,13;29;3;27,The other way round; Pneumatics and hydraulics; Local quality; Cheap short-living objects
+27,1,3;8;10;40,Local quality; Anti-weight; Preliminary action; Composite materials
+27,2,3;10;8;28,Local quality; Preliminary action; Anti-weight; Mechanics substitution
+27,3,15;9;14;4,Dynamics; Preliminary anti-action; Spheroidality / Curvature; Asymmetry
+27,4,15;29;28;11,Dynamics; Pneumatics and hydraulics; Mechanics substitution; Beforehand cushioning
+27,5,17;10;14;16,Another dimension; Preliminary action; Spheroidality / Curvature; Partial or excessive actions
+27,6,32;35;40;4,Color changes; Parameter changes; Composite materials; Asymmetry
+27,7,3;10;14;24,Local quality; Preliminary action; Spheroidality / Curvature; Intermediary
+27,8,2;35;24,Taking out; Parameter changes; Intermediary
+27,9,21;35;11;28,Skipping / Rushing; Parameter changes; Beforehand cushioning; Mechanics substitution
+27,10,8;28;10;3,Anti-weight; Mechanics substitution; Preliminary action; Local quality
+27,11,10;24;35;19,Preliminary action; Intermediary; Parameter changes; Periodic action
+27,12,35;1;16;11,Parameter changes; Segmentation; Partial or excessive actions; Beforehand cushioning
+27,14,11;28,Beforehand cushioning; Mechanics substitution
+27,15,2;35;3;25,Taking out; Parameter changes; Local quality; Self-service
+27,16,34;27;6;40,Discarding and recovering; Cheap short-living objects; Universality; Composite materials
+27,17,3;35;10,Local quality; Parameter changes; Preliminary action
+27,18,11;32;13,Beforehand cushioning; Color changes; The other way round
+27,19,21;11;27;19,Skipping / Rushing; Beforehand cushioning; Cheap short-living objects; Periodic action
+27,20,36;23,Phase transitions; Feedback
+27,21,21;11;26;31,Skipping / Rushing; Beforehand cushioning; Copying; Porous materials
+27,22,10;11;35,Preliminary action; Beforehand cushioning; Parameter changes
+27,23,10;35;29;39,Preliminary action; Parameter changes; Pneumatics and hydraulics; Inert atmosphere
+27,24,10;28,Preliminary action; Mechanics substitution
+27,25,10;30;4,Preliminary action; Flexible shells and thin films; Asymmetry
+27,26,21;28;40;3,Skipping / Rushing; Mechanics substitution; Composite materials; Local quality
+27,28,32;3;11;23,Color changes; Local quality; Beforehand cushioning; Feedback
+27,29,11;32;1,Beforehand cushioning; Color changes; Segmentation
+27,30,27;35;2;40,Cheap short-living objects; Parameter changes; Taking out; Composite materials
+27,31,35;2;40;26,Parameter changes; Taking out; Composite materials; Copying
+27,33,27;17;40,Cheap short-living objects; Another dimension; Composite materials
+27,34,1;11,Segmentation; Beforehand cushioning
+27,35,13;35;8;24,The other way round; Parameter changes; Anti-weight; Intermediary
+27,36,13;35;1,The other way round; Parameter changes; Segmentation
+27,37,27;40;28,Cheap short-living objects; Composite materials; Mechanics substitution
+27,38,11;13;27,Beforehand cushioning; The other way round; Cheap short-living objects
+27,39,1;35;29;38,Segmentation; Parameter changes; Pneumatics and hydraulics; Strong oxidants
+28,1,32;35;26;28,Color changes; Parameter changes; Copying; Mechanics substitution
+28,2,28;35;25;26,Mechanics substitution; Parameter changes; Self-service; Copying
+28,3,28;26;5;16,Mechanics substitution; Copying; Merging; Partial or excessive actions
+28,4,32;28;3;16,Color changes; Mechanics substitution; Local quality; Partial or excessive actions
+28,5,26;28;32;3,Copying; Mechanics substitution; Color changes; Local quality
+28,6,26;28;32;3,Copying; Mechanics substitution; Color changes; Local quality
+28,7,32;13;6,Color changes; The other way round; Universality
+28,9,28;13;32;24,Mechanics substitution; The other way round; Color changes; Intermediary
+28,10,32;2,Color changes; Taking out
+28,11,6;28;32,Universality; Mechanics substitution; Color changes
+28,12,6;28;32,Universality; Mechanics substitution; Color changes
+28,13,32;35;13,Color changes; Parameter changes; The other way round
+28,14,28;6;32,Mechanics substitution; Universality; Color changes
+28,15,28;6;32,Mechanics substitution; Universality; Color changes
+28,16,10;26;24,Preliminary action; Copying; Intermediary
+28,17,6;19;28;24,Universality; Periodic action; Mechanics substitution; Intermediary
+28,18,6;1;32,Universality; Segmentation; Color changes
+28,19,3;6;32,Local quality; Universality; Color changes
+28,21,3;6;32,Local quality; Universality; Color changes
+28,22,26;32;27,Copying; Color changes; Cheap short-living objects
+28,23,10;16;31;28,Preliminary action; Partial or excessive actions; Porous materials; Mechanics substitution
+28,25,24;34;28;32,Intermediary; Discarding and recovering; Mechanics substitution; Color changes
+28,26,2;6;32,Taking out; Universality; Color changes
+28,27,5;11;1;23,Merging; Beforehand cushioning; Segmentation; Feedback
+28,30,28;24;22;26,Mechanics substitution; Intermediary; Blessing in disguise / Convert harm into benefit; Copying
+28,31,3;33;39;10,Local quality; Homogeneity; Inert atmosphere; Preliminary action
+28,32,6;35;25;18,Universality; Parameter changes; Self-service; Mechanical vibration
+28,33,1;13;17;34,Segmentation; The other way round; Another dimension; Discarding and recovering
+28,34,1;32;13;11,Segmentation; Color changes; The other way round; Beforehand cushioning
+28,35,13;35;2,The other way round; Parameter changes; Taking out
+28,36,27;35;10;34,Cheap short-living objects; Parameter changes; Preliminary action; Discarding and recovering
+28,37,26;24;32;28,Copying; Intermediary; Color changes; Mechanics substitution
+28,38,28;2;10;34,Mechanics substitution; Taking out; Preliminary action; Discarding and recovering
+28,39,10;34;28;32,Preliminary action; Discarding and recovering; Mechanics substitution; Color changes
+29,1,28;32;13;18,Mechanics substitution; Color changes; The other way round; Mechanical vibration
+29,2,28;35;27;9,Mechanics substitution; Parameter changes; Cheap short-living objects; Preliminary anti-action
+29,3,10;28;29;37,Preliminary action; Mechanics substitution; Pneumatics and hydraulics; Thermal expansion
+29,4,2;32;10,Taking out; Color changes; Preliminary action
+29,5,28;33;29;32,Mechanics substitution; Homogeneity; Pneumatics and hydraulics; Color changes
+29,6,2;29;18;36,Taking out; Pneumatics and hydraulics; Mechanical vibration; Phase transitions
+29,7,32;23;2,Color changes; Feedback; Taking out
+29,8,25;10;35,Self-service; Preliminary action; Parameter changes
+29,9,10;28;32,Preliminary action; Mechanics substitution; Color changes
+29,10,28;19;34;36,Mechanics substitution; Periodic action; Discarding and recovering; Phase transitions
+29,11,3;35,Local quality; Parameter changes
+29,12,32;30;40,Color changes; Flexible shells and thin films; Composite materials
+29,13,30;18,Flexible shells and thin films; Mechanical vibration
+29,14,3;27,Local quality; Cheap short-living objects
+29,15,3;27;40,Local quality; Cheap short-living objects; Composite materials
+29,17,19;26,Periodic action; Copying
+29,18,3;32,Local quality; Color changes
+29,19,32;2,Color changes; Taking out
+29,21,32;2,Color changes; Taking out
+29,22,13;32;2,The other way round; Color changes; Taking out
+29,23,35;31;10;24,Parameter changes; Porous materials; Preliminary action; Intermediary
+29,25,32;26;28;18,Color changes; Copying; Mechanics substitution; Mechanical vibration
+29,26,32;30,Color changes; Flexible shells and thin films
+29,27,11;32;1,Beforehand cushioning; Color changes; Segmentation
+29,30,26;28;10;36,Copying; Mechanics substitution; Preliminary action; Phase transitions
+29,31,4;17;34;26,Asymmetry; Another dimension; Discarding and recovering; Copying
+29,33,1;32;35;23,Segmentation; Color changes; Parameter changes; Feedback
+29,34,25;10,Self-service; Preliminary action
+29,36,26;2;18,Copying; Taking out; Mechanical vibration
+29,38,26;28;18;23,Copying; Mechanics substitution; Mechanical vibration; Feedback
+29,39,10;18;32;39,Preliminary action; Mechanical vibration; Color changes; Inert atmosphere
+30,1,22;21;27;39,Blessing in disguise / Convert harm into benefit; Skipping / Rushing; Cheap short-living objects; Inert atmosphere
+30,2,2;22;13;24,Taking out; Blessing in disguise / Convert harm into benefit; The other way round; Intermediary
+30,3,17;1;39;4,Another dimension; Segmentation; Inert atmosphere; Asymmetry
+30,4,1;18,Segmentation; Mechanical vibration
+30,5,22;1;33;28,Blessing in disguise / Convert harm into benefit; Segmentation; Homogeneity; Mechanics substitution
+30,6,27;2;39;35,Cheap short-living objects; Taking out; Inert atmosphere; Parameter changes
+30,7,22;23;37;35,Blessing in disguise / Convert harm into benefit; Feedback; Thermal expansion; Parameter changes
+30,8,34;39;19;27,Discarding and recovering; Inert atmosphere; Periodic action; Cheap short-living objects
+30,9,21;22;35;28,Skipping / Rushing; Blessing in disguise / Convert harm into benefit; Parameter changes; Mechanics substitution
+30,10,13;35;39;18,The other way round; Parameter changes; Inert atmosphere; Mechanical vibration
+30,11,22;2;37,Blessing in disguise / Convert harm into benefit; Taking out; Thermal expansion
+30,12,22;1;3;35,Blessing in disguise / Convert harm into benefit; Segmentation; Local quality; Parameter changes
+30,13,35;24;30;18,Parameter changes; Intermediary; Flexible shells and thin films; Mechanical vibration
+30,14,18;35;37;1,Mechanical vibration; Parameter changes; Thermal expansion; Segmentation
+30,15,22;15;33;28,Blessing in disguise / Convert harm into benefit; Dynamics; Homogeneity; Mechanics substitution
+30,16,17;1;40;33,Another dimension; Segmentation; Composite materials; Homogeneity
+30,17,22;33;35;2,Blessing in disguise / Convert harm into benefit; Homogeneity; Parameter changes; Taking out
+30,18,1;19;32;13,Segmentation; Periodic action; Color changes; The other way round
+30,19,1;24;6;27,Segmentation; Intermediary; Universality; Cheap short-living objects
+30,20,10;2;22;37,Preliminary action; Taking out; Blessing in disguise / Convert harm into benefit; Thermal expansion
+30,21,19;22;31;2,Periodic action; Blessing in disguise / Convert harm into benefit; Porous materials; Taking out
+30,22,21;22;35;2,Skipping / Rushing; Blessing in disguise / Convert harm into benefit; Parameter changes; Taking out
+30,23,33;22;19;40,Homogeneity; Blessing in disguise / Convert harm into benefit; Periodic action; Composite materials
+30,24,22;10;2,Blessing in disguise / Convert harm into benefit; Preliminary action; Taking out
+30,25,35;18;34,Parameter changes; Mechanical vibration; Discarding and recovering
+30,26,35;33;29;31,Parameter changes; Homogeneity; Pneumatics and hydraulics; Porous materials
+30,27,27;24;2;40,Cheap short-living objects; Intermediary; Taking out; Composite materials
+30,28,28;33;23;26,Mechanics substitution; Homogeneity; Feedback; Copying
+30,29,26;28;10;18,Copying; Mechanics substitution; Preliminary action; Mechanical vibration
+30,32,24;35;2,Intermediary; Parameter changes; Taking out
+30,33,2;25;28;39,Taking out; Self-service; Mechanics substitution; Inert atmosphere
+30,34,35;10;2,Parameter changes; Preliminary action; Taking out
+30,35,35;11;22;31,Parameter changes; Beforehand cushioning; Blessing in disguise / Convert harm into benefit; Porous materials
+30,36,22;19;29;40,Blessing in disguise / Convert harm into benefit; Periodic action; Pneumatics and hydraulics; Composite materials
+30,37,22;19;29;40,Blessing in disguise / Convert harm into benefit; Periodic action; Pneumatics and hydraulics; Composite materials
+30,38,33;3;34,Homogeneity; Local quality; Discarding and recovering
+30,39,22;35;13;24,Blessing in disguise / Convert harm into benefit; Parameter changes; The other way round; Intermediary
+31,1,19;22;15;39,Periodic action; Blessing in disguise / Convert harm into benefit; Dynamics; Inert atmosphere
+31,2,35;22;1;39,Parameter changes; Blessing in disguise / Convert harm into benefit; Segmentation; Inert atmosphere
+31,3,17;15;16;22,Another dimension; Dynamics; Partial or excessive actions; Blessing in disguise / Convert harm into benefit
+31,5,17;2;18;39,Another dimension; Taking out; Mechanical vibration; Inert atmosphere
+31,6,22;1;40,Blessing in disguise / Convert harm into benefit; Segmentation; Composite materials
+31,7,17;2;40,Another dimension; Taking out; Composite materials
+31,8,30;18;35;4,Flexible shells and thin films; Mechanical vibration; Parameter changes; Asymmetry
+31,9,35;28;3;23,Parameter changes; Mechanics substitution; Local quality; Feedback
+31,10,35;28;1;40,Parameter changes; Mechanics substitution; Segmentation; Composite materials
+31,11,2;33;27;18,Taking out; Homogeneity; Cheap short-living objects; Mechanical vibration
+31,12,35;1,Parameter changes; Segmentation
+31,13,35;40;27;39,Parameter changes; Composite materials; Cheap short-living objects; Inert atmosphere
+31,14,15;35;22;2,Dynamics; Parameter changes; Blessing in disguise / Convert harm into benefit; Taking out
+31,15,15;22;33;31,Dynamics; Blessing in disguise / Convert harm into benefit; Homogeneity; Porous materials
+31,16,21;39;16;22,Skipping / Rushing; Inert atmosphere; Partial or excessive actions; Blessing in disguise / Convert harm into benefit
+31,17,22;35;2;24,Blessing in disguise / Convert harm into benefit; Parameter changes; Taking out; Intermediary
+31,18,19;24;39;32,Periodic action; Intermediary; Inert atmosphere; Color changes
+31,19,2;35;6,Taking out; Parameter changes; Universality
+31,20,19;22;18,Periodic action; Blessing in disguise / Convert harm into benefit; Mechanical vibration
+31,21,2;35;18,Taking out; Parameter changes; Mechanical vibration
+31,22,21;35;2;22,Skipping / Rushing; Parameter changes; Taking out; Blessing in disguise / Convert harm into benefit
+31,23,10;1;34,Preliminary action; Segmentation; Discarding and recovering
+31,24,10;21;29,Preliminary action; Skipping / Rushing; Pneumatics and hydraulics
+31,25,1;22,Segmentation; Blessing in disguise / Convert harm into benefit
+31,26,3;24;39;1,Local quality; Intermediary; Inert atmosphere; Segmentation
+31,27,24;2;40;39,Intermediary; Taking out; Composite materials; Inert atmosphere
+31,28,3;33;26,Local quality; Homogeneity; Copying
+31,29,4;17;34;26,Asymmetry; Another dimension; Discarding and recovering; Copying
+31,36,19;1;31,Periodic action; Segmentation; Porous materials
+31,37,2;21;27;1,Taking out; Skipping / Rushing; Cheap short-living objects; Segmentation
+31,39,22;35;18;39,Blessing in disguise / Convert harm into benefit; Parameter changes; Mechanical vibration; Inert atmosphere
+32,1,28;29;15;16,Mechanics substitution; Pneumatics and hydraulics; Dynamics; Partial or excessive actions
+32,2,1;27;36;13,Segmentation; Cheap short-living objects; Phase transitions; The other way round
+32,3,1;29;13;17,Segmentation; Pneumatics and hydraulics; The other way round; Another dimension
+32,4,15;17;27,Dynamics; Another dimension; Cheap short-living objects
+32,5,13;1;26;12,The other way round; Segmentation; Copying; Equipotentiality
+32,6,16;40,Partial or excessive actions; Composite materials
+32,7,13;29;1;40,The other way round; Pneumatics and hydraulics; Segmentation; Composite materials
+32,9,35;13;8;1,Parameter changes; The other way round; Anti-weight; Segmentation
+32,10,35;12,Parameter changes; Equipotentiality
+32,11,35;19;1;37,Parameter changes; Periodic action; Segmentation; Thermal expansion
+32,12,1;28;13;27,Segmentation; Mechanics substitution; The other way round; Cheap short-living objects
+32,13,11;13;1,Beforehand cushioning; The other way round; Segmentation
+32,14,1;3;10;32,Segmentation; Local quality; Preliminary action; Color changes
+32,15,27;1;4,Cheap short-living objects; Segmentation; Asymmetry
+32,16,35;16,Parameter changes; Partial or excessive actions
+32,17,27;26;18,Cheap short-living objects; Copying; Mechanical vibration
+32,18,28;24;27;1,Mechanics substitution; Intermediary; Cheap short-living objects; Segmentation
+32,19,28;26;27;1,Mechanics substitution; Copying; Cheap short-living objects; Segmentation
+32,20,1;4,Segmentation; Asymmetry
+32,21,27;1;12;24,Cheap short-living objects; Segmentation; Equipotentiality; Intermediary
+32,22,19;35,Periodic action; Parameter changes
+32,23,15;34;33,Dynamics; Discarding and recovering; Homogeneity
+32,24,32;24;18;16,Color changes; Intermediary; Mechanical vibration; Partial or excessive actions
+32,25,35;28;34;4,Parameter changes; Mechanics substitution; Discarding and recovering; Asymmetry
+32,26,35;23;1;24,Parameter changes; Feedback; Segmentation; Intermediary
+32,28,1;35;12;18,Segmentation; Parameter changes; Equipotentiality; Mechanical vibration
+32,30,24;2,Intermediary; Taking out
+32,33,2;5;13;16,Taking out; Merging; The other way round; Partial or excessive actions
+32,34,35;1;11;9,Parameter changes; Segmentation; Beforehand cushioning; Preliminary anti-action
+32,35,2;13;15,Taking out; The other way round; Dynamics
+32,36,27;26;1,Cheap short-living objects; Copying; Segmentation
+32,37,6;28;11;1,Universality; Mechanics substitution; Beforehand cushioning; Segmentation
+32,38,8;28;1,Anti-weight; Mechanics substitution; Segmentation
+32,39,35;1;10;28,Parameter changes; Segmentation; Preliminary action; Mechanics substitution
+33,1,25;2;13;15,Self-service; Taking out; The other way round; Dynamics
+33,2,6;13;1;25,Universality; The other way round; Segmentation; Self-service
+33,3,1;17;13;12,Segmentation; Another dimension; The other way round; Equipotentiality
+33,5,1;17;13;16,Segmentation; Another dimension; The other way round; Partial or excessive actions
+33,6,18;16;15;39,Mechanical vibration; Partial or excessive actions; Dynamics; Inert atmosphere
+33,7,1;16;35;15,Segmentation; Partial or excessive actions; Parameter changes; Dynamics
+33,8,4;18;39;31,Asymmetry; Mechanical vibration; Inert atmosphere; Porous materials
+33,9,18;13;34,Mechanical vibration; The other way round; Discarding and recovering
+33,10,28;13;35,Mechanics substitution; The other way round; Parameter changes
+33,11,2;32;12,Taking out; Color changes; Equipotentiality
+33,12,15;34;29;28,Dynamics; Discarding and recovering; Pneumatics and hydraulics; Mechanics substitution
+33,13,32;35;30,Color changes; Parameter changes; Flexible shells and thin films
+33,14,32;40;3;28,Color changes; Composite materials; Local quality; Mechanics substitution
+33,15,29;3;8;25,Pneumatics and hydraulics; Local quality; Anti-weight; Self-service
+33,16,1;16;25,Segmentation; Partial or excessive actions; Self-service
+33,17,26;27;13,Copying; Cheap short-living objects; The other way round
+33,18,13;17;1;24,The other way round; Another dimension; Segmentation; Intermediary
+33,19,1;13;24,Segmentation; The other way round; Intermediary
+33,21,35;34;2;10,Parameter changes; Discarding and recovering; Taking out; Preliminary action
+33,22,2;19;13,Taking out; Periodic action; The other way round
+33,23,28;32;2;24,Mechanics substitution; Color changes; Taking out; Intermediary
+33,24,4;10;27;22,Asymmetry; Preliminary action; Cheap short-living objects; Blessing in disguise / Convert harm into benefit
+33,25,4;28;10;34,Asymmetry; Mechanics substitution; Preliminary action; Discarding and recovering
+33,26,12;35,Equipotentiality; Parameter changes
+33,27,17;27;8;40,Another dimension; Cheap short-living objects; Anti-weight; Composite materials
+33,28,25;13;2;34,Self-service; The other way round; Taking out; Discarding and recovering
+33,29,1;32;35;23,Segmentation; Color changes; Parameter changes; Feedback
+33,30,2;25;28;39,Taking out; Self-service; Mechanics substitution; Inert atmosphere
+33,32,2;5;12,Taking out; Merging; Equipotentiality
+33,34,12;26;1;32,Equipotentiality; Copying; Segmentation; Color changes
+33,35,15;34;1;16,Dynamics; Discarding and recovering; Segmentation; Partial or excessive actions
+33,36,32;26;12;17,Color changes; Copying; Equipotentiality; Another dimension
+33,38,1;34;12;3,Segmentation; Discarding and recovering; Equipotentiality; Local quality
+33,39,15;1;28,Dynamics; Segmentation; Mechanics substitution
+34,1,2;27;35;11,Taking out; Cheap short-living objects; Parameter changes; Beforehand cushioning
+34,2,2;27;35;11,Taking out; Cheap short-living objects; Parameter changes; Beforehand cushioning
+34,3,1;28;10;25,Segmentation; Mechanics substitution; Preliminary action; Self-service
+34,4,3;18;31,Local quality; Mechanical vibration; Porous materials
+34,5,15;13;32,Dynamics; The other way round; Color changes
+34,6,16;25,Partial or excessive actions; Self-service
+34,7,25;2;35;11,Self-service; Taking out; Parameter changes; Beforehand cushioning
+34,9,34;9,Discarding and recovering; Preliminary anti-action
+34,10,1;11;10,Segmentation; Beforehand cushioning; Preliminary action
+34,12,1;13;2;4,Segmentation; The other way round; Taking out; Asymmetry
+34,13,2;35,Taking out; Parameter changes
+34,14,11;1;2;9,Beforehand cushioning; Segmentation; Taking out; Preliminary anti-action
+34,15,11;29;28;27,Beforehand cushioning; Pneumatics and hydraulics; Mechanics substitution; Cheap short-living objects
+34,17,4;10,Asymmetry; Preliminary action
+34,18,15;1;13,Dynamics; Segmentation; The other way round
+34,19,15;1;28;16,Dynamics; Segmentation; Mechanics substitution; Partial or excessive actions
+34,21,15;10;32;2,Dynamics; Preliminary action; Color changes; Taking out
+34,22,15;1;32;19,Dynamics; Segmentation; Color changes; Periodic action
+34,23,2;35;34;27,Taking out; Parameter changes; Discarding and recovering; Cheap short-living objects
+34,25,32;1;10;25,Color changes; Segmentation; Preliminary action; Self-service
+34,26,2;28;10;25,Taking out; Mechanics substitution; Preliminary action; Self-service
+34,27,11;10;1;16,Beforehand cushioning; Preliminary action; Segmentation; Partial or excessive actions
+34,28,10;2;13,Preliminary action; Taking out; The other way round
+34,29,25;10,Self-service; Preliminary action
+34,30,35;10;2;16,Parameter changes; Preliminary action; Taking out; Partial or excessive actions
+34,32,1;35;11;10,Segmentation; Parameter changes; Beforehand cushioning; Preliminary action
+34,33,1;12;26;15,Segmentation; Equipotentiality; Copying; Dynamics
+34,35,7;1;4;16,Nesting; Segmentation; Asymmetry; Partial or excessive actions
+34,36,35;1;13;11,Parameter changes; Segmentation; The other way round; Beforehand cushioning
+34,38,34;35;7;13,Discarding and recovering; Parameter changes; Nesting; The other way round
+34,39,1;32;10,Segmentation; Color changes; Preliminary action
+35,1,1;6;15;8,Segmentation; Universality; Dynamics; Anti-weight
+35,2,19;15;29;16,Periodic action; Dynamics; Pneumatics and hydraulics; Partial or excessive actions
+35,3,35;1;29;2,Parameter changes; Segmentation; Pneumatics and hydraulics; Taking out
+35,4,1;35;16,Segmentation; Parameter changes; Partial or excessive actions
+35,5,35;30;29;7,Parameter changes; Flexible shells and thin films; Pneumatics and hydraulics; Nesting
+35,6,15;16,Dynamics; Partial or excessive actions
+35,7,15;35;29,Dynamics; Parameter changes; Pneumatics and hydraulics
+35,9,35;10;14,Parameter changes; Preliminary action; Spheroidality / Curvature
+35,10,15;17;20,Dynamics; Another dimension; Continuity of useful action
+35,11,35;16,Parameter changes; Partial or excessive actions
+35,12,15;37;1;8,Dynamics; Thermal expansion; Segmentation; Anti-weight
+35,13,35;30;14,Parameter changes; Flexible shells and thin films; Spheroidality / Curvature
+35,14,35;3;32;6,Parameter changes; Local quality; Color changes; Universality
+35,15,13;1;35,The other way round; Segmentation; Parameter changes
+35,16,2;16,Taking out; Partial or excessive actions
+35,17,27;2;3;35,Cheap short-living objects; Taking out; Local quality; Parameter changes
+35,18,6;22;26;1,Universality; Blessing in disguise / Convert harm into benefit; Copying; Segmentation
+35,19,19;35;29;13,Periodic action; Parameter changes; Pneumatics and hydraulics; The other way round
+35,21,19;1;29,Periodic action; Segmentation; Pneumatics and hydraulics
+35,22,18;15;1,Mechanical vibration; Dynamics; Segmentation
+35,23,15;10;2;13,Dynamics; Preliminary action; Taking out; The other way round
+35,25,35;28,Parameter changes; Mechanics substitution
+35,26,3;35;15,Local quality; Parameter changes; Dynamics
+35,27,35;13;8;24,Parameter changes; The other way round; Anti-weight; Intermediary
+35,28,35;5;1;10,Parameter changes; Merging; Segmentation; Preliminary action
+35,30,35;11;32;31,Parameter changes; Beforehand cushioning; Color changes; Porous materials
+35,32,1;13;31,Segmentation; The other way round; Porous materials
+35,33,15;34;1;16,Dynamics; Discarding and recovering; Segmentation; Partial or excessive actions
+35,34,1;16;7;4,Segmentation; Partial or excessive actions; Nesting; Asymmetry
+35,36,15;29;37;28,Dynamics; Pneumatics and hydraulics; Thermal expansion; Mechanics substitution
+35,38,27;34;35,Cheap short-living objects; Discarding and recovering; Parameter changes
+35,39,35;28;6;37,Parameter changes; Mechanics substitution; Universality; Thermal expansion
+36,1,26;30;34;36,Copying; Flexible shells and thin films; Discarding and recovering; Phase transitions
+36,2,2;26;35;39,Taking out; Copying; Parameter changes; Inert atmosphere
+36,3,1;19;26;24,Segmentation; Periodic action; Copying; Intermediary
+36,5,14;1;13;16,Spheroidality / Curvature; Segmentation; The other way round; Partial or excessive actions
+36,6,6;36,Universality; Phase transitions
+36,7,34;26;6,Discarding and recovering; Copying; Universality
+36,8,1;16,Segmentation; Partial or excessive actions
+36,9,34;10;28,Discarding and recovering; Preliminary action; Mechanics substitution
+36,10,26;16,Copying; Partial or excessive actions
+36,11,19;1;35,Periodic action; Segmentation; Parameter changes
+36,12,29;13;28;15,Pneumatics and hydraulics; The other way round; Mechanics substitution; Dynamics
+36,13,2;22;17;19,Taking out; Blessing in disguise / Convert harm into benefit; Another dimension; Periodic action
+36,14,2;13;28,Taking out; The other way round; Mechanics substitution
+36,15,10;4;28;15,Preliminary action; Asymmetry; Mechanics substitution; Dynamics
+36,17,2;17;13,Taking out; Another dimension; The other way round
+36,18,24;17;13,Intermediary; Another dimension; The other way round
+36,19,27;2;29;28,Cheap short-living objects; Taking out; Pneumatics and hydraulics; Mechanics substitution
+36,21,20;19;30;34,Continuity of useful action; Periodic action; Flexible shells and thin films; Discarding and recovering
+36,22,10;35;13;2,Preliminary action; Parameter changes; The other way round; Taking out
+36,23,35;10;28;29,Parameter changes; Preliminary action; Mechanics substitution; Pneumatics and hydraulics
+36,25,6;29,Universality; Pneumatics and hydraulics
+36,26,13;3;27;10,The other way round; Local quality; Cheap short-living objects; Preliminary action
+36,27,13;35;1,The other way round; Parameter changes; Segmentation
+36,28,2;26;10;34,Taking out; Copying; Preliminary action; Discarding and recovering
+36,29,26;24;32,Copying; Intermediary; Color changes
+36,30,22;19;29;40,Blessing in disguise / Convert harm into benefit; Periodic action; Pneumatics and hydraulics; Composite materials
+36,31,19;1,Periodic action; Segmentation
+36,32,27;26;1;13,Cheap short-living objects; Copying; Segmentation; The other way round
+36,33,27;9;26;24,Cheap short-living objects; Preliminary anti-action; Copying; Intermediary
+36,34,1;13,Segmentation; The other way round
+36,35,29;15;28;37,Pneumatics and hydraulics; Dynamics; Mechanics substitution; Thermal expansion
+36,37,15;10;37;28,Dynamics; Preliminary action; Thermal expansion; Mechanics substitution
+36,38,15;1;24,Dynamics; Segmentation; Intermediary
+36,39,12;17;28,Equipotentiality; Another dimension; Mechanics substitution
+37,1,27;26;28;13,Cheap short-living objects; Copying; Mechanics substitution; The other way round
+37,2,6;13;28;1,Universality; The other way round; Mechanics substitution; Segmentation
+37,3,16;17;26;24,Partial or excessive actions; Another dimension; Copying; Intermediary
+37,5,2;13;18;17,Taking out; The other way round; Mechanical vibration; Another dimension
+37,6,2;39;30;16,Taking out; Inert atmosphere; Flexible shells and thin films; Partial or excessive actions
+37,7,29;1;4;16,Pneumatics and hydraulics; Segmentation; Asymmetry; Partial or excessive actions
+37,8,2;18;26;31,Taking out; Mechanical vibration; Copying; Porous materials
+37,9,3;4;16;35,Local quality; Asymmetry; Partial or excessive actions; Parameter changes
+37,10,30;28;40;19,Flexible shells and thin films; Mechanics substitution; Composite materials; Periodic action
+37,11,35;36;37;32,Parameter changes; Phase transitions; Thermal expansion; Color changes
+37,12,27;13;1;39,Cheap short-living objects; The other way round; Segmentation; Inert atmosphere
+37,13,11;22;39;30,Beforehand cushioning; Blessing in disguise / Convert harm into benefit; Inert atmosphere; Flexible shells and thin films
+37,14,27;3;15;28,Cheap short-living objects; Local quality; Dynamics; Mechanics substitution
+37,15,19;29;39;25,Periodic action; Pneumatics and hydraulics; Inert atmosphere; Self-service
+37,16,25;34;6;35,Self-service; Discarding and recovering; Universality; Parameter changes
+37,17,3;27;35;16,Local quality; Cheap short-living objects; Parameter changes; Partial or excessive actions
+37,18,2;24;26,Taking out; Intermediary; Copying
+37,19,35;38,Parameter changes; Strong oxidants
+37,20,19;35;16,Periodic action; Parameter changes; Partial or excessive actions
+37,21,18;1;16;10,Mechanical vibration; Segmentation; Partial or excessive actions; Preliminary action
+37,22,35;3;15;19,Parameter changes; Local quality; Dynamics; Periodic action
+37,23,1;18;10;24,Segmentation; Mechanical vibration; Preliminary action; Intermediary
+37,24,35;33;27;22,Parameter changes; Homogeneity; Cheap short-living objects; Blessing in disguise / Convert harm into benefit
+37,25,18;28;32;9,Mechanical vibration; Mechanics substitution; Color changes; Preliminary anti-action
+37,26,3;27;29;18,Local quality; Cheap short-living objects; Pneumatics and hydraulics; Mechanical vibration
+37,27,27;40;28;8,Cheap short-living objects; Composite materials; Mechanics substitution; Anti-weight
+37,28,26;24;32;28,Copying; Intermediary; Color changes; Mechanics substitution
+37,30,22;19;29;28,Blessing in disguise / Convert harm into benefit; Periodic action; Pneumatics and hydraulics; Mechanics substitution
+37,31,2;21,Taking out; Skipping / Rushing
+37,32,5;28;11;29,Merging; Mechanics substitution; Beforehand cushioning; Pneumatics and hydraulics
+37,33,2;5,Taking out; Merging
+37,34,12;26,Equipotentiality; Copying
+37,35,1;15,Segmentation; Dynamics
+37,36,15;10;37;28,Dynamics; Preliminary action; Thermal expansion; Mechanics substitution
+37,38,34;21,Discarding and recovering; Skipping / Rushing
+37,39,35;18,Parameter changes; Mechanical vibration
+38,1,28;26;18;35,Mechanics substitution; Copying; Mechanical vibration; Parameter changes
+38,2,28;26;35;10,Mechanics substitution; Copying; Parameter changes; Preliminary action
+38,3,14;13;17;28,Spheroidality / Curvature; The other way round; Another dimension; Mechanics substitution
+38,5,17;14;13,Another dimension; Spheroidality / Curvature; The other way round
+38,7,35;13;16,Parameter changes; The other way round; Partial or excessive actions
+38,9,28;10,Mechanics substitution; Preliminary action
+38,10,2;35,Taking out; Parameter changes
+38,11,13;35,The other way round; Parameter changes
+38,12,15;32;1;13,Dynamics; Color changes; Segmentation; The other way round
+38,13,18;1,Mechanical vibration; Segmentation
+38,14,25;13,Self-service; The other way round
+38,15,6;9,Universality; Preliminary anti-action
+38,17,26;2;19,Copying; Taking out; Periodic action
+38,18,8;32;19,Anti-weight; Color changes; Periodic action
+38,19,2;32;13,Taking out; Color changes; The other way round
+38,21,28;2;27,Mechanics substitution; Taking out; Cheap short-living objects
+38,22,23;28,Feedback; Mechanics substitution
+38,23,35;10;18;5,Parameter changes; Preliminary action; Mechanical vibration; Merging
+38,24,35;33,Parameter changes; Homogeneity
+38,25,24;28;35;30,Intermediary; Mechanics substitution; Parameter changes; Flexible shells and thin films
+38,26,35;13,Parameter changes; The other way round
+38,27,11;27;32,Beforehand cushioning; Cheap short-living objects; Color changes
+38,28,28;26;10;34,Mechanics substitution; Copying; Preliminary action; Discarding and recovering
+38,29,28;26;18;23,Mechanics substitution; Copying; Mechanical vibration; Feedback
+38,30,2;33,Taking out; Homogeneity
+38,32,1;26;13,Segmentation; Copying; The other way round
+38,33,1;12;34;3,Segmentation; Equipotentiality; Discarding and recovering; Local quality
+38,34,1;35;13,Segmentation; Parameter changes; The other way round
+38,35,27;4;1;35,Cheap short-living objects; Asymmetry; Segmentation; Parameter changes
+38,36,15;24;10,Dynamics; Intermediary; Preliminary action
+38,37,34;27;25,Discarding and recovering; Cheap short-living objects; Self-service
+38,39,5;12;35;26,Merging; Equipotentiality; Parameter changes; Copying
+39,1,35;26;24;37,Parameter changes; Copying; Intermediary; Thermal expansion
+39,2,28;27;15;3,Mechanics substitution; Cheap short-living objects; Dynamics; Local quality
+39,3,18;4;28;38,Mechanical vibration; Asymmetry; Mechanics substitution; Strong oxidants
+39,4,30;7;14;26,Flexible shells and thin films; Nesting; Spheroidality / Curvature; Copying
+39,5,10;26;34;31,Preliminary action; Copying; Discarding and recovering; Porous materials
+39,6,10;35;17;7,Preliminary action; Parameter changes; Another dimension; Nesting
+39,7,2;6;34;10,Taking out; Universality; Discarding and recovering; Preliminary action
+39,8,35;37;10;2,Parameter changes; Thermal expansion; Preliminary action; Taking out
+39,10,28;15;10;36,Mechanics substitution; Dynamics; Preliminary action; Phase transitions
+39,11,10;37;14,Preliminary action; Thermal expansion; Spheroidality / Curvature
+39,12,14;10;34;40,Spheroidality / Curvature; Preliminary action; Discarding and recovering; Composite materials
+39,13,35;3;22;39,Parameter changes; Local quality; Blessing in disguise / Convert harm into benefit; Inert atmosphere
+39,14,29;28;10;18,Pneumatics and hydraulics; Mechanics substitution; Preliminary action; Mechanical vibration
+39,15,35;10;2;18,Parameter changes; Preliminary action; Taking out; Mechanical vibration
+39,16,20;10;16;38,Continuity of useful action; Preliminary action; Partial or excessive actions; Strong oxidants
+39,17,35;21;28;10,Parameter changes; Skipping / Rushing; Mechanics substitution; Preliminary action
+39,18,26;17;19;1,Copying; Another dimension; Periodic action; Segmentation
+39,19,35;10;38;19,Parameter changes; Preliminary action; Strong oxidants; Periodic action
+39,21,35;20;10,Parameter changes; Continuity of useful action; Preliminary action
+39,22,28;10;29;35,Mechanics substitution; Preliminary action; Pneumatics and hydraulics; Parameter changes
+39,23,28;10;35;23,Mechanics substitution; Preliminary action; Parameter changes; Feedback
+39,24,13;15;23,The other way round; Dynamics; Feedback
+39,26,35;38,Parameter changes; Strong oxidants
+39,27,1;35;10;38,Segmentation; Parameter changes; Preliminary action; Strong oxidants
+39,28,1;10;34;28,Segmentation; Preliminary action; Discarding and recovering; Mechanics substitution
+39,29,18;10;32;1,Mechanical vibration; Preliminary action; Color changes; Segmentation
+39,30,22;35;13;24,Blessing in disguise / Convert harm into benefit; Parameter changes; The other way round; Intermediary
+39,31,35;22;18;39,Parameter changes; Blessing in disguise / Convert harm into benefit; Mechanical vibration; Inert atmosphere
+39,32,35;28;2;24,Parameter changes; Mechanics substitution; Taking out; Intermediary
+39,33,1;28;7;10,Segmentation; Mechanics substitution; Nesting; Preliminary action
+39,34,1;32;10;25,Segmentation; Color changes; Preliminary action; Self-service
+39,35,1;35;28;37,Segmentation; Parameter changes; Mechanics substitution; Thermal expansion
+39,36,12;17;28;24,Equipotentiality; Another dimension; Mechanics substitution; Intermediary
+39,37,35;18;27;2,Parameter changes; Mechanical vibration; Cheap short-living objects; Taking out
+39,38,5;12;35;26,Merging; Equipotentiality; Parameter changes; Copying

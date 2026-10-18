@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Anatomy × Генрих — интеграция и тест</title>
+<style>
+  :root {
+    --bg: #f7f7f4;
+    --ink: #17181a;
+    --muted: #6b6f6d;
+    --hair: #d9dbd7;
+    --accent: #0e6a6e;
+    --mono: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+    --sans: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font-family: var(--sans); font-size: 15.5px; line-height: 1.55;
+    letter-spacing: 0.01em;
+  }
+  main { max-width: 780px; margin: 0 auto; padding: 56px 28px 72px; }
+  .kicker {
+    font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.14em;
+    text-transform: uppercase; color: var(--accent); margin: 0 0 18px;
+  }
+  h1 {
+    font-size: 34px; line-height: 1.12; letter-spacing: -0.015em;
+    font-weight: 600; margin: 0 0 14px;
+  }
+  .lede { font-size: 17px; color: var(--ink); margin: 0 0 22px; max-width: 62ch; }
+  .meta {
+    font-family: var(--mono); font-size: 12px; color: var(--muted);
+    border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair);
+    padding: 10px 0; margin: 0 0 40px; line-height: 1.9;
+  }
+  .meta b { color: var(--ink); font-weight: 500; }
+  h2 {
+    font-size: 13px; font-family: var(--mono); font-weight: 600;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    margin: 44px 0 14px; padding-top: 14px; border-top: 1px solid var(--hair);
+  }
+  p { margin: 0 0 12px; max-width: 68ch; }
+  ul { margin: 0 0 14px; padding-left: 18px; max-width: 68ch; }
+  li { margin: 0 0 7px; }
+  table { width: 100%; border-collapse: collapse; margin: 6px 0 16px; font-size: 14.5px; }
+  th, td { text-align: left; padding: 8px 10px 8px 0; border-bottom: 1px solid var(--hair); vertical-align: top; }
+  th { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); font-weight: 500; }
+  code { font-family: var(--mono); font-size: 12.8px; background: #eef0ec; padding: 1px 5px; }
+  .ok { font-family: var(--mono); font-size: 12.5px; color: var(--accent); }
+  .colophon {
+    margin-top: 52px; padding-top: 14px; border-top: 1px solid var(--hair);
+    font-family: var(--mono); font-size: 11.5px; color: var(--muted); line-height: 1.9;
+  }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Anatomy → агент «Генрих» · интеграция и тест · 2026-10-15</p>
+  <h1>Интерактивная изометрия как инструмент ТРИЗ-агента</h1>
+  <p class="lede">Скилл Anatomy встроен в контур агента и проверен на живой задаче: построена
+  интерактивная фигура концепции C1 «Самовзводящийся купол» (кейс «Защита предприятий от БПЛА»).
+  Фигура прошла геометрический аудит скилла, проверку линий и ревью владельца с правкой кинематики.</p>
+  <div class="meta">
+    Скилл · <b>wheresryan22/anatomy</b> @ bc943e4 · v1.1.0 · MIT · Agent Skills<br>
+    Установка · <b>.agents/skills/anatomy/</b> (агент triz; обновление — git pull)<br>
+    Фигура · <b>projects/anti-drone-defense/anatomy-zontik/</b> · тема light + dark · Node v22.14 · Chrome
+  </div>
+
+  <h2>1 · Что сделано</h2>
+  <ul>
+    <li>Скилл исследован и установлен в агент; прописан в <code>TOOLS.md</code> и <code>AGENTS.md</code> (когда применять, как запускать, куда писать артефакты).</li>
+    <li>Собран стенд C1: подвесная ступица с предвзведённым торсионом, кассета с «бутоном» рёбер и сети, две разрывные нити коридора, улавливающий карман, модель дыхательного клапана; верхний портал подвеса над зоной раскрытия.</li>
+    <li>Сценарий: клик или Space — нить рвётся, замок сбрасывает пакет, купол раскрывается за ~0,17 с; повтор — взвод. Без действий сам играет демо-цикл. Readout живёт из той же модели, что двигает детали.</li>
+  </ul>
+
+  <h2>2 · Проверки</h2>
+  <table>
+    <tr><th>Проверка</th><th>Инструмент</th><th>Результат</th></tr>
+    <tr><td>Геометрия (опоры, глубина, зазоры, циклы)</td><td><code>build.mjs --audit</code></td><td class="ok">audit passed · 74 солида · 39 items · 95 overlaps · 0 problems</td></tr>
+    <tr><td>Линии (концы не висят)</td><td><code>lines.mjs</code> × обе темы × обе позы</td><td class="ok">line ends: 0</td></tr>
+    <tr><td>Сессия управления</td><td><code>drive.mjs</code></td><td class="ok">armed → раскрыт 0,17 с → взведён; console clean</td></tr>
+    <tr><td>Slow-motion серия раскрытия</td><td><code>drive.mjs [slow 0.05] + sheet</code></td><td class="ok">без пересечений с металлом</td></tr>
+    <tr><td>Мобильная ширина</td><td><code>capture.mjs --width 390</code></td><td class="ok">390 px, без горизонтального скролла</td></tr>
+  </table>
+
+  <h2>3 · Ревью владельца и правка кинематики</h2>
+  <p>Замечание: «купол открывается сквозь перекладину перекрестия». Подтвердилось: нижняя
+  крестовина мачты лежала внутри объёма движения сети (кольца сети при промежуточных углах
+  пересекали балки — «прохождение сетки сквозь металл»).</p>
+  <p>Исправление: нижняя крестовина убрана; мачта подвешена сверху от нового верхнего портала
+  (четыре диагональных луча и тумба на угловых штырях, z 172–179); нити коридора крепятся
+  к разрывным муфтам на мачте и при обрыве провисают у мачты; стек ступицы переведён
+  на «post-stack» (кольца — сегменты цилиндров). Вся сеть движется в свободном объёме
+  (z 76…156, r ≤ 89) — все элементы рамы, портала и нитей вне него.</p>
+  <p>Итерация 3 (по ревью 02:19): ярус нитей вынесен на четыре мачты (≈5 м) и верхний пояс —
+  <b>выше всей конструкции</b>; 6 нитей с шагом ≈0,5 м (центральные — по осям узла).
+  Высота яруса над куполом ≈4,9 м — расчётная: путь пикирующего дрона за время раскрытия
+  <code>V·t + g·t²/2</code> (100 км/ч, 0,17 с; для 150 км/ч и 0,3 с — ≈12,9 м). Ярус — первый
+  контакт на пути дрона; при обрыве центральных нитей купол успевает раскрыться до прилёта.</p>
+
+  <h2>4 · Как пользоваться</h2>
+  <ul>
+    <li>Открыть <code>zontik-light.html</code> (или <code>zontik.html</code>) в браузере — клик или Space; без действий включается демо-цикл.</li>
+    <li>Пересборка: <code>node build.mjs</code> / <code>--light</code>; проверки: <code>--audit</code>, <code>scripts/lines.mjs</code>, <code>scripts/capture.mjs</code>.</li>
+    <li>Триггеры скилла: изометрическая иллюстрация, объясняющая фигура для отчёта/статьи, интерактивный эксплейнер. Не для графиков данных.</li>
+  </ul>
+
+  <p class="colophon">Файлы · zontik-light.html · zontik.html · README.md · shots/ (скриншоты и slow-motion серия)<br>
+  Скилл: .agents/skills/anatomy (SKILL.md → воркфлоу; kit/, references/, scripts/) · Подготовлено агентом AutoClaw</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,441 @@
+principles:
+- id: 1
+  name: Segmentation
+  description: Divide an object into independent parts
+  sub_principles:
+  - Divide an object into independent parts
+  - Make an object easy to disassemble
+  - Increase the degree of fragmentation or segmentation
+  examples:
+  - Modular furniture
+  - Sectional sofas
+  - Replaceable parts
+- id: 2
+  name: Taking out
+  description: Separate an interfering part or property from an object
+  sub_principles:
+  - Separate an interfering part or property from an object
+  - Single out the only useful part or property of an object
+  - Isolate the harmful or interfering parts
+  examples:
+  - Noise reduction headphones
+  - Water filtration
+  - Heat shields
+- id: 3
+  name: Local quality
+  description: Change the structure from uniform to non-uniform
+  sub_principles:
+  - Change the structure of an object from uniform to non-uniform
+  - Make each part of an object fulfill a different function
+  - Make each part of an object work under conditions most suitable for its operation
+  examples:
+  - Ergonomic tools
+  - Multi-zone air conditioning
+  - Variable thickness materials
+- id: 4
+  name: Asymmetry
+  description: Change the shape from symmetrical to asymmetrical
+  sub_principles:
+  - Change the shape of an object from symmetrical to asymmetrical
+  - If an object is asymmetrical, increase its degree of asymmetry
+  examples:
+  - Asymmetrical car design for aerodynamics
+  - Offset handles
+  - Unequal wing configurations
+- id: 5
+  name: Merging
+  description: Bring closer together identical or similar objects
+  sub_principles:
+  - Merge identical or similar objects, assemble identical parts to perform parallel
+    operations
+  - Make operations contiguous or parallel; bring them together in time
+  examples:
+  - Parallel processing
+  - Multi-core processors
+  - Assembly line operations
+- id: 6
+  name: Universality
+  description: Make a part or object perform multiple functions
+  sub_principles:
+  - Make a part or object perform multiple functions, thereby eliminating the need
+    for other parts
+  examples:
+  - Swiss army knife
+  - Smartphone (camera, phone, computer)
+  - Multi-tool devices
+- id: 7
+  name: Nesting
+  description: Place one object inside another
+  sub_principles:
+  - Place one object inside another; place each object, in turn, inside the other
+  - Make one part pass through a cavity in the other
+  examples:
+  - Russian dolls
+  - Telescoping structures
+  - Nested containers
+- id: 8
+  name: Anti-weight
+  description: Compensate for the weight of an object
+  sub_principles:
+  - To compensate for the weight of an object, merge it with other objects that provide
+    lift
+  - To compensate for the weight of an object, make it interact with the environment
+  examples:
+  - Hot air balloons
+  - Hydrofoils
+  - Magnetic levitation
+- id: 9
+  name: Preliminary anti-action
+  description: Perform the opposite action in advance
+  sub_principles:
+  - If it will be necessary to do an action with both harmful and useful effects,
+    this action should be replaced with anti-actions to control harmful effects
+  - Create beforehand stresses in an object that will oppose known undesirable working
+    stresses later on
+  examples:
+  - Prestressed concrete
+  - Vaccine immunization
+  - Pre-loading mechanisms
+- id: 10
+  name: Preliminary action
+  description: Perform the required change in advance
+  sub_principles:
+  - Perform, before it is needed, the required change of an object (either fully or
+    partially)
+  - Pre-arrange objects such that they can come into action from the most convenient
+    place
+  examples:
+  - Pre-cut materials
+  - Ready-to-assemble furniture
+  - Pre-positioned tools
+- id: 11
+  name: Beforehand cushioning
+  description: Prepare emergency measures beforehand; compensate for low reliability
+    with pre-arranged safety measures
+  sub_principles:
+  - Prepare emergency measures in advance to handle failures
+  - Compensate relatively low reliability with pre-set safety measures (cushions,
+    backups, limiters, fail-safes)
+  examples:
+  - Airbag in cars
+  - Reserve parachute
+  - Safety valve / fuse
+  - UPS backup power
+- id: 12
+  name: Equipotentiality
+  description: Change working conditions so that objects need not be raised or lowered
+  sub_principles:
+  - Change working conditions to eliminate the need to raise or lower objects
+  - Use gravity-friendly layouts; position work at optimal height
+  - Relate objects to a common reference potential
+  examples:
+  - Gravity-fed pipelines instead of pumping
+  - Ground-level assembly, then lift whole unit
+  - Spring-loaded part feeders at workstation height
+- id: 13
+  name: The other way round
+  description: Invert the action, orientation, arrangement, or process
+  sub_principles:
+  - Instead of the direct action, do the inverse
+  - Make a movable part fixed, and vice versa
+  - Turn the object upside down or inside out
+  - Use heating instead of cooling (or vice versa)
+  examples:
+  - Tumble finishing instead of polishing by hand
+  - Rotate the pipe instead of the welder
+  - Slow-cook at low heat instead of searing
+- id: 14
+  name: Spheroidality / Curvature
+  description: Use curves instead of straight lines; rotate parts; move from flat
+    to spherical
+  sub_principles:
+  - Replace linear parts/motion with curved ones
+  - Use rollers, balls, spirals, domes
+  - Switch from linear to rotary motion; use centrifugal effects
+  examples:
+  - Ball bearings instead of sliding
+  - Corrugated panels for stiffness
+  - Rotary compressor instead of piston
+- id: 15
+  name: Dynamics
+  description: Allow or design the object to be adaptive
+  sub_principles:
+  - Allow (or design) the object to adapt automatically to optimal operating conditions
+  - Divide an object into parts capable of movement relative to each other
+  - If an object (or process) is rigid or inflexible, make it movable or adaptive
+  examples:
+  - Variable compression engines
+  - Adjustable suspensions
+  - Adaptive optics
+- id: 16
+  name: Partial or excessive actions
+  description: If 100% of a goal is hard, do a little more or a little less
+  sub_principles:
+  - Slightly under- or over-shoot the target to simplify the process
+  - Achieve most of the result with much less effort
+  examples:
+  - Pre-fill to 110% then trim
+  - Slightly over-etch to guarantee cleanliness
+  - Fill a barrel partly to make pouring easy
+- id: 17
+  name: Another dimension
+  description: Move to another dimension; use multi-layer or vertical arrangements
+  sub_principles:
+  - Move an object in two- or three-dimensional space instead of one
+  - Use multi-storey layout instead of single-storey
+  - Tilt or re-orient the object; use another side of a given area
+  examples:
+  - Parking garage ramps (spiral)
+  - Curved radiator increases area in same footprint
+  - Screw threads use helix (2D rotation + 1D advance)
+- id: 18
+  name: Mechanical vibration
+  description: Cause an object to oscillate or vibrate; increase frequency
+  sub_principles:
+  - Make an object vibrate or oscillate
+  - Increase frequency of oscillation (up to ultrasonic)
+  - Use resonance; use piezoelectric vibrators instead of mechanical
+  - Use ultrasonic vibrations combined with electromagnetic fields
+  examples:
+  - Ultrasonic cleaning
+  - Vibratory conveyors
+  - Resonant frequency mixing of materials
+- id: 19
+  name: Periodic action
+  description: Replace continuous action with periodic or pulsed
+  sub_principles:
+  - Replace continuous action with periodic/pulsed action
+  - Vary amplitude or frequency of the periodic action
+  - Use pauses between impulses to perform another action
+  examples:
+  - Pulsed watering saves water
+  - Pulse welding reduces heat distortion
+  - 'Heartbeat of the process: fill-pause-drain'
+- id: 20
+  name: Continuity of useful action
+  description: Carry on work continuously; make all parts work at full load all the
+    time
+  sub_principles:
+  - Make continuous operation of an object; eliminate idle runs
+  - Reverse to idle motion of the object (make the tool move instead)
+  - Use inertial to store energy between pulses
+  examples:
+  - Continuous casting
+  - Flywheel energy storage
+  - Rotate tool instead of the part
+- id: 21
+  name: Skipping / Rushing
+  description: Conduct harmful or hazardous process quickly/at high speed
+  sub_principles:
+  - Conduct a process or its stages at high speed
+  - Do the harmful step so fast that damage cannot develop
+  examples:
+  - Quench steel instantly
+  - High-speed cutting avoids heat-affected zone
+  - Flash pasteurization
+  - Rapid mold release before adhesion forms
+- id: 22
+  name: Blessing in disguise / Convert harm into benefit
+  description: Exploit harm or waste; combine harms to cancel; remove the harmful
+    factor by adding another
+  sub_principles:
+  - Use waste (material/energy/info) from one process in another
+  - Combine two harmful factors to neutralize them
+  - Intensify the harm until it becomes harmless/useless
+  examples:
+  - Use waste heat for preheating
+  - Acid + base waste neutralize each other
+  - Counterweight from scrap metal
+- id: 23
+  name: Feedback
+  description: Introduce feedback to improve a process or action
+  sub_principles:
+  - 'Introduce feedback: measure results and adjust input'
+  - If feedback already exists, change its magnitude or influence
+  examples:
+  - Thermostat control
+  - Self-adjusting bearing clearance
+  - Adaptive suspension reacts to road
+- id: 24
+  name: Intermediary
+  description: Use an intermediary carrier article or process
+  sub_principles:
+  - Use an intermediary substance or process to transfer/transform action
+  - Merge one object temporarily with another (easily separable later)
+  examples:
+  - Flux in soldering
+  - Mechanic's gripper holds the part
+  - Catalyst speeds reaction without being consumed
+- id: 25
+  name: Self-service
+  description: Make an object serve itself; use waste resources/energy
+  sub_principles:
+  - Make the object service/repair itself
+  - Use waste energy/materials from the object to assist the process
+  - Self-compensating, self-balancing arrangements
+  examples:
+  - Self-sharpening plow blade
+  - Regenerative braking charges battery
+  - Self-cleaning oven burns off residue
+- id: 26
+  name: Copying
+  description: Use simple inexpensive copies instead of unavailable/fragile originals
+  sub_principles:
+  - Replace an object/system with a simple copy
+  - Replace an object with optical or acoustic copies (images, sound)
+  - Use scaled-up or scaled-down / virtual models instead of the real object
+  examples:
+  - Photograph instead of sampling in person
+  - Simulation instead of physical test
+  - 3D-printed mock-up for fit checks
+  - Virtual wind tunnel
+- id: 27
+  name: Cheap short-living objects
+  description: Replace an expensive durable object with many cheap disposable ones
+  sub_principles:
+  - Replace an expensive object with multiple cheap ones, sacrificing quality (partial
+    loss)
+  - Expendable cheap objects for short-term duty
+  examples:
+  - Disposable paper gowns
+  - Single-use molds from sand
+  - Sacrificial anode corrodes to protect
+- id: 28
+  name: Mechanics substitution
+  description: Replace mechanical means with sensory/optical/acoustic/electromagnetic
+    fields
+  sub_principles:
+  - 'Replace mechanical fields/interactions with fields: electromagnetic, optical,
+    acoustic'
+  - Interact with fields instead of objects (contactless)
+  - Change from static to mobile fields; from unstructured to structured
+  examples:
+  - Magnetic coupling through a sealed wall
+  - Induction heating instead of flame
+  - Laser alignment instead of rods
+- id: 29
+  name: Pneumatics and hydraulics
+  description: Use gas and liquid instead of solid parts
+  sub_principles:
+  - Use gas or liquid as working elements instead of solids
+  - Inflate/fill with fluid; use air/hydraulic cushioning
+  - Use fluidized beds; use bubbles/foam
+  examples:
+  - Air bags
+  - Hydraulic lift
+  - Inflatable structures; air bearings
+- id: 30
+  name: Flexible shells and thin films
+  description: Use flexible shells and thin films instead of rigid structures
+  sub_principles:
+  - Isolate the object from environment with flexible shells/thin films
+  - Use thin flexible membranes, foil, inflatable constructions
+  examples:
+  - Inflatable boats/domes
+  - Film greenhouse instead of glass
+  - Bubble wrap
+- id: 31
+  name: Porous materials
+  description: Make an object porous or add porous elements
+  sub_principles:
+  - Make an object porous or add porous elements (inserts, coatings)
+  - If already porous, fill pores with a useful substance
+  examples:
+  - Powder metallurgy parts self-lubricate (oil in pores)
+  - Porous bearings
+  - Foam metal for light stiff parts
+- id: 32
+  name: Color changes
+  description: Change the color or transparency of an object or its environment
+  sub_principles:
+  - Change color/transparency of object or environment
+  - Use colored additives or tracers to observe processes
+  - Use luminescent/IR markers; change emissivity
+  examples:
+  - Photochromic lenses
+  - Thermal imaging paint for hot spots
+  - Color indicator reveals leaks
+- id: 33
+  name: Homogeneity
+  description: Make interacting objects of the same material (or nearly the same)
+  sub_principles:
+  - Make interacting objects from the same material or one with similar properties
+  - Identical materials avoid corrosion pairs and contamination
+  examples:
+  - Ice bullets of frozen same-material
+  - Graft from own tissue
+  - Containers of the same material as contents (no contamination)
+- id: 34
+  name: Discarding and recovering
+  description: Discard useless parts once used; restore consumables in-place
+  sub_principles:
+  - After a function is done, make the part disappear (dissolve, evaporate, melt)
+  - Restore consumable parts directly in operation
+  examples:
+  - Biodegradable sutures dissolve
+  - Dissolvable capsule shell
+  - Self-healing coatings; recharge in situ
+- id: 35
+  name: Parameter changes
+  description: Change an object's physical or chemical state
+  sub_principles:
+  - Change the physical and/or chemical states of an object
+  - Change the concentration or consistency
+  - Change the degree of flexibility
+  - Change the temperature
+  examples:
+  - Phase-change materials
+  - Smart materials
+  - Variable viscosity fluids
+- id: 36
+  name: Phase transitions
+  description: Use phenomena occurring during phase transitions
+  sub_principles:
+  - Exploit volume/latent-heat/property changes at phase change
+  - Melting, evaporation, condensation, sublimation, freezing for effect
+  examples:
+  - Heat pipe uses evaporation-condensation cycle
+  - Shape-memory alloy (solid-solid transition)
+  - Ice expand to grip parts
+- id: 37
+  name: Thermal expansion
+  description: Use thermal expansion or contraction of materials
+  sub_principles:
+  - Use expansion/contraction from heating/cooling
+  - Use dissimilar expansion coefficients of bimetal
+  examples:
+  - Shrink-fit assembly (heat hub, cool shaft)
+  - Bimetal thermostat bends
+  - Thermal-expansion voids take up slack
+- id: 38
+  name: Strong oxidants
+  description: Replace normal air with enriched/activated oxygen; ionize environment
+  sub_principles:
+  - Replace common air with oxygen-enriched air
+  - Replace enriched air with pure oxygen
+  - Ionize/ozone/UV-activate the environment; use energetic ions
+  examples:
+  - Oxy-fuel cutting
+  - Ozone water treatment
+  - UV-cure adhesives
+- id: 39
+  name: Inert atmosphere
+  description: Replace normal environment with inert or neutral one
+  sub_principles:
+  - Replace air with inert gas or vacuum
+  - Use inert additives/fire retardants
+  examples:
+  - Weld under argon
+  - Vacuum metallizing
+  - Nitrogen blanketing of fuel tanks
+- id: 40
+  name: Composite materials
+  description: Change from uniform to composite (multiple materials) materials
+  sub_principles:
+  - Replace homogeneous material with a composite
+  - Layer/fiber/particle reinforcement for direction-dependent properties
+  examples:
+  - Fiberglass
+  - Reinforced concrete
+  - Carbon-fiber bike frame
+  - Kevlar vest

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C4 · Acoustic dipole — a passive UAV direction finder</title>
+<meta name="description" content="Concept C4 “Differential Dipole”: a passive acoustic UAV direction finder inspired by the hearing of the fly Ormia ochracea. Interactive rig, physics, limits of applicability.">
+<style>
+  :root {
+    --bg: #fbfaf8;
+    --ink: #141414;
+    --body: #2e2d2a;
+    --muted: #73716c;
+    --hair: #e6e3dd;
+    --accent: #b4522f;
+    --accent-soft: #f2e6df;
+    --mono: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+    --sans: "Helvetica Neue", "Avenir Next", "Segoe UI", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--body);
+    font-family: var(--sans); font-size: 16px; line-height: 1.68;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--ink); text-decoration: none; }
+  a:hover { color: var(--accent); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 36px; }
+  .narrow { max-width: 760px; }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 84px 0 64px; border-bottom: 1px solid var(--hair); }
+  .topline {
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-family: var(--mono); font-size: 11px; letter-spacing: .18em;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 96px;
+  }
+  .topline b { color: var(--ink); font-weight: 500; }
+  .kicker {
+    font-family: var(--mono); font-size: 11px; letter-spacing: .22em;
+    text-transform: uppercase; color: var(--accent); margin: 0 0 28px;
+  }
+  h1 {
+    font-size: clamp(44px, 7.2vw, 96px); line-height: .98; letter-spacing: -0.035em;
+    font-weight: 200; margin: 0 0 28px; color: var(--ink);
+  }
+  .sub {
+    font-size: clamp(18px, 2vw, 23px); line-height: 1.5; font-weight: 300;
+    color: var(--body); max-width: 34ch; margin: 0 0 56px;
+  }
+  .meta-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+    border-top: 1px solid var(--hair); padding-top: 22px; max-width: 860px;
+  }
+  .meta-grid div { font-size: 13px; color: var(--muted); }
+  .meta-grid b { display: block; color: var(--ink); font-weight: 500; font-size: 14px; margin-bottom: 2px; }
+
+  /* ---------- sections ---------- */
+  section { padding: 112px 0; border-bottom: 1px solid var(--hair); }
+  section:last-of-type { border-bottom: 0; }
+  .label {
+    font-family: var(--mono); font-size: 11px; letter-spacing: .22em;
+    text-transform: uppercase; color: var(--muted); margin: 0 0 26px;
+  }
+  .label span { color: var(--accent); }
+  h2 {
+    font-size: clamp(28px, 3.2vw, 40px); line-height: 1.15; letter-spacing: -0.02em;
+    font-weight: 300; color: var(--ink); margin: 0 0 28px; max-width: 24ch;
+  }
+  .lead { font-size: 19px; line-height: 1.7; font-weight: 300; max-width: 62ch; margin: 0 0 24px; }
+  p { max-width: 66ch; margin: 0 0 16px; }
+  .cols { display: grid; grid-template-columns: 300px 1fr; gap: 64px; align-items: start; }
+  .cols .label { margin-top: 8px; }
+
+  blockquote {
+    margin: 36px 0 0; padding: 28px 32px; border-left: 2px solid var(--accent);
+    background: #fff; font-size: 18px; line-height: 1.65; font-weight: 300; color: var(--ink);
+    box-shadow: 0 24px 60px rgba(20,20,20,.05);
+  }
+  blockquote cite {
+    display: block; margin-top: 14px; font-family: var(--mono); font-size: 11px;
+    letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-style: normal;
+  }
+
+  /* ---------- steps ---------- */
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; margin-top: 12px; }
+  .step { border-top: 1px solid var(--hair); padding-top: 22px; }
+  .step .num {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .14em; color: var(--accent);
+    display: block; margin-bottom: 18px;
+  }
+  .step h3 { font-size: 17px; font-weight: 500; margin: 0 0 10px; color: var(--ink); }
+  .step p { font-size: 14.5px; color: var(--muted); margin: 0; }
+
+  /* ---------- figure ---------- */
+  figure.shot { margin: 0; }
+  figure.shot img { width: 100%; height: auto; display: block; border: 1px solid var(--hair); background: #fff;
+    box-shadow: 0 36px 90px rgba(20,20,20,.09); }
+  figcaption {
+    margin-top: 16px; font-size: 13.5px; color: var(--muted); max-width: 72ch;
+  }
+  .actions { display: flex; gap: 34px; flex-wrap: wrap; margin-top: 34px; }
+  .go {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--ink); border-bottom: 1px solid var(--ink); padding-bottom: 6px;
+  }
+  .go:hover { color: var(--accent); border-color: var(--accent); }
+  .go.secondary { color: var(--muted); border-color: var(--hair); }
+  .go.secondary:hover { color: var(--accent); border-color: var(--accent); }
+  .note { font-size: 13px; color: var(--muted); margin-top: 16px; }
+
+  /* ---------- formula ---------- */
+  .formula {
+    margin: 8px 0 44px; padding: 52px 24px; text-align: center;
+    border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); background: #fff;
+  }
+  .formula .eq { font-family: var(--mono); font-size: clamp(20px, 3vw, 30px); letter-spacing: .02em; color: var(--ink); }
+  .formula .defs { margin-top: 18px; font-family: var(--mono); font-size: 12px; letter-spacing: .08em; color: var(--muted); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  thead th {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--muted); font-weight: 500; text-align: left; padding: 0 12px 12px 0;
+    border-bottom: 1px solid var(--ink);
+  }
+  tbody td { padding: 14px 12px 14px 0; border-bottom: 1px solid var(--hair); }
+  tbody td.num, thead th.num { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  tbody tr:last-child td { border-bottom: 1px solid var(--ink); }
+  .table-note { margin-top: 14px; font-size: 12.5px; color: var(--muted); }
+
+  .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px; margin: 56px 0 0; }
+  .metric { border-top: 1px solid var(--hair); padding-top: 20px; }
+  .metric .v { font-family: var(--mono); font-size: clamp(26px, 3.4vw, 38px); letter-spacing: -.02em; color: var(--ink); }
+  .metric .v small { font-size: 15px; color: var(--muted); letter-spacing: 0; }
+  .metric .v.phrase { font-size: clamp(19px, 2.1vw, 24px); letter-spacing: 0; line-height: 1.4; padding-top: 4px; }
+  .metric .k { font-size: 13px; color: var(--muted); margin-top: 8px; max-width: 26ch; }
+
+  /* ---------- gallery ---------- */
+  .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  .gallery figure img { width: 100%; height: auto; display: block; border: 1px solid var(--hair); background: #fff; }
+  .gallery figcaption { margin-top: 12px; font-size: 12.5px; }
+
+  /* ---------- lists ---------- */
+  ul.clean { list-style: none; padding: 0; margin: 0; max-width: 66ch; }
+  ul.clean li { padding: 16px 0; border-bottom: 1px solid var(--hair); font-size: 15.5px; }
+  ul.clean li b { font-weight: 500; color: var(--ink); }
+
+  .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px; }
+  .card { background: #fff; border: 1px solid var(--hair); padding: 30px 30px 26px; box-shadow: 0 24px 60px rgba(20,20,20,.04); }
+  .card h3 { margin: 0 0 10px; font-size: 16px; font-weight: 500; color: var(--ink); }
+  .card p { font-size: 14px; color: var(--muted); margin: 0; }
+  .card a { border-bottom: 1px solid var(--accent); color: var(--ink); }
+  .card a:hover { color: var(--accent); }
+
+  /* ---------- sources ---------- */
+  ol.src { padding-left: 22px; margin: 0; max-width: 72ch; color: var(--muted); font-size: 14px; }
+  ol.src li { margin-bottom: 12px; }
+  ol.src a { color: var(--ink); border-bottom: 1px solid var(--hair); }
+  ol.src a:hover { color: var(--accent); border-color: var(--accent); }
+
+  footer { padding: 72px 0 96px; }
+  footer .wrap { display: flex; justify-content: space-between; gap: 32px; flex-wrap: wrap; align-items: baseline; }
+  footer p { margin: 0; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  footer .sig { color: var(--ink); }
+
+  @media (max-width: 900px) {
+    .hero { padding: 56px 0 48px; }
+    .topline { margin-bottom: 56px; }
+    section { padding: 76px 0; }
+    .cols { grid-template-columns: 1fr; gap: 24px; }
+    .steps { grid-template-columns: 1fr 1fr; gap: 32px; }
+    .gallery { grid-template-columns: 1fr; }
+    .cards { grid-template-columns: 1fr; }
+    .metrics { grid-template-columns: 1fr; gap: 24px; }
+    .meta-grid { grid-template-columns: 1fr; gap: 14px; }
+  }
+  @media (max-width: 700px) {
+    .topline { flex-direction: column; align-items: flex-start; gap: 8px; }
+    .topline span { white-space: normal; }
+    body { overflow-x: hidden; }
+  }
+  @media (max-width: 560px) {
+    .wrap { padding: 0 22px; }
+    .steps { grid-template-columns: 1fr; }
+    .formula { padding: 36px 12px; }
+    blockquote { padding: 22px; }
+  }
+  @media print {
+    body { background: #fff; }
+    .hero { padding: 24px 0 32px; }
+    section { padding: 36px 0; break-inside: avoid; }
+    .actions { display: none; }
+    .shot, .card, li { break-inside: avoid; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="topline">
+      <span><b>C4</b> · passive acoustic direction finder</span>
+      <span>Track B · competition entry · 2026 · <a href="../ru/index.html">RU</a></span>
+    </div>
+    <p class="kicker">Biomimetics · passive detection</p>
+    <h1>To hear,<br>without emitting</h1>
+    <p class="sub">Acoustic dipole C4 — directivity from geometry, not from transmitter power.</p>
+    <div class="meta-grid">
+      <div><b>Concept status</b>CONSIDER · 32/50 in the Track B report</div>
+      <div><b>Patent check</b>category N2 · no Ormia-type scheme for UAVs found</div>
+      <div><b>Demonstrator</b>interactive rig · 3D isometric</div>
+    </div>
+  </div>
+</header>
+
+<section id="abstract">
+  <div class="wrap">
+    <div class="cols">
+      <p class="label"><span>00</span> · Abstract</p>
+      <div>
+        <p class="lead">C4 “Differential Dipole” is a passive acoustic direction finder for detecting UAVs without any emission of its own. A pair of receiving membranes on a short baseline (0.30 m) is mechanically coupled after the model of the hearing of the fly <i>Ormia ochracea</i>: noise common to both channels is subtracted before the decision stage, and the bearing to the source is computed from the time difference of arrival (TDOA).</p>
+        <p>A vertical offset of the receivers (the owl motif) reserves a channel for elevation. The device only receives and emits nothing; the absence of spectrum licensing requirements is a question for a lawyer, not an engineering fact. Subtraction makes reception more robust to non-directional interference, but interference arriving from the target's direction, and vibration, are not suppressed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="idea">
+  <div class="wrap">
+    <div class="cols">
+      <p class="label"><span>01</span> · Idea</p>
+      <div>
+        <h2>Directivity without a large antenna</h2>
+        <p>Acoustic location usually requires either a baseline comparable to the wavelength, or a multi-element array with digital beamforming. A dipole solves the same problem with geometry: two membranes on a short baseline hear the same noise, but at different phases. The mechanical link — like the tympana of the Ormia fly — acts as an analogue subtractor: the common-mode part is cancelled, the differential part remains and carries the direction.</p>
+        <p>The key consequence: the target's weak signal does not have to be shouted down — it has to be separated out. Common site, ventilation and wind noise reaches both membranes almost equally, so common-mode noise cancellation raises the signal-to-noise ratio before the decision stage, not after it.</p>
+        <blockquote>
+          “Paired acoustic receivers with a mechanical/electrical link: noise common to the pair is subtracted, leaving a differential signal that carries direction; asymmetric positions of the pair (as in the owl — vertical offset) give a 3D estimate. SNR grows through geometry, not power.”
+          <cite>Track B · concepts, C4</cite>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="principle">
+  <div class="wrap">
+    <p class="label"><span>02</span> · Operating principle</p>
+    <div class="steps">
+      <div class="step">
+        <span class="num">01</span>
+        <h3>Reception</h3>
+        <p>Two membranes on a 0.30 m baseline pick up the sound of the propellers — hundreds of hertz to a few kilohertz.</p>
+      </div>
+      <div class="step">
+        <span class="num">02</span>
+        <h3>Subtraction</h3>
+        <p>Site noise arrives in common mode; the mechanical link subtracts it before the decision stage — Principle No. 2, Taking out.</p>
+      </div>
+      <div class="step">
+        <span class="num">03</span>
+        <h3>Difference</h3>
+        <p>The target signal arrives with a delay τ = d·sinθ/c — up to ≈0.82 ms at the edge of the ±70° sector.</p>
+      </div>
+      <div class="step">
+        <span class="num">04</span>
+        <h3>Bearing</h3>
+        <p>The sign and magnitude of the delay give the direction; the vertical offset (the owl motif) is a reserve for elevation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stand">
+  <div class="wrap">
+    <p class="label"><span>03</span> · Demonstrator</p>
+    <h2>A rig you can spin around</h2>
+    <figure class="shot">
+      <img src="../assets/img/dipole-aim-en.png" alt="Interactive C4 rig: a dipole on a mast, a rotating boom with a quadcopter mock-up, and an instrument box with a semicircular scale">
+      <figcaption>3D model of the C4 rig (not a photograph of a prototype): a dipole on a mast, a rotating boom with a quadcopter mock-up, an instrument box with a bearing scale, and a ventilation unit — the source of common noise. The drone is guided along an arc; the T key or a click turns the site noise on.</figcaption>
+    </figure>
+    <div class="actions">
+      <a class="go" href="../assets/dipole-light-en.html">Open the rig · light theme →</a>
+      <a class="go secondary" href="../assets/dipole-en.html">dark theme</a>
+    </div>
+    <ul class="clean" style="margin-top:44px">
+      <li><b>You steer the drone</b> — the needle on the scale follows the bearing, and the readout carries τ and Δφ from the same model that drives the parts.</li>
+      <li><b>You switch the noise on</b> — the needle stays silent: common noise has been subtracted by the channel coupling. That is Principle No. 2 in the model.</li>
+      <li><b>Broadside to the baseline</b> the difference is zero; at the edge of the sector it is maximal: the geometry becomes visible at a glance.</li>
+    </ul>
+    <p class="note">Controls: mouse or arrow keys — source azimuth; T or click — common-noise mode; reduced animation — prefers-reduced-motion.</p>
+  </div>
+</section>
+
+<section id="numbers">
+  <div class="wrap">
+    <p class="label"><span>04</span> · Physics and numbers</p>
+    <h2>Time difference of arrival as an angle gauge</h2>
+    <div class="formula">
+      <div class="eq">τ = d · sin θ ⁄ c</div>
+      <div class="defs">d = 0.30 m · c = 343 m/s · f₀ = 500 Hz · Δφ = 360° · f₀ · τ</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Source angle θ</th><th class="num">Arrival difference τ</th><th class="num">Phase difference Δφ (500 Hz)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>30°</td><td class="num">0.44 ms</td><td class="num">79°</td></tr>
+        <tr><td>42°</td><td class="num">0.59 ms</td><td class="num">105°</td></tr>
+        <tr><td>60°</td><td class="num">0.76 ms</td><td class="num">136°</td></tr>
+        <tr><td>70° (sector edge)</td><td class="num">0.82 ms</td><td class="num">148°</td></tr>
+      </tbody>
+    </table>
+    <p class="table-note">Illustrative values for a 0.30 m baseline; the rig uses the same model. The numbers are case reference points [estimate], not measurement results. The phase difference Δφ is derived from the same delay at f₀ = 500 Hz.</p>
+    <div class="metrics">
+      <div class="metric"><div class="v">0.30 <small>m</small></div><div class="k">dipole baseline — the distance between the membranes</div></div>
+      <div class="metric"><div class="v">300–500 <small>m</small></div><div class="k">Track B target for the acoustic channel — not a measurement and not a property of C4</div></div>
+      <div class="metric"><div class="v phrase">hundreds of Hz — a few kHz</div><div class="k">blade harmonics of the propellers: the operating band of reception</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <p class="label"><span>05</span> · Rig details</p>
+    <h2>Three views</h2>
+    <div class="gallery">
+      <figure>
+        <img src="../assets/img/dipole-node.png" alt="Close-up of the dipole node: two membranes on a rocker arm, alignment screws, difference needle">
+        <figcaption>Dipole node: membranes on a rocker arm, alignment screws, difference needle — the mechanical coupling of the channels.</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/img/dipole-panel.png" alt="Instrument box with a semicircular bearing scale, a needle, buttons and ventilation slots">
+        <figcaption>Bearing panel: semicircular scale, needle, buttons; a “C4” nameplate on the plate.</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/img/dipole-noise.png" alt="Common-noise mode: waves from the ventilation unit, the bearing needle stays silent">
+        <figcaption>Common-noise mode: waves from the ventilation unit reach both membranes in phase — subtraction, the needle stays silent.</figcaption>
+      </figure>
+    </div>
+    <p class="note">The frames are renders of the interactive 3D model, not photographs of a mock-up.</p>
+  </div>
+</section>
+
+<section id="limits">
+  <div class="wrap">
+    <div class="cols">
+      <p class="label"><span>06</span> · Limits</p>
+      <div>
+        <h2>An honest status</h2>
+        <ul class="clean">
+          <li><b>The concept is groundwork.</b> In the Track B report C4 has a verdict of CONSIDER (32): before implementation come vibration isolation, wind protection, auto-calibration of channel matching, and integration into a receiving array.</li>
+          <li><b>Passivity means reception only.</b> No emitters — no spectrum licences; but the “legal maximum” is a legal assessment and should be confirmed by a lawyer. In a noisy environment what wins is subtraction, not a “miracle range”.</li>
+          <li><b>Sensitivity to wind and vibration</b> is fundamental to Ormia mechanics: the channel difference amplifies both the wanted signal and parasitic vibration.</li>
+          <li><b>Range and weather.</b> Acoustics depends on background, wind and propeller type; in rain and strong wind it degrades first.</li>
+          <li><b>Not a patent guarantee.</b> N2 is a preliminary novelty assessment, not a legal opinion; consult a patent attorney before filing.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="trace">
+  <div class="wrap">
+    <div class="cols">
+      <p class="label"><span>07</span> · TRIZ trace</p>
+      <div>
+        <h2>Where the solution comes from</h2>
+        <p><b>Principle:</b> No. 2, Taking out — separate (technically, subtract) the component common to the channels before the decision stage. This is the only principle assigned to C4 in the track; formally the matrix for the pair 37↔27 recommends No. 27, No. 40, No. 28 and No. 8 — C4 does not come from it, but from the Ormia effect pattern.</p>
+        <p><b>Effects:</b> the mechanically coupled tympana of <i>Ormia ochracea</i> (JASA 98(6), 1995; Nature Microsystems &amp; Nanoengineering, s41378-022-00389-9; DTIC ADA543237); the asymmetric ears and facial disc of the owl (owlpages) — vertical offset and passive gain; MEMS microphones and machine learning for passive drone localisation (Acta Acustica, 2026).</p>
+        <p><b>Patent check:</b> category N2. The closest analogues are CN121509862A (differential arrays), WO2024147731A1 and NL2028629B1 (biomimetic microphones — hearing devices). No Ormia-dipole schemes for UAVs were found in the databases checked.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="materials">
+  <div class="wrap">
+    <p class="label"><span>08</span> · Materials</p>
+    <h2>What has been assembled</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>C4 interactive rig</h3>
+        <p>Light and dark themes: <a href="../assets/dipole-light-en.html">dipole-light</a> · <a href="../assets/dipole-en.html">dipole</a>. Drone steering, noise mode, readout.</p>
+      </div>
+      <div class="card">
+        <h3>Adjacent rig C1</h3>
+        <p>“Self-erecting dome” — the second demonstrator of the same series (not included in this repository).</p>
+      </div>
+      <div class="card">
+        <h3>How it was made</h3>
+        <p>Report on integrating the Anatomy skill into the agent loop: <a href="../assets/otchet-anatomy-integratsiya.html">report</a> (in Russian). Geometry and line checks.</p>
+      </div>
+      <div class="card">
+        <h3>Figure checks</h3>
+        <p>audit passed · 31 solids · line ends 0 (both themes) · DOM without NaN · 390 px without scroll.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sources">
+  <div class="wrap">
+    <div class="cols">
+      <p class="label"><span>09</span> · Sources</p>
+      <div>
+        <h2>References</h2>
+        <ol class="src">
+          <li>JASA 98(6), 1995 — Mechanically coupled ears for directional hearing in the parasitoid fly <i>Ormia ochracea</i>: <a href="https://doi.org/10.1121/1.413830">doi.org</a></li>
+          <li>Nature Microsystems &amp; Nanoengineering — mm-sized biomimetic directional microphone array: <a href="https://www.nature.com/articles/s41378-022-00389-9">nature.com</a></li>
+          <li>DTIC — Fly-Ear Inspired Micro-Sensor for Sound Source Localization: <a href="https://apps.dtic.mil/sti/tr/pdf/ADA543237.pdf">apps.dtic.mil</a></li>
+          <li>Owlpages — owl hearing: <a href="https://www.owlpages.com/owls/articles.php?a=6">owlpages.com</a></li>
+          <li>Acta Acustica (2026) — Passive acoustic detection and localization of drones using MEMS microphones and machine learning: <a href="https://acta-acustica.edpsciences.org/articles/aacus/full_html/2026/01/aacus250134/aacus250134.html">acta-acustica.edpsciences.org</a></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="sig">Concept C4 · Track B · case “Protecting enterprises from UAVs”</p>
+    <p>Prepared by the Heinrich agent · 2026-10-17 · Anatomy skill (MIT)</p>
+  </div>
+</footer>
+
+</body>
+</html>

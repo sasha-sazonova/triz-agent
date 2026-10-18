@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C4 · Акустический диполь — пассивный пеленгатор БПЛА</title>
+<meta name="description" content="Концепция C4 «Дифференциальный диполь»: пассивный акустический пеленгатор БПЛА по мотивам слуха мухи Ormia ochracea. Интерактивный стенд, физика, границы применимости.">
+<style>
+  :root {
+    --bg: #fbfaf8;
+    --ink: #141414;
+    --body: #2e2d2a;
+    --muted: #73716c;
+    --hair: #e6e3dd;
+    --accent: #b4522f;
+    --accent-soft: #f2e6df;
+    --mono: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+    --sans: "Helvetica Neue", "Avenir Next", "Segoe UI", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--body);
+    font-family: var(--sans); font-size: 16px; line-height: 1.68;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--ink); text-decoration: none; }
+  a:hover { color: var(--accent); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 36px; }
+  .narrow { max-width: 760px; }
+
+  /* ---------- hero ---------- */
+  .hero { padding: 84px 0 64px; border-bottom: 1px solid var(--hair); }
+  .topline {
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-family: var(--mono); font-size: 11px; letter-spacing: .18em;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 96px;
+  }
+  .topline b { color: var(--ink); font-weight: 500; }
+  .kicker {
+    font-family: var(--mono); font-size: 11px; letter-spacing: .22em;
+    text-transform: uppercase; color: var(--accent); margin: 0 0 28px;
+  }
+  h1 {
+    font-size: clamp(44px, 7.2vw, 96px); line-height: .98; letter-spacing: -0.035em;
+    font-weight: 200; margin: 0 0 28px; color: var(--ink);
+  }
+  .sub {
+    font-size: clamp(18px, 2vw, 23px); line-height: 1.5; font-weight: 300;
+    color: var(--body); max-width: 34ch; margin: 0 0 56px;
+  }
+  .meta-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+    border-top: 1px solid var(--hair); padding-top: 22px; max-width: 860px;
+  }
+  .meta-grid div { font-size: 13px; color: var(--muted); }
+  .meta-grid b { display: block; color: var(--ink); font-weight: 500; font-size: 14px; margin-bottom: 2px; }
+
+  /* ---------- sections ---------- */
+  section { padding: 112px 0; border-bottom: 1px solid var(--hair); }
+  section:last-of-type { border-bottom: 0; }
+  .label {
+    font-family: var(--mono); font-size: 11px; letter-spacing: .22em;
+    text-transform: uppercase; color: var(--muted); margin: 0 0 26px;
+  }
+  .label span { color: var(--accent); }
+  h2 {
+    font-size: clamp(28px, 3.2vw, 40px); line-height: 1.15; letter-spacing: -0.02em;
+    font-weight: 300; color: var(--ink); margin: 0 0 28px; max-width: 24ch;
+  }
+  .lead { font-size: 19px; line-height: 1.7; font-weight: 300; max-width: 62ch; margin: 0 0 24px; }
+  p { max-width: 66ch; margin: 0 0 16px; }
+  .cols { display: grid; grid-template-columns: 300px 1fr; gap: 64px; align-items: start; }
+  .cols .label { margin-top: 8px; }
+
+  blockquote {
+    margin: 36px 0 0; padding: 28px 32px; border-left: 2px solid var(--accent);
+    background: #fff; font-size: 18px; line-height: 1.65; font-weight: 300; color: var(--ink);
+    box-shadow: 0 24px 60px rgba(20,20,20,.05);
+  }
+  blockquote cite {
+    display: block; margin-top: 14px; font-family: var(--mono); font-size: 11px;
+    letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-style: normal;
+  }
+
+  /* ---------- steps ---------- */
+  .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; margin-top: 12px; }
+  .step { border-top: 1px solid var(--hair); padding-top: 22px; }
+  .step .num {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .14em; color: var(--accent);
+    display: block; margin-bottom: 18px;
+  }
+  .step h3 { font-size: 17px; font-weight: 500; margin: 0 0 10px; color: var(--ink); }
+  .step p { font-size: 14.5px; color: var(--muted); margin: 0; }
+
+  /* ---------- figure ---------- */
+  figure.shot { margin: 0; }
+  figure.shot img { width: 100%; height: auto; display: block; border: 1px solid var(--hair); background: #fff;
+    box-shadow: 0 36px 90px rgba(20,20,20,.09); }
+  figcaption {
+    margin-top: 16px; font-size: 13.5px; color: var(--muted); max-width: 72ch;
+  }
+  .actions { display: flex; gap: 34px; flex-wrap: wrap; margin-top: 34px; }
+  .go {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--ink); border-bottom: 1px solid var(--ink); padding-bottom: 6px;
+  }
+  .go:hover { color: var(--accent); border-color: var(--accent); }
+  .go.secondary { color: var(--muted); border-color: var(--hair); }
+  .go.secondary:hover { color: var(--accent); border-color: var(--accent); }
+  .note { font-size: 13px; color: var(--muted); margin-top: 16px; }
+
+  /* ---------- formula ---------- */
+  .formula {
+    margin: 8px 0 44px; padding: 52px 24px; text-align: center;
+    border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); background: #fff;
+  }
+  .formula .eq { font-family: var(--mono); font-size: clamp(20px, 3vw, 30px); letter-spacing: .02em; color: var(--ink); }
+  .formula .defs { margin-top: 18px; font-family: var(--mono); font-size: 12px; letter-spacing: .08em; color: var(--muted); }
+
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  thead th {
+    font-family: var(--mono); font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--muted); font-weight: 500; text-align: left; padding: 0 12px 12px 0;
+    border-bottom: 1px solid var(--ink);
+  }
+  tbody td { padding: 14px 12px 14px 0; border-bottom: 1px solid var(--hair); }
+  tbody td.num, thead th.num { text-align: right; font-family: var(--mono); font-variant-numeric: tabular-nums; }
+  tbody tr:last-child td { border-bottom: 1px solid var(--ink); }
+  .table-note { margin-top: 14px; font-size: 12.5px; color: var(--muted); }
+
+  .metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 34px; margin: 56px 0 0; }
+  .metric { border-top: 1px solid var(--hair); padding-top: 20px; }
+  .metric .v { font-family: var(--mono); font-size: clamp(26px, 3.4vw, 38px); letter-spacing: -.02em; color: var(--ink); }
+  .metric .v small { font-size: 15px; color: var(--muted); letter-spacing: 0; }
+  .metric .v.phrase { font-size: clamp(19px, 2.1vw, 24px); letter-spacing: 0; line-height: 1.4; padding-top: 4px; }
+  .metric .k { font-size: 13px; color: var(--muted); margin-top: 8px; max-width: 26ch; }
+
+  /* ---------- gallery ---------- */
+  .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  .gallery figure img { width: 100%; height: auto; display: block; border: 1px solid var(--hair); background: #fff; }
+  .gallery figcaption { margin-top: 12px; font-size: 12.5px; }
+
+  /* ---------- lists ---------- */
+  ul.clean { list-style: none; padding: 0; margin: 0; max-width: 66ch; }
+  ul.clean li { padding: 16px 0; border-bottom: 1px solid var(--hair); font-size: 15.5px; }
+  ul.clean li b { font-weight: 500; color: var(--ink); }
+
+  .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px; }
+  .card { background: #fff; border: 1px solid var(--hair); padding: 30px 30px 26px; box-shadow: 0 24px 60px rgba(20,20,20,.04); }
+  .card h3 { margin: 0 0 10px; font-size: 16px; font-weight: 500; color: var(--ink); }
+  .card p { font-size: 14px; color: var(--muted); margin: 0; }
+  .card a { border-bottom: 1px solid var(--accent); color: var(--ink); }
+  .card a:hover { color: var(--accent); }
+
+  /* ---------- sources ---------- */
+  ol.src { padding-left: 22px; margin: 0; max-width: 72ch; color: var(--muted); font-size: 14px; }
+  ol.src li { margin-bottom: 12px; }
+  ol.src a { color: var(--ink); border-bottom: 1px solid var(--hair); }
+  ol.src a:hover { color: var(--accent); border-color: var(--accent); }
+
+  footer { padding: 72px 0 96px; }
+  footer .wrap { display: flex; justify-content: space-between; gap: 32px; flex-wrap: wrap; align-items: baseline; }
+  footer p { margin: 0; font-family: var(--mono); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+  footer .sig { color: var(--ink); }
+
+  @media (max-width: 900px) {
+    .hero { padding: 56px 0 48px; }
+    .topline { margin-bottom: 56px; }
+    section { padding: 76px 0; }
+    .cols { grid-template-columns: 1fr; gap: 24px; }
+    .steps { grid-template-columns: 1fr 1fr; gap: 32px; }
+    .gallery { grid-template-columns: 1fr; }
+    .cards { grid-template-columns: 1fr; }
+    .metrics { grid-template-columns: 1fr; gap: 24px; }
+    .meta-grid { grid-template-columns: 1fr; gap: 14px; }
+  }
+  @media (max-width: 700px) {
+    .topline { flex-direction: column; align-items: flex-start; gap: 8px; }
+    .topline span { white-space: normal; }
+    body { overflow-x: hidden; }
+  }
+  @media (max-width: 560px) {
+    .wrap { padding: 0 22px; }
+    .steps { grid-template-columns: 1fr; }
+    .formula { padding: 36px 12px; }
+    blockquote { padding: 22px; }
+  }
+  @media print {
+    body { background: #fff; }
+    .hero { padding: 24px 0 32px; }
+    section { padding: 36px 0; break-inside: avoid; }
+    .actions { display: none; }
+    .shot, .card, li { break-inside: avoid; }
+    a { color: inherit; text-decoration: none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="topline">
+      <span><b>C4</b> · пассивный акустический пеленгатор</span>
+      <span>Трек B · конкурсная заявка · 2026 · <a href="../en/index.html">EN</a></span>
+    </div>
+    <p class="kicker">Биомиметика · пассивное обнаружение</p>
+    <h1>Слышать,<br>не излучая</h1>
+    <p class="sub">Акустический диполь C4 — направленность из геометрии, а не из мощности передатчика.</p>
+    <div class="meta-grid">
+      <div><b>Статус концепции</b>CONSIDER · 32/50 в отчёте трека B</div>
+      <div><b>Патентная проверка</b>категория N2 · Ormia-схема для БПЛА не найдена</div>
+      <div><b>Демонстратор</b>интерактивный стенд · 3D-изометрия</div>
+    </div>
+  </div>
+</header>
+
+<section id="abstract">
+  <div class="wrap">
+    <div class="cols">
+      <p class="label"><span>00</span> · Аннотация</p>
+      <div>
+        <p class="lead">C4 «Дифференциальный диполь» — пассивный акустический пеленгатор для обнаружения БПЛА без собственного излучения. Пара приёмных мембран на короткой базе (0,30 м) механически связана по мотивам слуха мухи <i>Ormia ochracea</i>: общий для обоих каналов шум площадки вычитается до решающего звена, а направление на источник вычисляется по разности прихода сигнала.</p>
+        <p>Вертикальный разнос приёмников (мотив совы) резервирует канал угла места. Устройство только принимает, ничего не излучая; отсутствие лицензионных требований к спектру — вопрос к юристу, не инженерный факт. Вычитание делает приём устойчивее к ненаправленным помехам, но помеха с направления цели и вибрации не подавляются.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="idea">
+  <div class="wrap">
+    <div class="cols">
+      <p class="label"><span>01</span> · Идея</p>
+      <div>
+        <h2>Направленность без большой антенны</h2>
+        <p>Акустическая локация обычно требует либо базы, сравнимой с длиной волны, либо многоэлементной решётки с цифровым формированием луча. Диполь решает ту же задачу геометрией: две мембраны на короткой базе слышат один и тот же шум, но с разными фазами. Механическая связь — как перепонки мухи Ormia — работает аналоговым вычитателем: синфазная часть гасится, разностная остаётся и несёт направление.</p>
+        <p>Ключевое следствие: слабый сигнал цели не нужно «перекричать» — его нужно отделить. Общий шум площадки, вентиляции и ветра приходит на обе мембраны почти одинаково, поэтому вычитание поднимает отношение сигнал/шум до решающего звена, а не после него.</p>
+        <blockquote>
+          «Парные акустические приёмники с механической/электрической связью: общий для пары шум вычитается, остаётся разностный сигнал направления; асимметричные позиции пары (как у совы — вертикальный разнос) дают 3D-оценку. SNR растёт геометрией, а не мощностью».
+          <cite>Трек B · концепции, C4</cite>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="principle">
+  <div class="wrap">
+    <p class="label"><span>02</span> · Принцип работы</p>
+    <div class="steps">
+      <div class="step">
+        <span class="num">01</span>
+        <h3>Приём</h3>
+        <p>Две мембраны на базе 0,30 м принимают звук винтов — сотни герц и единицы килогерц.</p>
+      </div>
+      <div class="step">
+        <span class="num">02</span>
+        <h3>Вычитание</h3>
+        <p>Общий шум площадки приходит синфазно; механическая связь вычитает его до решающего звена — принцип №2, Taking out.</p>
+      </div>
+      <div class="step">
+        <span class="num">03</span>
+        <h3>Разность</h3>
+        <p>Сигнал цели приходит с задержкой τ = d·sinθ/c — до ≈0,82 мс на краю сектора ±70°.</p>
+      </div>
+      <div class="step">
+        <span class="num">04</span>
+        <h3>Пеленг</h3>
+        <p>Знак и величина задержки дают направление; вертикальный разнос (мотив совы) — резерв для угла места.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="stand">
+  <div class="wrap">
+    <p class="label"><span>03</span> · Демонстратор</p>
+    <h2>Стенд, который можно покрутить</h2>
+    <figure class="shot">
+      <img src="../assets/img/dipole-aim.png" alt="Интерактивный стенд C4: диполь на мачте, поворотная штанга с макетом квадрокоптера и приборный ящик с полукруглой шкалой">
+      <figcaption>3D-модель стенда C4 (не фотография прототипа): диполь на мачте, поворотная штанга с макетом квадрокоптера, приборный ящик со шкалой пеленга и вентиляционный блок — источник общего шума. Дрон ведётся по дуге; клавиша T или клик включает шум площадки.</figcaption>
+    </figure>
+    <div class="actions">
+      <a class="go" href="../assets/dipole-light.html">Открыть стенд · светлая тема →</a>
+      <a class="go secondary" href="../assets/dipole.html">тёмная тема</a>
+    </div>
+    <ul class="clean" style="margin-top:44px">
+      <li><b>Ведёшь дрон</b> — стрелка на шкале повторяет пеленг, в readout живут τ и Δφ из той же модели, что двигает детали.</li>
+      <li><b>Включаешь шум</b> — стрелка молчит: общий шум вычтен связью каналов. Это и есть принцип №2 в модели.</li>
+      <li><b>По нормали к базе</b> разность нулевая; на краю сектора — максимальная: геометрия видна наглядно.</li>
+    </ul>
+    <p class="note">Управление: мышь или стрелки — азимут источника; T или клик — режим общего шума; при снижении анимации — prefers-reduced-motion.</p>
+  </div>
+</section>
+
+<section id="numbers">
+  <div class="wrap">
+    <p class="label"><span>04</span> · Физика и числа</p>
+    <h2>Разность прихода как измеритель угла</h2>
+    <div class="formula">
+      <div class="eq">τ = d · sin θ ⁄ c</div>
+      <div class="defs">d = 0,30 м · c = 343 м/с · f₀ = 500 Гц · Δφ = 360° · f₀ · τ</div>
+    </div>
+    <table>
+      <thead>
+        <tr><th>Угол источника θ</th><th class="num">Разность прихода τ</th><th class="num">Разность фаз Δφ (500 Гц)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>30°</td><td class="num">0,44 мс</td><td class="num">79°</td></tr>
+        <tr><td>42°</td><td class="num">0,59 мс</td><td class="num">105°</td></tr>
+        <tr><td>60°</td><td class="num">0,76 мс</td><td class="num">136°</td></tr>
+        <tr><td>70° (край сектора)</td><td class="num">0,82 мс</td><td class="num">148°</td></tr>
+      </tbody>
+    </table>
+    <p class="table-note">Иллюстративные значения для базы 0,30 м; в стенде используется та же модель. Числа — ориентиры кейса [оценка], не результат измерений.</p>
+    <div class="metrics">
+      <div class="metric"><div class="v">0,30 <small>м</small></div><div class="k">база диполя — расстояние между мембранами</div></div>
+      <div class="metric"><div class="v">300–500 <small>м</small></div><div class="k">ориентир трека B для акустического канала — не измерение и не свойство C4</div></div>
+      <div class="metric"><div class="v phrase">сотни Гц — единицы кГц</div><div class="k">лопастные гармоники винтов: рабочий диапазон приёма</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <p class="label"><span>05</span> · Детали стенда</p>
+    <h2>Три взгляда</h2>
+    <div class="gallery">
+      <figure>
+        <img src="../assets/img/dipole-node.png" alt="Крупный план дипольного узла: две мембраны на коромысле, юстировочные винты, игла разности">
+        <figcaption>Дипольный узел: мембраны на коромысле, юстировочные винты, игла разности — механическая связь каналов.</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/img/dipole-panel.png" alt="Приборный ящик с полукруглой шкалой пеленга, стрелкой, кнопками и вентиляционными щелями">
+        <figcaption>Панель пеленга: полукруглая шкала, стрелка, кнопки; шильдик «C4» на плите.</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/img/dipole-noise.png" alt="Режим общего шума: волны от вентиляционного блока, стрелка пеленга молчит">
+        <figcaption>Режим общего шума: волны от вентиляционного блока приходят на обе мембраны синфазно — вычитание, стрелка молчит.</figcaption>
+      </figure>
+    </div>
+    <p class="note">Кадры — рендеры интерактивной 3D-модели, не фотографии макета.</p>
+  </div>
+</section>
+
+<section id="limits">
+  <div class="wrap">
+    <div class="cols">
+      <p class="label"><span>06</span> · Границы</p>
+      <div>
+        <h2>Честный статус</h2>
+        <ul class="clean">
+          <li><b>Концепция — задел.</b> В отчёте трека B у C4 вердикт CONSIDER (32): до реализации — виброразвязка, ветрозащита, автокалибровка согласования каналов и интеграция в приёмную решётку.</li>
+          <li><b>Пассивность — только приём.</b> Нет излучателей — нет и лицензий на спектр; но «легальный максимум» — правовая оценка, её стоит подтвердить юристу. В шумной обстановке выигрывает вычитание, а не «чудо-дальность».</li>
+          <li><b>Чувствительность к ветру и вибрациям</b> — принципиальна для Ormia-механики: разность каналов усиливает и полезный сигнал, и паразитную вибрацию.</li>
+          <li><b>Дальность и погода.</b> Акустика зависит от фона, ветра и типа винтов; в дождь и при сильном ветре деградирует первой.</li>
+          <li><b>Не патентная гарантия.</b> N2 — предварительная оценка новизны, не юридическое заключение; перед заявкой — патентоведу.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="trace">
+  <div class="wrap">
+    <div class="cols">
+      <p class="label"><span>07</span> · Трассировка ТРИЗ</p>
+      <div>
+        <h2>Откуда решение</h2>
+        <p><b>Принцип:</b> №2 Taking out — отделить (технически — вычесть) общую для каналов составляющую до решающего звена. Это единственный принцип, закреплённый за C4 в треке; формально матрица пары 37↔27 рекомендует №27, №40, №28 и №8 — C4 идёт не от неё, а от эффектового паттерна Ormia.</p>
+        <p><b>Эффекты:</b> механически связанные перепонки <i>Ormia ochracea</i> (JASA 98(6), 1995; Nature Microsystems &amp; Nanoengineering, s41378-022-00389-9; DTIC ADA543237); асимметричные уши совы и лицевой диск (owlpages) — вертикальный разнос и пассивное усиление; MEMS-микрофоны и машинное обучение для пассивной локализации дронов (Acta Acustica, 2026).</p>
+        <p><b>Патентная проверка:</b> категория N2. Ближайшие аналоги — CN121509862A (дифференциальные решётки), WO2024147731A1 и NL2028629B1 (биомиметические микрофоны — слуховые устройства). Схем Ormia-диполя для БПЛА в проверенных базах не найдено.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="materials">
+  <div class="wrap">
+    <p class="label"><span>08</span> · Материалы</p>
+    <h2>Что собрано</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Интерактивный стенд C4</h3>
+        <p>Светлая и тёмная темы: <a href="../assets/dipole-light.html">dipole-light</a> · <a href="../assets/dipole.html">dipole</a>. Ведение дрона, режим шума, readout.</p>
+      </div>
+      <div class="card">
+        <h3>Смежный стенд C1</h3>
+        <p>«Самовзводящийся купол» — второй демонстратор той же серии (в этот репозиторий не включён).</p>
+      </div>
+      <div class="card">
+        <h3>Как это сделано</h3>
+        <p>Отчёт интеграции скилла Anatomy в контур агента: <a href="../assets/otchet-anatomy-integratsiya.html">отчёт</a>. Проверки геометрии и линий.</p>
+      </div>
+      <div class="card">
+        <h3>Проверки фигуры</h3>
+        <p>audit passed · 31 солид · line ends 0 (обе темы) · DOM без NaN · 390 px без скролла.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sources">
+  <div class="wrap">
+    <div class="cols">
+      <p class="label"><span>09</span> · Источники</p>
+      <div>
+        <h2>Ссылки</h2>
+        <ol class="src">
+          <li>JASA 98(6), 1995 — Mechanically coupled ears for directional hearing in the parasitoid fly <i>Ormia ochracea</i>: <a href="https://doi.org/10.1121/1.413830">doi.org</a></li>
+          <li>Nature Microsystems &amp; Nanoengineering — mm-sized biomimetic directional microphone array: <a href="https://www.nature.com/articles/s41378-022-00389-9">nature.com</a></li>
+          <li>DTIC — Fly-Ear Inspired Micro-Sensor for Sound Source Localization: <a href="https://apps.dtic.mil/sti/tr/pdf/ADA543237.pdf">apps.dtic.mil</a></li>
+          <li>Owlpages — слух совы: <a href="https://www.owlpages.com/owls/articles.php?a=6">owlpages.com</a></li>
+          <li>Acta Acustica (2026) — Passive acoustic detection and localization of drones using MEMS microphones and machine learning: <a href="https://acta-acustica.edpsciences.org/articles/aacus/full_html/2026/01/aacus250134/aacus250134.html">acta-acustica.edpsciences.org</a></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="sig">Концепция C4 · трек B · кейс «Защита предприятий от БПЛА»</p>
+    <p>Подготовлено агентом «Генрих» · 2026-10-17 · скилл Anatomy (MIT)</p>
+  </div>
+</footer>
+
+</body>
+</html>
