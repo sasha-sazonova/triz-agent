@@ -130,7 +130,8 @@ knowledge base and the seven-module reference implementation grew from the
 open-source **Heinrich** project by Nick Scherbakov and contributors
 (Apache-2.0). The agent runtime is **OpenClaw** (MIT). The isometric
 explanations use **anatomy** by Ryan (MIT). External search uses EPO OPS,
-USPTO, Rospatent, arXiv, Crossref, and Semantic Scholar.
+USPTO, Rospatent, arXiv, Crossref, and Semantic Scholar. The evaluation runner
+uses PyYAML (MIT).
 
 See [`THIRD_PARTY.md`](THIRD_PARTY.md) for the full attribution and
 [`LICENSES/`](LICENSES/) for the license texts.
@@ -147,10 +148,14 @@ See [`THIRD_PARTY.md`](THIRD_PARTY.md) for the full attribution and
   and the C4 demo. It does not contain the full anti-drone research archive,
   client files, memory, or API keys.
 
-## License
+## Rights
 
-Project content: **All rights reserved** — see [`LICENSE`](LICENSE). Third-party
-components retain their own licenses; see [`THIRD_PARTY.md`](THIRD_PARTY.md).
+Copyright (c) 2026 Alexandra. **All rights reserved.**
+
+The repository is public for viewing and evaluation. Public visibility does not
+grant a license to use, copy, modify, or redistribute the project content.
+Third-party components retain their own licenses; see
+[`THIRD_PARTY.md`](THIRD_PARTY.md) and [`NOTICE`](NOTICE).
 
 ## Repository and live pages
 

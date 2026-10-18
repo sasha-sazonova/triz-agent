@@ -1,3 +1,5 @@
+/* Portions of this file are derived from the anatomy kit (MIT).
+   Copyright (c) 2026 Ryan. See ../../../LICENSES/MIT-anatomy.txt. */
 const AZIMUTH = 45;
 const ELEVATION = 30;
 const SHADES = 4;

@@ -1,3 +1,6 @@
+# Derived from the Heinrich project (Apache-2.0).
+# Copyright 2025 Nick Scherbakov and Heinrich Contributors.
+# See ../THIRD_PARTY.md and ../LICENSES/Apache-2.0-heinrich.txt.
 principles:
 - id: 1
   name: Segmentation

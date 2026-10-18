@@ -1,8 +1,9 @@
 # Third-party attribution and licenses
 
 This repository builds on classical TRIZ and on several open-source projects.
-The project's own content is licensed as “All rights reserved” (see
-[`LICENSE`](LICENSE)); the components below retain their own licenses.
+The project's own content is **proprietary**: “All rights reserved” (see
+[`LICENSE`](LICENSE)). Public visibility does not grant an open-source license
+for the project content. The components below retain their own licenses.
 
 ## 1. TRIZ methodology
 
@@ -14,6 +15,9 @@ The project's own content is licensed as “All rights reserved” (see
 - **What is used here:** the method, terminology, and the structure of the
   knowledge base. The specific YAML/CSV implementation in `agent/knowledge/`
   is derived from the open-source Heinrich project (see below) and extended.
+- **Additional references in `agent/knowledge/76_standard_solutions.md`:**
+  Salamatov (1999), Mann (2002), and ICG training materials. Those works remain
+  attributed to their authors.
 
 TRIZ is a methodology, not a software license. The books and the method remain
 attributed to their authors; this repository does not claim authorship of TRIZ.
@@ -67,7 +71,15 @@ the corresponding requests; no API keys are stored in this repository.
 | Crossref | Journal metadata and DOIs | <https://www.crossref.org> |
 | Semantic Scholar | Citation-aware paper search | <https://www.semanticscholar.org/product/api> |
 
-## 6. Case material
+## 6. Python dependencies
+
+- **PyYAML 6.x** — MIT License (Copyright (c) 2017–2021 Ingy döt Net;
+  2006–2016 Kirill Simonov). Used by `agent/eval/run_eval.py`; installed from
+  `requirements.txt`, not vendored.
+- **Repository:** <https://github.com/yaml/pyyaml>
+- **License text:** [`LICENSES/MIT-PyYAML.txt`](LICENSES/MIT-PyYAML.txt).
+
+## 7. Case material
 
 The C4 “Differential dipole (Ormia)” page is an illustrative case, not a
 measurement report. The concept has a **CONSIDER (32)** verdict in the track B

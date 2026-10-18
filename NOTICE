@@ -1,0 +1,19 @@
+Heinrich — TRIZ Inventor Agent
+Copyright (c) 2026 Alexandra. All rights reserved.
+
+This product includes software and data developed by third parties:
+
+- Heinrich: The Inventing Machine — Copyright 2025 Nick Scherbakov and
+  Heinrich Contributors. Licensed under the Apache License 2.0.
+  https://github.com/NickScherbakov/Heinrich-The-Inventing-Machine
+
+- OpenClaw — Copyright (c) 2026 OpenClaw Foundation. Licensed under the MIT
+  License. https://github.com/openclaw/openclaw
+
+- anatomy — Copyright (c) 2026 Ryan. Licensed under the MIT License.
+  https://github.com/wheresryan22/anatomy
+
+- PyYAML — MIT License. https://github.com/yaml/pyyaml
+  Used as a Python dependency of the evaluation runner; not vendored.
+
+The full attribution and license texts are in THIRD_PARTY.md and LICENSES/.
