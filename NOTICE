@@ -1,5 +1,5 @@
 Heinrich — TRIZ Inventor Agent
-Copyright (c) 2026 Alexandra. All rights reserved.
+Copyright (c) 2026 Alexandra Sazonova. All rights reserved.
 
 This product includes software and data developed by third parties:
 
@@ -14,6 +14,6 @@ This product includes software and data developed by third parties:
   https://github.com/wheresryan22/anatomy
 
 - PyYAML — MIT License. https://github.com/yaml/pyyaml
-  Used as a Python dependency of the evaluation runner; not vendored.
+  Used by the evaluation and knowledge-base scripts; not vendored.
 
 The full attribution and license texts are in THIRD_PARTY.md and LICENSES/.

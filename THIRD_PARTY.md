@@ -60,7 +60,9 @@ attributed to their authors; this repository does not claim authorship of TRIZ.
 ## 5. External search APIs
 
 The agent's search adapters use public APIs. Their terms of service apply to
-the corresponding requests; no API keys are stored in this repository.
+the corresponding requests; no API keys are stored in this repository. The
+`science-search` and `patent-search` adapters themselves are part of the private
+working environment and are not vendored here.
 
 | Source | Purpose | Entry point |
 |---|---|---|
@@ -74,7 +76,8 @@ the corresponding requests; no API keys are stored in this repository.
 ## 6. Python dependencies
 
 - **PyYAML 6.x** — MIT License (Copyright (c) 2017–2021 Ingy döt Net;
-  2006–2016 Kirill Simonov). Used by `agent/eval/run_eval.py`; installed from
+  2006–2016 Kirill Simonov). Used by `agent/eval/run_eval.py` and `agent/scripts/complete_principles.py`;
+  installed from
   `requirements.txt`, not vendored.
 - **Repository:** <https://github.com/yaml/pyyaml>
 - **License text:** [`LICENSES/MIT-PyYAML.txt`](LICENSES/MIT-PyYAML.txt).

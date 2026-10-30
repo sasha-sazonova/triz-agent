@@ -61,13 +61,14 @@ triz-agent/
 
 ### Open the presentation
 
-Double-click:
+| Version | Live page | Local file |
+|---|---|---|
+| Russian | [Открыть презентацию](https://sasha-sazonova.github.io/triz-agent/presentation/ru/) | `presentation/ru/index.html` |
+| English | [Open presentation](https://sasha-sazonova.github.io/triz-agent/presentation/en/) | `presentation/en/index.html` |
 
-- `presentation/ru/index.html` — Russian;
-- `presentation/en/index.html` — English.
-
-No server or build step is required. Keep `presentation/deck.js` next to the
-language folders; the pages reference it as `../deck.js`.
+No server or build step is required. To open locally, double-click the file.
+Keep `presentation/deck.js` next to the language folders; the pages reference
+it as `../deck.js`.
 
 Controls: `←` / `→`, `PageUp` / `PageDown`, wheel or swipe; `Esc` for the slide
 index; `B` for static mode.
@@ -101,14 +102,17 @@ acceptance claim.
 
 ### Open the C4 case
 
-- `cases/c4-dipole/ru/index.html` — Russian case page;
-- `cases/c4-dipole/en/index.html` — English case page.
+| Version | Live page | Local file |
+|---|---|---|
+| Russian | [Открыть кейс C4](https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/ru/) | `cases/c4-dipole/ru/index.html` |
+| English | [Open C4 case](https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/en/) | `cases/c4-dipole/en/index.html` |
 
 The case page links to the interactive stand:
 
-- dark: `cases/c4-dipole/assets/dipole-en.html` (EN) or `dipole.html` (RU);
-- light: `cases/c4-dipole/assets/dipole-light-en.html` (EN) or
-  `dipole-light.html` (RU).
+| Theme | English | Russian |
+|---|---|---|
+| Dark | [dipole-en.html](https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/assets/dipole-en.html) | [dipole.html](https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/assets/dipole.html) |
+| Light | [dipole-light-en.html](https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/assets/dipole-light-en.html) | [dipole-light.html](https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/assets/dipole-light.html) |
 
 Keep the `.js` file next to its HTML page.
 
@@ -130,8 +134,8 @@ knowledge base and the seven-module reference implementation grew from the
 open-source **Heinrich** project by Nick Scherbakov and contributors
 (Apache-2.0). The agent runtime is **OpenClaw** (MIT). The isometric
 explanations use **anatomy** by Ryan (MIT). External search uses EPO OPS,
-USPTO, Rospatent, arXiv, Crossref, and Semantic Scholar. The evaluation runner
-uses PyYAML (MIT).
+USPTO, Rospatent, arXiv, Crossref, and Semantic Scholar. The Python scripts
+(`run_eval.py`, `complete_principles.py`) use PyYAML (MIT).
 
 See [`THIRD_PARTY.md`](THIRD_PARTY.md) for the full attribution and
 [`LICENSES/`](LICENSES/) for the license texts.
@@ -150,7 +154,7 @@ See [`THIRD_PARTY.md`](THIRD_PARTY.md) for the full attribution and
 
 ## Rights
 
-Copyright (c) 2026 Alexandra. **All rights reserved.**
+Copyright (c) 2026 Alexandra Sazonova. **All rights reserved.**
 
 The repository is public for viewing and evaluation. Public visibility does not
 grant a license to use, copy, modify, or redistribute the project content.

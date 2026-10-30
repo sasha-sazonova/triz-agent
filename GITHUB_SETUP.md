@@ -41,12 +41,20 @@ git branch -M main
 git push -u origin main
 ```
 
-## What is intentionally not included
+## Repository scope
 
-- `.env` and any API keys.
-- `memory/`, `USER.md`, `.learnings/`.
-- The full anti-drone research archive (582 references) and raw case files.
-- The C1 `zontik` demo and the source build workspace.
+This public repository is a curated release, not a mirror of the private
+working environment. It contains the agent framework, the knowledge base, the
+bilingual presentation, and the C4 case demo.
 
-The repository contains the agent framework, the knowledge base, the bilingual
-presentation, and the C4 case demo.
+It deliberately does not publish:
+
+- `.env` and API keys — secrets are never committed.
+- `memory/`, personal profile, `.learnings/` — private working notes.
+- The full anti-drone research archive and raw case files — third-party and
+  client material; kept private.
+- The C1 `zontik` demo and the source build workspace — separate working
+  artifacts.
+
+This is a deliberate scope decision, not a missing upload. A public repository
+does not need to mirror every private file.

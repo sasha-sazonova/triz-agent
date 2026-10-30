@@ -61,13 +61,14 @@ triz-agent/
 
 ### Открыть презентацию
 
-Двойной щелчок:
+| Версия | Живая страница | Локальный файл |
+|---|---|---|
+| Русская | [Открыть презентацию](https://sasha-sazonova.github.io/triz-agent/presentation/ru/) | `presentation/ru/index.html` |
+| English | [Open presentation](https://sasha-sazonova.github.io/triz-agent/presentation/en/) | `presentation/en/index.html` |
 
-- `presentation/ru/index.html` — русская;
-- `presentation/en/index.html` — английская.
-
-Сервер и сборка не нужны. Держите `presentation/deck.js` рядом с языковыми
-папками: страницы ссылаются на него как `../deck.js`.
+Сервер и сборка не нужны. Локально — двойной щелчок по файлу. Держите
+`presentation/deck.js` рядом с языковыми папками: страницы ссылаются на него
+как `../deck.js`.
 
 Управление: `←` / `→`, `PageUp` / `PageDown`, колесо или свайп; `Esc` — индекс
 слайдов; `B` — статичный режим.
@@ -100,14 +101,17 @@ Eval проверяет точность противоречия, полнот�
 
 ### Открыть кейс C4
 
-- `cases/c4-dipole/ru/index.html` — русская страница кейса;
-- `cases/c4-dipole/en/index.html` — английская страница кейса.
+| Версия | Живая страница | Локальный файл |
+|---|---|---|
+| Русская | [Открыть кейс C4](https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/ru/) | `cases/c4-dipole/ru/index.html` |
+| English | [Open C4 case](https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/en/) | `cases/c4-dipole/en/index.html` |
 
 Страница кейса ведёт на интерактивный стенд:
 
-- тёмная тема: `cases/c4-dipole/assets/dipole-en.html` (EN) или `dipole.html` (RU);
-- светлая тема: `cases/c4-dipole/assets/dipole-light-en.html` (EN) или
-  `dipole-light.html` (RU).
+| Тема | English | Русский |
+|---|---|---|
+| Тёмная | [dipole-en.html](https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/assets/dipole-en.html) | [dipole.html](https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/assets/dipole.html) |
+| Светлая | [dipole-light-en.html](https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/assets/dipole-light-en.html) | [dipole-light.html](https://sasha-sazonova.github.io/triz-agent/cases/c4-dipole/assets/dipole-light.html) |
 
 Держите `.js`-файл рядом с его HTML-страницей.
 
@@ -129,7 +133,7 @@ Eval проверяет точность противоречия, полнот�
 **Heinrich** (Nick Scherbakov и участники, Apache-2.0). Рантайм агента —
 **OpenClaw** (MIT). Изометрические объяснения — **anatomy** (Ryan, MIT).
 Внешний поиск — EPO OPS, USPTO, Роспатент, arXiv, Crossref, Semantic Scholar.
-Eval-runner использует PyYAML (MIT).
+Python-скрипты (`run_eval.py`, `complete_principles.py`) используют PyYAML (MIT).
 
 Полное авторство и карта лицензий — в [`THIRD_PARTY.md`](THIRD_PARTY.md),
 тексты лицензий — в [`LICENSES/`](LICENSES/).
@@ -147,7 +151,7 @@ Eval-runner использует PyYAML (MIT).
 
 ## Права
 
-Copyright (c) 2026 Alexandra. **All rights reserved.**
+Copyright (c) 2026 Alexandra Sazonova. **All rights reserved.**
 
 Репозиторий публичен для просмотра и оценки. Публичная видимость не даёт
 лицензию на использование, копирование, изменение или распространение
