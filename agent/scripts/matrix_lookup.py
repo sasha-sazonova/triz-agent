@@ -99,7 +99,8 @@ def main():
     if args[0] == "--find":
         q = args[1].lower()
         found = [(i, p) for i, p in sorted(load_params().items())
-                 if q in p.get("name", "").lower() or q in p.get("description", "").lower()]
+                 if q in p.get("name", "").lower() or q in p.get("description", "").lower()
+                 or q in p.get("name_ru", "").lower() or q in p.get("description_ru", "").lower()]
         if not found:
             print(f"не найдено: {q}")
             return 2

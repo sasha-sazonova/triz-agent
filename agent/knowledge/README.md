@@ -6,7 +6,9 @@ the agent:
 - `39_parameters.yaml` — 39 engineering parameters;
 - `40_principles.yaml` — 40 inventive principles (extended);
 - `contradiction_matrix.csv` — 1,190 improving/worsening pairs;
-- `effects_database.json` — 15 physical effects;
+- `effects_database.json` — 107 physical/chemical effects (schema v2: `name_ru`,
+  `aliases`, `function_tags` from a 13-function taxonomy, `quantitative`,
+  `limits`, `related_standards`, verifiable `source` per entry);
 - `76_standard_solutions.md` — Su-Field standard solutions;
 - `ariz_85c.md` — ARIZ-85C, nine parts;
 - `separation_principles.md` — four separation axes for physical contradictions;
@@ -19,7 +21,12 @@ The 39 parameters, the base of the 40 principles, the effects database, and the
 general shape of the contradiction matrix are derived from the open-source
 **Heinrich: The Inventing Machine** project by Nick Scherbakov and contributors
 (Apache-2.0, Copyright 2025). The matrix is expanded to 1,190 pairs; the
-principles file is extended.
+principles file is extended. The effects database is expanded from the original
+15 entries to 107 (2026-10); quantitative facts in each entry are cited to their
+primary source (paper DOI, classical handbook, or TRIZ compilation) in the
+`source` field — attribution is per entry, facts remain the property of their
+publishers. The bilingual parameter/principle names (`name_ru`) follow the
+canonical Altshuller wording of «Творчество как точная наука» (1979) / ARIZ-85V.
 
 TRIZ itself is the methodology of Genrich S. Altshuller (1926–1998). The
 additional references used in `76_standard_solutions.md` are Salamatov (1999),

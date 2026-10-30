@@ -17,7 +17,7 @@ separate a contradiction in space, time, or structure.
 |---|---|
 | **LITE** | Seven artifacts (`01_task` … `07_report`) with file-based gate control. Default cycle: 5–15 minutes. |
 | **DEEP / ARIZ-85C** | Nine parts of ARIZ-85C for cases where LITE stalls: resource model, information fund, problem redefinition, answer control. |
-| **Knowledge base** | 39 parameters, 40 principles, 1,190 contradiction pairs, 15 effects, 76 standard solutions, 4 separation axes, 8 evolution trends. |
+| **Knowledge base** | 39 parameters, 40 principles, 1,190 contradiction pairs, 107 effects (function-indexed, bilingual), 76 standard solutions, 4 separation axes, 8 evolution trends. |
 | **Six craft roles** | Contradiction Miner, Principle Selector, Effects Lookup, Synectic, Critic, Patent Checker — one-shot subagents with clean context. |
 | **Research** | `science-search` (arXiv, Crossref, Semantic Scholar) and `patent-search` (EPO OPS, USPTO, Rospatent) adapters. |
 | **Quality** | Scorecard on five axes, traceability of every concept to a principle or effect, evaluation thresholds, archive and lessons. |

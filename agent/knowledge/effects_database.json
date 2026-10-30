@@ -1,199 +1,4414 @@
 {
-  "effects": [
-    {
-      "id": "thermal_expansion",
-      "name": "Thermal Expansion",
-      "description": "Materials expand when heated and contract when cooled",
-      "category": "Thermal",
-      "applications": [
-        "Bi-metal strips in thermostats",
-        "Expansion joints in bridges",
-        "Shrink-fit assembly"
-      ],
-      "related_principles": [37, 15, 35],
-      "technical_domains": ["Mechanical", "Civil", "Manufacturing"]
-    },
-    {
-      "id": "shape_memory",
-      "name": "Shape Memory Effect",
-      "description": "Certain alloys return to their original shape when heated",
-      "category": "Material Science",
-      "applications": [
-        "Shape memory stents",
-        "Self-deploying structures",
-        "Temperature-activated fasteners"
-      ],
-      "related_principles": [35, 15, 25],
-      "technical_domains": ["Medical", "Aerospace", "Robotics"]
-    },
-    {
-      "id": "piezoelectric",
-      "name": "Piezoelectric Effect",
-      "description": "Materials generate electricity when mechanically stressed",
-      "category": "Electrical",
-      "applications": [
-        "Quartz watches",
-        "Ultrasonic transducers",
-        "Energy harvesting from vibration"
-      ],
-      "related_principles": [15, 18, 23],
-      "technical_domains": ["Electronics", "Sensors", "Energy"]
-    },
-    {
-      "id": "electrochromic",
-      "name": "Electrochromic Effect",
-      "description": "Materials change color when electric voltage is applied",
-      "category": "Optical",
-      "applications": [
-        "Smart windows",
-        "Anti-glare mirrors",
-        "Display technologies"
-      ],
-      "related_principles": [32, 35, 16],
-      "technical_domains": ["Architecture", "Automotive", "Displays"]
-    },
-    {
-      "id": "superconductivity",
-      "name": "Superconductivity",
-      "description": "Zero electrical resistance at very low temperatures",
-      "category": "Electrical",
-      "applications": [
-        "MRI machines",
-        "Maglev trains",
-        "Power transmission"
-      ],
-      "related_principles": [36, 2, 12],
-      "technical_domains": ["Medical", "Transportation", "Energy"]
-    },
-    {
-      "id": "aerogel",
-      "name": "Aerogel Properties",
-      "description": "Extremely low density solid with excellent insulation properties",
-      "category": "Material Science",
-      "applications": [
-        "Thermal insulation",
-        "Acoustic damping",
-        "Lightweight structures"
-      ],
-      "related_principles": [31, 8, 40],
-      "technical_domains": ["Aerospace", "Construction", "Energy"]
-    },
-    {
-      "id": "sonoluminescence",
-      "name": "Sonoluminescence",
-      "description": "Light emission from collapsing bubbles in liquid under sound waves",
-      "category": "Acoustic",
-      "applications": [
-        "Sonochemistry",
-        "Medical imaging",
-        "Cleaning technologies"
-      ],
-      "related_principles": [18, 31, 16],
-      "technical_domains": ["Chemistry", "Medical", "Industrial"]
-    },
-    {
-      "id": "capillary_action",
-      "name": "Capillary Action",
-      "description": "Liquid movement through narrow spaces against gravity",
-      "category": "Fluid",
-      "applications": [
-        "Wick in candles",
-        "Plant root systems",
-        "Porous media flow"
-      ],
-      "related_principles": [31, 17, 29],
-      "technical_domains": ["Chemical", "Agricultural", "Materials"]
-    },
-    {
-      "id": "thermoelectric",
-      "name": "Thermoelectric Effect",
-      "description": "Direct conversion between temperature differences and electric voltage",
-      "category": "Electrical",
-      "applications": [
-        "Waste heat recovery",
-        "Temperature sensors",
-        "Portable refrigerators"
-      ],
-      "related_principles": [22, 23, 35],
-      "technical_domains": ["Energy", "Sensors", "Electronics"]
-    },
-    {
-      "id": "magnetorheological",
-      "name": "Magnetorheological Effect",
-      "description": "Fluids change viscosity in magnetic fields",
-      "category": "Material Science",
-      "applications": [
-        "Adaptive shock absorbers",
-        "Clutches and brakes",
-        "Seismic dampers"
-      ],
-      "related_principles": [15, 35, 16],
-      "technical_domains": ["Automotive", "Civil", "Robotics"]
-    },
-    {
-      "id": "bioluminescence",
-      "name": "Bioluminescence",
-      "description": "Light production by living organisms through chemical reactions",
-      "category": "Biological",
-      "applications": [
-        "Safety lighting",
-        "Medical imaging",
-        "Environmental monitoring"
-      ],
-      "related_principles": [22, 32, 25],
-      "technical_domains": ["Biotechnology", "Safety", "Environmental"]
-    },
-    {
-      "id": "nanoparticles",
-      "name": "Nanoparticle Effects",
-      "description": "Unique properties of materials at nanoscale",
-      "category": "Material Science",
-      "applications": [
-        "Drug delivery",
-        "Catalysis",
-        "Sensors"
-      ],
-      "related_principles": [3, 16, 31],
-      "technical_domains": ["Medical", "Chemical", "Electronics"]
-    },
-    {
-      "id": "quantum_tunneling",
-      "name": "Quantum Tunneling",
-      "description": "Quantum mechanical phenomenon allowing particles to pass through barriers",
-      "category": "Quantum",
-      "applications": [
-        "Scanning tunneling microscopy",
-        "Flash memory",
-        "Quantum computing"
-      ],
-      "related_principles": [16, 1, 17],
-      "technical_domains": ["Electronics", "Metrology", "Computing"]
-    },
-    {
-      "id": "electrospinning",
-      "name": "Electrospinning",
-      "description": "Production of nanofibers using electric fields",
-      "category": "Material Science",
-      "applications": [
-        "Tissue engineering",
-        "Filtration",
-        "Composites"
-      ],
-      "related_principles": [3, 30, 31],
-      "technical_domains": ["Medical", "Materials", "Environmental"]
-    },
-    {
-      "id": "magnetocaloric",
-      "name": "Magnetocaloric Effect",
-      "description": "Temperature change in magnetic materials under changing magnetic fields",
-      "category": "Magnetic",
-      "applications": [
-        "Magnetic refrigeration",
-        "Heat pumps",
-        "Sensors"
-      ],
-      "related_principles": [35, 15, 37],
-      "technical_domains": ["Energy", "Electronics", "Sensors"]
-    }
-  ]
+ "effects": [
+  {
+   "id": "thermal_expansion",
+   "name": "Thermal Expansion",
+   "description": "Materials expand when heated and contract when cooled",
+   "category": "Thermal",
+   "applications": [
+    "Bi-metal strips in thermostats",
+    "Expansion joints in bridges",
+    "Shrink-fit assembly"
+   ],
+   "related_principles": [
+    37,
+    15,
+    35
+   ],
+   "technical_domains": [
+    "Mechanical",
+    "Civil",
+    "Manufacturing"
+   ],
+   "name_ru": "Термическое расширение",
+   "aliases": [
+    "тепловое расширение",
+    "КТР",
+    "коэффициент линейного расширения",
+    "сборка с натягом (shrink-fit)"
+   ],
+   "function_tags": [
+    "change_shape",
+    "fix_hold",
+    "sense_measure"
+   ],
+   "quantitative": "CTE: steel ~12·10⁻⁶ 1/K, aluminium ~23·10⁻⁶, Invar ~1.2·10⁻⁶, fused silica ~0.5·10⁻⁶; bimetal strip curvature follows the Timoshenko formula; shrink-fit interference typically 0.5–2 ‰ of shaft diameter",
+   "limits": "Differential CTE is also a failure source: thermal stress, warping, solder-joint cracking; only useful within the material's stable temperature range; anisotropic composites expand differently along axes; repeated cycling can ratchet clearances",
+   "related_standards": [
+    "4.3.1",
+    "5.2.1"
+   ],
+   "source": "Timoshenko, S. (1925). Analysis of Bi-Metal Thermostats. J. Opt. Soc. Am. 11(3), 233–255. DOI: 10.1364/JOSA.11.000233; Яворский Б.М., Детлаф А.А. Справочник по физике. М.: Наука, 1968"
+  },
+  {
+   "id": "shape_memory",
+   "name": "Shape Memory Effect",
+   "description": "Certain alloys return to their original shape when heated",
+   "category": "Material Science",
+   "applications": [
+    "Shape memory stents",
+    "Self-deploying structures",
+    "Temperature-activated fasteners"
+   ],
+   "related_principles": [
+    35,
+    15,
+    25
+   ],
+   "technical_domains": [
+    "Medical",
+    "Aerospace",
+    "Robotics"
+   ],
+   "name_ru": "Эффект памяти формы",
+   "aliases": [
+    "SMA",
+    "сплавы с памятью формы",
+    "нитинол",
+    "мартенситные превращения"
+   ],
+   "function_tags": [
+    "change_shape",
+    "fix_hold"
+   ],
+   "quantitative": "NiTi: recoverable strain up to 8% one-way (~4% cyclic); recovery stresses 400–700 MPa; transformation temperatures settable by composition roughly −200…+110°C; thermal hysteresis 20–40 K",
+   "limits": "Functional fatigue: strain recovery degrades after thousands–millions of cycles; composition and heat treatment control is tight; thermal mass limits actuation frequency; deforms permanently if overheated above the martensite-destabilizing range",
+   "related_standards": [
+    "5.3.1",
+    "5.4.1"
+   ],
+   "source": "Buehler, W.J., Gilfrich, J.V., Wiley, R.C. (1963). J. Appl. Phys. 34(5), 1475–1477. DOI: 10.1063/1.1729603"
+  },
+  {
+   "id": "piezoelectric",
+   "name": "Piezoelectric Effect",
+   "description": "Materials generate electricity when mechanically stressed",
+   "category": "Electrical",
+   "applications": [
+    "Quartz watches",
+    "Ultrasonic transducers",
+    "Energy harvesting from vibration"
+   ],
+   "related_principles": [
+    15,
+    18,
+    23
+   ],
+   "technical_domains": [
+    "Electronics",
+    "Sensors",
+    "Energy"
+   ],
+   "name_ru": "Пьезоэлектрический эффект",
+   "aliases": [
+    "пьезоэффект",
+    "обратный пьезоэффект",
+    "пьезокерамика",
+    "PZT"
+   ],
+   "function_tags": [
+    "convert_energy",
+    "generate_field",
+    "sense_measure"
+   ],
+   "quantitative": "d-coefficients: quartz ~2.3 pC/N, PZT-5H d33 ≈ 590 pC/N; coupling factor k33 up to ~0.75; Curie temperature of PZT 200–350°C; transducers from 20 kHz to 100 MHz; free strain <0.2%",
+   "limits": "Poled ceramics depole permanently above the Curie point; charge leaks through finite insulation, so quasi-static signals decay (needs charge amplifier); brittle and hard to integrate in tension; pyroelectric charge can be mistaken for force signal",
+   "related_standards": [
+    "5.4.3",
+    "2.2.3"
+   ],
+   "source": "Jaffe, B., Cook, W.R., Jaffe, H. Piezoelectric Ceramics. Academic Press, 1971"
+  },
+  {
+   "id": "electrochromic",
+   "name": "Electrochromic Effect",
+   "description": "Materials change color when electric voltage is applied",
+   "category": "Optical",
+   "applications": [
+    "Smart windows",
+    "Anti-glare mirrors",
+    "Display technologies"
+   ],
+   "related_principles": [
+    32,
+    35,
+    16
+   ],
+   "technical_domains": [
+    "Architecture",
+    "Automotive",
+    "Displays"
+   ],
+   "name_ru": "Электрохромный эффект",
+   "aliases": [
+    "электрохромизм",
+    "умные окна",
+    "WO3-плёнки",
+    "электрохромные зеркала"
+   ],
+   "function_tags": [
+    "change_property",
+    "suppress_harm"
+   ],
+   "quantitative": "WO3 devices: visible transmittance modulates ~5–60%; switching time 5 s to several minutes (area/diffusion limited); memory ≥10⁴–10⁵ cycles; drive voltage ±1–3 V",
+   "limits": "Slow for large panels (ion diffusion); degradation under UV and over-charge; requires expensive transparent conductors (ITO); tint is not freely color-selectable; sluggish at low temperature",
+   "related_standards": [
+    "4.2.3",
+    "1.1.8"
+   ],
+   "source": "Granqvist, C.G. Handbook of Inorganic Electrochromic Materials. Elsevier, 1995"
+  },
+  {
+   "id": "superconductivity",
+   "name": "Superconductivity",
+   "description": "Zero electrical resistance at very low temperatures",
+   "category": "Electrical",
+   "applications": [
+    "MRI machines",
+    "Maglev trains",
+    "Power transmission"
+   ],
+   "related_principles": [
+    36,
+    2,
+    12
+   ],
+   "technical_domains": [
+    "Medical",
+    "Transportation",
+    "Energy"
+   ],
+   "name_ru": "Сверхпроводимость",
+   "aliases": [
+    "ВТСП",
+    "эффект Мейснера",
+    "критическая температура Tc",
+    "низкотемпературная сверхпроводимость",
+    "сверхпроводящий магнит"
+   ],
+   "function_tags": [
+    "transmit",
+    "store",
+    "generate_field"
+   ],
+   "quantitative": "Tc: NbTi 9.2 K, Nb3Sn 18 K, YBCO 92 K; engineering current density 10⁵–10⁶ A/cm² at 4.2 K in few-tesla fields; MRI magnets routinely 1.5–3 T, research >20 T; Meissner expulsion of B up to Hc1",
+   "limits": "Cryogenic infrastructure mandatory (near-room-T hydrides need megabar pressures — impractical); quench can destroy magnets without protection; type-II critical field and current limits; AC losses and flux creep remain nonzero",
+   "related_standards": [
+    "5.4.1",
+    "3.2.2"
+   ],
+   "source": "Bardeen, J., Cooper, L.N., Schrieffer, J.R. (1957). Theory of Superconductivity. Phys. Rev. 108(5), 1175–1204. DOI: 10.1103/PhysRev.108.1175"
+  },
+  {
+   "id": "aerogel",
+   "name": "Aerogel Properties",
+   "description": "Extremely low density solid with excellent insulation properties",
+   "category": "Material Science",
+   "applications": [
+    "Thermal insulation",
+    "Acoustic damping",
+    "Lightweight structures"
+   ],
+   "related_principles": [
+    31,
+    8,
+    40
+   ],
+   "technical_domains": [
+    "Aerospace",
+    "Construction",
+    "Energy"
+   ],
+   "name_ru": "Аэрогель",
+   "aliases": [
+    "замороженный дым",
+    "твёрдый дым",
+    "кремнезёмный аэрогель",
+    "легчайшее твёрдое тело"
+   ],
+   "function_tags": [
+    "suppress_harm",
+    "change_property"
+   ],
+   "quantitative": "Density 3–350 kg/m³ (porosity up to 99.8%); silica aerogel thermal conductivity 0.013–0.020 W/(m·K), below still air (0.026); specific surface area up to ~1000 m²/g",
+   "limits": "Native silica aerogel is brittle and dusts; hydrophilic variants absorb moisture and shrink; costly at scale; insulation degrades if compressed or wetted; tensile strength low — needs reinforcement",
+   "related_standards": [
+    "5.1.1",
+    "3.2.1",
+    "2.2.5"
+   ],
+   "source": "Pierre, A.C., Pajonk, G.M. (2002). Chemistry of Aerogels and Their Applications. Chem. Rev. 102(11), 4243–4266. DOI: 10.1021/cr0101306"
+  },
+  {
+   "id": "sonoluminescence",
+   "name": "Sonoluminescence",
+   "description": "Light emission from collapsing bubbles in liquid under sound waves",
+   "category": "Acoustic",
+   "applications": [
+    "Sonochemistry",
+    "Medical imaging",
+    "Cleaning technologies"
+   ],
+   "related_principles": [
+    18,
+    31,
+    16
+   ],
+   "technical_domains": [
+    "Chemistry",
+    "Medical",
+    "Industrial"
+   ],
+   "name_ru": "Сонолюминесценция",
+   "aliases": [
+    "звукосветовой эффект",
+    "однопузырьковая сонолюминесценция (SBSL)",
+    "shrimpoluminescence"
+   ],
+   "function_tags": [
+    "convert_energy",
+    "generate_field"
+   ],
+   "quantitative": "Single-bubble regime: flash width ~30–300 ps, one flash per acoustic cycle (20–40 kHz); hotspot temperature estimated 5,000–15,000 K; collapse pressures ~10⁸ Pa; needs degassed liquid and ~1 atm acoustic drive",
+   "limits": "Requires clean, degassed liquid and a stably trapped bubble — fragile setup; light output is a vanishing fraction of the acoustic energy (no usable light source); hotspot physics still debated; parametric instabilities destroy the trap",
+   "related_standards": [
+    "2.2.3",
+    "2.4.1"
+   ],
+   "source": "Putterman, S.J., Weninger, K.R. (2000). Sonoluminescence: How Bubbles Turn Sound into Light. Annu. Rev. Fluid Mech. 32, 445–476. DOI: 10.1146/annurev.fluid.32.1.445"
+  },
+  {
+   "id": "capillary_action",
+   "name": "Capillary Action",
+   "description": "Liquid movement through narrow spaces against gravity",
+   "category": "Fluid",
+   "applications": [
+    "Wick in candles",
+    "Plant root systems",
+    "Porous media flow"
+   ],
+   "related_principles": [
+    31,
+    17,
+    29
+   ],
+   "technical_domains": [
+    "Chemical",
+    "Agricultural",
+    "Materials"
+   ],
+   "name_ru": "Капиллярный эффект",
+   "aliases": [
+    "капиллярность",
+    "капиллярное поднятие",
+    "смачивание",
+    "закон Жюрена"
+   ],
+   "function_tags": [
+    "move_substance",
+    "separate_mix"
+   ],
+   "quantitative": "Jurin's law h = 2γcosθ/(ρgr); water in glass (γ = 72.8 mN/m, θ ≈ 0°): r = 1 mm → h ≈ 15 mm, r = 10 µm → h ≈ 1.5 m; wicking rate follows Lucas–Washburn √t law",
+   "limits": "Lift and flow are tiny for large pores; contact-angle hysteresis, trapped bubbles (Jamin effect) and salt deposits block it; surfactants kill the driving pressure difference; transport over long distances is slow",
+   "related_standards": [
+    "3.2.2",
+    "2.3.4"
+   ],
+   "source": "de Gennes, P.G. (1985). Wetting: statics and dynamics. Rev. Mod. Phys. 57(3), 827–863. DOI: 10.1103/RevModPhys.57.827"
+  },
+  {
+   "id": "thermoelectric",
+   "name": "Thermoelectric Effect",
+   "description": "Direct conversion between temperature differences and electric voltage",
+   "category": "Electrical",
+   "applications": [
+    "Waste heat recovery",
+    "Temperature sensors",
+    "Portable refrigerators"
+   ],
+   "related_principles": [
+    22,
+    23,
+    35
+   ],
+   "technical_domains": [
+    "Energy",
+    "Sensors",
+    "Electronics"
+   ],
+   "name_ru": "Термоэлектрический эффект",
+   "aliases": [
+    "эффект Зеебека",
+    "эффект Пельтье",
+    "эффект Томсона",
+    "термоЭДС",
+    "элемент Пельтье"
+   ],
+   "function_tags": [
+    "change_property",
+    "convert_energy",
+    "sense_measure"
+   ],
+   "quantitative": "ZT: Bi2Te3 ≈ 1 (commercial), best laboratory materials ≈ 1.4–2; Seebeck coefficient 50–250 µV/K; single-stage Peltier coolers reach ΔT up to 60–70 K with COP 0.3–0.8 (compressors 2–4)",
+   "limits": "Efficiency far below Carnot once ΔT exceeds ~100 K — poor for bulk power generation; parasitic heat conduction through legs; contact resistances dominate small devices; justified mainly where silence, no moving parts and reliability matter",
+   "related_standards": [
+    "5.4.3",
+    "4.3.1"
+   ],
+   "source": "Snyder, G.J., Toberer, E.S. (2008). Complex thermoelectric materials. Nat. Mater. 7, 105–114. DOI: 10.1038/nmat2090"
+  },
+  {
+   "id": "magnetorheological",
+   "name": "Magnetorheological Effect",
+   "description": "Fluids change viscosity in magnetic fields",
+   "category": "Material Science",
+   "applications": [
+    "Adaptive shock absorbers",
+    "Clutches and brakes",
+    "Seismic dampers"
+   ],
+   "related_principles": [
+    15,
+    35,
+    16
+   ],
+   "technical_domains": [
+    "Automotive",
+    "Civil",
+    "Robotics"
+   ],
+   "name_ru": "Магнитореологический эффект",
+   "aliases": [
+    "МР-жидкость",
+    "магнитореология",
+    "магнитные реологические суспензии",
+    "MR fluid"
+   ],
+   "function_tags": [
+    "change_property",
+    "fix_hold",
+    "suppress_harm"
+   ],
+   "quantitative": "Field-induced yield stress 50–100 kPa at B ≈ 0.8–1 T (an order of magnitude above ER fluids); response <10 ms; off-state viscosity 0.1–1 Pa·s; carbonyl-iron particles 1–10 µm at 20–40 vol%",
+   "limits": "Sedimentation and 'in-use thickening' shorten service life; holding state consumes power (fail-safe needs spring backup); yield stress ceiling limits clutch torque; working range roughly −40…+150°C",
+   "related_standards": [
+    "2.3.2",
+    "2.3.5"
+   ],
+   "source": "Carlson, J.D., Catanzarite, D.M., St. Clair, K.A. (1996). Commercial Magneto-Rheological Fluid Devices. Int. J. Mod. Phys. B 10(23–24), 2857–2865. DOI: 10.1142/S0217979296001306"
+  },
+  {
+   "id": "bioluminescence",
+   "name": "Bioluminescence",
+   "description": "Light production by living organisms through chemical reactions",
+   "category": "Biological",
+   "applications": [
+    "Safety lighting",
+    "Medical imaging",
+    "Environmental monitoring"
+   ],
+   "related_principles": [
+    22,
+    32,
+    25
+   ],
+   "technical_domains": [
+    "Biotechnology",
+    "Safety",
+    "Environmental"
+   ],
+   "name_ru": "Биолюминесценция",
+   "aliases": [
+    "живой свет",
+    "люциферин–люциферазная реакция",
+    "хемилюминесценция",
+    "GFP/акворин-репортёры"
+   ],
+   "function_tags": [
+    "generate_field",
+    "sense_measure"
+   ],
+   "quantitative": "Firefly system quantum yield ~0.15–0.6 (оценки 2018–2021 расходятся; «классические» 0.4–0.6 — верх диапазона); emission spans 450–660 nm across species; ATP/luciferase assays detect down to attomole (10⁻¹⁸ mol) levels; >75% родов открытого океана светятся (Widder 2010: ~80% родов; в литературе встречается 76–80% в зависимости от базиса выборки) of deep-sea animals produce light",
+   "limits": "Needs continuous supply of ATP/O2/substrate — signal decays; pH- and temperature-sensitive; far too dim for illumination tasks; genetically expressed reporters add minutes-to-hours latency",
+   "related_standards": [
+    "4.2.3",
+    "4.5.1"
+   ],
+   "source": "Widder, E.A. (2010). Bioluminescence in the Ocean: Origins of Biological, Chemical, and Ecological Diversity. Science 328(5979), 704–708. DOI: 10.1126/science.1174269"
+  },
+  {
+   "id": "nanoparticles",
+   "name": "Nanoparticle Effects",
+   "description": "Unique properties of materials at nanoscale",
+   "category": "Material Science",
+   "applications": [
+    "Drug delivery",
+    "Catalysis",
+    "Sensors"
+   ],
+   "related_principles": [
+    3,
+    16,
+    31
+   ],
+   "technical_domains": [
+    "Medical",
+    "Chemical",
+    "Electronics"
+   ],
+   "name_ru": "Эффекты наночастиц",
+   "aliases": [
+    "наноразмерные эффекты",
+    "квантово-размерный эффект",
+    "поверхностный плазмонный резонанс",
+    "зависимость температуры плавления от размера"
+   ],
+   "function_tags": [
+    "change_property",
+    "sense_measure"
+   ],
+   "quantitative": "Au spheres 13–20 nm: plasmon resonance ≈ 520 nm (wine-red color); melting point of 2–3 nm Au drops from 1337 K toward ~600–800 K; CdSe quantum dots 2–8 nm emit 450–650 nm, tunable by size; specific surface 10–1000 m²/g",
+   "limits": "Agglomeration destroys the nano-properties; batch-to-batch spread complicates scale-up; toxicity and clearance issues in vivo; quantum size effects vanish above ~10–20 nm (bulk behavior returns)",
+   "related_standards": [
+    "3.2.1",
+    "3.2.2",
+    "5.1.4"
+   ],
+   "source": "Daniel, M.-C., Astruc, D. (2004). Gold Nanoparticles. Chem. Rev. 104(1), 293–346. DOI: 10.1021/cr030698+"
+  },
+  {
+   "id": "quantum_tunneling",
+   "name": "Quantum Tunneling",
+   "description": "Quantum mechanical phenomenon allowing particles to pass through barriers",
+   "category": "Quantum",
+   "applications": [
+    "Scanning tunneling microscopy",
+    "Flash memory",
+    "Quantum computing"
+   ],
+   "related_principles": [
+    16,
+    1,
+    17
+   ],
+   "technical_domains": [
+    "Electronics",
+    "Metrology",
+    "Computing"
+   ],
+   "name_ru": "Квантовое туннелирование",
+   "aliases": [
+    "туннельный эффект",
+    "подбарьерный переход",
+    "туннельный ток"
+   ],
+   "function_tags": [
+    "sense_measure",
+    "store",
+    "transmit"
+   ],
+   "quantitative": "Tunneling current decays as exp(−2κz): in STM it changes ~an order of magnitude per 0.1 nm of gap → vertical resolution ~0.01 nm, lateral ~0.1 nm; flash memory uses Fowler–Nordheim tunneling through 8–12 nm SiO2 at ~10–20 V",
+   "limits": "Needs nanometre gaps — vibration, drift and contamination destroy the signal; exponential sensitivity gives huge current spread across real surfaces; tunnel oxide wear-out limits memory endurance; irrelevant at macroscopic scales (decoherence)",
+   "related_standards": [
+    "4.5.3",
+    "3.2.2"
+   ],
+   "source": "Binnig, G., Rohrer, H., Gerber, Ch., Weibel, E. (1982). Surface Studies by Scanning Tunneling Microscopy. Phys. Rev. Lett. 49, 57–61. DOI: 10.1103/PhysRevLett.49.57"
+  },
+  {
+   "id": "electrospinning",
+   "name": "Electrospinning",
+   "description": "Production of nanofibers using electric fields",
+   "category": "Material Science",
+   "applications": [
+    "Tissue engineering",
+    "Filtration",
+    "Composites"
+   ],
+   "related_principles": [
+    3,
+    30,
+    31
+   ],
+   "technical_domains": [
+    "Medical",
+    "Materials",
+    "Environmental"
+   ],
+   "name_ru": "Электропрядение",
+   "aliases": [
+    "электроспиннинг",
+    "электростатическое формование волокон",
+    "наноноволокна"
+   ],
+   "function_tags": [
+    "change_shape",
+    "separate_mix"
+   ],
+   "quantitative": "Fiber diameters ~50–500 nm (tens of nm to a few µm); voltage 5–30 kV at 10–20 cm tip-to-collector; throughput ~0.1–1 g/h per needle; bending (whipping) instability provides most of the jet drawing",
+   "limits": "Low throughput per jet — needs multi-jet/nozzleless scaling; volatile solvents or melt heating required; bead defects from jet instability; mat cohesion poor without post-processing; humidity and solvent control are critical",
+   "related_standards": [
+    "2.2.2",
+    "3.2.1"
+   ],
+   "source": "Reneker, D.H., Yarin, A.L. (2008). Electrospinning jets and polymer nanofibers. Polymer 49(10), 2387–2425. DOI: 10.1016/j.polymer.2008.02.002"
+  },
+  {
+   "id": "magnetocaloric",
+   "name": "Magnetocaloric Effect",
+   "description": "Temperature change in magnetic materials under changing magnetic fields",
+   "category": "Magnetic",
+   "applications": [
+    "Magnetic refrigeration",
+    "Heat pumps",
+    "Sensors"
+   ],
+   "related_principles": [
+    35,
+    15,
+    37
+   ],
+   "technical_domains": [
+    "Energy",
+    "Electronics",
+    "Sensors"
+   ],
+   "name_ru": "Магнитокалорийный эффект",
+   "aliases": [
+    "магнитокалорический эффект",
+    "МКЭ",
+    "адиабатическое размагничивание",
+    "магнитное охлаждение"
+   ],
+   "function_tags": [
+    "convert_energy",
+    "change_property"
+   ],
+   "quantitative": "Gd at 295 K: adiabatic ΔT ≈ 2.5–3.5 K per 1 T (~5–6 K at 5 T); Gd5Si2Ge2 giant MCE: ΔS ≈ 18–20 J/(kg·K) at 5 T; prototypes reach COP 5–10 at small ΔT but need 1.5–2 T fields",
+   "limits": "Requires strong fields — permanent-magnet arrays are heavy and expensive; narrow operating window near the transition temperature; hysteresis losses in giant-MCE alloys; heat-switching and regeneration limit cycle frequency",
+   "related_standards": [
+    "5.4.1",
+    "2.3.5"
+   ],
+   "source": "Pecharsky, V.K., Gschneidner, K.A. (1997). Giant Magnetocaloric Effect in Gd5(Si2Ge2). Phys. Rev. Lett. 78, 4494–4497. DOI: 10.1103/PhysRevLett.78.4494"
+  },
+  {
+   "id": "latent_heat_phase_change",
+   "name": "Latent Heat of Phase Change",
+   "description": "Substances absorb or release large amounts of heat at nearly constant temperature during melting/freezing/evaporation — a thermal battery",
+   "category": "Thermal",
+   "applications": [
+    "Phase-change material (PCM) heat storage in buildings",
+    "Wax thermostatic valves and thermal fuses",
+    "Sodium acetate heat pads and freezer packs",
+    "Sweating / evaporative cooling of humans and electronics",
+    "Ice slurry district cooling"
+   ],
+   "related_principles": [
+    36,
+    35
+   ],
+   "technical_domains": [
+    "Energy",
+    "Construction",
+    "HVAC"
+   ],
+   "name_ru": "Скрытая теплота фазового перехода",
+   "aliases": [
+    "теплота плавления",
+    "теплота парообразования",
+    "PCM",
+    "материалы с фазовым переходом",
+    "тепловой аккумулятор"
+   ],
+   "function_tags": [
+    "store",
+    "change_state"
+   ],
+   "quantitative": "Water: 334 kJ/kg fusion, 2257 kJ/kg evaporation; paraffin PCMs 180–250 kJ/kg; salt hydrates 100–200 kJ/kg; charge/discharge nearly isothermal (±1–2 K) — 5–50× the sensible heat of the same mass",
+   "limits": "PCM thermal conductivity is low (~0.2 W/(m·K)) — needs fins or encapsulation; supercooling and phase segregation degrade cycling; volume change at transition stresses containers; unusable for high heat flux without large exchange area",
+   "related_standards": [
+    "5.3.1",
+    "5.3.2",
+    "5.3.3"
+   ],
+   "source": "Zalba, B., Marín, J.M., Cabeza, L.F., Mehling, H. (2003). Review on thermal energy storage with phase change. Applied Thermal Engineering 23(3), 251–283. DOI: 10.1016/j.apthermaleng.2002.11.001"
+  },
+  {
+   "id": "regelation",
+   "name": "Regelation",
+   "description": "Ice melts under pressure and refreezes when pressure is released, letting objects pass through a block of ice near 0°C",
+   "category": "Thermal",
+   "applications": [
+    "Wire cutting through an ice block (classic demonstration)",
+    "Snowball and ski-trail snow compaction/sintering",
+    "Glacier flow around bedrock obstacles",
+    "Ice crystal rounding in clouds"
+   ],
+   "related_principles": [
+    36,
+    35
+   ],
+   "technical_domains": [
+    "Cryogenics",
+    "Geophysics",
+    "Education"
+   ],
+   "name_ru": "Регеляция",
+   "aliases": [
+    "повторное замерзание",
+    "таяние под давлением",
+    "проволока сквозь лёд"
+   ],
+   "function_tags": [
+    "change_state"
+   ],
+   "quantitative": "Melting point drops only −0.074 K/MPa (Clausius–Clapeyron); 1 kg load on a 0.5 mm wire (σ ≈ 7 MPa) shifts Tm by just −0.5 K — sufficient at 0°C; re-icing happens on the low-pressure side within seconds",
+   "limits": "Works only within ~1–2 K of the melting point; pressure melting alone cannot explain ice skating (friction heating and surface premelting dominate); fails in very cold or highly porous snow; needs the refreezing side to dump heat to the melting side",
+   "related_standards": [
+    "5.3.3",
+    "1.1.8"
+   ],
+   "source": "Яворский Б.М., Детлаф А.А. Справочник по физике. М.: Наука, 1968"
+  },
+  {
+   "id": "thermal_shock",
+   "name": "Thermal Shock (Thermal Stress Resistance)",
+   "description": "Steep temperature gradients generate stresses that crack brittle materials; resistance ranks by the parameter R = σ(1−ν)/(Eα) and can be exploited (tempering, quenching)",
+   "category": "Thermal",
+   "applications": [
+    "Glass tempering: precompressed surface gives ~4× strength",
+    "Steel quench hardening (deliberately rushing through the dangerous zone)",
+    "Selecting ceramics for furnaces, kilns and brake discs",
+    "Thermal-cycling qualification of solder joints and electronics"
+   ],
+   "related_principles": [
+    9,
+    21,
+    40
+   ],
+   "technical_domains": [
+    "Manufacturing",
+    "Materials",
+    "Electronics"
+   ],
+   "name_ru": "Термический удар",
+   "aliases": [
+    "термостойкость",
+    "термоудар",
+    "закалка",
+    "термические напряжения"
+   ],
+   "function_tags": [
+    "suppress_harm",
+    "change_property"
+   ],
+   "quantitative": "Critical quench ΔTc ≈ 50–60 K for soda-lime glass, ≈ 200 K for alumina, > 1000 K for fused silica (α ≈ 0.5·10⁻⁶ 1/K); tempered glass carries 100–200 MPa surface compression",
+   "limits": "High CTE + low conductivity + high stiffness = crack-prone (glass, zirconia); the simple R parameter fails for composites and gradient materials; part thickness couples through the Biot number; ductility invalidates the brittle-material criterion in metals",
+   "related_standards": [
+    "2.2.5"
+   ],
+   "source": "Kingery, W.D. (1955). Factors Affecting Thermal Stress Resistance of Ceramic Materials. J. Am. Ceram. Soc. 38(1), 3–15. DOI: 10.1111/j.1151-2916.1955.tb14545.x"
+  },
+  {
+   "id": "supercooling",
+   "name": "Supercooling / Superheating (Metastability)",
+   "description": "Liquids stay liquid below their freezing point (or gas above boiling point) until nucleation occurs — a metastable store of phase-transition energy and a hazard",
+   "category": "Thermal",
+   "applications": [
+    "Sodium acetate hand warmers with triggered crystallization",
+    "Understanding freezing rain and aircraft icing (supercooled droplets)",
+    "Controlled nucleation in cryopreservation",
+    "Cloud seeding with ice-nucleating agents"
+   ],
+   "related_principles": [
+    35,
+    10
+   ],
+   "technical_domains": [
+    "Chemical",
+    "Meteorology",
+    "Medical"
+   ],
+   "name_ru": "Переохлаждение (метастабильность)",
+   "aliases": [
+    "переохлаждённая жидкость",
+    "перегрев жидкости",
+    "метастабильное состояние",
+    "гомогенная нуклеация",
+    "тепловые пакеты"
+   ],
+   "function_tags": [
+    "change_state",
+    "store"
+   ],
+   "quantitative": "Homogeneous nucleation limit of water droplets ≈ −38…−40°C; tap water typically supercools only −3…−8°C; sodium acetate trihydrate releases ~264 J/g on demand; superheated water in smooth vessels can exceed 100°C then flash-boil violently",
+   "limits": "Any dust, scratch, bubble or vibration triggers uncontrolled crystallization; large volumes are practically impossible to hold metastable; long-term storage unreliable (delayed nucleation); superheating bumps are a burn hazard in microwaves",
+   "related_standards": [
+    "5.4.1",
+    "1.1.8"
+   ],
+   "source": "Debenedetti, P.G. Metastable Liquids: Concepts and Principles. Princeton University Press, 1996"
+  },
+  {
+   "id": "radiative_cooling",
+   "name": "Passive Daytime Radiative Cooling",
+   "description": "A surface that reflects sunlight and emits strongly in the 8–13 μm atmospheric window dumps heat to space and cools below ambient air temperature",
+   "category": "Thermal",
+   "applications": [
+    "Passive roof coatings reducing air-conditioning load",
+    "Photonic cooling layers raising PV panel efficiency",
+    "Night dew harvesting and condensation collection",
+    "Free cooling for cold-chain and telecom cabinets"
+   ],
+   "related_principles": [
+    28,
+    2
+   ],
+   "technical_domains": [
+    "Energy",
+    "Construction",
+    "HVAC"
+   ],
+   "name_ru": "Радиационное охлаждение",
+   "aliases": [
+    "пассивное дневное радиационное охлаждение",
+    "PDRC",
+    "окно прозрачности атмосферы",
+    "излучательное охлаждение"
+   ],
+   "function_tags": [
+    "change_property",
+    "suppress_harm"
+   ],
+   "quantitative": "Atmospheric window 8–13 µm; net cooling power 40–120 W/m²; demonstrated 4.9°C below ambient under 850–900 W/m² direct sun with 97% solar reflection (Raman 2014); night-time sub-ambient drops of ~10 K in dry climates",
+   "limits": "Needs a clear, dry sky — clouds and humidity close the window; wind convection eats the few-kelvin margin; no cooling indoors or under roofs; useless when parasitic heat fluxes exceed ~100 W/m²; soiling degrades both reflection and emissivity",
+   "related_standards": [
+    "5.2.2"
+   ],
+   "source": "Raman, A.P., Abou Anoma, M., Zhu, L., Rephaeli, E., Fan, S. (2014). Passive radiative cooling below ambient air temperature under direct sunlight. Nature 515, 540–544. DOI: 10.1038/nature13883"
+  },
+  {
+   "id": "soret_effect",
+   "name": "Thermophoresis (Soret) / Dufour Effect",
+   "description": "A temperature gradient drives species separation in a mixture (Soret); reciprocally a concentration gradient drives heat flow (Dufour)",
+   "category": "Thermal",
+   "applications": [
+    "Clusius–Dickel thermal diffusion columns for isotope separation",
+    "Thermophoretic deposition of soot on cold probes (measurement and filtration)",
+    "DNA/protein manipulation in microfluidic thermal gradients",
+    "Aerosol sampling and particle-free zones near hot surfaces"
+   ],
+   "related_principles": [
+    35,
+    28
+   ],
+   "technical_domains": [
+    "Chemical",
+    "Nuclear",
+    "Biomedical"
+   ],
+   "name_ru": "Термодиффузия",
+   "aliases": [
+    "эффект Соре",
+    "эффект Дюфура",
+    "термофорез",
+    "термодиффузионное разделение"
+   ],
+   "function_tags": [
+    "separate_mix"
+   ],
+   "quantitative": "Soret coefficient S_T ~ 10⁻³–10⁻² K⁻¹ in molecular liquids, up to ~1 K⁻¹ for colloids/polymers; separation grows with applied gradient (typ. 10–100 K/cm); isotope columns needed weeks-to-months of counterflow operation",
+   "limits": "Extremely slow and weak per stage; natural convection destroys the separation unless the column geometry is used; predictive theory solid only for dilute gases; not competitive with centrifuges or membranes for bulk separations",
+   "related_standards": [
+    "2.2.4"
+   ],
+   "source": "de Groot, S.R., Mazur, P. Non-Equilibrium Thermodynamics. North-Holland, 1962"
+  },
+  {
+   "id": "heat_pipe",
+   "name": "Heat Pipe (Two-Phase Capillary Loop)",
+   "description": "Sealed pipe where fluid evaporates at the hot end, condenses at the cold end and a capillary wick returns the liquid — near-isothermal heat transport at huge effective conductivity",
+   "category": "Thermal",
+   "applications": [
+    "CPU/laptop coolers and vapor-chamber heat spreaders",
+    "Spacecraft thermal control (works without gravity)",
+    "Permafrost stabilization thermosyphons on pipelines",
+    "Heat-recovery exchangers and cooled furnace panels"
+   ],
+   "related_principles": [
+    36,
+    31
+   ],
+   "technical_domains": [
+    "Electronics",
+    "Aerospace",
+    "Energy"
+   ],
+   "name_ru": "Тепловая труба",
+   "aliases": [
+    "тепловая трубка",
+    "термосифон",
+    "vapor chamber",
+    "двухфазный контур",
+    "тепловая труба с фитилем"
+   ],
+   "function_tags": [
+    "transmit",
+    "suppress_harm"
+   ],
+   "quantitative": "Effective conductivity 10–100 kW/(m·K) versus copper 0.4 kW/(m·K); conventional designs carry up to ~100 W/cm²; operating range −200…+2000°C (ammonia to alkali metals); temperature drop along the pipe is only a few kelvin",
+   "limits": "Bounded by capillary, sonic, entrainment and boiling limits; wick types fail when oriented against gravity (pure thermosyphons need gravity); non-condensable gases progressively disable it; freeze–thaw and fluid–wall compatibility degrade over life",
+   "related_standards": [
+    "5.3.1",
+    "1.1.3"
+   ],
+   "source": "Grover, G.M., Cotter, T.P., Erickson, G.F. (1964). Structures of Very High Thermal Conductance. J. Appl. Phys. 35(6), 1990–1991. DOI: 10.1063/1.1713792"
+  },
+  {
+   "id": "mechanical_resonance",
+   "name": "Mechanical Resonance",
+   "description": "Oscillation amplitude amplifies sharply when the driving frequency matches a natural frequency — a cheap force amplifier and a notorious destroyer",
+   "category": "Mechanical",
+   "applications": [
+    "Vibratory sieves and compactors driven near resonance (small motor, large stroke)",
+    "Resonant sensing: mass/viscosity shifts frequency (QCM, MEMS gyros, AFM)",
+    "Ultrasonic horns and amplitude transformers",
+    "Negative case: Tacoma Narrows 1940 (torsional aeroelastic flutter at ~0.2 Hz) — often mis-taught as simple resonance"
+   ],
+   "related_principles": [
+    18,
+    19
+   ],
+   "technical_domains": [
+    "Mechanical",
+    "Sensors",
+    "Civil"
+   ],
+   "name_ru": "Механический резонанс",
+   "aliases": [
+    "собственная частота",
+    "резонансные колебания",
+    "добротность Q",
+    "флаттер (аэроупругий)"
+   ],
+   "function_tags": [
+    "sense_measure",
+    "convert_energy"
+   ],
+   "quantitative": "f_n = (1/2π)√(k/m); amplitude gain at resonance ≈ Q (welded steel structures 10–50, precision tuning forks >10⁴); build-up time ~Q/f; Tacoma Narrows collapsed 7 Nov 1940 in ~19 m/s wind",
+   "limits": "Benefit requires high Q but damping destroys it; narrow band — detunes with temperature, wear and added mass; resonance is crossed during start/stop (transient overshoot); in large structures it is chiefly a failure mode to design out",
+   "related_standards": [
+    "2.4.1",
+    "2.2.3"
+   ],
+   "source": "Den Hartog, J.P. Mechanical Vibrations, 4th ed. McGraw-Hill, 1956; Billah, K.Y., Scanlan, R.H. (1991). Am. J. Phys. 59(2), 118–120. DOI: 10.1119/1.16598"
+  },
+  {
+   "id": "gyroscopic_precession",
+   "name": "Gyroscopic Effect / Precession",
+   "description": "A spinning body resists reorientation and responds to torque by precessing perpendicular to that torque at rate Ω = τ/L — attitude stabilization and rotation sensing",
+   "category": "Mechanical",
+   "applications": [
+    "Control moment gyros for spacecraft attitude (ISS uses 4 CMGs, propellant-free)",
+    "Ship and drilling-platform roll stabilizers",
+    "MEMS vibrating gyros in phones, drones and cars",
+    "Bicycle/motorcycle stability and spinning-projectile stabilization"
+   ],
+   "related_principles": [
+    13,
+    20
+   ],
+   "technical_domains": [
+    "Aerospace",
+    "Transportation",
+    "Electronics"
+   ],
+   "name_ru": "Гироскопический эффект",
+   "aliases": [
+    "прецессия",
+    "гироскоп",
+    "гироскопический момент",
+    "нутация",
+    "стабилизация вращением"
+   ],
+   "function_tags": [
+    "suppress_harm",
+    "transmit"
+   ],
+   "quantitative": "Precession rate Ω = τ/(Iω); MEMS gyro bias 0.01–0.1°/s (consumer) vs fibre-optic/ring-laser gyros 0.001–0.01°/h (navigation grade); reactive gyroscopic torque scales with spin speed × angular rate of the frame",
+   "limits": "Gimbal lock in 2-DOF mounts; bearing friction causes drift; gyroscopic couples in rotors (turbines, aero engines) excite whirling vibration; does not resist translation — attitude only; spinning stores need care at RPM limits",
+   "related_standards": [
+    "1.2.4"
+   ],
+   "source": "Feynman Lectures on Physics Vol. I (1963), ch. 20 'Rotation in space'"
+  },
+  {
+   "id": "tuned_mass_damper",
+   "name": "Tuned Mass Damper (Inertial Damper)",
+   "description": "A secondary mass-spring-damper tuned to a structure's dominant mode drains vibration energy into itself, suppressing resonance amplitude",
+   "category": "Mechanical",
+   "applications": [
+    "Taipei 101: 660 t steel pendulum against typhoon sway",
+    "Pedestrian bridge and chimney dampers",
+    "Crankshaft and driveline torsional dampers",
+    "Stockbridge dampers on power-line conductors"
+   ],
+   "related_principles": [
+    9,
+    1,
+    15
+   ],
+   "technical_domains": [
+    "Civil",
+    "Automotive",
+    "Energy"
+   ],
+   "name_ru": "Динамический гаситель колебаний",
+   "aliases": [
+    "настроенный массовый демпфер",
+    "TMD",
+    "инерционный гаситель",
+    "маятниковый демпфер",
+    "демпфер Стокбриджа"
+   ],
+   "function_tags": [
+    "suppress_harm",
+    "store"
+   ],
+   "quantitative": "Mass ratio μ = 0.5–5% of modal mass; Den Hartog optimum tuning ratio f ≈ 1/(1+μ); adds ~2–4% damping; Taipei 101's 660 t sphere (~0.1% of the ~700 kt tower) cuts typhoon sway by ~40%",
+   "limits": "Narrow-band: loses effect when the mode shifts (mass change, temperature, ice); adds dead weight at the top of structures; ineffective against broadband random excitation; needs accurate modal model and periodic maintenance of damping elements",
+   "related_standards": [
+    "1.2.3",
+    "2.4.2"
+   ],
+   "source": "Den Hartog, J.P. Mechanical Vibrations, 4th ed. McGraw-Hill, 1956"
+  },
+  {
+   "id": "vibro_transport",
+   "name": "Vibrational Conveyance (Vibro-Transport)",
+   "description": "Asymmetric vibration makes friction act differently in the two stroke halves, ratcheting parts along a track and passively orienting them",
+   "category": "Mechanical",
+   "applications": [
+    "Vibratory bowl feeders orienting parts at assembly stations",
+    "Vibratory conveyors for hot, abrasive or sticky bulk materials",
+    "Vibrating tables for compaction and settling",
+    "Linear vibratory feeders and part sorters"
+   ],
+   "related_principles": [
+    18,
+    13
+   ],
+   "technical_domains": [
+    "Manufacturing",
+    "Logistics",
+    "Mining"
+   ],
+   "name_ru": "Вибрационное перемещение",
+   "aliases": [
+    "вибротранспорт",
+    "вибрационный конвейер",
+    "вибрационный питатель",
+    "вибробункер",
+    "вибрационный лоток"
+   ],
+   "function_tags": [
+    "move_substance",
+    "separate_mix"
+   ],
+   "quantitative": "Typical drive 20–120 Hz (mains-synchronized 50/100 Hz common); amplitude 0.1–3 mm; conveying speed 0.02–0.5 m/s on tracks inclined 20–30° upward; only geometrically 'good' attitudes advance — orientation for free",
+   "limits": "Noisy (can exceed 80 dB(A)); jams on tangled, springy or magnetic parts; above the throw threshold parts launch and damage; track wear produces abrasive dust; delicate parts suffer impact loading",
+   "related_standards": [
+    "2.2.3"
+   ],
+   "source": "Blekhman, I.I. Vibrational Mechanics: Nonlinear Dynamic Effects, General Approach, Applications. World Scientific, 2000"
+  },
+  {
+   "id": "acoustic_levitation",
+   "name": "Acoustic Levitation",
+   "description": "Acoustic radiation pressure traps small objects at standing-wave pressure nodes — contactless holding without container or support",
+   "category": "Acoustic",
+   "applications": [
+    "Containerless processing of melts and undercooled droplets",
+    "Contactless transport of drops/reagents for chemistry and protein X-ray work",
+    "Acoustic tweezer arrays for droplet merging and micro-assembly",
+    "Handling of sterile or hazardous samples without contact"
+   ],
+   "related_principles": [
+    8,
+    28
+   ],
+   "technical_domains": [
+    "Materials",
+    "Chemistry",
+    "Medical"
+   ],
+   "name_ru": "Акустическая левитация",
+   "aliases": [
+    "левитация звуком",
+    "радиационное давление",
+    "акустические пинцеты",
+    "звуковая ловушка"
+   ],
+   "function_tags": [
+    "fix_hold"
+   ],
+   "quantitative": "Object size ≲ λ/2 — at 40 kHz in air (λ ≈ 8.6 mm) that is ~4 mm; trapping needs ~150–160 dB SPL; node spacing λ/2 ≈ 4.3 mm; levitation of ants, ladybugs and small fish demonstrated (Xie 2006)",
+   "limits": "Practically mm-scale, low-density payloads in air; 150+ dB is power-hungry and hearing-hazardous; node positions fixed by geometry (arrays required to move the payload); air currents or weight beyond trap stiffness drop the object instantly",
+   "related_standards": [
+    "2.2.4",
+    "5.1.2"
+   ],
+   "source": "Xie, W.J., Cao, C.D., Lü, Y.J., Hong, Z.Y., Wei, B. (2006). Acoustic method for levitation of small living animals. Appl. Phys. Lett. 89(21), 214102. DOI: 10.1063/1.2396893"
+  },
+  {
+   "id": "doppler_effect",
+   "name": "Doppler Effect",
+   "description": "Wave frequency shifts in proportion to the relative radial velocity of source and observer — velocity becomes directly measurable",
+   "category": "Acoustic",
+   "applications": [
+    "Doppler ultrasound blood-flow imaging (2–15 MHz probes)",
+    "Police/automotive radar speed measurement",
+    "Laser Doppler velocimetry of flows without seeding probes",
+    "Astronomical redshift and radar astronomy"
+   ],
+   "related_principles": [
+    26,
+    28
+   ],
+   "technical_domains": [
+    "Medical",
+    "Transportation",
+    "Metrology"
+   ],
+   "name_ru": "Эффект Доплера",
+   "aliases": [
+    "доплеровский сдвиг",
+    "доплеровское смещение частоты",
+    "красное смещение",
+    "доплеровский радар"
+   ],
+   "function_tags": [
+    "sense_measure"
+   ],
+   "quantitative": "Δf/f ≈ v/c for small v; medical ultrasound: blood 0.05–1.5 m/s at 3–10 MHz gives shifts of ~0.3–20 kHz; K-band radar (24.125 GHz) yields ~161 Hz per m/s; redshift z = Δλ/λ sets recession velocity",
+   "limits": "Responds only to the radial velocity component — tangential motion is invisible; ambiguous targets and multipath in clutter; speed of sound depends on medium temperature (ultrasound calibration); very slow motion gives shifts below oscillator stability",
+   "related_standards": [
+    "4.1.1",
+    "4.2.2"
+   ],
+   "source": "Яворский Б.М., Детлаф А.А. Справочник по физике. М.: Наука, 1968"
+  },
+  {
+   "id": "ultrasonic_cleaning",
+   "name": "Ultrasonic Cleaning",
+   "description": "Intense ultrasound agitates a liquid into cavitating microbubbles whose collapse scours contaminants off surfaces, including hidden crevices",
+   "category": "Acoustic",
+   "applications": [
+    "Jewelry, optics and dental/instrument cleaning",
+    "Precision degreasing before plating or coating",
+    "PCB flux removal in aqueous or solvent baths",
+    "Cleaning of porous and micro-structured surfaces"
+   ],
+   "related_principles": [
+    18
+   ],
+   "technical_domains": [
+    "Manufacturing",
+    "Medical",
+    "Electronics"
+   ],
+   "name_ru": "Ультразвуковая очистка",
+   "aliases": [
+    "УЗ-очистка",
+    "кавитационная очистка",
+    "ультразвуковая ванна",
+    "промывка ультразвуком"
+   ],
+   "function_tags": [
+    "separate_mix"
+   ],
+   "quantitative": "Typical 25–45 kHz (precision baths to 1–2 MHz); power density 10–50 W/L; cavitation bubbles ~10–100 µm; removes sub-micron particles from blind holes; bath optimum ~50–60°C",
+   "limits": "Shadowing — surfaces not 'seen' by the field clean poorly; cavitation erodes soft metals, plastics and fragile microstructures; degassing and frequency choice are critical; large tanks suffer strong field nonuniformity",
+   "related_standards": [
+    "2.2.3",
+    "1.2.1"
+   ],
+   "source": "Mason, T.J. Practical Sonochemistry: User's Guide to Applications in Chemistry and Chemical Engineering. Ellis Horwood, 1991"
+  },
+  {
+   "id": "ultrasonic_welding",
+   "name": "Ultrasonic Welding",
+   "description": "20–40 kHz vibration under pressure joins plastics or bonds metal foils by interfacial friction heating in a fraction of a second, without bulk heating",
+   "category": "Acoustic",
+   "applications": [
+    "Mass joining of plastic housings, cartridges, toys (cycle < 1 s)",
+    "Wire bonding in microelectronics (60–140 kHz)",
+    "Ultrasonic additive manufacturing of metal foil layers",
+    "Sealing of films, tubes and food packaging"
+   ],
+   "related_principles": [
+    18,
+    19
+   ],
+   "technical_domains": [
+    "Manufacturing",
+    "Electronics",
+    "Packaging"
+   ],
+   "name_ru": "Ультразвуковая сварка",
+   "aliases": [
+    "УЗ-сварка",
+    "УЗ-сварка пластмасс",
+    "УЗ-контактная сварка (wire bonding)"
+   ],
+   "function_tags": [
+    "mix_join"
+   ],
+   "quantitative": "Frequency 15–70 kHz (20/40 kHz standard); horn amplitude 10–100 µm; weld time 0.2–2 s; joint footprint per horn up to ~10–20 cm; local interface temperature rise confined to microns of the weld line",
+   "limits": "Joint and horn sizes limited to centimeters; amorphous plastics need energy-director features; vibration attenuates across the part (near-field only); thick, highly damped or filled materials weld poorly; tooling is part-specific",
+   "related_standards": [
+    "2.2.3",
+    "5.2.1"
+   ],
+   "source": "Ensminger, D., Bond, L.J. Ultrasonics: Fundamentals, Technologies, and Applications, 3rd ed. CRC Press, 2011"
+  },
+  {
+   "id": "photoelasticity",
+   "name": "Photoelasticity",
+   "description": "Stressed transparent materials become birefringent in proportion to stress; polarized light reveals the full internal stress field as fringe patterns",
+   "category": "Mechanical",
+   "applications": [
+    "Full-field stress analysis on transparent models",
+    "Residual-stress QC of tempered glass and plastic parts",
+    "3D 'stress-frozen' models sliced and inspected",
+    "Photoelastic coatings on metal parts for surface stress mapping"
+   ],
+   "related_principles": [
+    32
+   ],
+   "technical_domains": [
+    "Manufacturing",
+    "Civil",
+    "Materials"
+   ],
+   "name_ru": "Фотоупругость",
+   "aliases": [
+    "фотоупругий эффект",
+    "метод фотоупругих покрытий",
+    "изохроматические полосы",
+    "искусственное двойное лучепреломление"
+   ],
+   "function_tags": [
+    "sense_measure"
+   ],
+   "quantitative": "Fringe law (σ1−σ2) = N·f_σ/t; epoxy f_σ ≈ 10–12 kN/(fringe·m) → ~1 MPa per fringe for a 10 mm model; whole-field method locating stress concentrations to within one fringe (~MPa)",
+   "limits": "Requires transparency or a bonded coating; isoclinic and isochromatic fringes mix — compensation needed to separate them; fringe-order ambiguity at sharp gradients; 3D analysis needs the stress-freezing bake and slicing",
+   "related_standards": [
+    "4.2.1",
+    "4.2.2"
+   ],
+   "source": "Dally, J.W., Riley, W.F. Experimental Stress Analysis, 3rd ed. McGraw-Hill, 1991"
+  },
+  {
+   "id": "piezoresistive_effect",
+   "name": "Piezoresistive Effect",
+   "description": "Semiconductor resistivity changes strongly under mechanical strain — gauge factors ~100× metals — the workhorse of MEMS sensing",
+   "category": "Mechanical",
+   "applications": [
+    "Silicon MEMS pressure sensors (automotive, medical, industrial)",
+    "Strain gauges in load cells and accelerometers",
+    "Cantilever biosensors reading surface stress",
+    "Downhole and cryogenic pressure instrumentation"
+   ],
+   "related_principles": [
+    23
+   ],
+   "technical_domains": [
+    "Electronics",
+    "Automotive",
+    "Medical"
+   ],
+   "name_ru": "Пьезорезистивный эффект",
+   "aliases": [
+    "пьезорезистивность",
+    "кремниевые тензодатчики",
+    "тензочувствительность",
+    "MEMS-датчики давления"
+   ],
+   "function_tags": [
+    "sense_measure"
+   ],
+   "quantitative": "Gauge factor: p-Si ≈ 100–200, n-Si ≈ −100…−150, metal foil ≈ 2; MEMS pressure sensors span 0.1–1000 bar full scale with 0.1–1% linearity; standard doping 10¹⁹–10²⁰ cm⁻³",
+   "limits": "Temperature coefficient of resistance is ~10× the strain signal — bridge compensation mandatory; drift under cycling and packaging stress; diffused sensors limited to ~125–150°C; self-heating at high excitation biases the reading",
+   "related_standards": [
+    "4.1.1"
+   ],
+   "source": "Kanda, Y. (1991). Piezoresistance effect of silicon. Sensors and Actuators A 28(2), 83–91. DOI: 10.1016/0924-4247(91)85017-I"
+  },
+  {
+   "id": "magnetostriction",
+   "name": "Magnetostriction",
+   "description": "Ferromagnetic materials change shape when magnetized (Joule magnetostriction); the inverse effect turns vibration into magnetic signals",
+   "category": "Mechanical",
+   "applications": [
+    "Terfenol-D sonar projectors and high-force actuators",
+    "Magnetostrictive position sensors in hydraulic cylinders",
+    "Vibration energy harvesting with Galfenol",
+    "Negative case: transformer hum (laminate the core to suppress)"
+   ],
+   "related_principles": [
+    28,
+    19
+   ],
+   "technical_domains": [
+    "Electronics",
+    "Marine",
+    "Energy"
+   ],
+   "name_ru": "Магнитострикция",
+   "aliases": [
+    "магнитострикционный эффект",
+    "Джоулева магнитострикция",
+    "терфенол-Д",
+    "гальфенол"
+   ],
+   "function_tags": [
+    "convert_energy",
+    "generate_field"
+   ],
+   "quantitative": "Saturation magnetostriction λ: Terfenol-D ≈ 1600–2000 ppm, Galfenol ≈ 300–400 ppm, nickel ≈ −33 ppm, polycrystalline iron ≈ −7 ppm; drive fields 50–200 kA/m; response is nonlinear with hysteresis",
+   "limits": "Eddy-current losses at AC drive (laminate or use ferrites); hysteresis converts to heat and drift; Terfenol-D is brittle and costly (Tb/Dy rare earths) with Curie point ~650 K; stroke is small — lever amplification needed for displacement",
+   "related_standards": [
+    "5.4.3",
+    "2.3.1"
+   ],
+   "source": "Bozorth, R.M. Ferromagnetism. Van Nostrand, 1951"
+  },
+  {
+   "id": "elastic_energy_storage",
+   "name": "Elastic Energy Storage (Springs)",
+   "description": "Elastic deformation stores recoverable mechanical energy (½kx², or σ²V/2E) released later as work — the mechanical battery of bows, watches and springs",
+   "category": "Mechanical",
+   "applications": [
+    "Mechanical watch mainsprings",
+    "Bows, catapults and spring launchers",
+    "Vehicle leaf/coil/torsion-bar suspension",
+    "Spring-return actuators and fail-safe valve reset"
+   ],
+   "related_principles": [
+    20,
+    14
+   ],
+   "technical_domains": [
+    "Mechanical",
+    "Automotive",
+    "Consumer"
+   ],
+   "name_ru": "Упругое накопление энергии",
+   "aliases": [
+    "пружинный аккумулятор",
+    "энергия упругой деформации",
+    "заводная пружина",
+    "упругая энергия"
+   ],
+   "function_tags": [
+    "store"
+   ],
+   "quantitative": "Volumetric density σ²/(2E): spring steel near 1 GPa stress ≈ 2.5 MJ/m³ ≈ 0.3 kJ/kg; a watch mainspring stores ~0.05–0.5 J and runs 40+ h; a compound bow stores ~60–100 J",
+   "limits": "Stress must stay below the elastic limit — energy density far below chemical storage or flywheels; stress relaxation slowly discharges the store ('self-discharge'); fatigue limits cycle count; large energies demand impractically bulky springs",
+   "related_standards": [
+    "5.2.1"
+   ],
+   "source": "Яворский Б.М., Детлаф А.А. Справочник по физике. М.: Наука, 1968"
+  },
+  {
+   "id": "creep_relaxation",
+   "name": "Creep and Stress Relaxation",
+   "description": "Under sustained stress and elevated temperature solids keep deforming slowly (creep); at held strain the stress decays with time (relaxation)",
+   "category": "Mechanical",
+   "applications": [
+    "Turbine-blade alloy design (creep-limited service life)",
+    "Bolted-flange preload relaxation analysis",
+    "Compensation for cold flow of lead and polymer gaskets",
+    "Creep-forming and stress-relief annealing of aircraft skins"
+   ],
+   "related_principles": [
+    9
+   ],
+   "technical_domains": [
+    "Energy",
+    "Aerospace",
+    "Manufacturing"
+   ],
+   "name_ru": "Ползучесть и релаксация напряжений",
+   "aliases": [
+    "крип",
+    "высокотемпературная ползучесть",
+    "релаксация затяга",
+    "длительная прочность",
+    "холодное течение"
+   ],
+   "function_tags": [
+    "change_shape"
+   ],
+   "quantitative": "Significant above ~0.3–0.4 Tm (lead creeps at room temperature); Norton law ε̇ = Aσⁿ·e^(−Q/RT) with n ≈ 3–8; bolt preload loss of 5–30% over years at temperature; design allowables ~1% strain per 10⁵ h",
+   "limits": "Large scatter — life extrapolation is risky; a small temperature shift changes rate by an order of magnitude; tertiary-stage rupture is hard to predict in service; relaxation silently loosens bolts and gaskets (classic hidden failure)",
+   "related_standards": [],
+   "source": "Frost, H.J., Ashby, M.F. Deformation-Mechanism Maps: The Plasticity and Creep of Metals and Ceramics. Pergamon Press, 1982"
+  },
+  {
+   "id": "superelasticity",
+   "name": "Superelasticity (Pseudoelasticity)",
+   "description": "Stress-induced martensite in Nitinol produces a large strain plateau that fully recovers on unloading — spring-like travel without any thermal trigger (distinct from shape memory actuation)",
+   "category": "Mechanical",
+   "applications": [
+    "Self-expanding vascular stents that recover from kinking",
+    "Eyeglass frames that snap back after bending",
+    "Orthodontic archwires delivering near-constant force",
+    "Steerable guidewires and medical instruments"
+   ],
+   "related_principles": [
+    35,
+    15
+   ],
+   "technical_domains": [
+    "Medical",
+    "Consumer",
+    "Mechanical"
+   ],
+   "name_ru": "Сверхэластичность",
+   "aliases": [
+    "псевдоупругость",
+    "суперэластичность нитинола",
+    "сверхупругость",
+    "напряжённо-индуцированный мартенсит"
+   ],
+   "function_tags": [
+    "change_shape",
+    "fix_hold"
+   ],
+   "quantitative": "Recoverable strain up to 6–8%; stress plateau 400–800 MPa at T > A_f; loading/unloading hysteresis 200–400 MPa; functional fatigue appears after ~10⁴–10⁵ cycles",
+   "limits": "Narrow temperature window (roughly up to 50°C above A_f) — effect vanishes outside it; plateau shifts with strain rate (self-heating under cycling); expensive wire processing; not usable for thermal actuation (that is the shape-memory mode)",
+   "related_standards": [
+    "5.4.1"
+   ],
+   "source": "Otsuka, K., Wayman, C.M. (eds.) Shape Memory Materials. Cambridge University Press, 1998"
+  },
+  {
+   "id": "griffith_fracture",
+   "name": "Griffith Crack Criterion (Fracture Mechanics)",
+   "description": "A brittle crack grows when released elastic energy covers the new surface energy: σc = √(2Eγ/πa) — strength is set by flaw size, not by the material alone",
+   "category": "Mechanical",
+   "applications": [
+    "Fracture toughness (K1c) testing and material selection",
+    "Damage-tolerant inspection intervals (flaw size → cycles → critical size)",
+    "Strengthening glass/ceramics by removing flaws (etching, flame polishing)",
+    "Leak-before-break design of pressure vessels"
+   ],
+   "related_principles": [
+    9,
+    11
+   ],
+   "technical_domains": [
+    "Aerospace",
+    "Civil",
+    "Materials"
+   ],
+   "name_ru": "Критерий Гриффитса",
+   "aliases": [
+    "энергетический критерий разрушения",
+    "трещины Гриффитса",
+    "вязкость разрушения K1c",
+    "коэффициент интенсивности напряжений"
+   ],
+   "function_tags": [
+    "suppress_harm",
+    "sense_measure"
+   ],
+   "quantitative": "σc = √(2Eγ/(πa)): glass (E = 70 GPa, γ ≈ 0.3 J/m²) with a 1 µm flaw fails at ≈ 100 MPa instead of the theoretical ~10 GPa; K1c: glass ~0.7, engineering ceramics 1–5, Al alloys 25–35, steels 50–150 MPa·√m",
+   "limits": "Valid for elastic-brittle behavior only — ductile metals require Irwin/Orowan plastic corrections; assumes a pre-existing sharp crack; subcritical slow crack growth (stress corrosion) undermines the inert assumption in glass/ceramics; geometry and size need LEFM correction factors",
+   "related_standards": [],
+   "source": "Griffith, A.A. (1921). The Phenomena of Rupture and Flow in Solids. Phil. Trans. R. Soc. A 221, 163–198. DOI: 10.1098/rsta.1921.0006"
+  },
+  {
+   "id": "metal_fatigue",
+   "name": "Metal Fatigue (S-N / Wöhler)",
+   "description": "Cyclic stress far below yield nucleates and grows cracks until sudden failure after N cycles — the dominant delayed-failure mode of machines",
+   "category": "Mechanical",
+   "applications": [
+    "S-N design curves and safety factors for rotating parts",
+    "Shot peening / nitriding to add compressive residual stress",
+    "Damage-tolerant aircraft inspection via crack-growth (da/dN) analysis",
+    "Fatigue qualification of welds, springs and bearings"
+   ],
+   "related_principles": [
+    9,
+    40
+   ],
+   "technical_domains": [
+    "Aerospace",
+    "Automotive",
+    "Railway"
+   ],
+   "name_ru": "Усталость металлов",
+   "aliases": [
+    "усталостное разрушение",
+    "кривая Вёлера",
+    "S-N кривая",
+    "предел выносливости",
+    "циклическая прочность"
+   ],
+   "function_tags": [
+    "suppress_harm",
+    "sense_measure"
+   ],
+   "quantitative": "Steel endurance limit ≈ 0.4–0.5 UTS (200–500 MPa); aluminum alloys have no true endurance limit; Basquin law σ = σf'(2N)^b with b ≈ −0.05…−0.12; Paris law da/dN = C(ΔK)^m with m ≈ 2–4; typical life scatter ±3×",
+   "limits": "Huge statistical scatter; sensitive to mean stress, surface finish, size, notches, temperature and corrosion; variable-amplitude loading needs Miner summation, which is inaccurate; the 'endurance limit' disappears under corrosive environments",
+   "related_standards": [],
+   "source": "Suresh, S. Fatigue of Materials, 2nd ed. Cambridge University Press, 1998"
+  },
+  {
+   "id": "triboelectric_effect",
+   "name": "Triboelectric Effect (Contact Electrification)",
+   "description": "Contact and separation of dissimilar materials transfers electric charge, building kilovolt potentials — a static hazard and, as a TENG, a mechanical-to-electric converter",
+   "category": "Mechanical",
+   "applications": [
+    "Triboelectric nanogenerators (TENG) harvesting motion and airflow",
+    "Electrostatic spray painting and powder coating",
+    "Electrostatic separation of mixed plastics and minerals",
+    "Negative case: ESD damage to electronics (wrist straps, antistatic floors)"
+   ],
+   "related_principles": [
+    22,
+    25
+   ],
+   "technical_domains": [
+    "Energy",
+    "Manufacturing",
+    "Electronics"
+   ],
+   "name_ru": "Трибоэлектрический эффект",
+   "aliases": [
+    "трибоэлектричество",
+    "контактная электризация",
+    "статическое электричество",
+    "трибоэлектрический наногенератор",
+    "электризация трением"
+   ],
+   "function_tags": [
+    "convert_energy",
+    "sense_measure"
+   ],
+   "quantitative": "Human body potential from walking on carpet 1.5–25 kV (electronics ESD sensitivity from ~100 V); TENG output: tens–hundreds of volts open-circuit, µA-scale current, demonstrated power density up to ~500 W/m²",
+   "limits": "Humidity above ~40–50% RH bleeds the charge away; triboelectric-series ranking is unreliable on real surfaces; tiny currents require rectification and storage; charge unpredictability makes process control difficult",
+   "related_standards": [
+    "5.4.3"
+   ],
+   "source": "Fan, F.-R., Tian, Z.-Q., Wang, Z.L. (2012). Flexible triboelectric generator. Nano Energy 1(2), 328–334. DOI: 10.1016/j.nanoen.2012.01.004"
+  },
+  {
+   "id": "gecko_adhesion",
+   "name": "Gecko Adhesion (Dry Van der Waals Grip)",
+   "description": "Millions of nanoscale spatulae conform to a surface so weak van der Waals forces sum into kilogram-scale shear grip — no glue, no residue",
+   "category": "Mechanical",
+   "applications": [
+    "Reusable dry adhesives and climbing robots",
+    "Pick-and-place handling of delicate parts and wafers",
+    "Vacuum/space grippers (no outgassing adhesive)",
+    "Soft-robotics gripper pads"
+   ],
+   "related_principles": [
+    1
+   ],
+   "technical_domains": [
+    "Robotics",
+    "Materials",
+    "Space"
+   ],
+   "name_ru": "Эффект геккона",
+   "aliases": [
+    "гекконова адгезия",
+    "сухая адгезия",
+    "ван-дер-ваальсово сцепление",
+    "геккон-лента",
+    "сухой клей"
+   ],
+   "function_tags": [
+    "fix_hold"
+   ],
+   "quantitative": "Single seta (~100 µm long, ~5 µm diameter) sustains ≈ 200 µN shear (Autumn 2000); each seta carries 100–1000 spatulae of ~200 nm; projected shear adhesion on smooth glass up to ~1 MPa (10 N/cm²)",
+   "limits": "Needs shear/preload — normal pull-off is far weaker; fails on rough, wet or dusty surfaces; pads contaminate and rely on self-cleaning steps; synthetic versions lose adhesion after few cycles and at elevated temperature",
+   "related_standards": [
+    "2.2.2",
+    "3.1.1"
+   ],
+   "source": "Autumn, K., Liang, Y.A., Hsieh, S.T., Zesch, W., Chan, W.P., Kenny, T.W., Fearing, R., Full, R.J. (2000). Adhesive force of a single gecko foot-hair. Nature 405, 681–685. DOI: 10.1038/35015073"
+  },
+  {
+   "id": "joule_thomson_effect",
+   "name": "Joule–Thomson Effect (Throttling)",
+   "description": "A real gas passing through a throttle at constant enthalpy cools below its inversion temperature (and heats above it) — the core of gas liquefaction",
+   "category": "Thermal",
+   "applications": [
+    "Linde–Hampson air/nitrogen liquefaction",
+    "Joule–Thomson cryocoolers for IR detectors",
+    "Gas pressure regulation (valve and regulator frosting as a diagnostic hazard)",
+    "Expansion valve of vapor-compression refrigerators"
+   ],
+   "related_principles": [
+    13,
+    29
+   ],
+   "technical_domains": [
+    "Energy",
+    "Cryogenics",
+    "HVAC"
+   ],
+   "name_ru": "Эффект Джоуля–Томсона",
+   "aliases": [
+    "дроссельный эффект",
+    "дросселирование",
+    "температура инверсии",
+    "процесс Джоуля–Томсона"
+   ],
+   "function_tags": [
+    "change_state"
+   ],
+   "quantitative": "µ_JT ≈ +0.2–0.25 K/bar for N2/air at 300 K (cooling); inversion temperatures: N2 621 K, O2 764 K, CO2 ~1500 K, H2 202 K, He 40 K — hydrogen and helium heat up at room temperature and need pre-cooling",
+   "limits": "Heats gases above their inversion temperature (He, H2, Ne at ambient); zero for an ideal gas; throttling is irreversible — less efficient than an expansion engine/turbine; per-pass ΔT is small, so a recuperative heat exchanger is mandatory",
+   "related_standards": [],
+   "source": "Яворский Б.М., Детлаф А.А. Справочник по физике. М.: Наука, 1968"
+  },
+  {
+   "id": "gas_spring",
+   "name": "Gas Compressibility / Pneumatic Spring",
+   "description": "Compressed gas stores energy and pushes with stiffness k = γpA²/V — a self-centering 'spring made of nothing', easily adjustable by pressure",
+   "category": "Mechanical",
+   "applications": [
+    "Gas struts for lids, hatches and office chairs",
+    "Air-spring bellows in truck and bus suspension",
+    "Pneumatic cushions and airbags for impact buffering",
+    "Hydropneumatic accumulators smoothing pressure pulses"
+   ],
+   "related_principles": [
+    29,
+    8
+   ],
+   "technical_domains": [
+    "Automotive",
+    "Manufacturing",
+    "Furniture"
+   ],
+   "name_ru": "Пневмопружина (сжимаемость газов)",
+   "aliases": [
+    "газовая пружина",
+    "пневматическая пружина",
+    "газовый лифт",
+    "воздушная подушка",
+    "гидропневматический аккумулятор"
+   ],
+   "function_tags": [
+    "store",
+    "fix_hold"
+   ],
+   "quantitative": "Stiffness k = γpA²/V (adiabatic, γ ≈ 1.4 for air); stiffness drifts ~0.33%/K since p ∝ T; isothermal recovery work of air at 200 bar ≈ 50 kJ/kg; struts deliver 100–5000 N",
+   "limits": "Stiffness is temperature-dependent (cold mornings sag); gas leakage over years requires recharging; adiabatic vs isothermal stiffness differ ~40%; force density below hydraulics; over-stroke ruptures seals",
+   "related_standards": [
+    "5.1.1"
+   ],
+   "source": "Feynman Lectures on Physics Vol. I (1963)"
+  },
+  {
+   "id": "standing_waves_helmholtz",
+   "name": "Standing Waves and Helmholtz Resonators",
+   "description": "Bounded media support discrete standing-wave resonances; a cavity-neck (Helmholtz) resonator selects and absorbs one narrow frequency band",
+   "category": "Acoustic",
+   "applications": [
+    "Organ pipes, wind instruments and whistles (tone generation)",
+    "Reactive mufflers: Helmholtz and quarter-wave side branches tuned to engine tones",
+    "Room-mode treatment in studios (bass traps)",
+    "Bottle-blowing pitch — cavity geometry encodes frequency"
+   ],
+   "related_principles": [
+    18,
+    2
+   ],
+   "technical_domains": [
+    "Acoustics",
+    "Automotive",
+    "Construction"
+   ],
+   "name_ru": "Стоячие волны и резонаторы Гельмгольца",
+   "aliases": [
+    "стоячая волна",
+    "узлы и пучности",
+    "резонатор Гельмгольца",
+    "четвертьволновой резонатор",
+    "басс-ловушка"
+   ],
+   "function_tags": [
+    "generate_field",
+    "suppress_harm"
+   ],
+   "quantitative": "f_H = (c/2π)·√(A/(V·L_eff)): 0.5 L bottle with 2 cm × 4 cm neck → ≈ 200 Hz; room modes f = c/2L (3 m room → 57 Hz); 8 ft open organ pipe ≈ 70 Hz; absorber bandwidth set by Q (±10–20% of tuning)",
+   "limits": "Narrow-band by nature — tuning shifts ~2% per 10 K via sound speed; modes create dead spots elsewhere; resonances in ducts can amplify noise instead of absorbing it; multiple tones demand multiple resonators",
+   "related_standards": [
+    "2.2.4",
+    "2.4.1",
+    "2.4.2"
+   ],
+   "source": "Kinsler, L.E., Frey, A.R., Coppens, A.B., Sanders, J.V. Fundamentals of Acoustics, 4th ed. Wiley, 2000"
+  },
+  {
+   "id": "echo_ranging_tof",
+   "name": "Echo Ranging / Time-of-Flight Sensing",
+   "description": "Distance from pulse travel time (d = c·t/2); works in darkness, through opaque media, and images hidden structure",
+   "category": "Acoustic",
+   "applications": [
+    "Sonar: depth sounding, fish finding, sub-bottom profiling",
+    "Ultrasonic parking sensors and tank level gauges (40 kHz)",
+    "Medical B-mode ultrasound imaging (1–15 MHz)",
+    "Bat and dolphin biosonar for navigation and prey capture"
+   ],
+   "related_principles": [
+    26,
+    28
+   ],
+   "technical_domains": [
+    "Marine",
+    "Medical",
+    "Automotive"
+   ],
+   "name_ru": "Эхолокация (время-пролётные измерения)",
+   "aliases": [
+    "TOF-измерение",
+    "сонар",
+    "гидролокатор",
+    "эхолот",
+    "ультразвуковой дальномер",
+    "биосонар"
+   ],
+   "function_tags": [
+    "sense_measure",
+    "transmit"
+   ],
+   "quantitative": "d = c·t/2; sound in water ≈ 1480 m/s → 1 s round trip = 740 m of range; 40 kHz air sensors cover ~0.2–5 m (λ ≈ 8.6 mm); bats use 20–200 kHz and classically avoid wires as thin as ~0.1 mm",
+   "limits": "Blind zone right after the transmit pulse; specular reflection off angled surfaces misses the receiver; severe high-frequency attenuation in air (order 1 dB/m at 40 kHz); temperature gradients bend the beam; multipath creates ghost targets",
+   "related_standards": [
+    "4.2.2"
+   ],
+   "source": "Urick, R.J. Principles of Underwater Sound, 3rd ed. McGraw-Hill, 1983"
+  },
+  {
+   "id": "acoustic_emission",
+   "name": "Acoustic Emission (Damage Monitoring)",
+   "description": "Rapid local crack growth and deformation radiate transient elastic waves; listening to them reveals active damage growth in real time under load",
+   "category": "Acoustic",
+   "applications": [
+    "Structural health monitoring of pressure vessels, tanks and bridges",
+    "Proof testing of composite/FRP vessels with AE screening",
+    "Tool-wear detection in machining",
+    "Leak detection in pipelines and valves"
+   ],
+   "related_principles": [
+    22,
+    23
+   ],
+   "technical_domains": [
+    "Civil",
+    "Energy",
+    "Manufacturing"
+   ],
+   "name_ru": "Акустическая эмиссия",
+   "aliases": [
+    "АЭ-контроль",
+    "акустический контроль разрушения",
+    "эффект Кайзера",
+    "АЭ-мониторинг"
+   ],
+   "function_tags": [
+    "sense_measure"
+   ],
+   "quantitative": "Typical band 100 kHz–1 MHz (sensors commonly 20–200 kHz); Kaiser effect: no emission until the previous maximum load is exceeded — an irreversible signature; source location to ~1–5% of sensor spacing; hit rate tracks damage rate",
+   "limits": "Only growing damage emits — static flaws are silent; attenuation and dispersion complicate location; heavy filtering needed in noisy plants; Kaiser effect blocks re-testing without overloads; corrosion thinning without cracking emits almost nothing",
+   "related_standards": [
+    "4.2.4"
+   ],
+   "source": "ASNT Nondestructive Testing Handbook, Vol. 5: Acoustic Emission Testing, 2nd ed. ASNT, 1987"
+  },
+  {
+   "id": "noise_interference",
+   "name": "Destructive Interference (Active Noise Control)",
+   "description": "An anti-phase sound field cancels noise in a zone — field-based 'counter-field' suppression of acoustic harm",
+   "category": "Acoustic",
+   "applications": [
+    "Active noise-cancelling headphones (feedforward/feedback ANC)",
+    "Active control of duct and HVAC fan tones",
+    "Engine-order cancellation in car cabins",
+    "Negative case: cancellation zones create louder spots elsewhere (spillover)"
+   ],
+   "related_principles": [
+    13,
+    2
+   ],
+   "technical_domains": [
+    "Electronics",
+    "Automotive",
+    "Aviation"
+   ],
+   "name_ru": "Деструктивная интерференция (шумоглушение)",
+   "aliases": [
+    "активное шумоподавление",
+    "противофазное гашение",
+    "ANC",
+    "антишум",
+    "гашение звука в противофазе"
+   ],
+   "function_tags": [
+    "suppress_harm"
+   ],
+   "quantitative": "Effective roughly 20 Hz–1 kHz with 10–40 dB achievable reduction at low frequency; passive absorbers take over above ~1 kHz; the controller must hold amplitude/phase to a few degrees of error at the cancellation point",
+   "limits": "Works only for low-frequency tones and zone-limited noise; echo paths destabilize feedback ANC; zone of quiet shrinks as frequency rises (spillover); cheap ANC headphones do nothing against mid/high-frequency noise — passive isolation does that",
+   "related_standards": [
+    "1.2.4",
+    "2.4.2"
+   ],
+   "source": "Kuo, S.M., Morgan, D.R. (1999). Active noise control: a tutorial review. Proc. IEEE 87(6), 943–973. DOI: 10.1109/5.763310"
+  },
+  {
+   "id": "supercritical_water",
+   "name": "Supercritical Water as Solvent and Oxidation Medium",
+   "name_ru": "Сверхкритическая вода как растворитель и среда окисления",
+   "aliases": [
+    "scH2O",
+    "SCW",
+    "SCWO",
+    "supercritical water oxidation",
+    "гидротермальное окисление"
+   ],
+   "description": "Above its critical point (374 °C, 22.064 MPa) water is a single dense phase whose dielectric constant drops from ~78 to ~5-20: salts and inorganics precipitate out while organics and gases (O2, CO2) become fully miscible, so water acts simultaneously as solvent, reactant and oxidizing reaction medium.",
+   "category": "Chemical",
+   "function_tags": [
+    "change_state",
+    "separate_mix",
+    "mix_join"
+   ],
+   "applications": [
+    "Supercritical water oxidation (SCWO) of hazardous organic waste (>99.99% destruction of dioxins, chemical agents) without NOx/SOx emissions",
+    "Hydrothermal gasification of wet biomass and sludge to H2/CH4",
+    "Continuous hydrothermal flow synthesis of oxide nanopowders (ZrO2, BaTiO3)",
+    "Salt-rejecting coolant in supercritical water reactors (GEN-IV)",
+    "Selective precipitation of inorganics from organic feeds (desalting)"
+   ],
+   "quantitative": "Critical point: 374.0 °C, 22.064 MPa, critical density 322 kg/m3; SCWO at 500-650 °C, 23-28 MPa gives >99.99% organic destruction with residence times <1 min; ionic product of water falls 2-3 orders of magnitude; NaCl solubility drops to ppm level in the SC region, causing salt plugging.",
+   "limits": "Severe corrosion (Cl- and SO4^2- accelerate attack); salt deposition plugs reactors and requires pressure/temperature ramps or scrapers; energy cost of heating and pressurizing the feed; catalysts usually needed to destroy ammonia; materials for >600 °C/25 MPa are expensive.",
+   "related_principles": [
+    35,
+    36,
+    38,
+    22
+   ],
+   "related_standards": [
+    "5.3.1",
+    "2.2.1"
+   ],
+   "technical_domains": [
+    "Chemical",
+    "Energy",
+    "Environmental"
+   ],
+   "source": "Kritzer, P., Dinjus, E., An assessment of supercritical water oxidation (SCWO), Chemical Engineering Journal (2001), DOI 10.1016/S1385-8947(00)00255-2"
+  },
+  {
+   "id": "aluminum_water_reaction",
+   "name": "Aluminum-Water Hydrogen Generation",
+   "name_ru": "Реакция алюминия с водой (генерация водорода)",
+   "aliases": [
+    "Al-water reaction",
+    "aluminium hydrolysis",
+    "водород из алюминия",
+    "гидрореакция алюминия"
+   ],
+   "description": "Bulk aluminium is protected by a passive Al2O3 film and does not react with water below ~280 °C; once the oxide is defeated (alkali solution, Ga-In alloying, ball milling, nanoscale powder or high-pressure steam), the exothermic reaction 2Al + 6H2O -> 2Al(OH)3 + 3H2 releases hydrogen even at room temperature.",
+   "category": "Chemical",
+   "function_tags": [
+    "convert_energy",
+    "store"
+   ],
+   "applications": [
+    "On-demand hydrogen generation for fuel cells (portable and backup power)",
+    "Aluminium as a recyclable solid hydrogen carrier (H2 from waste Al scrap)",
+    "Al-water steam propulsion and underwater power units",
+    "Rapid reactivation of supply chains for emergency hydrogen supply"
+   ],
+   "quantitative": "Theoretical yield 1244 L H2 (STP) per kg Al (3 mol H2 per mol Al); reaction exothermic (~426 kJ/mol Al with liquid water); bulk Al passivated below ~280 °C in pure water; Ga-In-activated or ball-milled Al reacts at 20-80 °C with near-quantitative conversion in minutes.",
+   "limits": "Passivation layer must be continuously removed; alkali activators are consumed and Ga/In alloying metals are hard to recycle; product Al(OH)3 slurry must be regenerated by energy-intensive electrolysis (round-trip efficiency ~30-50%); heat and slurry fouling management required.",
+   "related_principles": [
+    1,
+    35,
+    22,
+    25
+   ],
+   "related_standards": [
+    "1.1.2",
+    "3.2.1",
+    "5.5.1"
+   ],
+   "technical_domains": [
+    "Energy",
+    "Chemical",
+    "Transportation"
+   ],
+   "source": "Yavor, Y., Goroshin, S., Bergthorson, J.M., Frost, D.L., Comparative reactivity of industrial metal powders with water for hydrogen production, International Journal of Hydrogen Energy (2015), DOI 10.1016/j.ijhydene.2014.11.075"
+  },
+  {
+   "id": "hydrothermal_synthesis",
+   "name": "Hydrothermal Synthesis",
+   "name_ru": "Гидротермальный синтез",
+   "aliases": [
+    "hydrothermal crystallization",
+    "hydrothermal oxidation",
+    "автоклавная кристаллизация",
+    "гидротермальное окисление"
+   ],
+   "description": "Water at 100-400 °C under autogenous pressure acts as a reactive crystallization medium: solubility and chemical reactivity of many oxides rise steeply, enabling single crystals (quartz, zeolites) and oxide phases that are unreachable by dry high-temperature routes.",
+   "category": "Chemical",
+   "function_tags": [
+    "change_state",
+    "change_property",
+    "separate_mix"
+   ],
+   "applications": [
+    "Industrial growth of synthetic quartz and zeolites",
+    "Continuous hydrothermal flow synthesis (CHFS) of nano-oxides (ZrO2, LiFePO4, BaTiO3)",
+    "Hydrothermal carbonization (HTC) of biomass to carbonaceous chars",
+    "Hydrothermal leaching and oxidation of ores and hazardous wastes",
+    "Simulation of geochemical mineral formation"
+   ],
+   "quantitative": "Typical window 120-400 °C at saturated-water pressure up to ~30 MPa; zeolites crystallize at 80-200 °C; quartz growth at 330-400 °C and 70-140 MPa; CHFS mixers heat the feed above 374 °C in <10 s; crystal growth rates scale strongly with temperature (solubility doubling per tens of K).",
+   "limits": "Batch autoclaves are slow (hours-days) and opaque (no in-situ observation); pressure window restricts solvent chemistry; continuous reactors struggle with solids handling and clogging; autoclave safety at high fill ratios.",
+   "related_principles": [
+    35,
+    36,
+    25
+   ],
+   "related_standards": [
+    "5.3.1",
+    "3.2.1",
+    "1.1.6"
+   ],
+   "technical_domains": [
+    "Chemical",
+    "Materials",
+    "Mining"
+   ],
+   "source": "Byrappa, K., Yoshimura, M., Handbook of Hydrothermal Technology, 2nd ed., William Andrew (2013)"
+  },
+  {
+   "id": "supercritical_co2",
+   "name": "Supercritical CO2 as Tunable Solvent",
+   "name_ru": "Сверхкритический CO2 как растворитель",
+   "aliases": [
+    "scCO2",
+    "SFE",
+    "supercritical extraction",
+    "supercritical drying",
+    "сверхкритическая экстракция"
+   ],
+   "description": "CO2 above 31.1 °C and 7.38 MPa is a tunable, non-toxic, non-flammable solvent whose dissolving power follows its density: raising pressure turns it from weak gas into liquid-like solvent, letting it extract caffeine, degrease parts and dry gels without leaving any residue.",
+   "category": "Fluid",
+   "function_tags": [
+    "separate_mix",
+    "change_state"
+   ],
+   "applications": [
+    "Industrial caffeine decaffeination of coffee and tea (Zosel process)",
+    "Supercritical drying of silica aerogels - eliminating the liquid-vapor interface so the gel network does not collapse (pairs with the aerogel effect)",
+    "Precision degreasing of medical/aerospace parts instead of CFC/halogenated solvents",
+    "Fractionation of natural oils and hop/plant extracts",
+    "sCO2 Brayton power cycles (same fluid state, energy function)"
+   ],
+   "quantitative": "Critical point 31.1 °C, 7.38 MPa; solvent power roughly proportional to density (600-950 kg/m3 between 8 and 20 MPa); coffee decaffeination at ~60-90 °C and 20-30 MPa; aerogel drying at 8-10 MPa above Tc; naphthalene solubility rises 10^3-10^4-fold from 80 to 200 bar.",
+   "limits": "Poor solvent for polar and ionic species (co-solvents like ethanol needed); high-pressure equipment cost (15-30 MPa class); sudden depressurization precipitates solutes and clogs nozzles; viscosity-diffusion advantages fade for viscous feeds.",
+   "related_principles": [
+    35,
+    36,
+    29,
+    39
+   ],
+   "related_standards": [
+    "5.3.1",
+    "5.1.5"
+   ],
+   "technical_domains": [
+    "Chemical",
+    "Food",
+    "Aerospace"
+   ],
+   "source": "Zosel, K., Separation with supercritical gases: practical applications, Angewandte Chemie International Edition in English (1978), DOI 10.1002/anie.197807021"
+  },
+  {
+   "id": "cavitation",
+   "name": "Cavitation and Cavitation Erosion",
+   "name_ru": "Кавитация и кавитационная эрозия",
+   "aliases": [
+    "hydrodynamic cavitation",
+    "acoustic cavitation",
+    "bubble collapse",
+    "кавитационная очистка",
+    "кавитационный износ"
+   ],
+   "description": "When local static pressure falls below vapor pressure (or ultrasonic tension exceeds it), vapor bubbles nucleate and then collapse violently, generating micro-jets and shock waves with local pressures of hundreds of MPa and temperatures of thousands of K - used for cleaning, dispersion and sonochemistry, destructive for propellers and impellers.",
+   "category": "Fluid",
+   "function_tags": [
+    "separate_mix",
+    "mix_join",
+    "change_state"
+   ],
+   "applications": [
+    "Ultrasonic and hydrodynamic cavitating reactors for wastewater treatment (OH-radical generation)",
+    "Homogenization and dispersion (nanoemulsions, milk, slurries)",
+    "Cleaning of parts via controlled bubble collapse",
+    "Cavitating waterjets for cutting and rock excavation",
+    "Design margins (NPSH) to prevent impeller/propeller erosion"
+   ],
+   "quantitative": "Bubble collapse produces local pressures ~100-1000 MPa and hot-spot temperatures ~3000-10000 K; Rayleigh collapse time tR ~ 0.915 R0 sqrt(rho/dP) (10 um bubble, 1 atm -> ~1 us); onset governed by cavitation number sigma = (p - pv)/(0.5 rho U^2) < 1; marine propeller erosion risk above tip speeds of 15-20 m/s.",
+   "limits": "Needs deliberate pressure drop or strong ultrasound (energy-hungry); erosion of nearby solids (sacrificial coatings, material selection); sonochemical yields scale poorly to industrial volumes; bubble clouds behave chaotically and are hard to predict; collapse energy delivered only within ~1 bubble radius of a surface.",
+   "related_principles": [
+    18,
+    22,
+    36
+   ],
+   "related_standards": [
+    "5.1.1",
+    "2.2.3"
+   ],
+   "technical_domains": [
+    "Marine",
+    "Chemical",
+    "Machinery"
+   ],
+   "source": "Brennen, C.E., Cavitation and Bubble Dynamics, Oxford University Press (1995); classic: Rayleigh, L., Phil. Mag. (1917)"
+  },
+  {
+   "id": "water_hammer",
+   "name": "Water Hammer (Joukowsky Effect)",
+   "name_ru": "Гидравлический удар (эффект Жуковского)",
+   "aliases": [
+    "hydraulic shock",
+    "pressure surge",
+    "fluid transient",
+    "гидроудар",
+    "эффект Жуковского"
+   ],
+   "description": "A sudden change of flow velocity in a pipe (valve slam, pump trip) converts kinetic energy into a pressure wave travelling at the speed of sound of the liquid-pipe system; by the Joukowsky law dp = rho*c*dv, 1 m/s of velocity change in water gives ~10 bar.",
+   "category": "Fluid",
+   "function_tags": [
+    "convert_energy",
+    "transmit"
+   ],
+   "applications": [
+    "Hydraulic ram pumps that lift water uphill using their own flow energy, no external power",
+    "Design of surge protection: air chambers, surge tanks, relief valves, slow-closing valves",
+    "Transient-based pipeline leak detection and condition assessment",
+    "Pulse loading for pipeline cleaning and pigging operations"
+   ],
+   "quantitative": "Joukowsky dp = rho*c*dv; wave speed c ~ 1200-1400 m/s in water-filled steel pipes (elasticity of pipe reduces it); critical closure time 2L/c (1 km line -> ~1.5-2.5 s); ram pumps deliver 10-20% of the drive flow to heights up to 10-20 times the source fall.",
+   "limits": "Harmful in networks: pipe rupture, fatigue, water-column separation with subsequent cavitation; slow closures (>2L/c) need full elastic analysis; entrained gas changes wave speed unpredictably; ram pumps work only with a steady falling source flow.",
+   "related_principles": [
+    25,
+    11,
+    9
+   ],
+   "related_standards": [
+    "1.2.3",
+    "5.2.1"
+   ],
+   "technical_domains": [
+    "Utilities",
+    "Civil",
+    "Energy"
+   ],
+   "source": "Ghidaoui, M.S., Zhao, M., McInnis, D.A., Axworthy, D.H., A Review of Water Hammer Theory and Practice, Applied Mechanics Reviews (2005), DOI 10.1115/1.1828050; classic: Joukowski, N.E., Mem. Acad. Imp. Sci. St.-Petersbourg (1900)"
+  },
+  {
+   "id": "leidenfrost_effect",
+   "name": "Leidenfrost Effect",
+   "name_ru": "Эффект Лейденфроста",
+   "aliases": [
+    "film boiling levitation",
+    "vapor cushion",
+    "плёночное кипение",
+    "лейденфрост",
+    "паровая подушка"
+   ],
+   "description": "Above the Leidenfrost temperature a volatile liquid no longer wets a hot surface: a persistent vapor film thermally insulates it, letting droplets skitter nearly frictionlessly and shielding solids from burnout, while texture-guided films can propel droplets without pumps.",
+   "category": "Thermal",
+   "function_tags": [
+    "suppress_harm",
+    "move_substance"
+   ],
+   "applications": [
+    "Controlled quenching in metallurgy (managing the nucleate-to-film-boiling transition to avoid soft spots)",
+    "Safe handling and spill behavior of cryogens (LN2 droplets skitter on floors)",
+    "Self-propelled droplet transport on ratcheted/structured hot surfaces (pumpless microtransport)",
+    "Steam-explosion and fuel-coolant interaction safety analysis (nuclear, metallurgy)"
+   ],
+   "quantitative": "Leidenfrost point for water on polished metals ~220-280 °C (strongly surface- and droplet-size dependent); supporting vapor film ~10-200 um thick; droplet lifetime above the LFP is tens of times longer than just below it; LN2 shows a Leidenfrost state down to ~-180 °C; ratchet textures drive droplets at cm/s speeds.",
+   "limits": "Transition point shifts by 100+ K with roughness, contamination and droplet size; the vapor film is an insulator - unusable for high-heat-flux cooling; film boiling in quenching causes non-uniform hardness and distortion; unstable between regimes (hysteresis).",
+   "related_principles": [
+    36,
+    29,
+    35
+   ],
+   "related_standards": [
+    "5.3.3",
+    "1.2.1"
+   ],
+   "technical_domains": [
+    "Metallurgy",
+    "Thermal",
+    "Safety"
+   ],
+   "source": "Bernardin, J.D., Mudawar, I., The Leidenfrost Point: Experimental Study and Assessment of Existing Models, Journal of Heat Transfer (1999), DOI 10.1115/1.2826080; classic: Leidenfrost, J.G., De aquae communis nonnullis qualitatibus tractatus (1756)"
+  },
+  {
+   "id": "critical_heat_flux",
+   "name": "Critical Heat Flux (Boiling Crisis)",
+   "name_ru": "Кризис теплообмена при кипении",
+   "aliases": [
+    "CHF",
+    "burnout",
+    "DNB",
+    "departure from nucleate boiling",
+    "критическая плотность теплового потока",
+    "переход к плёночному кипению"
+   ],
+   "description": "As wall superheat or heat flux rises, vigorous nucleate boiling abruptly gives way to an insulating vapor film at the critical heat flux: wall temperature jumps by hundreds of K within milliseconds and can melt the heater - CHF defines the safety ceiling of water-cooled reactors and high-power electronics cooling.",
+   "category": "Thermal",
+   "function_tags": [
+    "change_state",
+    "suppress_harm"
+   ],
+   "applications": [
+    "Thermal design limits of nuclear reactor cores (DNB / dryout margins)",
+    "Two-phase cooling of high-power electronics and laser diodes (safe operating envelope)",
+    "Quench process control in metallurgy",
+    "CHF enhancement with porous/nanostructured coatings (2-3x margin gain)",
+    "Fuel-coolant interaction (steam explosion) analysis"
+   ],
+   "quantitative": "Pool boiling water CHF at 1 atm ~1.0-1.3 MW/m2 (Zuber hydrodynamic limit q ~ 0.13 rho_g h_fg (sigma g drho/rho_g^2)^0.25); after the crisis the wall superheat jumps 100-500 K; microporous coatings raise CHF to ~2-3 MW/m2; flow-boiling CHF in reactor channels ~1-5 MW/m2 depending on pressure and quality.",
+   "limits": "Even look-up tables predict CHF with +-20-30% uncertainty; strong dependence on geometry, pressure, quality, dissolved gases and surface finish; film boiling is thermally unsustainable for most materials; enhancement coatings age and foul.",
+   "related_principles": [
+    36,
+    31,
+    23
+   ],
+   "related_standards": [
+    "5.4.1",
+    "5.3.3"
+   ],
+   "technical_domains": [
+    "Nuclear",
+    "Electronics",
+    "Thermal"
+   ],
+   "source": "Dhir, V.K., Boiling Heat Transfer, Annual Review of Fluid Mechanics (1998), DOI 10.1146/annurev.fluid.30.1.365; classic: Zuber, N., PhD thesis, UCLA (1959)"
+  },
+  {
+   "id": "superfluidity_he2",
+   "name": "Superfluidity of Helium-4 (He-II)",
+   "name_ru": "Сверхтекучесть гелия-4 (He-II)",
+   "aliases": [
+    "superfluid helium",
+    "fountain effect",
+    "second sound",
+    "Rollin film",
+    "сверхтекучий гелий",
+    "фонтанный эффект",
+    "четвертое звучание"
+   ],
+   "description": "Below the lambda point (2.17 K) liquid He-4 flows with effectively zero viscosity through microchannels, creeps as a Rollin film up container walls and out of open vessels, and conducts heat as a propagating wave (second sound) - a frictionless leak-and-heat medium with pumpless fountain transport.",
+   "category": "Fluid",
+   "function_tags": [
+    "transmit",
+    "move_substance",
+    "sense_measure"
+   ],
+   "applications": [
+    "Cooling of the LHC superconducting magnet lattice at 1.9 K (He-II bath)",
+    "Second-sound sensors for fast quench localization in superconducting magnets",
+    "Fountain-effect pumps with no moving parts for cryogenic circulation",
+    "Cryogenic infrared detector assemblies (space telescopes)",
+    "Ultra-low-friction model systems and quantum fluid research"
+   ],
+   "quantitative": "Lambda transition at 2.17 K (saturated vapor pressure); measured viscosity upper bound <10^-12 Pa*s; Rollin film ~10-50 nm creeps over walls unaided; second sound velocity ~20 m/s; effective thermal conductivity of turbulent He-II up to 10^4-10^5 W/(m*K), ~1000x copper; fountain pressure ~0.1 MPa per 1 K temperature difference.",
+   "limits": "Exists only below 2.17 K for He-4 (He-3 becomes superfluid at ~2.5 mK); requires full cryogenic infrastructure; creeps out of any imperfect seal (leaks everywhere); superfluidity breaks down above a critical velocity (vortices appear); fountain effect needs a heat leak to sustain flow.",
+   "related_principles": [
+    35,
+    28,
+    36
+   ],
+   "related_standards": [
+    "5.4.1",
+    "4.2.4"
+   ],
+   "technical_domains": [
+    "Cryogenics",
+    "Physics Instrumentation",
+    "Energy"
+   ],
+   "source": "Kapitza, P., Viscosity of liquid helium below the lambda-point, Nature (1938), DOI 10.1038/141074a0"
+  },
+  {
+   "id": "shear_thickening",
+   "name": "Shear Thickening (Dilatancy)",
+   "name_ru": "Дилатансия (загустевание при сдвиге)",
+   "aliases": [
+    "shear-thickening fluid",
+    "STF",
+    "liquid armor",
+    "dilatancy",
+    "жидкие доспехи",
+    "неньютоновская жидкость с загустеванием"
+   ],
+   "description": "Dense particle suspensions (cornstarch-water, silica in ethylene glycol) suddenly stiffen above a critical shear rate as hydrodynamic and contact forces assemble jammed particle clusters - viscosity can jump by orders of magnitude, so the medium stays soft at rest and rigid under impact.",
+   "category": "Fluid",
+   "function_tags": [
+    "change_property",
+    "fix_hold"
+   ],
+   "applications": [
+    "Liquid armor: STF-impregnated Kevlar fabrics for stab and ballistic protection",
+    "Impact-activated dampers and recoil absorbers",
+    "Adaptive robotic grippers that stiffen on contact with the object",
+    "Sports padding and energy-absorbing footwear",
+    "Tunable clutches and soft-stopping couplings"
+   ],
+   "quantitative": "Onset typically at shear rates 10^2-10^3 1/s for 40-55 vol% suspensions; viscosity jump 10^2-10^4x; STF-treated aramid fabrics show several-fold higher energy absorption in stab tests; effect is reversible but degrades slowly over thousands of shear cycles.",
+   "limits": "Particle sedimentation and agglomeration over storage; requires high solids loading (heavy); above the jump the material can behave momentarily brittle; sensitive to temperature, pH and particle size distribution; poor for sustained static loads (needs shear to activate).",
+   "related_principles": [
+    15,
+    35,
+    40
+   ],
+   "related_standards": [
+    "1.1.2",
+    "5.4.1"
+   ],
+   "technical_domains": [
+    "Materials",
+    "Safety",
+    "Sports"
+   ],
+   "source": "Barnes, H.A., Shear-thickening (dilatancy) in suspensions of nonaggregating solid particles, Journal of Rheology (1989), DOI 10.1122/1.550072"
+  },
+  {
+   "id": "thixotropy",
+   "name": "Thixotropy",
+   "name_ru": "Тиксотропия",
+   "aliases": [
+    "thixotropic fluid",
+    "time-dependent viscosity",
+    "structural recovery",
+    "тиксотропные гели",
+    "структурная вязкость"
+   ],
+   "description": "Time-dependent structural breakdown under shear and slow rebuild at rest: a gel liquefies while stirred or pumped and regains gel strength when standing - fluid when worked, self-supporting when idle.",
+   "category": "Fluid",
+   "function_tags": [
+    "change_property",
+    "fix_hold",
+    "move_substance"
+   ],
+   "applications": [
+    "Anti-sag paints: brushable at high shear, no dripping at rest",
+    "Drilling muds that gel to suspend cuttings whenever pumps stop",
+    "3D-printing inks and pastes that extrude easily then hold shape",
+    "Anti-settling battery electrolyte gels and suspension fertilizers",
+    "Food dispensing (ketchup, mayonnaise) and consumer products"
+   ],
+   "quantitative": "Viscosity drops 10-10^3x under shear; structural recovery times range 0.1-10 min for paints to tens of minutes for drilling muds (10-min gel strengths ~5-15 Pa); characterized by thixotropic hysteresis loop area in flow curves.",
+   "limits": "Recovery kinetics are protocol- and composition-dependent (hard to predict); repeated cycling can cause irreversible flocculation or aging; rheometer characterization is ambiguous; not suited for fast impact loading (that is the dilatancy domain).",
+   "related_principles": [
+    15,
+    35,
+    19
+   ],
+   "related_standards": [
+    "1.1.2"
+   ],
+   "technical_domains": [
+    "Paints & Coatings",
+    "Oil & Gas",
+    "Consumer Products"
+   ],
+   "source": "Mewis, J., Wagner, N.J., Thixotropy, Advances in Colloid and Interface Science (2009), DOI 10.1016/j.cis.2008.09.005"
+  },
+  {
+   "id": "weissenberg_effect",
+   "name": "Weissenberg Effect (Rod Climbing)",
+   "name_ru": "Эффект Вайссенберга (подъём по стержню)",
+   "aliases": [
+    "rod-climbing effect",
+    "normal stress effect",
+    "climbing effect",
+    "эффект Вайссенберга",
+    "подъём жидкости по вращающемуся стержню"
+   ],
+   "description": "Viscoelastic fluids develop large first normal stress differences in shear flow: when stirred, the hoop stress squeezes the fluid inward, making it climb the rotating shaft instead of forming the hollow a Newtonian liquid would - a visible signature of elasticity in the liquid.",
+   "category": "Fluid",
+   "function_tags": [
+    "move_substance",
+    "sense_measure"
+   ],
+   "applications": [
+    "Rheometric detection of normal stresses (Weissenberg rheogoniometer principle)",
+    "In-process QC of polymer melts, doughs and bio-polymer solutions (climbing = elastic)",
+    "Design caution for stirred tanks and screw pumps handling viscoelastic media (melt fracture, shaft climbing)",
+    "Transport of viscoelastic inks in additive manufacturing"
+   ],
+   "quantitative": "Climbing height scales with the first normal stress difference N1 = Psi1*gamma_dot^2; visible for polymer solutions above gamma_dot ~ 10 1/s; typical N1 for 2% polyacrylamide solutions 10-100 Pa at 10-100 1/s; historical Weissenberg rheogoniometer (from 1948) measured N1 via torque and normal force.",
+   "limits": "Requires elasticity (N1 > 0) - absent in Newtonian liquids; inertial secondary flow can compete and reverse the effect at high rotation; free-surface irregularities and fracture of the meniscus at high rates; climbing height is not a calibrated N1 meter without full rheometry.",
+   "related_principles": [
+    35,
+    23
+   ],
+   "related_standards": [
+    "4.1.1"
+   ],
+   "technical_domains": [
+    "Rheology",
+    "Polymers",
+    "Food"
+   ],
+   "source": "Weissenberg, K., A continuum theory of rheological phenomena, Nature (1947), DOI 10.1038/159310a0"
+  },
+  {
+   "id": "electroosmosis",
+   "name": "Electroosmosis / EHD Pumping",
+   "name_ru": "Электроосмос / электрогидродинамическая прокачка",
+   "aliases": [
+    "electroosmotic flow",
+    "EOF",
+    "electrokinetic pumping",
+    "ion-drag pump",
+    "электроосмотический поток",
+    "ЭГД-прокачка"
+   ],
+   "description": "An applied electric field drags the diffuse ion layer of the electric double layer at a charged solid-liquid interface, moving the whole liquid column through capillaries or porous media with no moving parts; in dielectric liquids, field-emitted ions transfer momentum instead (EHD ion-drag pumping).",
+   "category": "Fluid",
+   "function_tags": [
+    "move_substance",
+    "separate_mix"
+   ],
+   "applications": [
+    "Lab-on-chip and capillary electrophoresis pumping (plug flow, no valves)",
+    "Electrokinetic remediation of clays and soils: extracting heavy metals where hydraulic pumping fails (low permeability)",
+    "Electroosmotic dewatering of sludge, peat and wood",
+    "EHD micro-pumps for chip cooling with dielectric fluids",
+    "Paper-based microfluidics and wicking devices with field-actuated flow"
+   ],
+   "quantitative": "Flow mobility mu_eo = eps*zeta/eta ~ (2-5)*10^-8 m2/(V*s) for water in glass; fields of 100-1000 V/cm drive 0.1-3 mm/s in micrometer channels (flat plug-flow profile, no Poiseuille parabola); electrokinetic soil remediation reports >80-90% removal of mobile Cu/Cd from kaolinite in weeks.",
+   "limits": "Needs a charged interface and conductive liquid (dielectrics require ion-drag variant with low efficiency); Joule heating at high fields; pH/buffer chemistry shifts zeta potential; electrode electrolysis generates gas bubbles; high-voltage safety.",
+   "related_principles": [
+    28,
+    29
+   ],
+   "related_standards": [
+    "5.1.2"
+   ],
+   "technical_domains": [
+    "Microfluidics",
+    "Environmental",
+    "Biomedical"
+   ],
+   "source": "Rice, C.L., Whitehead, R., Electrokinetic Flow in a Narrow Cylindrical Capillary, Journal of Physical Chemistry (1965), DOI 10.1021/j100895a062; classic: Reuss, F.F., Mem. Soc. Imperiale Naturalistes de Moscou (1809)"
+  },
+  {
+   "id": "marangoni_effect",
+   "name": "Marangoni Effect (Thermocapillary Convection)",
+   "name_ru": "Эффект Марангони (термокапиллярная конвекция)",
+   "aliases": [
+    "thermocapillary flow",
+    "Benard-Marangoni cells",
+    "tears of wine",
+    "термокапиллярная конвекция",
+    "капиллярная конвекция"
+   ],
+   "description": "Gradients of surface tension along a liquid interface (from temperature or surfactant concentration differences) pull surface flow toward higher surface tension, organizing convection cells and driving droplet motion with no moving parts - surface tension acting as a pump.",
+   "category": "Fluid",
+   "function_tags": [
+    "move_substance",
+    "mix_join",
+    "transmit"
+   ],
+   "applications": [
+    "Weld pool control in laser welding and remelting (Marangoni convection shapes the bead and redistributes alloying elements)",
+    "Single-crystal growth (Czochralski, float-zone): suppressing striations from melt convection",
+    "Digital microfluidics: surface-tension-gradient pumping and droplet steering",
+    "Boiling surface redesign: Marangoni flow re-wets dry spots and delays dryout",
+    "Self-assembly of thin coatings (Benard cells control drying patterns)"
+   ],
+   "quantitative": "Onset of Benard-Marangoni convection at Marangoni number Ma = (sigma_T*dT*L)/(mu*alpha) > ~80; water: sigma_T ~ -1.5*10^-4 N/(m*K); characteristic velocity ~ sigma_T*dT/mu (dT = 5 K over 1 mm gives ~0.1 m/s scale); works in microgravity where buoyancy cannot.",
+   "limits": "Surfactants instantly kill it (they clamp surface tension); acts only at free surfaces/interfaces - no effect in full pipes; in large pools buoyancy competes and destabilizes; sensitive to contamination and oxide films on melts.",
+   "related_principles": [
+    25,
+    35
+   ],
+   "related_standards": [
+    "3.2.3",
+    "5.2.1"
+   ],
+   "technical_domains": [
+    "Welding",
+    "Semiconductors",
+    "Microfluidics"
+   ],
+   "source": "Scriven, L.E., Sternling, C.V., The Marangoni Effects, Nature (1960), DOI 10.1038/187186a0"
+  },
+  {
+   "id": "coanda_effect",
+   "name": "Coanda Effect",
+   "name_ru": "Эффект Коанды",
+   "aliases": [
+    "jet attachment",
+    "wall-hugging jet",
+    "прилипание струи",
+    "эффект Коанда",
+    "пристеночная струя"
+   ],
+   "description": "A jet emerging close to a convex surface stays attached and follows the wall: entrainment of ambient fluid creates low pressure that pins the jet, enabling flow guidance and fluidic switching with no moving parts.",
+   "category": "Fluid",
+   "function_tags": [
+    "transmit",
+    "generate_field"
+   ],
+   "applications": [
+    "Fluidic logic gates, bistable amplifiers and fluidic oscillators (no moving parts, radiation-hard)",
+    "Circulation-control wings and blown flaps (jet over trailing edge augments lift)",
+    "Bladeless fans and HVAC diffusers (annular jet clings and entrains room air)",
+    "Air curtains and burner flame guidance (safety-relevant attachment)",
+    "Spray coating and paint application with wall-following jets"
+   ],
+   "quantitative": "Attachment occurs when the wall lies within a few nozzle widths of the jet; reattachment length after a step is 3-6 nozzle widths; jets follow curved walls turning up to ~70-90 deg; fluidic oscillators sweep at 0.1-1000 Hz depending on scale; attached-jet thrust augmentation ~1.3-1.6 in fan applications.",
+   "limits": "Sensitive to crosswinds and ambient currents (blown flaps lose benefit in gusts); requires proximity to a surface; hysteresis between attached and separated states; extra skin friction and heat load on the wall; marginally stable with Reynolds number changes.",
+   "related_principles": [
+    14,
+    29
+   ],
+   "related_standards": [
+    "1.1.4"
+   ],
+   "technical_domains": [
+    "Aerospace",
+    "HVAC",
+    "Fluidics"
+   ],
+   "source": "Reba, I., Applications of the Coanda Effect, Scientific American 214(6) (1966); classic: Coanda, H., French Patent 792-754 (1936)"
+  },
+  {
+   "id": "karman_street_magnus",
+   "name": "Karman Vortex Street and Magnus Effect",
+   "name_ru": "Вихревая дорожка Кармана и эффект Магнуса",
+   "aliases": [
+    "vortex shedding",
+    "Strouhal number",
+    "VIV",
+    "Aeolian tones",
+    "вихревая дорожка",
+    "эффект Магнуса",
+    "циркуляционное обтекание"
+   ],
+   "description": "Bluff bodies in crossflow shed periodic vortices at Strouhal frequency f ~ 0.2*U/D (usable as flow meters, dangerous as VIV), while a spinning body in a stream generates transverse lift via asymmetric circulation (Magnus effect) - vortex behavior made measurable and controllable.",
+   "category": "Fluid",
+   "function_tags": [
+    "sense_measure",
+    "generate_field",
+    "suppress_harm"
+   ],
+   "applications": [
+    "Vortex-shedding flowmeters (bluff body + frequency counting, ~0.5-1% accuracy)",
+    "VIV suppression for offshore risers, chimneys and bridge cables (helical strakes, fairings)",
+    "Flettner rotor ships and wind-assisted propulsion (Magnus lift)",
+    "Aeolian tone suppression on power lines (Stockbridge dampers) and acoustic diagnostics of flows",
+    "Ball sports aerodynamics and spinning-projectile ballistics"
+   ],
+   "quantitative": "Strouhal number St = fD/U ~ 0.2 for a circular cylinder from Re 300 to 3*10^5; VIV lock-in drives vibration amplitudes up to ~1 body diameter; Magnus lift coefficients of 4-10 for rotating cylinders (vs ~1-1.5 for conventional wings); a 50 mm power line at 10 m/s sheds at ~40 Hz (audible hum).",
+   "limits": "Lock-in resonance is narrow but destructive (fatigue); shedding becomes chaotic above Re ~ 3.5*10^6 (supercritical regime); Magnus lift collapses at high spin ratios (>2-3) and adds drag; flowmeters need sufficient upstream straight piping.",
+   "related_principles": [
+    14,
+    19,
+    4
+   ],
+   "related_standards": [
+    "2.4.1"
+   ],
+   "technical_domains": [
+    "Marine",
+    "Aerospace",
+    "Instrumentation"
+   ],
+   "source": "Williamson, C.H.K., Govardhan, R., Vortex-Induced Vibrations, Annual Review of Fluid Mechanics (2004), DOI 10.1146/annurev.fluid.36.050802.122138; classics: von Karman, T., Nachr. Ges. Wiss. Gottingen (1911); Magnus, G., Ann. Phys. (1852)"
+  },
+  {
+   "id": "ferrofluid",
+   "name": "Ferrofluid (Ferro-Magnetic Liquid)",
+   "name_ru": "Феррожидкость (ферромагнитная жидкость)",
+   "aliases": [
+    "ferromagnetic fluid",
+    "magnetic nanofluid",
+    "colloidal magnetic liquid",
+    "магнитная жидкость",
+    "магнитожидкость"
+   ],
+   "description": "A colloidal suspension of ~10 nm superparamagnetic nanoparticles in a carrier liquid remains fully liquid yet obeys magnetic fields - forming Rosensweig spikes, sealing rotation gaps and wetting surfaces; unlike magnetorheological fluids (micron particles, solid yield stress), it stays fluid and can be shaped precisely by weak fields.",
+   "category": "Fluid",
+   "function_tags": [
+    "fix_hold",
+    "change_property",
+    "transmit"
+   ],
+   "applications": [
+    "Rotary-shaft vacuum and hermetic seals in hard drives and semiconductor equipment (zero-wear, leak-free)",
+    "Voice-coil damping and centering in loudspeakers (viscosity + magnetic centering in one liquid)",
+    "Magnetically guided drug delivery and tumor hyperthermia (magnetite cores)",
+    "Magnetic-domain visualization (ferrofluid patterns on recording media)",
+    "Inclinometers and accelerometers using magnetic liquid position sensing"
+   ],
+   "quantitative": "Particle diameter 3-15 nm (superparamagnetic, no remanence); saturation magnetization 10-60 kA/m (magnetite-based); normal-field Rosensweig instability spike spacing ~5-10 mm for typical fluids; rotary seals hold 20-100 kPa per stage, stacked stages reach >1 MPa; viscosity 2-500 mPa*s tunable by carrier and loading.",
+   "limits": "Magnetic forces are far smaller than in MR fluids (no solid-chain yield stress); particle agglomeration and surfactant degradation with time; carrier evaporation; temperature limits of the carrier liquid; costly materials.",
+   "related_principles": [
+    28,
+    29,
+    35
+   ],
+   "related_standards": [
+    "2.3.3"
+   ],
+   "technical_domains": [
+    "Semiconductors",
+    "Audio",
+    "Medical"
+   ],
+   "source": "Rosensweig, R.E., Ferrohydrodynamics, Cambridge University Press (1985); patent: Papell, S.S., US Patent 3,215,572 (1965)"
+  },
+  {
+   "id": "reverse_osmosis",
+   "name": "Osmosis and Reverse Osmosis",
+   "name_ru": "Осмос и обратный осмос",
+   "aliases": [
+    "RO",
+    "forward osmosis",
+    "pressure-retarded osmosis",
+    "semipermeable membrane",
+    "обратный осмос",
+    "осмотическое давление",
+    "мембранное разделение"
+   ],
+   "description": "Water crosses a semipermeable membrane from dilute to concentrated solution under osmotic pressure (seawater ~27 bar); applying pressure above the osmotic pressure reverses the flow, rejecting >99% of dissolved salts and pathogens - concentration-driven separation and, conversely, pressure recovery from salinity gradients.",
+   "category": "Fluid",
+   "function_tags": [
+    "separate_mix",
+    "convert_energy",
+    "move_substance"
+   ],
+   "applications": [
+    "Seawater and brackish desalination (the dominant world technology)",
+    "Hemodialysis and pure-water supply for medical and semiconductor use",
+    "Food and juice concentration at low temperature (no thermal damage)",
+    "Pressure-retarded osmosis / blue energy: power from river-sea salinity gradients",
+    "Forward osmosis for water reclamation and nutrient-dense feed concentration"
+   ],
+   "quantitative": "Seawater osmotic pressure ~27 bar (35 g/L salts); SWRO operates at 55-80 bar, brackish at 10-25 bar; modern membranes reject 99.7-99.85% of salts; specific energy 2.5-4 kWh/m3 against a thermodynamic minimum ~1.06 kWh/m3 at 50% recovery; typical fluxes 10-40 L/(m2*h).",
+   "limits": "Fouling and scaling demand extensive pretreatment; polyamide membranes degrade with chlorine; brine disposal is an environmental constraint; membrane compaction at high pressure; osmotic power prototypes (Statkraft) closed for low economic efficiency at current membrane performance.",
+   "related_principles": [
+    30,
+    2
+   ],
+   "related_standards": [
+    "1.2.1"
+   ],
+   "technical_domains": [
+    "Water Treatment",
+    "Medical",
+    "Food"
+   ],
+   "source": "Elimelech, M., Phillip, W.A., The Future of Seawater Desalination: Energy, Technology, and the Environment, Science (2011), DOI 10.1126/science.1200488; classic: Loeb, S., Sourirajan, S., Advances in Chemistry Series 38, ACS (1963)"
+  },
+  {
+   "id": "gas_hydrates",
+   "name": "Gas Hydrates (Clathrates) and Self-Preservation",
+   "name_ru": "Газовые гидраты (клатраты) и самоконсервация",
+   "aliases": [
+    "clathrate hydrate",
+    "methane hydrate",
+    "gas hydrate plug",
+    "self-preservation",
+    "гидрат метана",
+    "клатратные гидраты",
+    "самоконсервация"
+   ],
+   "description": "Water forms solid cage compounds trapping gas molecules (CH4, CO2) at moderate pressure and low temperature: 1 m3 of methane hydrate holds ~164 m3 of gas at STP - a pipeline-plugging hazard, a solid gas-storage medium, a desalination-by-crystallization route, and it dissociates anomalously slowly just below 0 °C (self-preservation by an ice shell).",
+   "category": "Chemical",
+   "function_tags": [
+    "store",
+    "separate_mix",
+    "change_state"
+   ],
+   "applications": [
+    "Hydrate plug prevention in subsea pipelines (thermodynamic inhibitors MEG/MeOH, depressurization)",
+    "Solid-state storage and transport of natural and associated gas (SNG hydrate technology)",
+    "Desalination by hydrate formation-melting (salt excluded from the clathrate lattice)",
+    "CO2 sequestration as hydrate and CO2-CH4 exchange in sediments",
+    "Production from natural hydrate deposits (Messoyakha, Nankai Trough trials)"
+   ],
+   "quantitative": "Methane hydrate stable at 0-5 °C under ~2.6-6 MPa; 1 volume hydrate = ~164 volumes gas (STP) + 0.8 volumes water; self-preservation window -20 to 0 °C: dissociation rate drops 10-100x (maximum near 268 K); wet-gas pipelines risk plugging at 0-20 °C above a few MPa.",
+   "limits": "Slow formation without promoters (THF, TBAB) and poor gas-liquid contact; large latent heats must be moved in/out; sand and matrix complicate production; decompression of plugs is an explosion hazard; low volumetric energy density compared with LNG.",
+   "related_principles": [
+    36,
+    35,
+    31
+   ],
+   "related_standards": [
+    "5.3.1",
+    "5.3.2"
+   ],
+   "technical_domains": [
+    "Oil & Gas",
+    "Energy",
+    "Environmental"
+   ],
+   "source": "Sloan, E.D., Koh, C.A., Clathrate Hydrates of Natural Gases, 3rd ed., CRC Press (2008); Stern, L.A., Circone, S., Kirby, S.H., Durham, W.B., Anomalous Preservation of Pure Methane Hydrate at 1 atm, Energy & Fuels (2001), DOI 10.1021/ef000237a"
+  },
+  {
+   "id": "toms_effect",
+   "name": "Toms Effect (Polymer Drag Reduction)",
+   "name_ru": "Эффект Томса (снижение трения полимерами)",
+   "aliases": [
+    "drag reduction",
+    "DRA",
+    "polymer additive drag reduction",
+    "эффект Томса",
+    "снижение гидравлического сопротивления"
+   ],
+   "description": "Parts-per-million doses of long-chain polymers in turbulent flow damp near-wall momentum exchange and cut frictional drag by up to ~80% without measurably changing bulk viscosity - a molecular-level lubrication of turbulence.",
+   "category": "Fluid",
+   "function_tags": [
+    "suppress_harm",
+    "change_property"
+   ],
+   "applications": [
+    "Long-distance crude oil pipelines (dosing 5-50 ppm boosts throughput 30-50%)",
+    "Fire-fighting hoses (longer throw at the same pump power)",
+    "District heating and cooling water networks (lower pumping cost)",
+    "Marine hull drag reduction experiments and fast boat fuel savings",
+    "Sewer and process line hydraulic capacity upgrades without new piping"
+   ],
+   "quantitative": "10-100 ppm polyethylene oxide or polyacrylamide reduce turbulent friction up to 70-80% (Virk maximum drag reduction asymptote); effective in fully turbulent flow above Re ~ 10^4; in pipelines dosing 5-50 ppm; polymer chains mechanically degrade in pumps, limiting lifetime to hours.",
+   "limits": "Mechanical degradation (chain scission) demands continuous reinjection; works only in turbulence - useless in laminar flow; the ~80% asymptote cannot be exceeded; polymer/surfactant cost and possible fouling; surfactant systems lose effect above their cloud temperature.",
+   "related_principles": [
+    35,
+    16
+   ],
+   "related_standards": [
+    "1.1.2",
+    "5.1.3"
+   ],
+   "technical_domains": [
+    "Oil & Gas",
+    "Utilities",
+    "Marine"
+   ],
+   "source": "Virk, P.S., Drag reduction fundamentals, AIChE Journal (1975), DOI 10.1002/aic.690210402; classic: Toms, B.A., Proc. 1st Int. Congress on Rheology, North-Holland (1948)"
+  },
+  {
+   "id": "magnetohydrodynamics",
+   "name": "Magnetohydrodynamic Pumping (MHD)",
+   "name_ru": "Магнитогидродинамика (МГД-прокачка)",
+   "aliases": [
+    "MHD",
+    "electromagnetic pump",
+    "Lorentz force pumping",
+    "Hartmann flow",
+    "МГД-насос",
+    "электромагнитный насос",
+    "течение Гартмана"
+   ],
+   "description": "An electric current passed through a conducting liquid (molten metal, electrolyte, plasma) in a transverse magnetic field experiences Lorentz force f = j x B that pumps the fluid with no moving parts, no seals and no contact; conversely, melt motion in a field induces braking currents (EM braking of casting streams).",
+   "category": "Fluid",
+   "function_tags": [
+    "move_substance",
+    "generate_field",
+    "transmit"
+   ],
+   "applications": [
+    "Electromagnetic pumps for radioactive liquid sodium in fast reactors (no seal on hot metal)",
+    "EM stirring and level control of molten steel and aluminium in continuous casting",
+    "MHD braking and shaping of metal streams in casting (contactless gate)",
+    "Ship MHD thrusters (Yamato-1 demonstrator) and plasma MPD thrusters",
+    "Aluminium electrolysis interface stabilization by magnetic fields"
+   ],
+   "quantitative": "Force density f = j x B; Hartmann number Ha = B*L*sqrt(sigma/eta) > 10 flattens the velocity profile; industrial sodium pumps deliver 0.1-10 m3/min at 0.1-0.5 MPa with zero mechanical contact; induced braking can stop melt jets of ~1 m/s in mold-level control.",
+   "limits": "Requires electrically conductive fluid (oils, most organics excluded; electrolytes give low efficiency <10%); strong fields (0.1-1 T) and high currents needed; electrode corrosion in DC pumps; MHD instabilities in plasma and liquid-metal blankets.",
+   "related_principles": [
+    28,
+    29
+   ],
+   "related_standards": [
+    "5.1.2",
+    "2.1.2"
+   ],
+   "technical_domains": [
+    "Nuclear",
+    "Metallurgy",
+    "Aerospace"
+   ],
+   "source": "Shercliff, J.A., A Textbook of Magnetohydrodynamics, Pergamon Press (1965); classic: Hartmann, J., Hg-Dynamics I, Det Kgl. Danske Videnskabernes Selskab (1937)"
+  },
+  {
+   "id": "fluidized_bed",
+   "name": "Fluidized Bed",
+   "name_ru": "Кипящий слой (псевдоожиженный слой)",
+   "aliases": [
+    "fluidization",
+    "boiling bed",
+    "pseudo-fluidization",
+    "кипящий слой",
+    "псевдоожижение"
+   ],
+   "description": "Upward gas flow through a powder bed above the minimum fluidization velocity suspends the particles so the bed behaves like a boiling liquid: it flows, levels, mixes intensely and offers enormous gas-solid contact area at nearly uniform temperature.",
+   "category": "Fluid",
+   "function_tags": [
+    "mix_join",
+    "transmit",
+    "move_substance"
+   ],
+   "applications": [
+    "Fluid catalytic cracking (FCC) - the backbone of oil refining",
+    "Circulating fluidized bed boilers with in-bed desulfurization (limestone addition)",
+    "Fluidized-bed CVD coating of granules (silicon, nuclear fuel kernels)",
+    "Wurster coating and drying of tablets and powders in pharma",
+    "Dry separation of mixed plastics and coal cleaning by density in fluidized beds"
+   ],
+   "quantitative": "Minimum fluidization velocity 0.01-1 m/s for 100 um-2 mm particles; bed expands 20-100%; heat transfer to immersed surfaces 200-600 W/(m2*K), ~10x empty-tube gas convection; pressure drop equals bed weight per unit area (independent of flow above Umf); FCC riser velocities 6-20 m/s.",
+   "limits": "Erosion and attrition of particles and internals; elutriation of fines requires cyclones; bubbling causes gas bypassing (uneven contact); agglomeration and defluidization at high temperature (eutectic melting); unsuitable for sticky or very wide size distributions.",
+   "related_principles": [
+    29,
+    31
+   ],
+   "related_standards": [
+    "3.2.1",
+    "2.2.2"
+   ],
+   "technical_domains": [
+    "Chemical",
+    "Energy",
+    "Pharma"
+   ],
+   "source": "Kunii, D., Levenspiel, O., Fluidization Engineering, 2nd ed., Butterworth-Heinemann (1991)"
+  },
+  {
+   "id": "acoustic_streaming",
+   "name": "Acoustic Streaming (Rayleigh Streaming)",
+   "name_ru": "Акустические потоки (струйное течение Рэлея)",
+   "aliases": [
+    "quartz wind",
+    "acoustic wind",
+    "Schlichting streaming",
+    "standing-wave streaming",
+    "акустический ветер",
+    "акустические течения"
+   ],
+   "description": "Absorption of acoustic energy in a fluid (or viscous loss in the Stokes boundary layer near walls) produces steady second-order vortices that pump and stir the fluid without any moving parts - from sonicator-scale currents to microfluidic particle steering.",
+   "category": "Fluid",
+   "function_tags": [
+    "move_substance",
+    "mix_join",
+    "separate_mix"
+   ],
+   "applications": [
+    "Megasonic cleaning of semiconductor wafers (0.8-1 MHz, boundary-layer streaming flushes loosened particles)",
+    "Acoustofluidic micro-pumps and mixers for lab-on-chip",
+    "Enhanced mass transfer in electroplating and membrane degassing",
+    "Thermoacoustic engines and refrigerators (streaming-driven heat transport)",
+    "Localized agitation in ultrasonic baths and sonochemical reactors"
+   ],
+   "quantitative": "Stokes boundary layer thickness delta = sqrt(2*nu/omega) ~ 1.8 um at 100 kHz and 0.6 um at 1 MHz in water; streaming velocities scale with acoustic intensity: mm/s-scale vortices for W/cm2 fields at MHz frequencies in microchannels; second-order effect (velocity ~ v_acoustic^2/c).",
+   "limits": "Weak at low intensity (quadratic in amplitude); high frequencies are absorbed within short distances; geometry-dependent (standing waves); fluid heating is a byproduct; competes with acoustic radiation forces on particles.",
+   "related_principles": [
+    18,
+    28
+   ],
+   "related_standards": [
+    "2.2.3",
+    "5.1.2"
+   ],
+   "technical_domains": [
+    "Microfluidics",
+    "Electronics",
+    "Cryogenics"
+   ],
+   "source": "Lighthill, J., Acoustic streaming, Journal of Sound and Vibration (1978), DOI 10.1016/0022-460X(78)90388-7; classic: Rayleigh, L., The Theory of Sound, Macmillan (1878)"
+  },
+  {
+   "id": "hydrodynamic_lubrication",
+   "name": "Hydrodynamic Lubrication",
+   "name_ru": "Гидродинамическая смазка",
+   "aliases": [
+    "fluid-film lubrication",
+    "oil wedge",
+    "aerodynamic bearing",
+    "foil bearing",
+    "масляный клин",
+    "гидродинамический подшипник"
+   ],
+   "description": "Relative motion of surfaces over a converging gap entrains fluid and builds a pressure film (Reynolds equation, 1886) that fully separates them: no solid contact, wear vanishes and the friction coefficient falls to 0.001-0.01 - a self-generating fluid bearing from motion alone.",
+   "category": "Mechanical",
+   "function_tags": [
+    "suppress_harm",
+    "fix_hold"
+   ],
+   "applications": [
+    "Journal bearings of turbines, generators and crankshafts (self-pressurizing oil wedge)",
+    "Air foil bearings in oil-free turbocompressors and microturbines (air as lubricant)",
+    "Squeeze-film dampers for rotor vibration control",
+    "Air bearings and Bernoulli grippers in semiconductor lithography stages (contactless wafer transport)",
+    "Hydroplaning analysis (the harmful inverse case for tire design)"
+   ],
+   "quantitative": "Friction coefficient 0.001-0.01 versus 0.1-0.5 for dry sliding; minimum film thickness 10-100 um in power turbines; peak oil-film pressures 5-30 MPa; air-bearing gaps 5-20 um with stiffness ~10^5-10^6 N/m; regime set by the Sommerfeld number So = (eta*N/P)*(R/c)^2.",
+   "limits": "Needs relative speed - the film collapses at standstill (start-stop wear; hydrostatic jacking required); film failure under overload, starvation or oil thinning (shear heating); requires converging geometry and mostly laminar regime; narrow gaps are contamination-sensitive.",
+   "related_principles": [
+    14,
+    29
+   ],
+   "related_standards": [
+    "1.2.1"
+   ],
+   "technical_domains": [
+    "Machinery",
+    "Automotive",
+    "Semiconductors"
+   ],
+   "source": "Reynolds, O., On the theory of lubrication and its application to Mr. Beauchamp Tower's experiments, Philosophical Transactions of the Royal Society (1886), DOI 10.1098/rstl.1886.0005"
+  },
+  {
+   "id": "slush_hydrogen",
+   "name": "Slush Hydrogen (Densified Two-Phase Cryogen)",
+   "name_ru": "Слаш-водород (твёрдо-жидкий криоген)",
+   "aliases": [
+    "slush LH2",
+    "cryogenic slush",
+    "slush nitrogen",
+    "твёрдо-жидкий водород",
+    "шуговый водород"
+   ],
+   "description": "A pumpable two-phase mixture of solid hydrogen particles in liquid hydrogen combines the transportability of a liquid with ~16% higher density and ~18% higher cooling capacity per liter than normal-boiling LH2 - the highest volumetric energy density cryofuel, and a general pattern of dual-phase cryogenic working media.",
+   "category": "Fluid",
+   "function_tags": [
+    "store",
+    "change_state",
+    "move_substance"
+   ],
+   "applications": [
+    "Aerospace propellant densification for launch vehicles and hypersonic craft (NASP studies)",
+    "Cryogenic heat sink for scramjet cooling (higher heat capacity per liter)",
+    "Slush nitrogen as cooling medium for superconducting equipment and HTS cables",
+    "Buffered energy storage between triple and boiling points of cryogens"
+   ],
+   "quantitative": "Hydrogen triple point 13.8 K, 7.04 kPa; at ~50% solid mass fraction density is 81.4 vs 70.8 kg/m3 for LH2 (+16%) and available cooling capacity +18%; particles 0.1-2 mm produced by freeze-thaw or auger methods; remains pumpable through standard cryogenic loops.",
+   "limits": "Aging: particles agglomerate and stratify, requiring re-mixing or circulation; two-phase quantity gauging is difficult (no clean level signal); triple-point vacuum insulation required; filter clogging by solid particles; same safety envelope as LH2 plus solid handling.",
+   "related_principles": [
+    36,
+    35
+   ],
+   "related_standards": [
+    "5.3.2",
+    "5.3.1"
+   ],
+   "technical_domains": [
+    "Aerospace",
+    "Cryogenics",
+    "Energy"
+   ],
+   "source": "Verfondern, K., Safety Considerations on Liquid Hydrogen, Forschungszentrum Julich, Energie & Umwelt Vol. 10 (2008), ISBN 978-3-89336-530-2"
+  },
+  {
+   "id": "hall_effect",
+   "name": "Hall Effect",
+   "description": "A voltage transverse to current flow arises in a conductor or semiconductor placed in a magnetic field, proportional to the product of current and magnetic flux density",
+   "category": "Electromagnetic",
+   "applications": [
+    "Contactless position and speed sensors (crankshaft, brushless motor commutation)",
+    "Non-invasive DC/AC current clamps and meters (mA to kA)",
+    "Magnetic field probes from mT to tens of tesla",
+    "Proximity and level switches (fuel tanks, door locks)",
+    "Flow meters (magnetic-inductive) and e-bike/throttle sensing"
+   ],
+   "related_principles": [
+    28,
+    23,
+    2
+   ],
+   "technical_domains": [
+    "Electronics",
+    "Automotive",
+    "Metrology"
+   ],
+   "name_ru": "Эффект Холла",
+   "aliases": [
+    "Hall effect",
+    "датчик Холла",
+    "квантовый эффект Холла"
+   ],
+   "function_tags": [
+    "sense_measure",
+    "convert_energy"
+   ],
+   "quantitative": "V_H = I*B/(n*e*t); raw Hall elements give ~10-300 mV/T at rated bias; with on-chip amplifier resolution to ~1 mT; galvanically isolated current sensing from mA to kA; quantum Hall resistance standard R_K = h/e^2 = 25 812.8 Ohm",
+   "limits": "Weak signal for small fields (needs amplification); offset drift with temperature and mechanical stress; below ~0.1 mT flux concentrators are required; cross-sensitivity to stray fields; not suitable for measuring field gradients with a single element",
+   "related_standards": [
+    "4.4.1",
+    "4.2.4",
+    "5.4.3"
+   ],
+   "source": [
+    "Popovic, R.S., Hall Effect Devices, 2nd ed., IOP Publishing (2004)"
+   ]
+  },
+  {
+   "id": "wiegand_effect",
+   "name": "Wiegand Effect",
+   "description": "A twisted and aged Vicalloy wire with magnetically hard shell and soft core flips its magnetization in one large Barkhausen jump at a fixed field threshold, inducing a standardized voltage pulse in a coil with no external power",
+   "category": "Electromagnetic",
+   "applications": [
+    "Self-powered rotation and position sensors (camshaft, crankshaft, pedals)",
+    "Water, gas and electricity meter registers (multi-decade counting)",
+    "Energy harvesting pulses to wake ultra-low-power electronics",
+    "Anti-tamper seals, access cards and safe locks"
+   ],
+   "related_principles": [
+    25,
+    28,
+    19
+   ],
+   "technical_domains": [
+    "Sensors",
+    "Automotive",
+    "Metering"
+   ],
+   "name_ru": "Эффект Виганда",
+   "aliases": [
+    "Wiegand effect",
+    "виганд-проволока",
+    "крупный скачок Баркгаузена"
+   ],
+   "function_tags": [
+    "sense_measure",
+    "convert_energy"
+   ],
+   "quantitative": "Pulse amplitude ~2-12 V, width ~10 us, energy ~0.1-1 uJ per flip; polarity and amplitude independent of field rate; typical operating range -40...+125 C; zero standby power",
+   "limits": "Threshold event signal only (no analog field value); tiny output energy cannot power continuous electronics; requires magnet + coil assembly; pulse amplitude drifts a few percent with temperature; one pulse per half-revolution max",
+   "related_standards": [
+    "4.5.2",
+    "5.4.1",
+    "2.2.1"
+   ],
+   "source": [
+    "US Patent 3,820,090 'Bistable magnetic device' (Wiegand & Velinsky, 1974)",
+    "Sensors (MDPI) 20(5), 1408 (2020), DOI: 10.3390/s20051408 (Wiegand sensor pulse review)"
+   ]
+  },
+  {
+   "id": "electrostriction",
+   "name": "Electrostriction",
+   "description": "All dielectrics deform proportionally to the square of the applied electric field, giving polarity-independent strain used in precision actuators with far less hysteresis than piezoceramics",
+   "category": "Electromagnetic",
+   "applications": [
+    "Deformable mirrors for adaptive optics and laser beam shaping",
+    "Nanometer-precision positioning stages (fine motion in STM/AFM-class instruments)",
+    "Micropumps and inkjet pump elements",
+    "Hydrophone and accelerometer sensing elements"
+   ],
+   "related_principles": [
+    35,
+    28,
+    15
+   ],
+   "technical_domains": [
+    "Optics",
+    "Precision Engineering",
+    "Electronics"
+   ],
+   "name_ru": "Электрострикция",
+   "aliases": [
+    "electrostriction",
+    "квадратичный электромеханический эффект",
+    "PMN-актюатор"
+   ],
+   "function_tags": [
+    "change_shape",
+    "convert_energy"
+   ],
+   "quantitative": "Strain proportional to E^2; PMN-based ceramics reach ~0.1% (1,000 ustrain) at 1-3 kV/mm; hysteresis typically <1-2% vs 10-20% for PZT; response below 1 ms",
+   "limits": "Quadratic law requires DC bias for linear analog control; equal displacement needs higher fields than PZT; response strongly temperature-dependent near phase transitions; high capacitance means large drive currents; low force output (stiffness-limited)",
+   "related_standards": [
+    "5.4.3",
+    "2.2.1",
+    "3.2.3"
+   ],
+   "source": [
+    "Uchino, K., Ferroelectric Devices, CRC Press (2000)"
+   ]
+  },
+  {
+   "id": "electrostatic_chucking",
+   "name": "Electrostatic Adhesion / Chucking",
+   "description": "Electrostatic attraction between a biased electrode and an object through a dielectric (or via slightly conductive Johnsen-Rahbek contact) clamps objects without mechanical contact, even in vacuum and plasma",
+   "category": "Electromagnetic",
+   "applications": [
+    "Semiconductor wafer chucks inside vacuum/plasma processing chambers",
+    "Pick-and-place of thin glass, foil and film in display manufacturing",
+    "Electrostatic holding of paper sheets in copiers and printers",
+    "Electrostatic grippers and wall-climbing robots",
+    "Dust and sample capture in space research"
+   ],
+   "related_principles": [
+    28,
+    2,
+    35
+   ],
+   "technical_domains": [
+    "Semiconductors",
+    "Robotics",
+    "Printing"
+   ],
+   "name_ru": "Электростатическая адгезия (электростатический прижим)",
+   "aliases": [
+    "electrostatic chuck",
+    "ESC",
+    "эффект Йонсена-Рагбека",
+    "Johnsen-Rahbek effect"
+   ],
+   "function_tags": [
+    "fix_hold",
+    "transmit"
+   ],
+   "quantitative": "Bias 50 V-3 kV; holding pressure ~1-100 kPa (Johnsen-Rahbek type several times stronger than pure Coulomb type); release within ms at zero bias; works through thin dielectrics and in vacuum where suction cups fail",
+   "limits": "Force collapses on conductive, dusty or humid surfaces; needs flat clean dielectric contact; residual charge slows release; arcing risk at high voltage in plasma; weak on thick insulators without electrode access",
+   "related_standards": [
+    "1.1.1",
+    "2.2.1",
+    "5.1.2"
+   ],
+   "source": [
+    "Cross, J.A., Electrostatics: Principles, Problems and Applications, Adam Hilger (1987)"
+   ]
+  },
+  {
+   "id": "electrophoresis",
+   "name": "Electrophoresis",
+   "description": "Charged particles and macromolecules migrate in a fluid under an electric field at velocities set by their charge-to-size ratio, enabling high-resolution separation and directed deposition",
+   "category": "Chemical",
+   "applications": [
+    "DNA and protein separation/sequencing (capillary and gel electrophoresis)",
+    "Electrophoretic deposition (EPD) of ceramic and composite coatings",
+    "E-ink displays moving charged pigment particles",
+    "Cathodic dip priming (cataphoresis) of car bodies",
+    "Zeta-potential characterization of colloids"
+   ],
+   "related_principles": [
+    35,
+    2,
+    3
+   ],
+   "technical_domains": [
+    "Biotechnology",
+    "Chemical",
+    "Coatings"
+   ],
+   "name_ru": "Электрофорез",
+   "aliases": [
+    "electrophoresis",
+    "капиллярный электрофорез",
+    "гель-электрофорез",
+    "катофорез"
+   ],
+   "function_tags": [
+    "separate_mix",
+    "move_substance"
+   ],
+   "quantitative": "Mobilities ~10^-9 to 10^-7 m^2/(V*s) for macromolecules and typical ions; capillary fields 100-500 V/cm give up to 10^6-10^7 theoretical plates; resolution to 1 bp in DNA fragments; deposition mass proportional to charge passed (Faraday law)",
+   "limits": "Requires conductive medium; Joule heating caps the usable field in gels; pH and ionic strength shift mobility; objects must carry stable charge; electroosmotic flow can dominate capillaries; uncharged particles do not respond",
+   "related_standards": [
+    "3.2.2",
+    "2.2.2",
+    "4.2.3"
+   ],
+   "source": [
+    "Tiselius, A., 'A new apparatus for electrophoretic analysis of colloidal mixtures', Trans. Faraday Soc. 33, 524 (1937)"
+   ]
+  },
+  {
+   "id": "electric_arc_plasma",
+   "name": "Electric Arc / Thermal Plasma",
+   "description": "A self-sustained high-current discharge produces ionized gas at 6,000-25,000 K, concentrating extreme heat and chemical reactivity in a small steerable volume",
+   "category": "Electromagnetic",
+   "applications": [
+    "Arc welding and plasma cutting of metals",
+    "Plasma spraying of wear and corrosion coatings",
+    "Electric arc furnaces melting scrap steel",
+    "Arc lamps and plasma torches for waste gasification",
+    "Plasma chemistry: nanoparticle synthesis, ozone production"
+   ],
+   "related_principles": [
+    38,
+    28,
+    35
+   ],
+   "technical_domains": [
+    "Manufacturing",
+    "Metallurgy",
+    "Energy"
+   ],
+   "name_ru": "Электрическая дуга (тепловая плазма)",
+   "aliases": [
+    "electric arc",
+    "thermal plasma",
+    "дуговой разряд",
+    "плазмотрон"
+   ],
+   "function_tags": [
+    "change_state",
+    "convert_energy",
+    "change_shape"
+   ],
+   "quantitative": "Arc core 6,000-25,000 K; currents 1 A to 100 kA; power density 10^6-10^8 W/m^2 at electrode spots; plasma jet velocity 1,000-5,000 m/s in cutting torches",
+   "limits": "Electrode erosion and acoustic/EMI noise; UV and ozone hazard; arc wander needs magnetic stabilization; very high power consumption; unsuitable for heat-sensitive substrates; plasma chemistry products hard to predict",
+   "related_standards": [
+    "5.5.3",
+    "1.1.6",
+    "2.1.2"
+   ],
+   "source": [
+    "Roth, J.R., Industrial Plasma Engineering, Vol. 1: Principles, IOP Publishing (1995)"
+   ]
+  },
+  {
+   "id": "induction_heating",
+   "name": "Induction Heating",
+   "description": "Alternating magnetic fields drive eddy currents directly inside conductive workpieces, heating them contactlessly, even through a furnace wall or crucible",
+   "category": "Electromagnetic",
+   "applications": [
+    "Surface hardening of gears and shafts at controlled depth",
+    "Vacuum induction melting and crucible heating",
+    "Brazing, soldering and shrink-fitting assemblies",
+    "Induction cooktops and adhesive drying",
+    "Float-zone refining of semiconductor silicon"
+   ],
+   "related_principles": [
+    28,
+    19,
+    15
+   ],
+   "technical_domains": [
+    "Manufacturing",
+    "Metallurgy",
+    "Consumer"
+   ],
+   "name_ru": "Индукционный нагрев",
+   "aliases": [
+    "induction heating",
+    "ВЧ-нагрев",
+    "высокочастотная закалка"
+   ],
+   "function_tags": [
+    "convert_energy",
+    "change_state"
+   ],
+   "quantitative": "Frequencies 50 Hz-10 MHz; skin depth delta = 503*sqrt(rho/(mu_r*f)) m (Cu: ~9 mm at 50 Hz); surface heating rates above 1,000 K/s; hardening depth 0.5-5 mm at 10-400 kHz; overall efficiency 50-90% depending on coupling",
+   "limits": "Only conductive workpieces; ferromagnetic heating vanishes above the Curie point; complex 3D shapes need engineered coils; high-frequency power electronics costly; stray fields heat nearby metal parts",
+   "related_standards": [
+    "2.2.1",
+    "5.4.3",
+    "1.1.3"
+   ],
+   "source": [
+    "Zinn, S. & Semiatin, S.L., Elements of Induction Heating: Design, Control and Applications, ASM International (1988)"
+   ]
+  },
+  {
+   "id": "eddy_current_skin",
+   "name": "Eddy Currents / Skin Effect",
+   "description": "Time-varying magnetic fields induce closed-loop currents in conductors that oppose field change, the basis of contactless testing, braking, and confinement of AC current to a surface layer",
+   "category": "Electromagnetic",
+   "applications": [
+    "Eddy-current NDT of cracks, wall thickness and conductivity",
+    "Eddy-current brakes and dampers (trains, rides, vibration damping)",
+    "Metal sorting and induction cooktop heating",
+    "Litz wire and RF design accounting for skin depth",
+    "Electromagnetic forming and stirring of melts"
+   ],
+   "related_principles": [
+    28,
+    23,
+    4
+   ],
+   "technical_domains": [
+    "NDT",
+    "Transportation",
+    "Electronics"
+   ],
+   "name_ru": "Вихревые токи и скин-эффект",
+   "aliases": [
+    "eddy currents",
+    "skin effect",
+    "токи Фуко",
+    "поверхностный эффект"
+   ],
+   "function_tags": [
+    "sense_measure",
+    "convert_energy",
+    "suppress_harm"
+   ],
+   "quantitative": "Skin depth in Cu: ~9.2 mm at 50 Hz, ~65 um at 1 MHz; ECT detects surface cracks ~0.1-0.5 mm; eddy braking force grows with speed (self-limiting, no wear); penetration tunable 0.1-10 mm via frequency",
+   "limits": "Only conductive materials; poor sensitivity to deep/subsurface defects; lift-off and edge effects mask signals; permeability variations in ferromagnets mimic defects; braking ineffective at low speed",
+   "related_standards": [
+    "4.4.1",
+    "4.1.1",
+    "2.2.1"
+   ],
+   "source": [
+    "Yavorsky, B.M. & Detlaf, A.A., Handbook of Physics (Справочник по физике), Nauka (1968)"
+   ]
+  },
+  {
+   "id": "magnetic_levitation",
+   "name": "Magnetic Levitation",
+   "description": "Magnetic forces - active attraction (EMS), induced repulsion (EDS), or diamagnetic/superconductor expulsion - suspend bodies without solid contact, eliminating friction and wear",
+   "category": "Electromagnetic",
+   "applications": [
+    "Maglev trains (Transrapid EMS, SCMaglev EDS)",
+    "Frictionless bearings for flywheels, turbomachinery and pumps",
+    "Magnetic suspension balances and microgravity simulation",
+    "Contactless positioning and stirring of molten metals",
+    "Levitated displays and kinetic art with active stabilization"
+   ],
+   "related_principles": [
+    8,
+    28,
+    23
+   ],
+   "technical_domains": [
+    "Transportation",
+    "Energy",
+    "Machinery"
+   ],
+   "name_ru": "Магнитная левитация",
+   "aliases": [
+    "magnetic levitation",
+    "маглев",
+    "EMS/EDS-подвес",
+    "магнитный подшипник"
+   ],
+   "function_tags": [
+    "fix_hold",
+    "generate_field",
+    "move_substance"
+   ],
+   "quantitative": "EMS air gap ~10 mm (Transrapid, active control bandwidth ~kHz); EDS gap ~100 mm with superconducting coils; SCMaglev speed record 603 km/h (2015); Earnshaw's theorem forbids stable static levitation of ferromagnets - needs active feedback, induced currents, diamagnets or superconductors",
+   "limits": "Earnshaw instability rules out passive ferromagnetic levitation; active systems fail if sensors/power fail; strong stray fields near SC coils; eddy losses heat the guideway in EDS; cryogenics and cost for superconducting versions",
+   "related_standards": [
+    "1.2.4",
+    "2.2.1",
+    "2.3.1"
+   ],
+   "source": [
+    "Moon, F.C., Magneto-Solid Mechanics, Wiley (1984)"
+   ]
+  },
+  {
+   "id": "edlc_supercapacitor",
+   "name": "Electric Double-Layer Capacitor (Supercapacitor)",
+   "description": "Ions electrostatically adsorbed at enormous electrode/electrolyte interfaces (no chemical reaction) store charge in an ultra-thin double layer, giving millions of cycles and extreme power density",
+   "category": "Electromagnetic",
+   "applications": [
+    "Regenerative braking buffers (trams, buses, cranes, forklifts)",
+    "Backup power for memory, clocks and smart meters",
+    "Peak-power shaving in hybrid drivetrains and wind pitch systems",
+    "Buffer storage for intermittent harvesters (solar, Wiegand, vibration)",
+    "Grid frequency regulation modules"
+   ],
+   "related_principles": [
+    31,
+    40,
+    35
+   ],
+   "technical_domains": [
+    "Energy",
+    "Transportation",
+    "Electronics"
+   ],
+   "name_ru": "Двойной электрический слой (суперконденсатор)",
+   "aliases": [
+    "EDLC",
+    "supercapacitor",
+    "ионистор",
+    "ультраконденсатор"
+   ],
+   "function_tags": [
+    "store",
+    "convert_energy"
+   ],
+   "quantitative": "Capacitance 1-3,000 F per cell (large cells to ~10,000 F) from 1,000-3,000 m^2/g activated carbon; energy 5-10 Wh/kg (hybrid types to ~30); power up to 10^4 W/kg; cycle life 500,000-1,000,000; -40...+65 C; cell voltage ~2.7 V",
+   "limits": "Energy density 10-20x below Li-ion; linear voltage discharge needs DC-DC conversion; electrolyte decomposition caps cell voltage ~2.7 V; self-discharge over days; high cost per stored kWh",
+   "related_standards": [
+    "3.2.2",
+    "3.2.1",
+    "5.4.3"
+   ],
+   "source": [
+    "Conway, B.E., Electrochemical Supercapacitors: Scientific Fundamentals and Technological Applications, Kluwer/Plenum (1999)"
+   ]
+  },
+  {
+   "id": "photoelectric_effect",
+   "name": "Photoelectric Effect",
+   "description": "Photons above a threshold energy liberate electrons from matter (external effect) or excite electron-hole pairs across a semiconductor bandgap (internal effect), converting light directly into electricity",
+   "category": "Optical",
+   "applications": [
+    "Solar cells and photovoltaic modules",
+    "Photomultiplier tubes detecting single photons",
+    "Photodiodes and CCD/CMOS imaging arrays",
+    "Automatic lighting, exposure meters, optical interrupters",
+    "Spectrophotometry and quantum optics foundations"
+   ],
+   "related_principles": [
+    28,
+    22,
+    35
+   ],
+   "technical_domains": [
+    "Energy",
+    "Electronics",
+    "Metrology"
+   ],
+   "name_ru": "Фотоэффект (внешний и внутренний)",
+   "aliases": [
+    "photoelectric effect",
+    "фотовольтаический эффект",
+    "внешний фотоэффект",
+    "фотодиод"
+   ],
+   "function_tags": [
+    "convert_energy",
+    "sense_measure"
+   ],
+   "quantitative": "Work functions 2.1 eV (Cs) to ~5 eV (Pt); Si bandgap 1.12 eV gives 1,107 nm cutoff; Shockley-Queisser limit 33.7% for a single junction at 1 sun; commercial Si modules 20-23%, lab Si record ~27%; PMT gain 10^6-10^8",
+   "limits": "Threshold law: photons below work function/bandgap are useless; Si output drops ~0.4%/C; dust and partial shading cut current disproportionately; external effect needs vacuum and clean surfaces; single-junction physics caps efficiency",
+   "related_standards": [
+    "5.4.3",
+    "4.2.1",
+    "1.1.1"
+   ],
+   "source": [
+    "Einstein, A., 'Uber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt', Ann. Phys. 17, 132-148 (1905)"
+   ]
+  },
+  {
+   "id": "photoconductivity",
+   "name": "Photoconductivity",
+   "description": "Illumination raises a semiconductor's free-carrier population, dropping its resistance by orders of magnitude, so light becomes an electrical switch without any mechanical contact",
+   "category": "Optical",
+   "applications": [
+    "Photoresistors (LDR) and twilight/dusk switches",
+    "Xerography: OPC or Se drum discharge writes the latent image",
+    "Flame and smoke detectors sensing IR flicker",
+    "Optically triggered power semiconductors (photo-SCR/LTT)",
+    "Photodetectors from visible to IR (CdS, PbS, CdHgTe)"
+   ],
+   "related_principles": [
+    28,
+    35,
+    32
+   ],
+   "technical_domains": [
+    "Electronics",
+    "Printing",
+    "Safety"
+   ],
+   "name_ru": "Фотопроводимость",
+   "aliases": [
+    "photoconductivity",
+    "внутренний фотоэффект",
+    "фоторезистор"
+   ],
+   "function_tags": [
+    "change_property",
+    "sense_measure"
+   ],
+   "quantitative": "Dark-to-lit resistance change 10^2-10^6; CdS LDR: Mohm dark to a few kohm at 100 lux; response from ns (photodiodes) to 10-100 ms (CdS); spectral range tunable via bandgap 0.1-3 eV",
+   "limits": "Slower and more temperature-drifting than photodiodes; memory/latency after bright exposure; Cd compounds toxic (RoHS exceptions needed); not energy-converting (needs bias); saturates at high illumination",
+   "related_standards": [
+    "4.2.1",
+    "2.1.1",
+    "5.4.1"
+   ],
+   "source": [
+    "Bube, R.H., Photoconductivity of Solids, Wiley (1960)"
+   ]
+  },
+  {
+   "id": "luminescence",
+   "name": "Luminescence (Fluorescence / Phosphorescence)",
+   "description": "Substances emit light after UV, electron or photon excitation, with nanosecond lifetimes (fluorescence) or long afterglow (phosphorescence) set by spin selection rules - distinct from bioluminescence which is a living-organism chemical reaction",
+   "category": "Optical",
+   "applications": [
+    "LED phosphors (YAG:Ce) and display color conversion",
+    "Fluorescent tracers for leak detection and flow visualization",
+    "Security inks, UV banknote marks, forensic luminol",
+    "Glow-in-the-dark emergency signage (SrAl2O4:Eu,Dy)",
+    "Scintillators for X-ray and gamma detection"
+   ],
+   "related_principles": [
+    32,
+    25,
+    28
+   ],
+   "technical_domains": [
+    "Displays",
+    "Safety",
+    "Medical"
+   ],
+   "name_ru": "Люминесценция (флуоресценция и фосфоресценция)",
+   "aliases": [
+    "luminescence",
+    "fluorescence",
+    "phosphorescence",
+    "люминофор",
+    "стинциллятор"
+   ],
+   "function_tags": [
+    "convert_energy",
+    "sense_measure",
+    "transmit"
+   ],
+   "quantitative": "Fluorescence lifetimes 0.1-10 ns; phosphorescence 1 ms to >10 h; Stokes shift 20-100 nm; good phosphor quantum yields ~0.9; fluorescein detectable at ~0.1-10 ug/L by fluorimetry",
+   "limits": "Photobleaching and fatigue of organic dyes; quenching by oxygen, heat and impurities; excitation needs a matched UV/blue source; rare-earth cost and supply; afterglow decays hyperbolically rather than staying constant",
+   "related_standards": [
+    "4.2.3",
+    "5.4.2",
+    "4.3.1"
+   ],
+   "source": [
+    "Blasse, G. & Grabmaier, B.C., Luminescent Materials, Springer (1994)"
+   ]
+  },
+  {
+   "id": "photochromism",
+   "name": "Photochromism",
+   "description": "Reversible light-induced isomerization switches a molecule between two states of different color/absorption, combining an optical memory and a self-regulating filter in one molecule",
+   "category": "Optical",
+   "applications": [
+    "Self-darkening eyeglass lenses (AgX glass, naphthopyrans)",
+    "UV dosimeters and chemical actinometers",
+    "Rewritable optical data storage and molecular switches",
+    "Smart privacy films and optical filters",
+    "Document authentication marks"
+   ],
+   "related_principles": [
+    32,
+    35,
+    15
+   ],
+   "technical_domains": [
+    "Optics",
+    "Consumer",
+    "Security"
+   ],
+   "name_ru": "Фотохромизм",
+   "aliases": [
+    "photochromism",
+    "фотохромные линзы",
+    "обратимая фотоизомеризация"
+   ],
+   "function_tags": [
+    "change_property",
+    "sense_measure"
+   ],
+   "quantitative": "Glass lenses darken in 30-60 s in sun and fade in 1-5 min; diarylethene switching ns-ps; organic fatigue 10^4-10^6 cycles; AgX glasses endure >10^5 darken/fade cycles",
+   "limits": "Thermal relaxation erases many written states within minutes; fatigue limits lifetime; too slow for video-rate displays; dark state temperature-dependent; write/erase needs two different wavelengths",
+   "related_standards": [
+    "1.1.8",
+    "4.2.3",
+    "5.4.1"
+   ],
+   "source": [
+    "Durr, H. & Bouas-Laurent, H., Photochromism: Molecules and Systems, revised ed., Elsevier (2003)"
+   ]
+  },
+  {
+   "id": "bragg_diffraction",
+   "name": "Bragg Diffraction / Photonic Bandgap (FBG Sensor)",
+   "description": "Periodic structures with pitch Lambda selectively reflect the wavelength satisfying lambda = 2n*Lambda; in fiber Bragg gratings the reflected wavelength shifts with strain and temperature, turning the grating into a distributed sensor",
+   "category": "Optical",
+   "applications": [
+    "FBG strain/temperature sensor arrays embedded in bridges, pipelines, composite blades",
+    "X-ray crystallography of crystals and proteins",
+    "WDM filters and narrow-line fiber laser reflectors",
+    "Photonic-crystal LEDs and VCSEL mirrors",
+    "Acousto-optic tunable filters"
+   ],
+   "related_principles": [
+    17,
+    3,
+    32
+   ],
+   "technical_domains": [
+    "Photonics",
+    "Metrology",
+    "Telecom"
+   ],
+   "name_ru": "Брэгговская дифракция (фотонные кристаллы, ВБР)",
+   "aliases": [
+    "Bragg diffraction",
+    "fiber Bragg grating",
+    "ВБР-датчик",
+    "фотонный бандгэп"
+   ],
+   "function_tags": [
+    "sense_measure",
+    "transmit"
+   ],
+   "quantitative": "lambda_B = 2*n_eff*Lambda; FBG sensitivity ~1.2 pm/ustrain and ~10 pm/C at 1550 nm; interrogator resolution 0.1-1 pm gives ~0.1 ustrain; dozens of gratings multiplexed on one fiber over km; standard gratings anneal above ~300 C (regenerated/type II survive to ~800 C)",
+   "limits": "lambda_B responds to BOTH strain and temperature (needs compensation element); senses only along the grating; photonic crystals require nm-precision fabrication; narrowband reflection needs many elements for broadband work",
+   "related_standards": [
+    "2.2.4",
+    "2.2.5",
+    "4.3.2"
+   ],
+   "source": [
+    "Yablonovitch, E., Phys. Rev. Lett. 58, 2059 (1987), DOI: 10.1103/PhysRevLett.58.2059",
+    "Hill, K.O. et al., Appl. Phys. Lett. 32, 647 (1978), DOI: 10.1063/1.89881 (first fiber Bragg grating)"
+   ]
+  },
+  {
+   "id": "laser_interferometry",
+   "name": "Laser Interferometry",
+   "description": "Two coherent beams recombined into fringes turn sub-wavelength optical path differences into countable light-dark transitions, measuring displacement at nanometer scale without touching the object",
+   "category": "Optical",
+   "applications": [
+    "Nanometer positioning of lithography wafer stages",
+    "Laser vibrometers and TV-holography vibration mapping",
+    "Optical surface testing (Fizeau, Twyman-Green)",
+    "Gravitational wave detection (LIGO-class interferometers)",
+    "Gauge block calibration and precision dilatometry"
+   ],
+   "related_principles": [
+    26,
+    23,
+    32
+   ],
+   "technical_domains": [
+    "Metrology",
+    "Semiconductors",
+    "Science"
+   ],
+   "name_ru": "Лазерная интерферометрия",
+   "aliases": [
+    "laser interferometry",
+    "гетеродинная интерферометрия",
+    "интерференционные полосы"
+   ],
+   "function_tags": [
+    "sense_measure",
+    "transmit"
+   ],
+   "quantitative": "One fringe = lambda/2 ~ 316 nm (He-Ne 633 nm); heterodyne interferometers reach 0.1-1 nm resolution over meters; LIGO detects 10^-19 m displacements on 4 km arms; ranges up to tens of meters",
+   "limits": "Needs a coherent stable laser and clean optics; air turbulence and temperature drift the refractive index; ambiguity at lambda/2 without counting; requires reflective or semi-transparent surfaces; vibration isolation needed at precision",
+   "related_standards": [
+    "4.2.2",
+    "4.3.1",
+    "4.3.2"
+   ],
+   "source": [
+    "Hariharan, P., Basics of Interferometry, 2nd ed., Academic Press (2007)"
+   ]
+  },
+  {
+   "id": "laser_ablation",
+   "name": "Laser Ablation",
+   "description": "Focused laser pulses vaporize or eject material layer by layer; ultrashort fs/ps pulses remove matter faster than heat can diffuse, giving cold machining with micron and sub-micron precision",
+   "category": "Optical",
+   "applications": [
+    "Refractive eye surgery (LASIK/ReLEx) at ~0.25 um per pulse",
+    "Laser cleaning of artworks, rust and molds without abrasives",
+    "Drilling cooling holes in turbine blades and PCB microvias",
+    "Pulsed laser deposition of thin films and nanoparticles",
+    "LIBS elemental analysis of the removed plasma"
+   ],
+   "related_principles": [
+    21,
+    19,
+    28
+   ],
+   "technical_domains": [
+    "Medical",
+    "Manufacturing",
+    "Conservation"
+   ],
+   "name_ru": "Лазерная абляция",
+   "aliases": [
+    "laser ablation",
+    "фемтосекундная лазерная обработка",
+    "лазерная очистка",
+    "LIBS"
+   ],
+   "function_tags": [
+    "change_shape",
+    "separate_mix",
+    "change_state"
+   ],
+   "quantitative": "Fluence thresholds 0.1-10 J/cm^2; removal 10 nm-1 um per pulse; fs pulses confine heat (pulse < electron-phonon time) giving heat-affected zone <0.1-1 um; intensities 10^8-10^13 W/cm^2; features below 1 um",
+   "limits": "Reflective or transparent materials scatter the energy (wavelength must match absorption); plume redeposition and debris; low throughput for large volumes; optics contamination; ns-pulse thermal mode still melts polymer edges",
+   "related_standards": [
+    "5.5.3",
+    "1.1.7",
+    "2.2.3"
+   ],
+   "source": [
+    "Bauerle, D., Laser Processing and Chemistry, 4th ed., Springer (2011)"
+   ]
+  },
+  {
+   "id": "selective_absorption_spectroscopy",
+   "name": "Selective Absorption / Spectrometry",
+   "description": "Every molecule and atom absorbs at a fingerprint set of wavelengths; measuring which wavelengths are absorbed, and how strongly, identifies and quantifies substances remotely and non-destructively",
+   "category": "Optical",
+   "applications": [
+    "NDIR CO2/CH4 gas analyzers and HVAC sensors",
+    "Atomic absorption / ICP-OES trace metal analysis at ppb",
+    "Stack gas and automotive emission monitoring",
+    "NIR moisture and authenticity control in food/pharma",
+    "Astronomical spectroscopy of stellar composition"
+   ],
+   "related_principles": [
+    26,
+    32,
+    3
+   ],
+   "technical_domains": [
+    "Chemistry",
+    "Environmental",
+    "Metrology"
+   ],
+   "name_ru": "Селективное поглощение (спектрометрия)",
+   "aliases": [
+    "absorption spectroscopy",
+    "закон Бугера-Ламберта-Бера",
+    "NDIR",
+    "ААС/ICP-ОЭС"
+   ],
+   "function_tags": [
+    "sense_measure",
+    "separate_mix"
+   ],
+   "quantitative": "Beer-Lambert law A = eps*c*l; AAS/ICP detection limits 0.1-10 ug/L; atomic absorption lines ~0.002 nm wide; NDIR CO2 at 4.26 um resolves ~1 ppm; NIR moisture precision to 0.01%",
+   "limits": "Overlapping bands in mixtures need chemometrics; scattering and turbidity fake absorption; calibration standards and drift compensation required; path length matters; fails on opaque or strongly scattering media",
+   "related_standards": [
+    "4.1.1",
+    "4.2.4",
+    "4.2.3"
+   ],
+   "source": [
+    "Ingle, J.D. Jr & Crouch, S.R., Spectrochemical Analysis, Prentice Hall (1988)"
+   ]
+  },
+  {
+   "id": "optical_tweezers",
+   "name": "Optical Tweezers",
+   "description": "A tightly focused laser beam traps dielectric particles in the intensity maximum through gradient and scattering forces, holding and moving micro-objects with piconewton forces and zero mechanical contact",
+   "category": "Optical",
+   "applications": [
+    "Single-molecule force spectroscopy (DNA stretching, motor proteins)",
+    "Cell sorting and manipulation without damage",
+    "Assembly of microstructures and photonic crystals",
+    "Measuring adhesion and viscoelasticity of soft matter",
+    "Raman trapping for identifying airborne or suspended cells"
+   ],
+   "related_principles": [
+    28,
+    15,
+    14
+   ],
+   "technical_domains": [
+    "Biophysics",
+    "Nanotechnology",
+    "Metrology"
+   ],
+   "name_ru": "Оптический пинцет",
+   "aliases": [
+    "optical tweezers",
+    "optical trap",
+    "лазерный захват",
+    "градиентная световая сила"
+   ],
+   "function_tags": [
+    "fix_hold",
+    "move_substance"
+   ],
+   "quantitative": "Forces 0.1-100 pN; traps dielectric particles ~10 nm to ~100 um; position detection to ~1 nm; force calibration to ~0.01 pN; typical laser 0.5-2 W at 1,064 nm (low water absorption)",
+   "limits": "Object refractive index must exceed the medium; absorption heats and kills biological samples; forces too small against flows faster than mm/s; diffraction limit on trap size; needs a transparent optical path",
+   "related_standards": [
+    "1.1.7",
+    "2.2.4",
+    "5.1.2"
+   ],
+   "source": [
+    "Ashkin, A., Dziedzic, J.M., Bjorkholm, J.E. & Chu, S., Opt. Lett. 11, 288 (1986), DOI: 10.1364/OL.11.000288"
+   ]
+  },
+  {
+   "id": "tio2_photocatalysis",
+   "name": "TiO2 Photocatalysis",
+   "description": "UV light on titanium dioxide creates electron-hole pairs that generate hydroxyl radicals oxidizing organic pollution into CO2 and water, while the surface turns superhydrophilic - the surface cleans itself",
+   "category": "Chemical",
+   "applications": [
+    "Self-cleaning glass, tiles and facade coatings",
+    "Air purification: NOx, formaldehyde and VOC decomposition",
+    "Water treatment and antibacterial surfaces",
+    "Fujishima-Honda water splitting toward hydrogen",
+    "Self-cleaning textiles and solar panel coatings"
+   ],
+   "related_principles": [
+    25,
+    38,
+    34
+   ],
+   "technical_domains": [
+    "Construction",
+    "Environment",
+    "Textiles"
+   ],
+   "name_ru": "Фотокатализ TiO2",
+   "aliases": [
+    "TiO2 photocatalysis",
+    "эффект Фудзисимы-Хонды",
+    "супергидрофильность",
+    "самоочищающиеся покрытия"
+   ],
+   "function_tags": [
+    "suppress_harm",
+    "change_state"
+   ],
+   "quantitative": "Anatase bandgap 3.2 eV needs lambda < 387 nm; hydroxyl radical redox potential +2.8 V (above ozone); superhydrophilic contact angle < 5-10 deg after UV exposure; thin organic films decompose over hours-days of sunlight",
+   "limits": "Needs UV (only ~3-5% of sunlight); electron-hole recombination without defect engineering; activity fades from fouling and aging; too slow for thick contamination; airborne TiO2 nanoparticles raise inhalation concerns",
+   "related_standards": [
+    "5.5.1",
+    "3.2.2",
+    "1.1.4"
+   ],
+   "source": [
+    "Fujishima, A. & Honda, K., Nature 238, 37 (1972), DOI: 10.1038/238037a0"
+   ]
+  },
+  {
+   "id": "catalytic_combustion",
+   "name": "Catalytic Combustion",
+   "description": "A Pt/Pd catalyst oxidizes fuel at its surface at a few hundred degrees instead of a 1,500 C+ flame - the same heat with orders of magnitude less thermal NOx and flameless safety",
+   "category": "Chemical",
+   "applications": [
+    "Catalytic gas heaters (flameless, safe for confined spaces)",
+    "Gas-turbine catalytic combustors with single-digit ppm NOx",
+    "Automotive three-way catalytic converters",
+    "VOC oxidation in industrial exhaust air",
+    "Domestic catalytic cookers and hand warmers"
+   ],
+   "related_principles": [
+    24,
+    21,
+    35
+   ],
+   "technical_domains": [
+    "Energy",
+    "Automotive",
+    "Environment"
+   ],
+   "name_ru": "Каталитическое горение",
+   "aliases": [
+    "catalytic combustion",
+    "беспламенное окисление",
+    "каталитический подогреватель"
+   ],
+   "function_tags": [
+    "convert_energy",
+    "change_state",
+    "suppress_harm"
+   ],
+   "quantitative": "Light-off 250-350 C vs flame 1,400-1,900 C; thermal NOx forms above ~1,500 C, so catalytic burners emit <5-20 ppm NOx; three-way catalysts convert 98-99+% of HC/CO/NOx; methane ignition lowered by ~200-300 C",
+   "limits": "Poisoning by S, Pb, Si compounds; sintering deactivates above ~900 C; needs preheat to light-off; pressure drop across the monolith; Pt-group metal cost; fuel slip if overloaded",
+   "related_standards": [
+    "5.1.3",
+    "3.2.2",
+    "1.1.2"
+   ],
+   "source": [
+    "Pfefferle, W.C. & Pfefferle, L.D., 'Catalytically stabilized combustion', Prog. Energy Combust. Sci. 12, 25-41 (1986), DOI: 10.1016/0360-1285(86)90012-2"
+   ]
+  },
+  {
+   "id": "electrochemical_machining",
+   "name": "Electrochemical Machining / Electropolishing",
+   "description": "Anodic dissolution in an electrolyte removes metal atom by atom at a rate independent of hardness - shaping superalloys with no tool wear, no burrs and no heat-affected zone",
+   "category": "Chemical",
+   "applications": [
+    "Turbine blade and blisk shaping from Ni/Co superalloys",
+    "Deep complex cooling holes in hardened steel",
+    "Deburring of cross-drilled hydraulic components",
+    "Electropolishing of pharma/food-grade stainless surfaces",
+    "Pulsed ECM micromachining of medical implants"
+   ],
+   "related_principles": [
+    24,
+    28,
+    35
+   ],
+   "technical_domains": [
+    "Aerospace",
+    "Medical",
+    "Manufacturing"
+   ],
+   "name_ru": "Электрохимическая обработка и полировка",
+   "aliases": [
+    "ECM",
+    "electrochemical machining",
+    "электрополировка",
+    "анодное растворение"
+   ],
+   "function_tags": [
+    "change_shape",
+    "change_state"
+   ],
+   "quantitative": "Current density 10-500 A/cm^2; Faraday removal ~2.2 cm^3 per 1000 A*min for iron (efficiency ~1); surface Ra 0.1-1.6 um; tolerances +/-0.02-0.1 mm; works on 60+ HRC alloys; zero tool wear",
+   "limits": "Only electrically conductive workpieces; electrolyte handling, corrosion and disposal (NaCl/NaNO3); large DC power demand; tool cathode design is case-specific; possible hydrogen pickup requires baking for fatigue-critical parts",
+   "related_standards": [
+    "5.5.3",
+    "1.1.3",
+    "2.2.1"
+   ],
+   "source": [
+    "McGeough, J.A., Principles of Electrochemical Machining, Chapman & Hall (1974)"
+   ]
+  },
+  {
+   "id": "anodizing",
+   "name": "Anodizing",
+   "description": "Electrolytic oxidation grows the metal's own oxide into a controlled porous layer - thickness set by voltage (~1.3 nm/V) - that hardens, protects, insulates and accepts dyes",
+   "category": "Material Science",
+   "applications": [
+    "Hard anodized wear surfaces (pistons, gears, aerospace parts)",
+    "Decorative colored aluminum for architecture and electronics housings",
+    "Corrosion protection of marine and aviation aluminum",
+    "Insulating dielectric in electrolytic capacitors",
+    "Porous alumina templates for nanostructure fabrication"
+   ],
+   "related_principles": [
+    9,
+    31,
+    35
+   ],
+   "technical_domains": [
+    "Manufacturing",
+    "Aerospace",
+    "Electronics"
+   ],
+   "name_ru": "Анодирование",
+   "aliases": [
+    "anodizing",
+    "анодное оксидирование",
+    "твёрдое анодирование",
+    "элоксал"
+   ],
+   "function_tags": [
+    "change_property",
+    "suppress_harm"
+   ],
+   "quantitative": "Barrier layer ~1.2-1.4 nm/V; decorative films 5-25 um, hard anodizing 25-100 um at 350-550 HV; sealed coatings pass 336 h+ salt spray; pore diameter 10-30 nm; thick hard coats reduce Al fatigue strength if unsealed",
+   "limits": "Works mainly on valve metals (Al, Ti, Ta, Zr); oxide grows partly inward so dimensions change; porous layer is brittle under impact; high-Si/dark alloys anodize unevenly; part size limited by bath and rectifier",
+   "related_standards": [
+    "1.2.2",
+    "5.5.1",
+    "3.2.1"
+   ],
+   "source": [
+    "Keller, F., Hunter, M.S. & Robinson, D.L., 'Structural features of oxide coatings on aluminum', J. Electrochem. Soc. 100, 411 (1953)"
+   ]
+  },
+  {
+   "id": "passivation",
+   "name": "Passivation / Corrosion Inhibition",
+   "description": "A nanometer-thin oxide or adsorbed inhibitor film blocks the anodic reaction, dropping corrosion current by orders of magnitude - protection with grams of additive instead of kilograms of coating",
+   "category": "Chemical",
+   "applications": [
+    "Stainless steel Cr2O3 self-passivation and nitric acid pickling",
+    "Benzotriazole-type inhibitors for copper cooling loops",
+    "Sacrificial Mg/Zn anodes and impressed-current protection",
+    "Phosphate/chromate-free conversion coatings under paint",
+    "Concrete rebar inhibitors and surface sealers"
+   ],
+   "related_principles": [
+    9,
+    27,
+    2
+   ],
+   "technical_domains": [
+    "Corrosion",
+    "Construction",
+    "Chemical"
+   ],
+   "name_ru": "Пассивация и ингибирование коррозии",
+   "aliases": [
+    "passivation",
+    "corrosion inhibitors",
+    "пассивная плёнка",
+    "протекторная защита"
+   ],
+   "function_tags": [
+    "suppress_harm",
+    "change_property"
+   ],
+   "quantitative": "Passive film on stainless 1-3 nm thick; inhibitors work at 10-100 ppm with 90-99% efficiency; corrosion current reduction 10^2-10^4; steel protection criterion -0.85 V vs Cu/CuSO4 (Mg anodes drive ~-1.5 V)",
+   "limits": "Passivity breaks down in hot chloride media (pitting above ~60 C); inhibitors are medium-specific and increasingly regulated (chromates banned); sacrificial anodes need renewal; films damaged by abrasion or acid; Pourbaix predictions assume equilibrium",
+   "related_standards": [
+    "1.2.1",
+    "5.1.3",
+    "1.2.3"
+   ],
+   "source": [
+    "Uhlig, H.H. & Revie, R.W., Corrosion and Corrosion Control, 3rd ed., Wiley (1985)"
+   ]
+  },
+  {
+   "id": "hydrogen_embrittlement",
+   "name": "Hydrogen Embrittlement",
+   "description": "Atomic hydrogen diffusing into high-strength metals accumulates at defects and slashes ductility, so parts fracture at loads far below design strength days or years after exposure (delayed failure)",
+   "category": "Material Science",
+   "applications": [
+    "Bake-out treatments after plating/pickling (prevention)",
+    "Material hardness limits in sour oil & gas service (NACE MR0175)",
+    "Hydrogen-economy pipeline and vessel design",
+    "Failure analysis of bolts, springs and fasteners",
+    "Low-hydrogen welding practice (basic-coated electrodes)"
+   ],
+   "related_principles": [
+    9,
+    39,
+    11
+   ],
+   "technical_domains": [
+    "Metallurgy",
+    "Oil & Gas",
+    "Energy"
+   ],
+   "name_ru": "Водородное охрупчивание",
+   "aliases": [
+    "hydrogen embrittlement",
+    "водородная болезнь металла",
+    "замедленное хрупкое разрушение"
+   ],
+   "function_tags": [
+    "suppress_harm",
+    "change_property"
+   ],
+   "quantitative": "High risk above ~1,000 MPa tensile strength (or >39 HRC); cracking possible at 30-70% of yield; H diffusivity in pure alpha-iron ~10^-9 m^2/s at RT (far lower in steels due to trapping); standard relief baking 190-220 C for 4-24 h; NACE hardness cap 22 HRC",
+   "limits": "Mainly steels/Ti/Ni alloys - Al and Cu nearly immune; needs atomic hydrogen (molecular H2 diffuses slowly at RT); failures are statistical and hard to predict; no reliable NDT before cracking; competing mechanisms (HEDE/HELP) still debated",
+   "related_standards": [
+    "1.2.1",
+    "1.2.3",
+    "1.2.2"
+   ],
+   "source": [
+    "Gangloff, R.P. & Somerday, B.P. (eds.), Gaseous Hydrogen Embrittlement of Materials in Energy Technologies, Woodhead Publishing (2012)"
+   ]
+  },
+  {
+   "id": "self_healing_polymer",
+   "name": "Self-Healing Polymers",
+   "description": "Microencapsulated monomer plus dispersed catalyst (or reversible bonds and vascular networks) polymerizes inside a crack as it forms, autonomously restoring most of the strength without human repair",
+   "category": "Material Science",
+   "applications": [
+    "Crack-healing epoxy composites in aerospace structures",
+    "Self-healing anticorrosion coatings that reseal at scratches",
+    "Automotive clearcoats repairing swirl scratches via reversible bonds",
+    "Self-healing concrete admixtures (capsules, bacteria)",
+    "Extended-life wind-turbine blade matrices"
+   ],
+   "related_principles": [
+    25,
+    34,
+    24
+   ],
+   "technical_domains": [
+    "Aerospace",
+    "Coatings",
+    "Construction"
+   ],
+   "name_ru": "Самозалечивание полимеров",
+   "aliases": [
+    "self-healing polymers",
+    "автономное залечивание",
+    "микрокапсульное восстановление",
+    "сосудистое самозалечивание"
+   ],
+   "function_tags": [
+    "suppress_harm",
+    "mix_join"
+   ],
+   "quantitative": "White et al. (2001): 50-200 um DCPD microcapsules + Grubbs catalyst recovered 75% of fracture toughness; modern systems reach 80-100% (single cycle); vascular networks heal 3-7+ times; fatigue life extended severalfold",
+   "limits": "Capsule systems heal once (capsule consumed); Grubbs catalyst is expensive and air-sensitive; room-temperature healing works only for selected chemistries; capsules degrade virgin stiffness; large cracks exceed the delivered healing volume",
+   "related_standards": [
+    "1.1.2",
+    "5.5.1",
+    "1.1.7"
+   ],
+   "source": [
+    "White, S.R. et al., 'Autonomic healing of polymer composites', Nature 409, 794-797 (2001), DOI: 10.1038/35081973"
+   ]
+  },
+  {
+   "id": "hydrogel_swelling",
+   "name": "Hydrogel Swelling",
+   "description": "Cross-linked polymer networks absorb many times their weight in water and swell reversibly; sensitivity to pH, temperature or ions turns the volume change into a soft actuator, sensor or absorber",
+   "category": "Material Science",
+   "applications": [
+    "Superabsorbent diapers and agricultural water reservoirs",
+    "Soft grippers and artificial muscles (pH/T-responsive)",
+    "Drug delivery matrices releasing by swelling and diffusion",
+    "Soft contact lenses (38-75% water content)",
+    "Water-blocking swellable seals in cables and construction"
+   ],
+   "related_principles": [
+    29,
+    35,
+    15
+   ],
+   "technical_domains": [
+    "Medical",
+    "Agriculture",
+    "Robotics"
+   ],
+   "name_ru": "Набухание гидрогелей",
+   "aliases": [
+    "hydrogels",
+    "гидрогелевый актюатор",
+    "суперабсорбент",
+    "PNIPAM-гель"
+   ],
+   "function_tags": [
+    "move_substance",
+    "change_shape"
+   ],
+   "quantitative": "Superabsorbent polymers take up 30-1,000 g water per g dry polymer (diapers 30-60 g/g); PNIPAM collapses above LCST 32 C; swelling pressure up to ~1 MPa; volume change 10-1,000%; response seconds-hours (diffusion-limited)",
+   "limits": "Slow kinetics (diffusion scales with t^2); very low strength when swollen; deswelling slower than swelling; hysteresis and fatigue over cycles; dries out in arid environments; not load-bearing",
+   "related_standards": [
+    "5.3.2",
+    "2.2.5",
+    "3.2.1"
+   ],
+   "source": [
+    "Wichterle, O. & Lim, D., 'Hydrophilic gels for biological use', Nature 185, 117-118 (1960), DOI: 10.1038/185117a0"
+   ]
+  },
+  {
+   "id": "adsorption_zeolite",
+   "name": "Adsorption / Zeolite Molecular Sieves",
+   "description": "Crystal lattices with pores of precisely 0.3-1 nm and huge internal surface sort molecules by size and polarity, drying gas to deep dew points and separating air with pressure swings instead of heat",
+   "category": "Chemical",
+   "applications": [
+    "Deep drying of air and refrigerants (dew point to -60 C and below)",
+    "PSA oxygen concentrators delivering 90-95% O2 from air",
+    "Solvent recovery and VOC capture on activated carbon",
+    "Shape-selective catalysis (ZSM-5/MFI in refining)",
+    "CO2 capture on 13X and amine-modified sieves"
+   ],
+   "related_principles": [
+    31,
+    3,
+    17
+   ],
+   "technical_domains": [
+    "Chemical",
+    "Medical",
+    "Energy"
+   ],
+   "name_ru": "Сорбция, цеолиты и молекулярные сита",
+   "aliases": [
+    "zeolites",
+    "molecular sieves",
+    "цеолит 3A/4A/5A/13X",
+    "адсорбционное осушение"
+   ],
+   "function_tags": [
+    "separate_mix",
+    "store"
+   ],
+   "quantitative": "Pore windows: 3A 0.30 nm, 4A 0.38 nm, 5A 0.50 nm, 13X ~1.0 nm; zeolite surface 500-700 m^2/g (activated carbon 800-1,500); H2O capacity up to 20-25 wt%; equilibrium dew points below -60 C; PSA cycle ~60 s to minutes",
+   "limits": "Capacity falls sharply with temperature (needs regeneration heat/vacuum); poisoning by oils and siloxanes; friable and dusty; selectivity is thermodynamic so tricky for azeotrope-like pairs; cycling attrition generates fines",
+   "related_standards": [
+    "3.2.2",
+    "3.2.1",
+    "1.1.3"
+   ],
+   "source": [
+    "Breck, D.W., Zeolite Molecular Sieves: Structure, Chemistry and Use, Wiley (1974)"
+   ]
+  },
+  {
+   "id": "powder_sintering",
+   "name": "Sintering / Powder Metallurgy",
+   "description": "Particles pressed and heated to 0.6-0.9 of the melting temperature bond by surface diffusion and capillarity, densifying into net-shape parts - with engineered residual porosity as a bonus function",
+   "category": "Material Science",
+   "applications": [
+    "Self-lubricating porous bronze bearings (oil-impregnated)",
+    "Cemented carbide cutting tools (WC-Co)",
+    "Metal injection molding of complex small parts",
+    "Additive manufacturing (SLM/SLS/DMLS)",
+    "Sintered filters, wicks and heat-pipe capillary structures"
+   ],
+   "related_principles": [
+    31,
+    3,
+    35
+   ],
+   "technical_domains": [
+    "Manufacturing",
+    "Tooling",
+    "Aerospace"
+   ],
+   "name_ru": "Спекание (порошковая металлургия)",
+   "aliases": [
+    "sintering",
+    "powder metallurgy",
+    "MIM",
+    "селективное лазерное спекание"
+   ],
+   "function_tags": [
+    "mix_join",
+    "change_shape"
+   ],
+   "quantitative": "Sintering T = 0.6-0.9 T_m; final density 92-99.5%; linear shrinkage 15-25%; MIM tolerances +/-0.1-0.3%; WC-Co hardness 1,300-1,800 HV; residual porosity 15-30% for self-lubrication",
+   "limits": "Residual porosity cuts fatigue and toughness vs wrought metal; shrinkage complicates tolerances; expensive dies suit batches only; some alloys hard to atomize; trapped gas pores degrade properties; furnace size limits part dimensions",
+   "related_standards": [
+    "3.2.1",
+    "2.2.2",
+    "1.1.1"
+   ],
+   "source": [
+    "German, R.M., Sintering: From Empirical Observations to Scientific Principles, Butterworth-Heinemann (2014)"
+   ]
+  },
+  {
+   "id": "explosion_welding",
+   "name": "Explosion Welding",
+   "description": "A controlled detonation slams plates together at a grazing angle; the metal jet scours surfaces clean and atomic bonding welds even metal pairs that fusion welding cannot join",
+   "category": "Material Science",
+   "applications": [
+    "Clad steel: Ti, stainless or Al sheets bonded on steel for vessels and heat exchangers",
+    "Al-steel and Cu-steel transition joints for shipbuilding and electrochemistry",
+    "Repair sleeves on pipelines",
+    "Joining dissimilar metals without brittle intermetallics",
+    "Large bimetallic electrical contacts and busbar transitions"
+   ],
+   "related_principles": [
+    21,
+    5,
+    40
+   ],
+   "technical_domains": [
+    "Metallurgy",
+    "Shipbuilding",
+    "Energy"
+   ],
+   "name_ru": "Взрывная сварка",
+   "aliases": [
+    "explosion welding",
+    "сварка взрывом",
+    "плакирование взрывом",
+    "клампование"
+   ],
+   "function_tags": [
+    "mix_join",
+    "change_state"
+   ],
+   "quantitative": "Detonation velocity 2,200-3,000 m/s; collision angle ~5-20 deg; bond strength at least that of the weaker parent; clad plates up to ~20 m^2; wavy interface typical; contact lasts microseconds so heat-affected zone is minimal",
+   "limits": "Lap-type joints only (plates, tubes), needs standoff distance; noise and blast rules demand remote sites; wavy zone can harden or crack hard metals; thin foils difficult; limited to simple flat/cylindrical geometries",
+   "related_standards": [
+    "1.1.6",
+    "3.1.3",
+    "2.1.1"
+   ],
+   "source": [
+    "Crossland, B., Explosive Welding of Metals and its Application, Clarendon Press, Oxford (1982)"
+   ]
+  },
+  {
+   "id": "martensitic_quench",
+   "name": "Martensitic Quench Hardening",
+   "description": "Quenching traps steel's carbon by a diffusionless shear transformation to body-centered tetragonal martensite, jumping hardness to 55-67 HRC with ~1-4% volume expansion as a side effect - distinct from shape-memory martensite which is engineered to be reversible",
+   "category": "Material Science",
+   "applications": [
+    "Hardening bearings, gears and cutting tools (55-67 HRC)",
+    "Case hardening of carburized gear teeth",
+    "Spring, armor and rail steel processing",
+    "Martensitic stainless knives and scalpels",
+    "Distortion-controlled martempering and ausforming"
+   ],
+   "related_principles": [
+    21,
+    36,
+    35
+   ],
+   "technical_domains": [
+    "Metallurgy",
+    "Manufacturing",
+    "Automotive"
+   ],
+   "name_ru": "Закалка стали (мартенситное превращение)",
+   "aliases": [
+    "martensitic transformation",
+    "quench hardening",
+    "закалка на мартенсит"
+   ],
+   "function_tags": [
+    "change_state",
+    "change_property"
+   ],
+   "quantitative": "Critical cooling rates 10^2-10^6 K/s (hardenability-dependent); martensite hardness 55-67 HRC at 0.4-0.9% C; volume expansion ~1-4%; retained austenite up to ~30% if quench insufficient; tempering at 150-650 C restores toughness",
+   "limits": "Quench cracks and distortion from thermal gradients; must temper immediately after quench; thick sections cool too slowly inside (hardenability limit); high-carbon martensite is brittle; quench oils are fire and disposal hazards",
+   "related_standards": [
+    "5.3.3",
+    "5.3.1",
+    "1.1.8"
+   ],
+   "source": [
+    "Krauss, G., Steels: Processing, Structure, and Performance, ASM International (2005)"
+   ]
+  },
+  {
+   "id": "metallic_glass",
+   "name": "Amorphous Metals / Metallic Glasses",
+   "description": "Alloys cooled faster than crystallization can nucleate (or engineered at deep eutectics) freeze into a glassy solid with no grain boundaries, ~2% elastic strain (10x steel) and yield strength up to 5 GPa",
+   "category": "Material Science",
+   "applications": [
+    "Amorphous transformer cores (core loss ~1/3 of Si-steel)",
+    "Watch cases, phone hinges and luxury goods (scratch-proof + springy)",
+    "Surgical instruments and needle tips (sharp and elastic)",
+    "Golf club faces and sports equipment",
+    "Micro-gears and parts by thermoplastic forming near Tg"
+   ],
+   "related_principles": [
+    21,
+    36,
+    40
+   ],
+   "technical_domains": [
+    "Electronics",
+    "Medical",
+    "Consumer"
+   ],
+   "name_ru": "Аморфные металлы (металлические стёкла)",
+   "aliases": [
+    "metallic glass",
+    "bulk metallic glass",
+    "BMG",
+    "метгласс"
+   ],
+   "function_tags": [
+    "change_state",
+    "change_property"
+   ],
+   "quantitative": "First alloys needed 10^5-10^6 K/s (thin ribbons); bulk metallic glasses (Zr-, La-, Mg-based) cast at 1-100 K/s into cm-scale parts; elastic limit ~2% (vs 0.2% steel); yield strength up to 5 GPa; hardness 500-1,000 HV; softening near Tg enables forming",
+   "limits": "Brittle at room temperature (no dislocation plasticity) - limited structural use; critical casting thickness caps part size to cm; expensive elements (Zr, Be in Vitreloy); difficult to weld or join; shear-band localization causes sudden fracture",
+   "related_standards": [
+    "5.3.1",
+    "5.4.1",
+    "3.2.1"
+   ],
+   "source": [
+    "Klement, W., Willens, R.H. & Duwez, P., 'Non-crystalline structure in solidified gold-silicon alloys', Nature 187, 869-870 (1960), DOI: 10.1038/187869b0"
+   ]
+  },
+  {
+   "id": "giant_magnetoresistance",
+   "name": "Giant Magnetoresistance (GMR)",
+   "description": "In magnetic multilayers the relative alignment of adjacent layer magnetizations swings resistance by tens of percent; spin-dependent scattering became the read head of the information age",
+   "category": "Electromagnetic",
+   "applications": [
+    "HDD read heads (areal density growth ~100%/yr after 1997)",
+    "GMR magnetometers and automotive wheel-speed sensors",
+    "MRAM memory cells (with MTJ/TMR variants)",
+    "Biosensing of magnetic nanoparticle labels (immunoassays)",
+    "Dirt-immune rotary encoders"
+   ],
+   "related_principles": [
+    28,
+    17,
+    23
+   ],
+   "technical_domains": [
+    "Electronics",
+    "Data Storage",
+    "Sensors"
+   ],
+   "name_ru": "Гигантское магнитосопротивление",
+   "aliases": [
+    "GMR",
+    "giant magnetoresistance",
+    "спин-вентиль",
+    "спинтроника"
+   ],
+   "function_tags": [
+    "sense_measure",
+    "change_property"
+   ],
+   "quantitative": "Baibich et al.: delta-R/R ~50% at 4.2 K in Fe/Cr at 4 T; room-temperature spin valves 5-15% at <10 mT; read heads sense fields of a few mT; Nobel Prize 2007 (Fert & Grunberg); TMR tunnel junctions exceed 200%",
+   "limits": "Needs nm-perfect multilayers (sputtering, vacuum tech); hysteresis from layer switching; temperature drift; fields beyond saturation erase the signal; ESD kills spin-valve stacks",
+   "related_standards": [
+    "4.4.1",
+    "5.4.3",
+    "4.3.1"
+   ],
+   "source": [
+    "Baibich, M.N. et al., 'Giant magnetoresistance of (001)Fe/(001)Cr magnetic superlattices', Phys. Rev. Lett. 61, 2472 (1988), DOI: 10.1103/PhysRevLett.61.2472"
+   ]
+  },
+  {
+   "id": "corona_discharge",
+   "name": "Corona Discharge",
+   "description": "At sharp electrodes the local field exceeds air breakdown and a quiet glow of non-thermal plasma forms, generating ions and ozone that charge, precipitate and chemically transform at kilovolts with only microamp current",
+   "category": "Electromagnetic",
+   "applications": [
+    "Electrostatic precipitators cleaning flue gas (99-99.9% of fly ash)",
+    "Xerography/printing: drum charging and toner transfer",
+    "Ozone generation for water and air disinfection",
+    "HV-line condition monitoring (corona loss, audible noise, UV cameras)",
+    "Ionizers for static neutralization and air cleaning"
+   ],
+   "related_principles": [
+    38,
+    22,
+    28
+   ],
+   "technical_domains": [
+    "Environment",
+    "Power",
+    "Printing"
+   ],
+   "name_ru": "Коронный разряд",
+   "aliases": [
+    "corona discharge",
+    "электрофильтр",
+    "коронирование провода",
+    "ионизатор"
+   ],
+   "function_tags": [
+    "generate_field",
+    "separate_mix",
+    "change_state"
+   ],
+   "quantitative": "Onset when local field exceeds ~3x10^6 V/m (a few kV on needle tips); ESPs remove 99-99.9% of particles; currents uA-mA at 5-100 kV; non-thermal - the bulk gas stays near ambient temperature",
+   "limits": "Produces ozone and NOx (indoor health hazard); energy-inefficient for chemistry; limited current before streamer-to-spark transition; electrode fouling degrades performance; humidity shifts onset voltage and ozone yield",
+   "related_standards": [
+    "5.5.3",
+    "1.1.3",
+    "2.2.1"
+   ],
+   "source": [
+    "Loeb, L.B., Electrical Coronas: Their Basic Physical Mechanisms, University of California Press (1965)"
+   ]
+  },
+  {
+   "id": "electroluminescence",
+   "name": "Electroluminescence",
+   "description": "Electric field or carrier injection directly excites light emission in phosphors and semiconductor junctions - solid-state light with nanosecond response and no filament or gas discharge",
+   "category": "Optical",
+   "applications": [
+    "LED lighting (100-200 lm/W commercial, 300+ in labs)",
+    "Displays: OLED, micro-LED and EL backlight panels",
+    "Status indicators, automotive and traffic signaling",
+    "Optocouplers and IR emitters for remote controls",
+    "EL wire and panels for low-power signage"
+   ],
+   "related_principles": [
+    32,
+    28,
+    35
+   ],
+   "technical_domains": [
+    "Lighting",
+    "Displays",
+    "Electronics"
+   ],
+   "name_ru": "Электролюминесценция",
+   "aliases": [
+    "electroluminescence",
+    "инжекционная люминесценция",
+    "светодиод",
+    "EL-панель"
+   ],
+   "function_tags": [
+    "convert_energy",
+    "transmit"
+   ],
+   "quantitative": "Commercial LED efficacy 100-200 lm/W; blue GaN internal quantum efficiency >80%; switching ns-us; AC EL panels driven at 40-300 V with 10,000+ h life; blue GaN LED Nobel Prize 2014 (Akasaki, Amano, Nakamura)",
+   "limits": "Efficiency droop at high current density; heat and phosphor thermal quench; EL panels dim over lifetime; white light needs phosphors/QDs for color mixing; OLED lifetime uneven across colors (blue shortest)",
+   "related_standards": [
+    "5.4.3",
+    "4.2.3",
+    "2.1.1"
+   ],
+   "source": [
+    "Schubert, E.F., Light-Emitting Diodes, 2nd ed., Cambridge University Press (2006)"
+   ]
+  },
+  {
+   "id": "multilayer_insulation",
+   "name": "Multilayer Insulation (MLI)",
+   "name_ru": "Многослойная изоляция (сверхизоляция)",
+   "aliases": [
+    "MLI",
+    "superinsulation",
+    "сверхизоляция",
+    "сосуд Дьюара",
+    "экранирование излучения"
+   ],
+   "description": "Nested radiation shields — alternating reflective foils and spacers in vacuum — cut radiative heat flux roughly in proportion to 1/(n+1) for n shields; the Dewar vessel is the two-shell ancestor. Canonical implementation of TRIZ nested-structure principle combined with vacuum (taking-out).",
+   "category": "Thermal",
+   "function_tags": [
+    "suppress_harm",
+    "change_property"
+   ],
+   "applications": [
+    "Cryogenic tanks and LNG storage",
+    "Spacecraft thermal control (JWST sunshield)",
+    "Superconducting magnet Dewars",
+    "Vacuum flasks and cold chains"
+   ],
+   "quantitative": "effective thermal conductivity ~0.1–1 mW/(m·K) at high vacuum (still air ~25 mW/(m·K)); heat flux ≈ q₀/(n+1) for n identical reflective shields; typical layer density 10–30 layers/cm; losses grow steeply with compression (empirically ~N³·⁵)",
+   "limits": "needs high vacuum — gas conduction kills the effect; compression, seams and penetrations dominate real heat leaks; moisture degrades reflectivity",
+   "related_principles": [
+    7,
+    30,
+    2
+   ],
+   "related_standards": [],
+   "technical_domains": [
+    "Aerospace",
+    "Cryogenics",
+    "Energy"
+   ],
+   "source": "NASA SP-8003 (1965). Multilayer Insulation Systems; Tien, C.L., Cunnington, G.R. (1973). Cryogenic Insulation Heat Transfer. Advances in Heat Transfer, 9"
+  }
+ ]
 }

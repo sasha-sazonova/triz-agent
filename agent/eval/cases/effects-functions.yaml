@@ -1,0 +1,34 @@
+id: effects-functions
+source: "Расширение effects_database 2026-10-29 (веха: эффекты 15→106)"
+problem: |
+  Проверка качества поиска по базе эффектов: детерминированный selftest
+  (scripts/effects_lookup.py --selftest). Восемь запросов «функция → эффекты»;
+  зачёт — валидный эффект в top-3 у ≥70% запросов.
+mode: EFFECTS_LOOKUP
+expected:
+  metric: top3_any_of_hit_rate
+  threshold: 0.70
+  queries:
+    - query: "измерить малые перемещения высокой точности"
+      top3_any_of: [piezoelectric, laser_interferometry, photoelasticity, hall_effect, quantum_tunneling]
+    - query: "охладить объект без движущихся частей"
+      top3_any_of: [thermoelectric, magnetocaloric, radiative_cooling]
+    - query: "быстро отвести большое тепло через стенку"
+      top3_any_of: [heat_pipe, critical_heat_flux, latent_heat_phase_change]
+    - query: "обнаружить зарождающуюся трещину в конструкции"
+      top3_any_of: [acoustic_emission, photoelasticity]
+    - query: "получить водород из воды химическим путём"
+      top3_any_of: [aluminum_water_reaction, hydrothermal_synthesis]
+    - query: "закрепить и отпустить деталь по команде"
+      top3_any_of: [magnetorheological, ferrofluid, shape_memory, shear_thickening,
+                    electrostatic_chucking, gecko_adhesion, acoustic_levitation]
+    - query: "очистить вещество на молекулярном уровне"
+      top3_any_of: [supercritical_water, adsorption_zeolite, reverse_osmosis]
+    - query: "создать сильное магнитное поле без катушки"
+      top3_any_of: [superconductivity, magnetocaloric, magnetic_levitation]
+notes: |
+  Запуск: python3 scripts/effects_lookup.py --selftest (код 0 = зачёт, 2 = провал).
+  Эталоны — «любая валидная формализация» по уроку smoke-теста матрицы:
+  у функции несколько канонических эффектов, достаточно одного в top-3.
+  Калибровка 2026-10-29: quantum_tunneling (СТМ) добавлен как валидный ответ
+  на «малые перемещения» — эталон нанометрового измерения зазора.

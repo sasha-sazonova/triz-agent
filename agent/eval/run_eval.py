@@ -59,6 +59,19 @@ def eval_case(case_file, run_dir):
     cid = case.get("id", Path(case_file).stem)
     r = {"case": cid, "run": str(run_dir)}
 
+    # спец-режим: детерминированный selftest базы эффектов (run_dir не нужен)
+    if case.get("mode") == "EFFECTS_LOOKUP":
+        import subprocess, sys
+        script = Path(__file__).resolve().parent.parent / "scripts" / "effects_lookup.py"
+        rc = subprocess.run([sys.executable, str(script), "--selftest"],
+                            capture_output=True, text=True).returncode
+        r["mode"] = "EFFECTS_LOOKUP"
+        r["selftest_pass"] = rc == 0
+        r["metric"] = exp.get("metric", "top3_any_of_hit_rate")
+        r["threshold"] = exp.get("threshold", 0.70)
+        r["TP_top1"] = r["selftest_pass"]   # единый флаг зачёта для сводных
+        return r
+
     c02 = read(Path(run_dir) / "02_contradiction.md")
     c04 = read(Path(run_dir) / "04_principles.md")
     c05 = read(Path(run_dir) / "05_concepts.md")

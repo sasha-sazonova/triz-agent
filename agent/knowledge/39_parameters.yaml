@@ -1,160 +1,236 @@
-# Derived from the Heinrich project (Apache-2.0).
-# Copyright 2025 Nick Scherbakov and Heinrich Contributors.
-# See ../THIRD_PARTY.md and ../LICENSES/Apache-2.0-heinrich.txt.
+# name_ru/description_ru (2026-10-30): поколение АРИЗ-85В/85С («движущийся объект», «Длительность действия», «Внешние вредные факторы»); редакция 1973 (altshuller.ru/triz/technique2.asp) даёт «подвижный», «Время действия» и др. — выбор позднего канона зафиксирован решением владельца по умолчанию.
 parameters:
 - id: 1
   name: Weight of moving object
   description: Mass of object in motion
+  name_ru: "Вес движущегося объекта"
+  description_ru: "Масса объекта, перемещаемого под действием внешней силы."
   examples: [Vehicle weight, Tool mass, Component weight]
 - id: 2
   name: Weight of stationary object
   description: Mass of stationary object
+  name_ru: "Вес неподвижного объекта"
+  description_ru: "Масса объекта, не движущегося под действием внешней силы (собственные перемещения, например поездки автомобиля, движением не считаются)."
   examples: [Foundation weight, Support structure, Fixed component]
 - id: 3
   name: Length of moving object
   description: Linear dimension of moving object
+  name_ru: "Длина движущегося объекта"
+  description_ru: "Любой линейный размер движущегося объекта: длина, ширина, высота, глубина."
   examples: [Vehicle length, Tool length, Arm reach]
 - id: 4
   name: Length of stationary object
   description: Linear dimension of stationary object
+  name_ru: "Длина неподвижного объекта"
+  description_ru: "Любой линейный размер неподвижного объекта."
   examples: [Building length, Support beam, Container length]
 - id: 5
   name: Area of moving object
   description: Surface area of moving object
+  name_ru: "Площадь движущегося объекта"
+  description_ru: "Площадь поверхности движущегося объекта (внутренней или внешней)."
   examples: [Wing area, Contact surface, Cross-section]
 - id: 6
   name: Area of stationary object
   description: Surface area of stationary object
+  name_ru: "Площадь неподвижного объекта"
+  description_ru: "Площадь поверхности неподвижного объекта."
   examples: [Floor area, Wall surface, Base area]
 - id: 7
   name: Volume of moving object
   description: Space occupied by moving object
+  name_ru: "Объём движущегося объекта"
+  description_ru: "Пространство, занимаемое движущимся объектом (внутреннее или внешнее)."
   examples: [Engine displacement, Container volume, Object size]
 - id: 8
   name: Volume of stationary object
   description: Space occupied by stationary object
+  name_ru: "Объём неподвижного объекта"
+  description_ru: "Пространство, занимаемое неподвижным объектом."
   examples: [Room volume, Tank capacity, Housing volume]
 - id: 9
   name: Speed
   description: Velocity of object or process
+  name_ru: "Скорость"
+  description_ru: "Быстрота перемещения объекта или протекания процесса."
   examples: [Travel speed, Processing speed, Response time]
 - id: 10
   name: Force
   description: Force applied to object
+  name_ru: "Сила"
+  description_ru: "Воздействие на объект, изменяющее его состояние или движение (любая сила: механическая, электрическая, магнитная и т.д.)."
   examples: [Applied force, Pressure force, Magnetic force]
 - id: 11
   name: Stress or pressure
   description: Force per unit area
+  name_ru: "Напряжение, давление"
+  description_ru: "Сила, отнесённая к единице площади: механическое напряжение в материале, давление жидкости или газа."
   examples: [Mechanical stress, Fluid pressure, Contact pressure]
 - id: 12
   name: Shape
   description: External form of object
+  name_ru: "Форма"
+  description_ru: "Внешние очертания (конфигурация) объекта."
   examples: [Aerodynamic shape, Cross-section, Profile]
 - id: 13
   name: Stability of object composition
   description: Integrity of object structure
+  name_ru: "Устойчивость состава объекта"
+  description_ru: "Способность объекта сохранять неизменным собственный состав: целостность структуры, химическую стабильность."
   examples: [Chemical stability, Structural integrity, Phase stability]
 - id: 14
   name: Strength
   description: Ability to resist breaking
+  name_ru: "Прочность"
+  description_ru: "Способность объекта противостоять разрушению под действием нагрузок, изменяющих его форму и состояние."
   examples: [Mechanical strength, Structural strength, Material strength]
 - id: 15
   name: Duration of action of moving object
   description: Time of moving object activity
+  name_ru: "Длительность действия движущегося объекта"
+  description_ru: "Время полезного действия (ресурс, срок службы) движущегося объекта."
   examples: [Operation time, Service life, Active period]
 - id: 16
   name: Duration of action of stationary object
   description: Time of stationary object activity
+  name_ru: "Длительность действия неподвижного объекта"
+  description_ru: "Время полезного действия (ресурс, срок службы) неподвижного объекта."
   examples: [Service life, Stability period, Active time]
 - id: 17
   name: Temperature
   description: Thermal condition
+  name_ru: "Температура"
+  description_ru: "Тепловое состояние объекта или среды."
   examples: [Operating temperature, Process temperature, Environmental temp]
 - id: 18
   name: Illumination intensity
   description: Amount of light
+  name_ru: "Освещённость"
+  description_ru: "Количество света (световой поток), падающее на объект или излучаемое им."
   examples: [Lighting level, Brightness, Optical intensity]
 - id: 19
   name: Use of energy by moving object
   description: Energy consumption by moving object
+  name_ru: "Затраты энергии движущегося объекта"
+  description_ru: "Энергия, которую движущийся объект расходует на выполнение полезного действия."
   examples: [Fuel consumption, Power usage, Energy efficiency]
 - id: 20
   name: Use of energy by stationary object
   description: Energy consumption by stationary object
+  name_ru: "Затраты энергии неподвижного объекта"
+  description_ru: "Энергия, которую неподвижный объект расходует на выполнение полезного действия."
   examples: [Power consumption, Energy usage, Standby power]
 - id: 21
   name: Power
   description: Rate of energy transfer
+  name_ru: "Мощность"
+  description_ru: "Работа (затрачиваемая энергия) в единицу времени."
   examples: [Engine power, Electric power, Processing power]
 - id: 22
   name: Loss of energy
   description: Waste of useful energy
+  name_ru: "Потери энергии"
+  description_ru: "Непроизводительная трата полезной энергии: рассеяние, трение, нагрев и т.п."
   examples: [Heat loss, Friction loss, Energy waste]
 - id: 23
   name: Loss of substance
   description: Waste of useful material
+  name_ru: "Потери вещества"
+  description_ru: "Непроизводительная потеря полезного вещества: материала, сырья, продукта."
   examples: [Material waste, Evaporation, Leakage]
 - id: 24
   name: Loss of information
   description: Loss of useful data
+  name_ru: "Потери информации"
+  description_ru: "Потеря или искажение полезных данных и сигналов в системе."
   examples: [Data corruption, Signal loss, Information degradation]
 - id: 25
   name: Loss of time
   description: Waste of useful time
+  name_ru: "Потери времени"
+  description_ru: "Непроизводительная трата времени: простои, ожидание, задержки выполнения полезных действий."
   examples: [Downtime, Waiting time, Processing delays]
 - id: 26
   name: Quantity of substance
   description: Amount of material
+  name_ru: "Количество вещества"
+  description_ru: "Количество вещества (масса, концентрация) или объектов, используемых в системе."
   examples: [Material amount, Chemical concentration, Mass quantity]
 - id: 27
   name: Reliability
   description: System ability to perform consistently
+  name_ru: "Надёжность"
+  description_ru: "Способность объекта длительно выполнять заданные функции без отказов и нарушений."
   examples: [System reliability, Failure rate, Availability]
 - id: 28
   name: Measurement accuracy
   description: Precision of measurement
+  name_ru: "Точность измерения"
+  description_ru: "Степень соответствия результата измерения действительному значению измеряемой величины (уменьшение погрешности)."
   examples: [Sensor accuracy, Measurement precision, Resolution]
 - id: 29
   name: Manufacturing precision
   description: Accuracy of production
+  name_ru: "Точность изготовления"
+  description_ru: "Степень соответствия характеристик изделия заданным значениям (допускам)."
   examples: [Machining precision, Tolerance, Production accuracy]
 - id: 30
   name: External harm affects the object
   description: Harmful external influences
+  name_ru: "Внешние вредные факторы, действующие на объект"
+  description_ru: "Вредные воздействия на объект со стороны среды и внешних объектов, снижающие его качество."
   examples: [Environmental damage, External interference, Harmful effects]
 - id: 31
   name: Object-generated harmful factors
   description: Harmful factors generated by object
+  name_ru: "Вредные факторы, создаваемые объектом"
+  description_ru: "Вредные воздействия самого объекта на среду, человека и другие объекты."
   examples: [Noise generation, Pollution, Interference]
 - id: 32
   name: Ease of manufacture
   description: Simplicity of production
+  name_ru: "Удобство изготовления"
+  description_ru: "Степень простоты и дешевизны изготовления объекта заданной конфигурации из заданного материала."
   examples: [Manufacturing simplicity, Production ease, Fabrication]
 - id: 33
   name: Ease of operation
   description: Simplicity of use
+  name_ru: "Удобство эксплуатации"
+  description_ru: "Степень простоты использования и управления объектом в работе."
   examples: [User-friendliness, Operation simplicity, Usability]
 - id: 34
   name: Ease of repair
   description: Simplicity of maintenance
+  name_ru: "Удобство ремонта"
+  description_ru: "Степень простоты ремонта и обслуживания объекта, восстановления его работоспособности."
   examples: [Maintenance ease, Repairability, Service access]
 - id: 35
   name: Adaptability or versatility
   description: Ability to respond to changes
+  name_ru: "Приспособляемость, универсальность"
+  description_ru: "Способность объекта изменяться (адаптироваться) под изменяющиеся условия и выполнять разные функции."
   examples: [Flexibility, Adaptability, Versatility]
 - id: 36
   name: Device complexity
   description: Complexity of system structure
+  name_ru: "Сложность устройства"
+  description_ru: "Количество и разнообразие элементов и связей в системе (сложность состава и структуры)."
   examples: [System complexity, Component count, Structure complexity]
 - id: 37
   name: Difficulty of detecting and measuring
   description: Complexity of observation
+  name_ru: "Сложность контроля и измерения"
+  description_ru: "Сложность (затраты времени и средств) контроля и измерения состояния объекта или процесса."
   examples: [Detection difficulty, Measurement complexity, Observation]
 - id: 38
   name: Extent of automation
   description: Level of automatic operation
+  name_ru: "Степень автоматизации"
+  description_ru: "Способность объекта выполнять свои функции без участия человека."
   examples: [Automation level, Autonomous operation, Self-control]
 - id: 39
   name: Productivity
   description: Rate of useful output
+  name_ru: "Производительность"
+  description_ru: "Число выполняемых объектом действий (или производимых объектов) в единицу времени."
   examples: [Production rate, Output efficiency, Throughput]

@@ -92,3 +92,13 @@ legal conclusion and does not guarantee patentability. Numbers marked
 
 The full anti-drone research archive, client files, API keys, and session memory
 are intentionally not part of this repository.
+
+## Effects database sources (knowledge/effects_database.json)
+
+The expanded effects database (107 entries) cites each entry's quantitative
+facts to a primary source in its `source` field: peer-reviewed papers (DOI),
+classical handbooks (e.g. Яворский & Детлаф 1968; CRC Handbook; NASA SP-8003),
+and standard monographs (Brennen 1995; Rosensweig 1985; Sloan & Koh 2008;
+Krauss 2005; Conway 1999; Breck 1974, a.o.). Those works remain the property of
+their authors and publishers; the compilation, function taxonomy, and bilingual
+lexicon are original to this repository.

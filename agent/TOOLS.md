@@ -5,13 +5,20 @@
 ```bash
 # Матрица противоречий: какие принципы рекомендованы на пару параметров
 python3 scripts/matrix_lookup.py 9 19        # improving=9 worsening=19
-python3 scripts/matrix_lookup.py --find "speed"   # найти номер параметра по имени
+python3 scripts/matrix_lookup.py --find "speed"   # по имени (EN); --find температура (RU)
+
+# База эффектов (107 записей): поиск по функции/принципу/имени
+python3 scripts/effects_lookup.py --function "измерить малые перемещения"
+python3 scripts/effects_lookup.py --principle 35
+python3 scripts/effects_lookup.py --selftest
 
 # Файлы базы:
 # knowledge/39_parameters.yaml, 40_principles.yaml,
 # knowledge/contradiction_matrix.csv, knowledge/effects_database.json
 ```
 Матрицу и номера параметров НЕ вспоминать по памяти — только скриптом/файлом.
+Эффекты искать по ФУНКЦИИ (--function): 13-функционная таксономия, числа/границы
+в каждой записи. Few-shot эталон LITE-прохода — methods/fewshot_lite.md.
 
 ## Skills поиска (после M4)
 
